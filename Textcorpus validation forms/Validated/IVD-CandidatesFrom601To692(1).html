@@ -1,0 +1,1068 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none; 
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table {border: none;}
+
+/* button */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+
+</style>
+<script>
+	function generateUpdate(){	
+	var content = document.documentElement.outerHTML;
+	console.log(content)     
+	var link = document.getElementById('link');	
+	link.click();  
+  }
+  
+  function updateSelectedOption(name, id, value){  
+	var options = document.getElementsByName(name);
+	var elem = document.getElementsByName("val" + name)[0];
+	var opt_val;
+	for(var i = 0; i < options.length; i++){
+		if(options[i].checked){
+			var cell = document.getElementById('td'+options[i].id);
+			cell.style.backgroundColor = "PaleTurquoise";			
+			elem.innerHTML = options[i].value;
+		}
+		else{
+			var cell = document.getElementById('td'+options[i].id);
+			cell.style.backgroundColor = "white";			
+		}
+	} 
+ 
+  }
+   
+  
+	
+</script>
+</head>
+<body>
+
+<h2>Begriffe der medizinischen Technologie im Bereich Genexpressionsanalyse validieren</h2>
+
+<p style="color:DodgerBlue;"><b>TESTDATEN 601-692</b></p>
+
+
+<div class="tab" style="position:sticky;top: 0;">		
+	<button onclick="generateUpdate()" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.900em; background:SteelBlue; color:white;"><b>Änderungen speichern</b></button>
+	<a id="link" onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)" <a="" href="data:text/html;charset=UTF-8,%3Chtml%3E%3Chead%3E%3Cmeta%20http-equiv%3D%22Content-Type%22%20content%3D%22text%2Fhtml%3B%20charset%3DUTF-8%22%3E%0A%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%22%3E%0A%3Cstyle%3E%0Abody%20%7Bfont-family%3A%20Arial%3B%7D%0A%0A%2F*%20Style%20the%20tab%20*%2F%0A.tab%20%7B%0A%20%20overflow%3A%20hidden%3B%0A%20%20border%3A%201px%20solid%20%23ccc%3B%0A%20%20background-color%3A%20%23f1f1f1%3B%0A%7D%0A%0A%2F*%20Style%20the%20buttons%20inside%20the%20tab%20*%2F%0A.tab%20button%20%7B%0A%20%20background-color%3A%20inherit%3B%0A%20%20float%3A%20left%3B%0A%20%20border%3A%20none%3B%0A%20%20outline%3A%20none%3B%0A%20%20cursor%3A%20pointer%3B%0A%20%20padding%3A%2014px%2016px%3B%0A%20%20transition%3A%200.3s%3B%0A%20%20font-size%3A%2017px%3B%0A%7D%0A%0A%2F*%20Change%20background%20color%20of%20buttons%20on%20hover%20*%2F%0A.tab%20button%3Ahover%20%7B%0A%20%20background-color%3A%20%23ddd%3B%0A%7D%0A%0A%2F*%20Create%20an%20active%2Fcurrent%20tablink%20class%20*%2F%0A.tab%20button.active%20%7B%0A%20%20background-color%3A%20%23ccc%3B%0A%7D%0A%0A%2F*%20Style%20the%20tab%20content%20*%2F%0A.tabcontent%20%7B%0A%20%20display%3A%20none%3B%0A%20%20padding%3A%206px%2012px%3B%0A%20%20border%3A%201px%20solid%20%23ccc%3B%0A%20%20border-top%3A%20none%3B%20%0A%0A%7D%0A%0Atable%2C%20th%2C%20td%20%7B%0A%20%20border%3A%201px%20solid%20black%3B%0A%20%20border-collapse%3A%20collapse%3B%0A%20%20padding%3A%2010px%3B%0A%7D%0Atable%20%7Bborder%3A%20none%3B%7D%0A%0A%2F*%20button%20*%2F%0A.button%20%7B%0A%20%20border%3A%20none%3B%0A%20%20color%3A%20white%3B%0A%20%20padding%3A%2015px%2032px%3B%0A%20%20text-align%3A%20center%3B%0A%20%20text-decoration%3A%20none%3B%0A%20%20display%3A%20inline-block%3B%0A%20%20font-size%3A%2016px%3B%0A%20%20margin%3A%204px%202px%3B%0A%20%20cursor%3A%20pointer%3B%0A%7D%0A%0A.button1%20%7Bbackground-color%3A%20%234CAF50%3B%7D%20%2F*%20Green%20*%2F%0A%0A%3C%2Fstyle%3E%0A%3Cscript%3E%0A%09function%20generateUpdate()%7B%09%0A%09var%20content%20%3D%20document.documentElement.outerHTML%3B%0A%09console.log(content)%20%20%20%20%20%0A%09var%20link%20%3D%20document.getElementById('link')%3B%09%0A%09link.click()%3B%20%20%0A%20%20%7D%0A%20%20%0A%20%20function%20updateSelectedOption(name%2C%20id%2C%20value)%7B%20%20%0A%09var%20options%20%3D%20document.getElementsByName(name)%3B%0A%09var%20elem%20%3D%20document.getElementsByName(%22val%22%20%2B%20name)%5B0%5D%3B%0A%09var%20opt_val%3B%0A%09for(var%20i%20%3D%200%3B%20i%20%3C%20options.length%3B%20i%2B%2B)%7B%0A%09%09if(options%5Bi%5D.checked)%7B%0A%09%09%09var%20cell%20%3D%20document.getElementById('td'%2Boptions%5Bi%5D.id)%3B%0A%09%09%09cell.style.backgroundColor%20%3D%20%22PaleTurquoise%22%3B%09%09%09%0A%09%09%09elem.innerHTML%20%3D%20options%5Bi%5D.value%3B%0A%09%09%7D%0A%09%09else%7B%0A%09%09%09var%20cell%20%3D%20document.getElementById('td'%2Boptions%5Bi%5D.id)%3B%0A%09%09%09cell.style.backgroundColor%20%3D%20%22white%22%3B%09%09%09%0A%09%09%7D%0A%09%7D%20%0A%20%0A%20%20%7D%0A%20%20%20%0A%20%20%0A%09%0A%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%0A%3Ch2%3EBegriffe%20der%20medizinischen%20Technologie%20im%20Bereich%20Genexpressionsanalyse%20validieren%3C%2Fh2%3E%0A%0A%3Cp%20style%3D%22color%3ADodgerBlue%3B%22%3E%3Cb%3ETESTDATEN%20601-692%3C%2Fb%3E%3C%2Fp%3E%0A%0A%0A%3Cdiv%20class%3D%22tab%22%20style%3D%22position%3Asticky%3Btop%3A%200%3B%22%3E%09%09%0A%09%3Cbutton%20onclick%3D%22generateUpdate()%22%20style%3D%22font-family%3A%20Arial%2C%20Helvetica%2C%20sans-serif%3B%20font-size%3A%200.900em%3B%20background%3ASteelBlue%3B%20color%3Awhite%3B%22%3E%3Cb%3E%C3%84nderungen%20speichern%3C%2Fb%3E%3C%2Fbutton%3E%0A%09%3Ca%20id%3D%22link%22%20onclick%3D%22this.href%3D'data%3Atext%2Fhtml%3Bcharset%3DUTF-8%2C'%2BencodeURIComponent(document.documentElement.outerHTML)%22%20%3Ca%3D%22%22%20href%3D%22%23%22%20download%3D%22IVD-CandidatesFrom601To692.html%22%20hidden%3D%22%22%3E%3C%2Fa%3E%20%20%0A%3C%2Fdiv%3E%20%20%0A%20%20%0A%09%20%3Ctable%20style%3D%22width%3A100%25%22%3E%0A%09%09%3Ccolgroup%3E%0A%09%09%09%3Ccol%20style%3D%22width%3A%2030%25%3B%22%20span%3D%221%22%3E%0A%09%09%09%3Ccol%20style%3D%22width%3A%2010%25%3B%22%20span%3D%221%22%3E%0A%09%09%09%3Ccol%20style%3D%22width%3A%2010%25%3B%22%20span%3D%221%22%3E%0A%09%09%09%3Ccol%20style%3D%22width%3A%2010%25%3B%22%20span%3D%221%22%3E%09%09%0A%09%09%09%3Ccol%20style%3D%22width%3A%2010%25%3B%22%20span%3D%221%22%3E%09%0A%09%09%09%3Ccol%20style%3D%22width%3A%2010%25%3B%22%20span%3D%221%22%3E%09%09%09%09%0A%09%09%3C%2Fcolgroup%3E%0A%09%09%3Ctbody%3E%09%0A%09%09%3Ctr%20style%3D%22position%3Asticky%3Btop%3A%200%3Bbackground%3A%20%23eee%3B%22%3E%09%09%09%0A%09%09%09%09%3Cth%20style%3D%22position%3Asticky%3Btop%3A%200%3B%22%3E%3Cb%3EKandidate%20f%C3%BCr%20IVD-Begriffe%3C%2Fb%3E%3C%2Fth%3E%0A%09%09%09%09%3Cth%20style%3D%22position%3Asticky%3Btop%3A%200%3B%22%3E%3Cb%3EIVD-Begriff%3C%2Fb%3E%3C%2Fth%3E%0A%09%09%09%09%3Cth%20style%3D%22position%3Asticky%3Btop%3A%200%3B%22%3E%3Cb%3EKein%20IVD-Begriff%20%20aber%20relevant%20(z.B%20Methoden%2C%20Verfahren)%3C%2Fb%3E%3C%2Fth%3E%0A%09%09%09%09%3Cth%20style%3D%22position%3Asticky%3Btop%3A%200%3B%22%3E%3Cb%3ENicht%20relevant%3C%2Fb%3E%3C%2Fth%3E%0A%09%09%09%09%3Cth%20style%3D%22position%3Asticky%3Btop%3A%200%3B%22%3E%3Cb%3EKeine%20Ahnung%2C%20Kontext%20notwendig%3C%2Fb%3E%3C%2Fth%3E%09%0A%09%09%09%09%3Cth%20style%3D%22position%3Asticky%3Btop%3A%200%3B%22%3E%3Cb%3EAusgew%C3%A4hlte%20Option%3C%2Fb%3E%3C%2Fth%3E%09%0A%09%09%09%3C%2Ftr%3E%0A%09%09%0A%09%09%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EHiSeq%C2%84%C2%A2%202500%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.1.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.1.1%22%20name%3D%2216.1%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.1'%2C%20'16.1.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.1.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.1.2%22%20name%3D%2216.1%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.1'%2C%20'16.1.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.1.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.1.3%22%20name%3D%2216.1%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.1'%2C%20'16.1.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.1.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.1.4%22%20name%3D%2216.1%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.1'%2C%20'16.1.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.1%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EFast-QC%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.2.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.2.1%22%20name%3D%2216.2%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.2'%2C%20'16.2.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.2.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.2.2%22%20name%3D%2216.2%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.2'%2C%20'16.2.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.2.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.2.3%22%20name%3D%2216.2%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.2'%2C%20'16.2.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.2.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.2.4%22%20name%3D%2216.2%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.2'%2C%20'16.2.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.2%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ERNeasy%20Mini%20kit%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.3.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.3.1%22%20name%3D%2216.3%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.3'%2C%20'16.3.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.3.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.3.2%22%20name%3D%2216.3%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.3'%2C%20'16.3.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.3.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.3.3%22%20name%3D%2216.3%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.3'%2C%20'16.3.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.3.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.3.4%22%20name%3D%2216.3%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.3'%2C%20'16.3.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.3%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ENanodrop%201%2C000%20UV%20Spectrophotometer%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.4.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.4.1%22%20name%3D%2216.4%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.4'%2C%20'16.4.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.4.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.4.2%22%20name%3D%2216.4%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.4'%2C%20'16.4.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.4.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.4.3%22%20name%3D%2216.4%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.4'%2C%20'16.4.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.4.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.4.4%22%20name%3D%2216.4%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.4'%2C%20'16.4.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.4%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIllumina%20Human%20HT-12%20v4.0%20microarray%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.5.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.5.1%22%20name%3D%2216.5%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.5'%2C%20'16.5.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.5.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.5.2%22%20name%3D%2216.5%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.5'%2C%20'16.5.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.5.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.5.3%22%20name%3D%2216.5%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.5'%2C%20'16.5.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.5.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.5.4%22%20name%3D%2216.5%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.5'%2C%20'16.5.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.5%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EBioconductor%20packages%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.6.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.6.1%22%20name%3D%2216.6%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.6'%2C%20'16.6.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.6.2%22%20style%3D%22background-color%3A%20white%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.6.2%22%20name%3D%2216.6%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.6'%2C%20'16.6.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.6.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.6.3%22%20name%3D%2216.6%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.6'%2C%20'16.6.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.6.4%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.6.4%22%20name%3D%2216.6%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.6'%2C%20'16.6.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.6%22%3E4%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EZombie%20Aqua%20viability%20dye%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.7.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.7.1%22%20name%3D%2216.7%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.7'%2C%20'16.7.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.7.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.7.2%22%20name%3D%2216.7%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.7'%2C%20'16.7.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.7.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.7.3%22%20name%3D%2216.7%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.7'%2C%20'16.7.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.7.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.7.4%22%20name%3D%2216.7%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.7'%2C%20'16.7.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.7%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD4-PerCP%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.8.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.8.1%22%20name%3D%2216.8%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.8'%2C%20'16.8.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.8.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.8.2%22%20name%3D%2216.8%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.8'%2C%20'16.8.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.8.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.8.3%22%20name%3D%2216.8%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.8'%2C%20'16.8.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.8.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.8.4%22%20name%3D%2216.8%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.8'%2C%20'16.8.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.8%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EKi67-PE%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.9.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.9.1%22%20name%3D%2216.9%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.9'%2C%20'16.9.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.9.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.9.2%22%20name%3D%2216.9%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.9'%2C%20'16.9.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.9.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.9.3%22%20name%3D%2216.9%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.9'%2C%20'16.9.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.9.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.9.4%22%20name%3D%2216.9%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.9'%2C%20'16.9.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.9%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EFoxP3%2Ftranscription%20factor%20staining%20buffer%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.10.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.10.1%22%20name%3D%2216.10%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.10'%2C%20'16.10.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.10.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.10.2%22%20name%3D%2216.10%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.10'%2C%20'16.10.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.10.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.10.3%22%20name%3D%2216.10%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.10'%2C%20'16.10.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.10.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.10.4%22%20name%3D%2216.10%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.10'%2C%20'16.10.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.10%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eisotype%20control%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.11.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.11.1%22%20name%3D%2216.11%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.11'%2C%20'16.11.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.11.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.11.2%22%20name%3D%2216.11%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.11'%2C%20'16.11.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.11.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.11.3%22%20name%3D%2216.11%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.11'%2C%20'16.11.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.11.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.11.4%22%20name%3D%2216.11%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.11'%2C%20'16.11.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.11%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD25%20PECy7%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.12.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.12.1%22%20name%3D%2216.12%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.12'%2C%20'16.12.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.12.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.12.2%22%20name%3D%2216.12%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.12'%2C%20'16.12.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.12.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.12.3%22%20name%3D%2216.12%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.12'%2C%20'16.12.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.12.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.12.4%22%20name%3D%2216.12%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.12'%2C%20'16.12.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.12%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD3-BUV395%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.13.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.13.1%22%20name%3D%2216.13%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.13'%2C%20'16.13.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.13.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.13.2%22%20name%3D%2216.13%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.13'%2C%20'16.13.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.13.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.13.3%22%20name%3D%2216.13%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.13'%2C%20'16.13.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.13.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.13.4%22%20name%3D%2216.13%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.13'%2C%20'16.13.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.13%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD4-FITC%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.14.1%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.14.1%22%20name%3D%2216.14%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.14'%2C%20'16.14.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.14.2%22%20style%3D%22background-color%3A%20paleturquoise%3B%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.14.2%22%20name%3D%2216.14%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.14'%2C%20'16.14.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.14.3%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.14.3%22%20name%3D%2216.14%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.14'%2C%20'16.14.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.14.4%22%20style%3D%22background-color%3A%20white%3B%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.14.4%22%20name%3D%2216.14%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.14'%2C%20'16.14.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.14%22%3E2%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EFACS%20Canto%20II%20or%20Fortessa%20X20%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.15.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.15.1%22%20name%3D%2216.15%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.15'%2C%20'16.15.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.15.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.15.2%22%20name%3D%2216.15%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.15'%2C%20'16.15.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.15.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.15.3%22%20name%3D%2216.15%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.15'%2C%20'16.15.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.15.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.15.4%22%20name%3D%2216.15%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.15'%2C%20'16.15.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.15%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EBSA%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.16.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.16.1%22%20name%3D%2216.16%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.16'%2C%20'16.16.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.16.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.16.2%22%20name%3D%2216.16%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.16'%2C%20'16.16.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.16.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.16.3%22%20name%3D%2216.16%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.16'%2C%20'16.16.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.16.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.16.4%22%20name%3D%2216.16%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.16'%2C%20'16.16.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.16%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD4-APCeF780%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.17.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.17.1%22%20name%3D%2216.17%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.17'%2C%20'16.17.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.17.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.17.2%22%20name%3D%2216.17%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.17'%2C%20'16.17.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.17.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.17.3%22%20name%3D%2216.17%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.17'%2C%20'16.17.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.17.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.17.4%22%20name%3D%2216.17%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.17'%2C%20'16.17.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.17%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD3-BV510%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.18.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.18.1%22%20name%3D%2216.18%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.18'%2C%20'16.18.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.18.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.18.2%22%20name%3D%2216.18%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.18'%2C%20'16.18.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.18.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.18.3%22%20name%3D%2216.18%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.18'%2C%20'16.18.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.18.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.18.4%22%20name%3D%2216.18%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.18'%2C%20'16.18.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.18%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD25-PECy7%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.19.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.19.1%22%20name%3D%2216.19%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.19'%2C%20'16.19.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.19.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.19.2%22%20name%3D%2216.19%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.19'%2C%20'16.19.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.19.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.19.3%22%20name%3D%2216.19%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.19'%2C%20'16.19.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.19.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.19.4%22%20name%3D%2216.19%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.19'%2C%20'16.19.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.19%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD40L-PE%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.20.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.20.1%22%20name%3D%2216.20%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.20'%2C%20'16.20.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.20.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.20.2%22%20name%3D%2216.20%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.20'%2C%20'16.20.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.20.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.20.3%22%20name%3D%2216.20%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.20'%2C%20'16.20.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.20.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.20.4%22%20name%3D%2216.20%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.20'%2C%20'16.20.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.20%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EPMA%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.21.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.21.1%22%20name%3D%2216.21%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.21'%2C%20'16.21.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.21.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.21.2%22%20name%3D%2216.21%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.21'%2C%20'16.21.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.21.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.21.3%22%20name%3D%2216.21%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.21'%2C%20'16.21.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.21.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.21.4%22%20name%3D%2216.21%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.21'%2C%20'16.21.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.21%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EBrefeldin-A%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.22.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.22.1%22%20name%3D%2216.22%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.22'%2C%20'16.22.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.22.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.22.2%22%20name%3D%2216.22%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.22'%2C%20'16.22.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.22.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.22.3%22%20name%3D%2216.22%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.22'%2C%20'16.22.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.22.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.22.4%22%20name%3D%2216.22%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.22'%2C%20'16.22.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.22%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EBFA%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.23.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.23.1%22%20name%3D%2216.23%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.23'%2C%20'16.23.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.23.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.23.2%22%20name%3D%2216.23%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.23'%2C%20'16.23.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.23.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.23.3%22%20name%3D%2216.23%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.23'%2C%20'16.23.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.23.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.23.4%22%20name%3D%2216.23%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.23'%2C%20'16.23.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.23%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD3-PB%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.24.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.24.1%22%20name%3D%2216.24%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.24'%2C%20'16.24.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.24.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.24.2%22%20name%3D%2216.24%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.24'%2C%20'16.24.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.24.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.24.3%22%20name%3D%2216.24%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.24'%2C%20'16.24.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.24.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.24.4%22%20name%3D%2216.24%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.24'%2C%20'16.24.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.24%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD4-BV786%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.25.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.25.1%22%20name%3D%2216.25%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.25'%2C%20'16.25.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.25.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.25.2%22%20name%3D%2216.25%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.25'%2C%20'16.25.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.25.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.25.3%22%20name%3D%2216.25%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.25'%2C%20'16.25.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.25.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.25.4%22%20name%3D%2216.25%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.25'%2C%20'16.25.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.25%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIFN--FITC%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.26.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.26.1%22%20name%3D%2216.26%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.26'%2C%20'16.26.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.26.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.26.2%22%20name%3D%2216.26%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.26'%2C%20'16.26.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.26.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.26.3%22%20name%3D%2216.26%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.26'%2C%20'16.26.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.26.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.26.4%22%20name%3D%2216.26%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.26'%2C%20'16.26.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.26%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIL-17-APC-Cy7%20%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.27.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.27.1%22%20name%3D%2216.27%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.27'%2C%20'16.27.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.27.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.27.2%22%20name%3D%2216.27%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.27'%2C%20'16.27.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.27.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.27.3%22%20name%3D%2216.27%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.27'%2C%20'16.27.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.27.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.27.4%22%20name%3D%2216.27%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.27'%2C%20'16.27.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.27%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD62L-PECy7%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.28.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.28.1%22%20name%3D%2216.28%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.28'%2C%20'16.28.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.28.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.28.2%22%20name%3D%2216.28%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.28'%2C%20'16.28.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.28.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.28.3%22%20name%3D%2216.28%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.28'%2C%20'16.28.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.28.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.28.4%22%20name%3D%2216.28%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.28'%2C%20'16.28.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.28%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Egp130-PE%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.29.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.29.1%22%20name%3D%2216.29%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.29'%2C%20'16.29.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.29.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.29.2%22%20name%3D%2216.29%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.29'%2C%20'16.29.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.29.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.29.3%22%20name%3D%2216.29%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.29'%2C%20'16.29.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.29.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.29.4%22%20name%3D%2216.29%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.29'%2C%20'16.29.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.29%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD4-APCef780%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.30.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.30.1%22%20name%3D%2216.30%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.30'%2C%20'16.30.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.30.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.30.2%22%20name%3D%2216.30%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.30'%2C%20'16.30.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.30.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.30.3%22%20name%3D%2216.30%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.30'%2C%20'16.30.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.30.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.30.4%22%20name%3D%2216.30%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.30'%2C%20'16.30.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.30%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIL-6R-PerCPeF710%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.31.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.31.1%22%20name%3D%2216.31%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.31'%2C%20'16.31.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.31.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.31.2%22%20name%3D%2216.31%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.31'%2C%20'16.31.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.31.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.31.3%22%20name%3D%2216.31%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.31'%2C%20'16.31.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.31.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.31.4%22%20name%3D%2216.31%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.31'%2C%20'16.31.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.31%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD45RA-FITC%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.32.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.32.1%22%20name%3D%2216.32%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.32'%2C%20'16.32.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.32.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.32.2%22%20name%3D%2216.32%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.32'%2C%20'16.32.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.32.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.32.3%22%20name%3D%2216.32%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.32'%2C%20'16.32.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.32.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.32.4%22%20name%3D%2216.32%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.32'%2C%20'16.32.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.32%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EBD%20FACS%20Lysing%20solution%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.33.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.33.1%22%20name%3D%2216.33%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.33'%2C%20'16.33.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.33.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.33.2%22%20name%3D%2216.33%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.33'%2C%20'16.33.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.33.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.33.3%22%20name%3D%2216.33%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.33'%2C%20'16.33.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.33.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.33.4%22%20name%3D%2216.33%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.33'%2C%20'16.33.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.33%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIL-6R%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.34.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.34.1%22%20name%3D%2216.34%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.34'%2C%20'16.34.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.34.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.34.2%22%20name%3D%2216.34%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.34'%2C%20'16.34.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.34.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.34.3%22%20name%3D%2216.34%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.34'%2C%20'16.34.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.34.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.34.4%22%20name%3D%2216.34%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.34'%2C%20'16.34.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.34%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Egp130%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.35.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.35.1%22%20name%3D%2216.35%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.35'%2C%20'16.35.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.35.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.35.2%22%20name%3D%2216.35%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.35'%2C%20'16.35.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.35.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.35.3%22%20name%3D%2216.35%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.35'%2C%20'16.35.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.35.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.35.4%22%20name%3D%2216.35%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.35'%2C%20'16.35.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.35%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Emouse%20anti-human%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.36.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.36.1%22%20name%3D%2216.36%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.36'%2C%20'16.36.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.36.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.36.2%22%20name%3D%2216.36%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.36'%2C%20'16.36.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.36.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.36.3%22%20name%3D%2216.36%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.36'%2C%20'16.36.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.36.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.36.4%22%20name%3D%2216.36%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.36'%2C%20'16.36.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.36%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eanti-CD3-Pacific%20Blue%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.37.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.37.1%22%20name%3D%2216.37%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.37'%2C%20'16.37.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.37.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.37.2%22%20name%3D%2216.37%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.37'%2C%20'16.37.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.37.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.37.3%22%20name%3D%2216.37%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.37'%2C%20'16.37.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.37.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.37.4%22%20name%3D%2216.37%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.37'%2C%20'16.37.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.37%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eanti-Stat3%20(pY705)-Alexa%20Fluor%20647%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.38.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.38.1%22%20name%3D%2216.38%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.38'%2C%20'16.38.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.38.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.38.2%22%20name%3D%2216.38%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.38'%2C%20'16.38.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.38.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.38.3%22%20name%3D%2216.38%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.38'%2C%20'16.38.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.38.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.38.4%22%20name%3D%2216.38%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.38'%2C%20'16.38.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.38%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD45RA-PerCP-Cy5.5%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.39.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.39.1%22%20name%3D%2216.39%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.39'%2C%20'16.39.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.39.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.39.2%22%20name%3D%2216.39%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.39'%2C%20'16.39.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.39.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.39.3%22%20name%3D%2216.39%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.39'%2C%20'16.39.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.39.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.39.4%22%20name%3D%2216.39%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.39'%2C%20'16.39.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.39%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eanti-CD4-APC-eFluor%20780%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.40.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.40.1%22%20name%3D%2216.40%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.40'%2C%20'16.40.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.40.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.40.2%22%20name%3D%2216.40%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.40'%2C%20'16.40.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.40.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.40.3%22%20name%3D%2216.40%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.40'%2C%20'16.40.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.40.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.40.4%22%20name%3D%2216.40%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.40'%2C%20'16.40.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.40%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EBD%20Phosflow%20Lyse%2FFix%20and%20BD%20Phosflow%20Perm%20Buffer%20III%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.41.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.41.1%22%20name%3D%2216.41%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.41'%2C%20'16.41.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.41.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.41.2%22%20name%3D%2216.41%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.41'%2C%20'16.41.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.41.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.41.3%22%20name%3D%2216.41%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.41'%2C%20'16.41.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.41.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.41.4%22%20name%3D%2216.41%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.41'%2C%20'16.41.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.41%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3E24-well%20plate%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.42.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.42.1%22%20name%3D%2216.42%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.42'%2C%20'16.42.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.42.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.42.2%22%20name%3D%2216.42%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.42'%2C%20'16.42.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.42.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.42.3%22%20name%3D%2216.42%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.42'%2C%20'16.42.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.42.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.42.4%22%20name%3D%2216.42%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.42'%2C%20'16.42.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.42%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIscove's%20modified%20Dulbecco%20medium%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.43.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.43.1%22%20name%3D%2216.43%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.43'%2C%20'16.43.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.43.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.43.2%22%20name%3D%2216.43%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.43'%2C%20'16.43.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.43.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.43.3%22%20name%3D%2216.43%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.43'%2C%20'16.43.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.43.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.43.4%22%20name%3D%2216.43%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.43'%2C%20'16.43.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.43%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIMDM%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.44.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.44.1%22%20name%3D%2216.44%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.44'%2C%20'16.44.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.44.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.44.2%22%20name%3D%2216.44%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.44'%2C%20'16.44.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.44.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.44.3%22%20name%3D%2216.44%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.44'%2C%20'16.44.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.44.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.44.4%22%20name%3D%2216.44%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.44'%2C%20'16.44.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.44%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eanti-IL-4%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.45.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.45.1%22%20name%3D%2216.45%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.45'%2C%20'16.45.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.45.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.45.2%22%20name%3D%2216.45%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.45'%2C%20'16.45.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.45.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.45.3%22%20name%3D%2216.45%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.45'%2C%20'16.45.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.45.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.45.4%22%20name%3D%2216.45%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.45'%2C%20'16.45.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.45%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eanti-CD3%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.46.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.46.1%22%20name%3D%2216.46%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.46'%2C%20'16.46.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.46.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.46.2%22%20name%3D%2216.46%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.46'%2C%20'16.46.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.46.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.46.3%22%20name%3D%2216.46%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.46'%2C%20'16.46.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.46.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.46.4%22%20name%3D%2216.46%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.46'%2C%20'16.46.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.46%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eanti-CD28%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.47.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.47.1%22%20name%3D%2216.47%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.47'%2C%20'16.47.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.47.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.47.2%22%20name%3D%2216.47%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.47'%2C%20'16.47.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.47.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.47.3%22%20name%3D%2216.47%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.47'%2C%20'16.47.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.47.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.47.4%22%20name%3D%2216.47%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.47'%2C%20'16.47.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.47%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EDynabeads%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.48.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.48.1%22%20name%3D%2216.48%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.48'%2C%20'16.48.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.48.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.48.2%22%20name%3D%2216.48%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.48'%2C%20'16.48.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.48.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.48.3%22%20name%3D%2216.48%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.48'%2C%20'16.48.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.48.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.48.4%22%20name%3D%2216.48%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.48'%2C%20'16.48.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.48%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3E24%20well%20plate%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.49.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.49.1%22%20name%3D%2216.49%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.49'%2C%20'16.49.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.49.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.49.2%22%20name%3D%2216.49%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.49'%2C%20'16.49.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.49.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.49.3%22%20name%3D%2216.49%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.49'%2C%20'16.49.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.49.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.49.4%22%20name%3D%2216.49%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.49'%2C%20'16.49.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.49%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eserum%20replacement%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.50.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.50.1%22%20name%3D%2216.50%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.50'%2C%20'16.50.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.50.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.50.2%22%20name%3D%2216.50%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.50'%2C%20'16.50.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.50.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.50.3%22%20name%3D%2216.50%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.50'%2C%20'16.50.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.50.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.50.4%22%20name%3D%2216.50%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.50'%2C%20'16.50.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.50%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIL-1%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.51.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.51.1%22%20name%3D%2216.51%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.51'%2C%20'16.51.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.51.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.51.2%22%20name%3D%2216.51%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.51'%2C%20'16.51.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.51.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.51.3%22%20name%3D%2216.51%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.51'%2C%20'16.51.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.51.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.51.4%22%20name%3D%2216.51%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.51'%2C%20'16.51.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.51%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIL-23%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.52.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.52.1%22%20name%3D%2216.52%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.52'%2C%20'16.52.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.52.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.52.2%22%20name%3D%2216.52%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.52'%2C%20'16.52.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.52.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.52.3%22%20name%3D%2216.52%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.52'%2C%20'16.52.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.52.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.52.4%22%20name%3D%2216.52%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.52'%2C%20'16.52.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.52%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ETGF%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.53.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.53.1%22%20name%3D%2216.53%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.53'%2C%20'16.53.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.53.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.53.2%22%20name%3D%2216.53%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.53'%2C%20'16.53.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.53.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.53.3%22%20name%3D%2216.53%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.53'%2C%20'16.53.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.53.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.53.4%22%20name%3D%2216.53%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.53'%2C%20'16.53.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.53%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Ebeads%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.54.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.54.1%22%20name%3D%2216.54%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.54'%2C%20'16.54.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.54.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.54.2%22%20name%3D%2216.54%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.54'%2C%20'16.54.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.54.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.54.3%22%20name%3D%2216.54%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.54'%2C%20'16.54.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.54.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.54.4%22%20name%3D%2216.54%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.54'%2C%20'16.54.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.54%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EIL-2%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.55.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.55.1%22%20name%3D%2216.55%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.55'%2C%20'16.55.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.55.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.55.2%22%20name%3D%2216.55%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.55'%2C%20'16.55.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.55.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.55.3%22%20name%3D%2216.55%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.55'%2C%20'16.55.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.55.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.55.4%22%20name%3D%2216.55%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.55'%2C%20'16.55.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.55%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eserum-free%20medium%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.56.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.56.1%22%20name%3D%2216.56%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.56'%2C%20'16.56.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.56.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.56.2%22%20name%3D%2216.56%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.56'%2C%20'16.56.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.56.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.56.3%22%20name%3D%2216.56%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.56'%2C%20'16.56.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.56.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.56.4%22%20name%3D%2216.56%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.56'%2C%20'16.56.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.56%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3E48-well%20plate%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.57.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.57.1%22%20name%3D%2216.57%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.57'%2C%20'16.57.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.57.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.57.2%22%20name%3D%2216.57%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.57'%2C%20'16.57.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.57.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.57.3%22%20name%3D%2216.57%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.57'%2C%20'16.57.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.57.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.57.4%22%20name%3D%2216.57%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.57'%2C%20'16.57.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.57%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ECD45RO%20MicroBeads%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.58.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.58.1%22%20name%3D%2216.58%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.58'%2C%20'16.58.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.58.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.58.2%22%20name%3D%2216.58%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.58'%2C%20'16.58.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.58.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.58.3%22%20name%3D%2216.58%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.58'%2C%20'16.58.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.58.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.58.4%22%20name%3D%2216.58%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.58'%2C%20'16.58.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.58%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ERosetteSep%20Human%20CD4%2B%20T%20cell%20Enrichment%20Cocktail%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.59.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.59.1%22%20name%3D%2216.59%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.59'%2C%20'16.59.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.59.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.59.2%22%20name%3D%2216.59%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.59'%2C%20'16.59.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.59.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.59.3%22%20name%3D%2216.59%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.59'%2C%20'16.59.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.59.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.59.4%22%20name%3D%2216.59%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.59'%2C%20'16.59.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.59%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ELymphoprep%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.60.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.60.1%22%20name%3D%2216.60%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.60'%2C%20'16.60.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.60.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.60.2%22%20name%3D%2216.60%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.60'%2C%20'16.60.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.60.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.60.3%22%20name%3D%2216.60%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.60'%2C%20'16.60.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.60.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.60.4%22%20name%3D%2216.60%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.60'%2C%20'16.60.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.60%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eelectro-chemiluminescence%20immunosorbance%20detection%20system%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.61.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.61.1%22%20name%3D%2216.61%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.61'%2C%20'16.61.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.61.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.61.2%22%20name%3D%2216.61%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.61'%2C%20'16.61.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.61.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.61.3%22%20name%3D%2216.61%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.61'%2C%20'16.61.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.61.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.61.4%22%20name%3D%2216.61%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.61'%2C%20'16.61.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.61%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EMeso%20Scale%20Discovery%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.62.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.62.1%22%20name%3D%2216.62%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.62'%2C%20'16.62.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.62.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.62.2%22%20name%3D%2216.62%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.62'%2C%20'16.62.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.62.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.62.3%22%20name%3D%2216.62%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.62'%2C%20'16.62.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.62.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.62.4%22%20name%3D%2216.62%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.62'%2C%20'16.62.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.62%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Ecitrate%20vacuette%20tubes%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.63.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.63.1%22%20name%3D%2216.63%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.63'%2C%20'16.63.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.63.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.63.2%22%20name%3D%2216.63%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.63'%2C%20'16.63.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.63.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.63.3%22%20name%3D%2216.63%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.63'%2C%20'16.63.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.63.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.63.4%22%20name%3D%2216.63%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.63'%2C%20'16.63.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.63%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ETriton%20X-100%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.64.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.64.1%22%20name%3D%2216.64%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.64'%2C%20'16.64.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.64.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.64.2%22%20name%3D%2216.64%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.64'%2C%20'16.64.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.64.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.64.3%22%20name%3D%2216.64%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.64'%2C%20'16.64.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.64.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.64.4%22%20name%3D%2216.64%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.64'%2C%20'16.64.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.64%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EDRC-ICP%20model%20ELAN%20DRC%20II%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.65.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.65.1%22%20name%3D%2216.65%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.65'%2C%20'16.65.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.65.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.65.2%22%20name%3D%2216.65%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.65'%2C%20'16.65.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.65.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.65.3%22%20name%3D%2216.65%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.65'%2C%20'16.65.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.65.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.65.4%22%20name%3D%2216.65%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.65'%2C%20'16.65.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.65%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ELuminex%20technology%20with%20Milliplex%20MAP%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.66.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.66.1%22%20name%3D%2216.66%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.66'%2C%20'16.66.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.66.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.66.2%22%20name%3D%2216.66%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.66'%2C%20'16.66.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.66.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.66.3%22%20name%3D%2216.66%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.66'%2C%20'16.66.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.66.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.66.4%22%20name%3D%2216.66%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.66'%2C%20'16.66.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.66%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Emicroplate%20reader%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.67.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.67.1%22%20name%3D%2216.67%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.67'%2C%20'16.67.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.67.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.67.2%22%20name%3D%2216.67%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.67'%2C%20'16.67.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.67.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.67.3%22%20name%3D%2216.67%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.67'%2C%20'16.67.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.67.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.67.4%22%20name%3D%2216.67%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.67'%2C%20'16.67.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.67%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eerythrocyte%20lysates%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.68.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.68.1%22%20name%3D%2216.68%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.68'%2C%20'16.68.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.68.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.68.2%22%20name%3D%2216.68%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.68'%2C%20'16.68.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.68.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.68.3%22%20name%3D%2216.68%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.68'%2C%20'16.68.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.68.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.68.4%22%20name%3D%2216.68%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.68'%2C%20'16.68.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.68%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Emultiplex%20magnetic%20bead-based%20antibody%20detection%20kits%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.69.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.69.1%22%20name%3D%2216.69%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.69'%2C%20'16.69.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.69.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.69.2%22%20name%3D%2216.69%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.69'%2C%20'16.69.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.69.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.69.3%22%20name%3D%2216.69%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.69'%2C%20'16.69.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.69.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.69.4%22%20name%3D%2216.69%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.69'%2C%20'16.69.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.69%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EG*%20Power%20software%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.70.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.70.1%22%20name%3D%2216.70%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.70'%2C%20'16.70.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.70.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.70.2%22%20name%3D%2216.70%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.70'%2C%20'16.70.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.70.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.70.3%22%20name%3D%2216.70%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.70'%2C%20'16.70.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.70.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.70.4%22%20name%3D%2216.70%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.70'%2C%20'16.70.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.70%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EVITROS%20950%20Xrl%20Chemistry%20System%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.71.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.71.1%22%20name%3D%2216.71%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.71'%2C%20'16.71.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.71.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.71.2%22%20name%3D%2216.71%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.71'%2C%20'16.71.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.71.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.71.3%22%20name%3D%2216.71%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.71'%2C%20'16.71.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.71.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.71.4%22%20name%3D%2216.71%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.71'%2C%20'16.71.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.71%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3E96-well%20Equilibrium%20DIALYZER%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.72.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.72.1%22%20name%3D%2216.72%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.72'%2C%20'16.72.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.72.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.72.2%22%20name%3D%2216.72%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.72'%2C%20'16.72.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.72.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.72.3%22%20name%3D%2216.72%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.72'%2C%20'16.72.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.72.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.72.4%22%20name%3D%2216.72%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.72'%2C%20'16.72.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.72%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3E5-kDa%20cutoff%20regenerated%20cellulose%20membrane%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.73.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.73.1%22%20name%3D%2216.73%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.73'%2C%20'16.73.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.73.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.73.2%22%20name%3D%2216.73%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.73'%2C%20'16.73.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.73.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.73.3%22%20name%3D%2216.73%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.73'%2C%20'16.73.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.73.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.73.4%22%20name%3D%2216.73%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.73'%2C%20'16.73.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.73%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3Eanti-5mC%20antibody%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.74.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.74.1%22%20name%3D%2216.74%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.74'%2C%20'16.74.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.74.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.74.2%22%20name%3D%2216.74%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.74'%2C%20'16.74.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.74.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.74.3%22%20name%3D%2216.74%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.74'%2C%20'16.74.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.74.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.74.4%22%20name%3D%2216.74%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.74'%2C%20'16.74.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.74%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EEpiSeeker%20DNMT3B%20assay%20kit%20%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.75.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.75.1%22%20name%3D%2216.75%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.75'%2C%20'16.75.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.75.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.75.2%22%20name%3D%2216.75%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.75'%2C%20'16.75.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.75.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.75.3%22%20name%3D%2216.75%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.75'%2C%20'16.75.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.75.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.75.4%22%20name%3D%2216.75%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.75'%2C%20'16.75.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.75%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EECL%20Plus%20Western%20blotting%20detection%20reagents%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.76.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.76.1%22%20name%3D%2216.76%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.76'%2C%20'16.76.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.76.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.76.2%22%20name%3D%2216.76%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.76'%2C%20'16.76.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.76.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.76.3%22%20name%3D%2216.76%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.76'%2C%20'16.76.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.76.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.76.4%22%20name%3D%2216.76%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.76'%2C%20'16.76.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.76%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ELipofectamine%202000%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.77.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.77.1%22%20name%3D%2216.77%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.77'%2C%20'16.77.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.77.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.77.2%22%20name%3D%2216.77%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.77'%2C%20'16.77.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.77.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.77.3%22%20name%3D%2216.77%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.77'%2C%20'16.77.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.77.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.77.4%22%20name%3D%2216.77%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.77'%2C%20'16.77.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.77%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EPGE2%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.78.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.78.1%22%20name%3D%2216.78%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.78'%2C%20'16.78.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.78.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.78.2%22%20name%3D%2216.78%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.78'%2C%20'16.78.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.78.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.78.3%22%20name%3D%2216.78%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.78'%2C%20'16.78.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.78.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.78.4%22%20name%3D%2216.78%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.78'%2C%20'16.78.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.78%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EQIAamp%20DNA%20Mini%20kit%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.79.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.79.1%22%20name%3D%2216.79%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.79'%2C%20'16.79.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.79.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.79.2%22%20name%3D%2216.79%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.79'%2C%20'16.79.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.79.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.79.3%22%20name%3D%2216.79%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.79'%2C%20'16.79.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.79.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.79.4%22%20name%3D%2216.79%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.79'%2C%20'16.79.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.79%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EDiMmer%20package%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.80.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.80.1%22%20name%3D%2216.80%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.80'%2C%20'16.80.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.80.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.80.2%22%20name%3D%2216.80%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.80'%2C%20'16.80.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.80.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.80.3%22%20name%3D%2216.80%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.80'%2C%20'16.80.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.80.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.80.4%22%20name%3D%2216.80%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.80'%2C%20'16.80.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.80%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EGene%20Set%20Analysis%20Toolkit%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.81.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.81.1%22%20name%3D%2216.81%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.81'%2C%20'16.81.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.81.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.81.2%22%20name%3D%2216.81%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.81'%2C%20'16.81.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.81.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.81.3%22%20name%3D%2216.81%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.81'%2C%20'16.81.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.81.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.81.4%22%20name%3D%2216.81%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.81'%2C%20'16.81.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.81%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EAnnexin%20V%20and%207-amino-actinomycin%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.82.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.82.1%22%20name%3D%2216.82%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.82'%2C%20'16.82.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.82.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.82.2%22%20name%3D%2216.82%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.82'%2C%20'16.82.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.82.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.82.3%22%20name%3D%2216.82%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.82'%2C%20'16.82.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.82.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.82.4%22%20name%3D%2216.82%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.82'%2C%20'16.82.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.82%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3E7-AAD%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.83.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.83.1%22%20name%3D%2216.83%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.83'%2C%20'16.83.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.83.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.83.2%22%20name%3D%2216.83%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.83'%2C%20'16.83.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.83.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.83.3%22%20name%3D%2216.83%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.83'%2C%20'16.83.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.83.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.83.4%22%20name%3D%2216.83%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.83'%2C%20'16.83.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.83%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3E96-well%20plate%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.84.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.84.1%22%20name%3D%2216.84%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.84'%2C%20'16.84.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.84.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.84.2%22%20name%3D%2216.84%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.84'%2C%20'16.84.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.84.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.84.3%22%20name%3D%2216.84%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.84'%2C%20'16.84.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.84.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.84.4%22%20name%3D%2216.84%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.84'%2C%20'16.84.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.84%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EMTT%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.85.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.85.1%22%20name%3D%2216.85%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.85'%2C%20'16.85.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.85.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.85.2%22%20name%3D%2216.85%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.85'%2C%20'16.85.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.85.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.85.3%22%20name%3D%2216.85%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.85'%2C%20'16.85.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.85.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.85.4%22%20name%3D%2216.85%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.85'%2C%20'16.85.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.85%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EEZ%20DNA%20MethylationTM%20Kit%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.86.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.86.1%22%20name%3D%2216.86%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.86'%2C%20'16.86.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.86.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.86.2%22%20name%3D%2216.86%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.86'%2C%20'16.86.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.86.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.86.3%22%20name%3D%2216.86%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.86'%2C%20'16.86.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.86.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.86.4%22%20name%3D%2216.86%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.86'%2C%20'16.86.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.86%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EMethPrimer%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.87.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.87.1%22%20name%3D%2216.87%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.87'%2C%20'16.87.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.87.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.87.2%22%20name%3D%2216.87%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.87'%2C%20'16.87.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.87.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.87.3%22%20name%3D%2216.87%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.87'%2C%20'16.87.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.87.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.87.4%22%20name%3D%2216.87%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.87'%2C%20'16.87.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.87%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EChromas%20software%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.88.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.88.1%22%20name%3D%2216.88%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.88'%2C%20'16.88.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.88.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.88.2%22%20name%3D%2216.88%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.88'%2C%20'16.88.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.88.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.88.3%22%20name%3D%2216.88%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.88'%2C%20'16.88.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.88.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.88.4%22%20name%3D%2216.88%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.88'%2C%20'16.88.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.88%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EDirect-zolTM%20RNA%20MiniPrep%20kit%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.89.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.89.1%22%20name%3D%2216.89%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.89'%2C%20'16.89.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.89.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.89.2%22%20name%3D%2216.89%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.89'%2C%20'16.89.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.89.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.89.3%22%20name%3D%2216.89%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.89'%2C%20'16.89.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.89.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.89.4%22%20name%3D%2216.89%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.89'%2C%20'16.89.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.89%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EHigh-Capacity%20cDNA%20Reverse%20Transcription%20Kit%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.90.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.90.1%22%20name%3D%2216.90%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.90'%2C%20'16.90.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.90.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.90.2%22%20name%3D%2216.90%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.90'%2C%20'16.90.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.90.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.90.3%22%20name%3D%2216.90%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.90'%2C%20'16.90.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.90.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.90.4%22%20name%3D%2216.90%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.90'%2C%20'16.90.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.90%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3ERoche%20LightCycler%20480%20system%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.91.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.91.1%22%20name%3D%2216.91%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.91'%2C%20'16.91.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.91.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.91.2%22%20name%3D%2216.91%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.91'%2C%20'16.91.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.91.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.91.3%22%20name%3D%2216.91%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.91'%2C%20'16.91.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.91.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.91.4%22%20name%3D%2216.91%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.91'%2C%20'16.91.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.91%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%3Ctr%3E%0A%09%09%09%09%3Ctd%3EPrimer%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.92.1%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.92.1%22%20name%3D%2216.92%22%20value%3D%221%22%20checked%3D%22checked%22%20onchange%3D%22updateSelectedOption('16.92'%2C%20'16.92.1'%2C%20'1')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20id%3D%22td16.92.2%22%3E%20%3Cinput%20type%3D%22radio%22%20id%3D%2216.92.2%22%20name%3D%2216.92%22%20value%3D%222%22%20onchange%3D%22updateSelectedOption('16.92'%2C%20'16.92.2'%2C%20'2')%22%3E%3C%2Ftd%3E%20%0A%09%09%09%09%3Ctd%20id%3D%22td16.92.3%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.92.3%22%20name%3D%2216.92%22%20value%3D%223%22%20onchange%3D%22updateSelectedOption('16.92'%2C%20'16.92.3'%2C%20'3')%22%3E%3C%2Ftd%3E%09%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%20id%3D%22td16.92.4%22%3E%3Cinput%20type%3D%22radio%22%20id%3D%2216.92.4%22%20name%3D%2216.92%22%20value%3D%224%22%20onchange%3D%22updateSelectedOption('16.92'%2C%20'16.92.4'%2C%20'4')%22%3E%3C%2Ftd%3E%0A%09%09%09%09%3Ctd%20name%3D%22val16.92%22%3E1%3C%2Ftd%3E%09%09%09%09%09%0A%09%09%09%3C%2Ftr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%09%09%3C%2Ftbody%3E%09%09%0A%09%3C%2Ftable%3E%09%0A%3Cscript%3E%0Afunction%20openCity(evt%2C%20cityName)%20%7B%0A%20%20var%20i%2C%20tabcontent%2C%20tablinks%3B%0A%20%20tabcontent%20%3D%20document.getElementsByClassName(%22tabcontent%22)%3B%0A%20%20for%20(i%20%3D%200%3B%20i%20%3C%20tabcontent.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20tabcontent%5Bi%5D.style.display%20%3D%20%22none%22%3B%0A%20%20%7D%0A%20%20tablinks%20%3D%20document.getElementsByClassName(%22tablinks%22)%3B%0A%20%20for%20(i%20%3D%200%3B%20i%20%3C%20tablinks.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20tablinks%5Bi%5D.className%20%3D%20tablinks%5Bi%5D.className.replace(%22%20active%22%2C%20%22%22)%3B%0A%20%20%7D%0A%20%20document.getElementById(cityName).style.display%20%3D%20%22block%22%3B%0A%20%20evt.currentTarget.className%20%2B%3D%20%22%20active%22%3B%0A%7D%0A%3C%2Fscript%3E%0A%20%20%20%0A%0A%20%3C%2Fbody%3E%3C%2Fhtml%3E" download="IVD-CandidatesFrom601To692.html" hidden=""></a>  
+</div>  
+  
+	 <table style="width:100%">
+		<colgroup>
+			<col style="width: 30%;" span="1">
+			<col style="width: 10%;" span="1">
+			<col style="width: 10%;" span="1">
+			<col style="width: 10%;" span="1">		
+			<col style="width: 10%;" span="1">	
+			<col style="width: 10%;" span="1">				
+		</colgroup>
+		<tbody>	
+		<tr style="position:sticky;top: 0;background: #eee;">			
+				<th style="position:sticky;top: 0;"><b>Kandidate für IVD-Begriffe</b></th>
+				<th style="position:sticky;top: 0;"><b>IVD-Begriff</b></th>
+				<th style="position:sticky;top: 0;"><b>Kein IVD-Begriff  aber relevant (z.B Methoden, Verfahren)</b></th>
+				<th style="position:sticky;top: 0;"><b>Nicht relevant</b></th>
+				<th style="position:sticky;top: 0;"><b>Keine Ahnung, Kontext notwendig</b></th>	
+				<th style="position:sticky;top: 0;"><b>Ausgewählte Option</b></th>	
+			</tr>
+		
+		
+<tr>
+				<td>HiSeq¢ 2500</td>
+				<td id="td16.1.1" style="background-color: white;"><input type="radio" id="16.1.1" name="16.1" value="1" checked="checked" onchange="updateSelectedOption('16.1', '16.1.1', '1')"></td>
+				<td id="td16.1.2" style="background-color: paleturquoise;"> <input type="radio" id="16.1.2" name="16.1" value="2" onchange="updateSelectedOption('16.1', '16.1.2', '2')"></td> 
+				<td id="td16.1.3" style="background-color: white;"><input type="radio" id="16.1.3" name="16.1" value="3" onchange="updateSelectedOption('16.1', '16.1.3', '3')"></td>	
+                <td id="td16.1.4" style="background-color: white;"><input type="radio" id="16.1.4" name="16.1" value="4" onchange="updateSelectedOption('16.1', '16.1.4', '4')"></td>
+				<td name="val16.1">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Fast-QC</td>
+				<td id="td16.2.1" style="background-color: white;"><input type="radio" id="16.2.1" name="16.2" value="1" checked="checked" onchange="updateSelectedOption('16.2', '16.2.1', '1')"></td>
+				<td id="td16.2.2" style="background-color: paleturquoise;"> <input type="radio" id="16.2.2" name="16.2" value="2" onchange="updateSelectedOption('16.2', '16.2.2', '2')"></td> 
+				<td id="td16.2.3" style="background-color: white;"><input type="radio" id="16.2.3" name="16.2" value="3" onchange="updateSelectedOption('16.2', '16.2.3', '3')"></td>	
+                <td id="td16.2.4" style="background-color: white;"><input type="radio" id="16.2.4" name="16.2" value="4" onchange="updateSelectedOption('16.2', '16.2.4', '4')"></td>
+				<td name="val16.2">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNeasy Mini kit</td>
+				<td id="td16.3.1" style="background-color: white;"><input type="radio" id="16.3.1" name="16.3" value="1" checked="checked" onchange="updateSelectedOption('16.3', '16.3.1', '1')"></td>
+				<td id="td16.3.2" style="background-color: paleturquoise;"> <input type="radio" id="16.3.2" name="16.3" value="2" onchange="updateSelectedOption('16.3', '16.3.2', '2')"></td> 
+				<td id="td16.3.3" style="background-color: white;"><input type="radio" id="16.3.3" name="16.3" value="3" onchange="updateSelectedOption('16.3', '16.3.3', '3')"></td>	
+                <td id="td16.3.4" style="background-color: white;"><input type="radio" id="16.3.4" name="16.3" value="4" onchange="updateSelectedOption('16.3', '16.3.4', '4')"></td>
+				<td name="val16.3">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Nanodrop 1,000 UV Spectrophotometer</td>
+				<td id="td16.4.1" style="background-color: white;"><input type="radio" id="16.4.1" name="16.4" value="1" checked="checked" onchange="updateSelectedOption('16.4', '16.4.1', '1')"></td>
+				<td id="td16.4.2" style="background-color: paleturquoise;"> <input type="radio" id="16.4.2" name="16.4" value="2" onchange="updateSelectedOption('16.4', '16.4.2', '2')"></td> 
+				<td id="td16.4.3" style="background-color: white;"><input type="radio" id="16.4.3" name="16.4" value="3" onchange="updateSelectedOption('16.4', '16.4.3', '3')"></td>	
+                <td id="td16.4.4" style="background-color: white;"><input type="radio" id="16.4.4" name="16.4" value="4" onchange="updateSelectedOption('16.4', '16.4.4', '4')"></td>
+				<td name="val16.4">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Illumina Human HT-12 v4.0 microarray</td>
+				<td id="td16.5.1" style="background-color: white;"><input type="radio" id="16.5.1" name="16.5" value="1" checked="checked" onchange="updateSelectedOption('16.5', '16.5.1', '1')"></td>
+				<td id="td16.5.2" style="background-color: paleturquoise;"> <input type="radio" id="16.5.2" name="16.5" value="2" onchange="updateSelectedOption('16.5', '16.5.2', '2')"></td> 
+				<td id="td16.5.3" style="background-color: white;"><input type="radio" id="16.5.3" name="16.5" value="3" onchange="updateSelectedOption('16.5', '16.5.3', '3')"></td>	
+                <td id="td16.5.4" style="background-color: white;"><input type="radio" id="16.5.4" name="16.5" value="4" onchange="updateSelectedOption('16.5', '16.5.4', '4')"></td>
+				<td name="val16.5">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Bioconductor packages</td>
+				<td id="td16.6.1" style="background-color: white;"><input type="radio" id="16.6.1" name="16.6" value="1" checked="checked" onchange="updateSelectedOption('16.6', '16.6.1', '1')"></td>
+				<td id="td16.6.2" style="background-color: white;"> <input type="radio" id="16.6.2" name="16.6" value="2" onchange="updateSelectedOption('16.6', '16.6.2', '2')"></td> 
+				<td id="td16.6.3" style="background-color: white;"><input type="radio" id="16.6.3" name="16.6" value="3" onchange="updateSelectedOption('16.6', '16.6.3', '3')"></td>	
+                <td id="td16.6.4" style="background-color: paleturquoise;"><input type="radio" id="16.6.4" name="16.6" value="4" onchange="updateSelectedOption('16.6', '16.6.4', '4')"></td>
+				<td name="val16.6">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Zombie Aqua viability dye</td>
+				<td id="td16.7.1" style="background-color: white;"><input type="radio" id="16.7.1" name="16.7" value="1" checked="checked" onchange="updateSelectedOption('16.7', '16.7.1', '1')"></td>
+				<td id="td16.7.2" style="background-color: paleturquoise;"> <input type="radio" id="16.7.2" name="16.7" value="2" onchange="updateSelectedOption('16.7', '16.7.2', '2')"></td> 
+				<td id="td16.7.3" style="background-color: white;"><input type="radio" id="16.7.3" name="16.7" value="3" onchange="updateSelectedOption('16.7', '16.7.3', '3')"></td>	
+                <td id="td16.7.4" style="background-color: white;"><input type="radio" id="16.7.4" name="16.7" value="4" onchange="updateSelectedOption('16.7', '16.7.4', '4')"></td>
+				<td name="val16.7">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD4-PerCP</td>
+				<td id="td16.8.1" style="background-color: white;"><input type="radio" id="16.8.1" name="16.8" value="1" checked="checked" onchange="updateSelectedOption('16.8', '16.8.1', '1')"></td>
+				<td id="td16.8.2" style="background-color: paleturquoise;"> <input type="radio" id="16.8.2" name="16.8" value="2" onchange="updateSelectedOption('16.8', '16.8.2', '2')"></td> 
+				<td id="td16.8.3" style="background-color: white;"><input type="radio" id="16.8.3" name="16.8" value="3" onchange="updateSelectedOption('16.8', '16.8.3', '3')"></td>	
+                <td id="td16.8.4" style="background-color: white;"><input type="radio" id="16.8.4" name="16.8" value="4" onchange="updateSelectedOption('16.8', '16.8.4', '4')"></td>
+				<td name="val16.8">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Ki67-PE</td>
+				<td id="td16.9.1" style="background-color: white;"><input type="radio" id="16.9.1" name="16.9" value="1" checked="checked" onchange="updateSelectedOption('16.9', '16.9.1', '1')"></td>
+				<td id="td16.9.2" style="background-color: paleturquoise;"> <input type="radio" id="16.9.2" name="16.9" value="2" onchange="updateSelectedOption('16.9', '16.9.2', '2')"></td> 
+				<td id="td16.9.3" style="background-color: white;"><input type="radio" id="16.9.3" name="16.9" value="3" onchange="updateSelectedOption('16.9', '16.9.3', '3')"></td>	
+                <td id="td16.9.4" style="background-color: white;"><input type="radio" id="16.9.4" name="16.9" value="4" onchange="updateSelectedOption('16.9', '16.9.4', '4')"></td>
+				<td name="val16.9">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>FoxP3/transcription factor staining buffer</td>
+				<td id="td16.10.1" style="background-color: white;"><input type="radio" id="16.10.1" name="16.10" value="1" checked="checked" onchange="updateSelectedOption('16.10', '16.10.1', '1')"></td>
+				<td id="td16.10.2" style="background-color: paleturquoise;"> <input type="radio" id="16.10.2" name="16.10" value="2" onchange="updateSelectedOption('16.10', '16.10.2', '2')"></td> 
+				<td id="td16.10.3" style="background-color: white;"><input type="radio" id="16.10.3" name="16.10" value="3" onchange="updateSelectedOption('16.10', '16.10.3', '3')"></td>	
+                <td id="td16.10.4" style="background-color: white;"><input type="radio" id="16.10.4" name="16.10" value="4" onchange="updateSelectedOption('16.10', '16.10.4', '4')"></td>
+				<td name="val16.10">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>isotype control</td>
+				<td id="td16.11.1" style="background-color: white;"><input type="radio" id="16.11.1" name="16.11" value="1" checked="checked" onchange="updateSelectedOption('16.11', '16.11.1', '1')"></td>
+				<td id="td16.11.2" style="background-color: paleturquoise;"> <input type="radio" id="16.11.2" name="16.11" value="2" onchange="updateSelectedOption('16.11', '16.11.2', '2')"></td> 
+				<td id="td16.11.3" style="background-color: white;"><input type="radio" id="16.11.3" name="16.11" value="3" onchange="updateSelectedOption('16.11', '16.11.3', '3')"></td>	
+                <td id="td16.11.4" style="background-color: white;"><input type="radio" id="16.11.4" name="16.11" value="4" onchange="updateSelectedOption('16.11', '16.11.4', '4')"></td>
+				<td name="val16.11">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD25 PECy7</td>
+				<td id="td16.12.1" style="background-color: white;"><input type="radio" id="16.12.1" name="16.12" value="1" checked="checked" onchange="updateSelectedOption('16.12', '16.12.1', '1')"></td>
+				<td id="td16.12.2" style="background-color: paleturquoise;"> <input type="radio" id="16.12.2" name="16.12" value="2" onchange="updateSelectedOption('16.12', '16.12.2', '2')"></td> 
+				<td id="td16.12.3" style="background-color: white;"><input type="radio" id="16.12.3" name="16.12" value="3" onchange="updateSelectedOption('16.12', '16.12.3', '3')"></td>	
+                <td id="td16.12.4" style="background-color: white;"><input type="radio" id="16.12.4" name="16.12" value="4" onchange="updateSelectedOption('16.12', '16.12.4', '4')"></td>
+				<td name="val16.12">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD3-BUV395</td>
+				<td id="td16.13.1" style="background-color: white;"><input type="radio" id="16.13.1" name="16.13" value="1" checked="checked" onchange="updateSelectedOption('16.13', '16.13.1', '1')"></td>
+				<td id="td16.13.2" style="background-color: paleturquoise;"> <input type="radio" id="16.13.2" name="16.13" value="2" onchange="updateSelectedOption('16.13', '16.13.2', '2')"></td> 
+				<td id="td16.13.3" style="background-color: white;"><input type="radio" id="16.13.3" name="16.13" value="3" onchange="updateSelectedOption('16.13', '16.13.3', '3')"></td>	
+                <td id="td16.13.4" style="background-color: white;"><input type="radio" id="16.13.4" name="16.13" value="4" onchange="updateSelectedOption('16.13', '16.13.4', '4')"></td>
+				<td name="val16.13">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD4-FITC</td>
+				<td id="td16.14.1" style="background-color: white;"><input type="radio" id="16.14.1" name="16.14" value="1" checked="checked" onchange="updateSelectedOption('16.14', '16.14.1', '1')"></td>
+				<td id="td16.14.2" style="background-color: paleturquoise;"> <input type="radio" id="16.14.2" name="16.14" value="2" onchange="updateSelectedOption('16.14', '16.14.2', '2')"></td> 
+				<td id="td16.14.3" style="background-color: white;"><input type="radio" id="16.14.3" name="16.14" value="3" onchange="updateSelectedOption('16.14', '16.14.3', '3')"></td>	
+                <td id="td16.14.4" style="background-color: white;"><input type="radio" id="16.14.4" name="16.14" value="4" onchange="updateSelectedOption('16.14', '16.14.4', '4')"></td>
+				<td name="val16.14">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>FACS Canto II or Fortessa X20</td>
+				<td id="td16.15.1" style="background-color: white;"><input type="radio" id="16.15.1" name="16.15" value="1" checked="checked" onchange="updateSelectedOption('16.15', '16.15.1', '1')"></td>
+				<td id="td16.15.2" style="background-color: paleturquoise;"> <input type="radio" id="16.15.2" name="16.15" value="2" onchange="updateSelectedOption('16.15', '16.15.2', '2')"></td> 
+				<td id="td16.15.3" style="background-color: white;"><input type="radio" id="16.15.3" name="16.15" value="3" onchange="updateSelectedOption('16.15', '16.15.3', '3')"></td>	
+                <td id="td16.15.4" style="background-color: white;"><input type="radio" id="16.15.4" name="16.15" value="4" onchange="updateSelectedOption('16.15', '16.15.4', '4')"></td>
+				<td name="val16.15">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BSA</td>
+				<td id="td16.16.1" style="background-color: white;"><input type="radio" id="16.16.1" name="16.16" value="1" checked="checked" onchange="updateSelectedOption('16.16', '16.16.1', '1')"></td>
+				<td id="td16.16.2" style="background-color: paleturquoise;"> <input type="radio" id="16.16.2" name="16.16" value="2" onchange="updateSelectedOption('16.16', '16.16.2', '2')"></td> 
+				<td id="td16.16.3" style="background-color: white;"><input type="radio" id="16.16.3" name="16.16" value="3" onchange="updateSelectedOption('16.16', '16.16.3', '3')"></td>	
+                <td id="td16.16.4" style="background-color: white;"><input type="radio" id="16.16.4" name="16.16" value="4" onchange="updateSelectedOption('16.16', '16.16.4', '4')"></td>
+				<td name="val16.16">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD4-APCeF780</td>
+				<td id="td16.17.1" style="background-color: white;"><input type="radio" id="16.17.1" name="16.17" value="1" checked="checked" onchange="updateSelectedOption('16.17', '16.17.1', '1')"></td>
+				<td id="td16.17.2" style="background-color: paleturquoise;"> <input type="radio" id="16.17.2" name="16.17" value="2" onchange="updateSelectedOption('16.17', '16.17.2', '2')"></td> 
+				<td id="td16.17.3" style="background-color: white;"><input type="radio" id="16.17.3" name="16.17" value="3" onchange="updateSelectedOption('16.17', '16.17.3', '3')"></td>	
+                <td id="td16.17.4" style="background-color: white;"><input type="radio" id="16.17.4" name="16.17" value="4" onchange="updateSelectedOption('16.17', '16.17.4', '4')"></td>
+				<td name="val16.17">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD3-BV510</td>
+				<td id="td16.18.1" style="background-color: white;"><input type="radio" id="16.18.1" name="16.18" value="1" checked="checked" onchange="updateSelectedOption('16.18', '16.18.1', '1')"></td>
+				<td id="td16.18.2" style="background-color: paleturquoise;"> <input type="radio" id="16.18.2" name="16.18" value="2" onchange="updateSelectedOption('16.18', '16.18.2', '2')"></td> 
+				<td id="td16.18.3" style="background-color: white;"><input type="radio" id="16.18.3" name="16.18" value="3" onchange="updateSelectedOption('16.18', '16.18.3', '3')"></td>	
+                <td id="td16.18.4" style="background-color: white;"><input type="radio" id="16.18.4" name="16.18" value="4" onchange="updateSelectedOption('16.18', '16.18.4', '4')"></td>
+				<td name="val16.18">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD25-PECy7</td>
+				<td id="td16.19.1" style="background-color: white;"><input type="radio" id="16.19.1" name="16.19" value="1" checked="checked" onchange="updateSelectedOption('16.19', '16.19.1', '1')"></td>
+				<td id="td16.19.2" style="background-color: paleturquoise;"> <input type="radio" id="16.19.2" name="16.19" value="2" onchange="updateSelectedOption('16.19', '16.19.2', '2')"></td> 
+				<td id="td16.19.3" style="background-color: white;"><input type="radio" id="16.19.3" name="16.19" value="3" onchange="updateSelectedOption('16.19', '16.19.3', '3')"></td>	
+                <td id="td16.19.4" style="background-color: white;"><input type="radio" id="16.19.4" name="16.19" value="4" onchange="updateSelectedOption('16.19', '16.19.4', '4')"></td>
+				<td name="val16.19">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD40L-PE</td>
+				<td id="td16.20.1" style="background-color: white;"><input type="radio" id="16.20.1" name="16.20" value="1" checked="checked" onchange="updateSelectedOption('16.20', '16.20.1', '1')"></td>
+				<td id="td16.20.2" style="background-color: paleturquoise;"> <input type="radio" id="16.20.2" name="16.20" value="2" onchange="updateSelectedOption('16.20', '16.20.2', '2')"></td> 
+				<td id="td16.20.3" style="background-color: white;"><input type="radio" id="16.20.3" name="16.20" value="3" onchange="updateSelectedOption('16.20', '16.20.3', '3')"></td>	
+                <td id="td16.20.4" style="background-color: white;"><input type="radio" id="16.20.4" name="16.20" value="4" onchange="updateSelectedOption('16.20', '16.20.4', '4')"></td>
+				<td name="val16.20">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>PMA</td>
+				<td id="td16.21.1" style="background-color: white;"><input type="radio" id="16.21.1" name="16.21" value="1" checked="checked" onchange="updateSelectedOption('16.21', '16.21.1', '1')"></td>
+				<td id="td16.21.2" style="background-color: paleturquoise;"> <input type="radio" id="16.21.2" name="16.21" value="2" onchange="updateSelectedOption('16.21', '16.21.2', '2')"></td> 
+				<td id="td16.21.3" style="background-color: white;"><input type="radio" id="16.21.3" name="16.21" value="3" onchange="updateSelectedOption('16.21', '16.21.3', '3')"></td>	
+                <td id="td16.21.4" style="background-color: white;"><input type="radio" id="16.21.4" name="16.21" value="4" onchange="updateSelectedOption('16.21', '16.21.4', '4')"></td>
+				<td name="val16.21">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Brefeldin-A</td>
+				<td id="td16.22.1" style="background-color: white;"><input type="radio" id="16.22.1" name="16.22" value="1" checked="checked" onchange="updateSelectedOption('16.22', '16.22.1', '1')"></td>
+				<td id="td16.22.2" style="background-color: paleturquoise;"> <input type="radio" id="16.22.2" name="16.22" value="2" onchange="updateSelectedOption('16.22', '16.22.2', '2')"></td> 
+				<td id="td16.22.3" style="background-color: white;"><input type="radio" id="16.22.3" name="16.22" value="3" onchange="updateSelectedOption('16.22', '16.22.3', '3')"></td>	
+                <td id="td16.22.4" style="background-color: white;"><input type="radio" id="16.22.4" name="16.22" value="4" onchange="updateSelectedOption('16.22', '16.22.4', '4')"></td>
+				<td name="val16.22">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BFA</td>
+				<td id="td16.23.1" style="background-color: white;"><input type="radio" id="16.23.1" name="16.23" value="1" checked="checked" onchange="updateSelectedOption('16.23', '16.23.1', '1')"></td>
+				<td id="td16.23.2" style="background-color: white;"> <input type="radio" id="16.23.2" name="16.23" value="2" onchange="updateSelectedOption('16.23', '16.23.2', '2')"></td> 
+				<td id="td16.23.3" style="background-color: white;"><input type="radio" id="16.23.3" name="16.23" value="3" onchange="updateSelectedOption('16.23', '16.23.3', '3')"></td>	
+                <td id="td16.23.4" style="background-color: paleturquoise;"><input type="radio" id="16.23.4" name="16.23" value="4" onchange="updateSelectedOption('16.23', '16.23.4', '4')"></td>
+				<td name="val16.23">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD3-PB</td>
+				<td id="td16.24.1" style="background-color: white;"><input type="radio" id="16.24.1" name="16.24" value="1" checked="checked" onchange="updateSelectedOption('16.24', '16.24.1', '1')"></td>
+				<td id="td16.24.2" style="background-color: paleturquoise;"> <input type="radio" id="16.24.2" name="16.24" value="2" onchange="updateSelectedOption('16.24', '16.24.2', '2')"></td> 
+				<td id="td16.24.3" style="background-color: white;"><input type="radio" id="16.24.3" name="16.24" value="3" onchange="updateSelectedOption('16.24', '16.24.3', '3')"></td>	
+                <td id="td16.24.4" style="background-color: white;"><input type="radio" id="16.24.4" name="16.24" value="4" onchange="updateSelectedOption('16.24', '16.24.4', '4')"></td>
+				<td name="val16.24">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD4-BV786</td>
+				<td id="td16.25.1" style="background-color: white;"><input type="radio" id="16.25.1" name="16.25" value="1" checked="checked" onchange="updateSelectedOption('16.25', '16.25.1', '1')"></td>
+				<td id="td16.25.2" style="background-color: paleturquoise;"> <input type="radio" id="16.25.2" name="16.25" value="2" onchange="updateSelectedOption('16.25', '16.25.2', '2')"></td> 
+				<td id="td16.25.3" style="background-color: white;"><input type="radio" id="16.25.3" name="16.25" value="3" onchange="updateSelectedOption('16.25', '16.25.3', '3')"></td>	
+                <td id="td16.25.4" style="background-color: white;"><input type="radio" id="16.25.4" name="16.25" value="4" onchange="updateSelectedOption('16.25', '16.25.4', '4')"></td>
+				<td name="val16.25">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IFN--FITC</td>
+				<td id="td16.26.1" style="background-color: white;"><input type="radio" id="16.26.1" name="16.26" value="1" checked="checked" onchange="updateSelectedOption('16.26', '16.26.1', '1')"></td>
+				<td id="td16.26.2" style="background-color: paleturquoise;"> <input type="radio" id="16.26.2" name="16.26" value="2" onchange="updateSelectedOption('16.26', '16.26.2', '2')"></td> 
+				<td id="td16.26.3" style="background-color: white;"><input type="radio" id="16.26.3" name="16.26" value="3" onchange="updateSelectedOption('16.26', '16.26.3', '3')"></td>	
+                <td id="td16.26.4" style="background-color: white;"><input type="radio" id="16.26.4" name="16.26" value="4" onchange="updateSelectedOption('16.26', '16.26.4', '4')"></td>
+				<td name="val16.26">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IL-17-APC-Cy7 </td>
+				<td id="td16.27.1" style="background-color: white;"><input type="radio" id="16.27.1" name="16.27" value="1" checked="checked" onchange="updateSelectedOption('16.27', '16.27.1', '1')"></td>
+				<td id="td16.27.2" style="background-color: paleturquoise;"> <input type="radio" id="16.27.2" name="16.27" value="2" onchange="updateSelectedOption('16.27', '16.27.2', '2')"></td> 
+				<td id="td16.27.3" style="background-color: white;"><input type="radio" id="16.27.3" name="16.27" value="3" onchange="updateSelectedOption('16.27', '16.27.3', '3')"></td>	
+                <td id="td16.27.4" style="background-color: white;"><input type="radio" id="16.27.4" name="16.27" value="4" onchange="updateSelectedOption('16.27', '16.27.4', '4')"></td>
+				<td name="val16.27">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD62L-PECy7</td>
+				<td id="td16.28.1" style="background-color: white;"><input type="radio" id="16.28.1" name="16.28" value="1" checked="checked" onchange="updateSelectedOption('16.28', '16.28.1', '1')"></td>
+				<td id="td16.28.2" style="background-color: paleturquoise;"> <input type="radio" id="16.28.2" name="16.28" value="2" onchange="updateSelectedOption('16.28', '16.28.2', '2')"></td> 
+				<td id="td16.28.3" style="background-color: white;"><input type="radio" id="16.28.3" name="16.28" value="3" onchange="updateSelectedOption('16.28', '16.28.3', '3')"></td>	
+                <td id="td16.28.4" style="background-color: white;"><input type="radio" id="16.28.4" name="16.28" value="4" onchange="updateSelectedOption('16.28', '16.28.4', '4')"></td>
+				<td name="val16.28">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>gp130-PE</td>
+				<td id="td16.29.1" style="background-color: white;"><input type="radio" id="16.29.1" name="16.29" value="1" checked="checked" onchange="updateSelectedOption('16.29', '16.29.1', '1')"></td>
+				<td id="td16.29.2" style="background-color: paleturquoise;"> <input type="radio" id="16.29.2" name="16.29" value="2" onchange="updateSelectedOption('16.29', '16.29.2', '2')"></td> 
+				<td id="td16.29.3" style="background-color: white;"><input type="radio" id="16.29.3" name="16.29" value="3" onchange="updateSelectedOption('16.29', '16.29.3', '3')"></td>	
+                <td id="td16.29.4" style="background-color: white;"><input type="radio" id="16.29.4" name="16.29" value="4" onchange="updateSelectedOption('16.29', '16.29.4', '4')"></td>
+				<td name="val16.29">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD4-APCef780</td>
+				<td id="td16.30.1" style="background-color: white;"><input type="radio" id="16.30.1" name="16.30" value="1" checked="checked" onchange="updateSelectedOption('16.30', '16.30.1', '1')"></td>
+				<td id="td16.30.2" style="background-color: paleturquoise;"> <input type="radio" id="16.30.2" name="16.30" value="2" onchange="updateSelectedOption('16.30', '16.30.2', '2')"></td> 
+				<td id="td16.30.3" style="background-color: white;"><input type="radio" id="16.30.3" name="16.30" value="3" onchange="updateSelectedOption('16.30', '16.30.3', '3')"></td>	
+                <td id="td16.30.4" style="background-color: white;"><input type="radio" id="16.30.4" name="16.30" value="4" onchange="updateSelectedOption('16.30', '16.30.4', '4')"></td>
+				<td name="val16.30">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IL-6R-PerCPeF710</td>
+				<td id="td16.31.1" style="background-color: white;"><input type="radio" id="16.31.1" name="16.31" value="1" checked="checked" onchange="updateSelectedOption('16.31', '16.31.1', '1')"></td>
+				<td id="td16.31.2" style="background-color: paleturquoise;"> <input type="radio" id="16.31.2" name="16.31" value="2" onchange="updateSelectedOption('16.31', '16.31.2', '2')"></td> 
+				<td id="td16.31.3" style="background-color: white;"><input type="radio" id="16.31.3" name="16.31" value="3" onchange="updateSelectedOption('16.31', '16.31.3', '3')"></td>	
+                <td id="td16.31.4" style="background-color: white;"><input type="radio" id="16.31.4" name="16.31" value="4" onchange="updateSelectedOption('16.31', '16.31.4', '4')"></td>
+				<td name="val16.31">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD45RA-FITC</td>
+				<td id="td16.32.1" style="background-color: white;"><input type="radio" id="16.32.1" name="16.32" value="1" checked="checked" onchange="updateSelectedOption('16.32', '16.32.1', '1')"></td>
+				<td id="td16.32.2" style="background-color: paleturquoise;"> <input type="radio" id="16.32.2" name="16.32" value="2" onchange="updateSelectedOption('16.32', '16.32.2', '2')"></td> 
+				<td id="td16.32.3" style="background-color: white;"><input type="radio" id="16.32.3" name="16.32" value="3" onchange="updateSelectedOption('16.32', '16.32.3', '3')"></td>	
+                <td id="td16.32.4" style="background-color: white;"><input type="radio" id="16.32.4" name="16.32" value="4" onchange="updateSelectedOption('16.32', '16.32.4', '4')"></td>
+				<td name="val16.32">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BD FACS Lysing solution</td>
+				<td id="td16.33.1" style="background-color: white;"><input type="radio" id="16.33.1" name="16.33" value="1" checked="checked" onchange="updateSelectedOption('16.33', '16.33.1', '1')"></td>
+				<td id="td16.33.2" style="background-color: paleturquoise;"> <input type="radio" id="16.33.2" name="16.33" value="2" onchange="updateSelectedOption('16.33', '16.33.2', '2')"></td> 
+				<td id="td16.33.3" style="background-color: white;"><input type="radio" id="16.33.3" name="16.33" value="3" onchange="updateSelectedOption('16.33', '16.33.3', '3')"></td>	
+                <td id="td16.33.4" style="background-color: white;"><input type="radio" id="16.33.4" name="16.33" value="4" onchange="updateSelectedOption('16.33', '16.33.4', '4')"></td>
+				<td name="val16.33">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IL-6R</td>
+				<td id="td16.34.1" style="background-color: white;"><input type="radio" id="16.34.1" name="16.34" value="1" checked="checked" onchange="updateSelectedOption('16.34', '16.34.1', '1')"></td>
+				<td id="td16.34.2" style="background-color: paleturquoise;"> <input type="radio" id="16.34.2" name="16.34" value="2" onchange="updateSelectedOption('16.34', '16.34.2', '2')"></td> 
+				<td id="td16.34.3" style="background-color: white;"><input type="radio" id="16.34.3" name="16.34" value="3" onchange="updateSelectedOption('16.34', '16.34.3', '3')"></td>	
+                <td id="td16.34.4" style="background-color: white;"><input type="radio" id="16.34.4" name="16.34" value="4" onchange="updateSelectedOption('16.34', '16.34.4', '4')"></td>
+				<td name="val16.34">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>gp130</td>
+				<td id="td16.35.1" style="background-color: white;"><input type="radio" id="16.35.1" name="16.35" value="1" checked="checked" onchange="updateSelectedOption('16.35', '16.35.1', '1')"></td>
+				<td id="td16.35.2" style="background-color: paleturquoise;"> <input type="radio" id="16.35.2" name="16.35" value="2" onchange="updateSelectedOption('16.35', '16.35.2', '2')"></td> 
+				<td id="td16.35.3" style="background-color: white;"><input type="radio" id="16.35.3" name="16.35" value="3" onchange="updateSelectedOption('16.35', '16.35.3', '3')"></td>	
+                <td id="td16.35.4" style="background-color: white;"><input type="radio" id="16.35.4" name="16.35" value="4" onchange="updateSelectedOption('16.35', '16.35.4', '4')"></td>
+				<td name="val16.35">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>mouse anti-human</td>
+				<td id="td16.36.1" style="background-color: white;"><input type="radio" id="16.36.1" name="16.36" value="1" checked="checked" onchange="updateSelectedOption('16.36', '16.36.1', '1')"></td>
+				<td id="td16.36.2" style="background-color: paleturquoise;"> <input type="radio" id="16.36.2" name="16.36" value="2" onchange="updateSelectedOption('16.36', '16.36.2', '2')"></td> 
+				<td id="td16.36.3" style="background-color: white;"><input type="radio" id="16.36.3" name="16.36" value="3" onchange="updateSelectedOption('16.36', '16.36.3', '3')"></td>	
+                <td id="td16.36.4" style="background-color: white;"><input type="radio" id="16.36.4" name="16.36" value="4" onchange="updateSelectedOption('16.36', '16.36.4', '4')"></td>
+				<td name="val16.36">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-CD3-Pacific Blue</td>
+				<td id="td16.37.1" style="background-color: white;"><input type="radio" id="16.37.1" name="16.37" value="1" checked="checked" onchange="updateSelectedOption('16.37', '16.37.1', '1')"></td>
+				<td id="td16.37.2" style="background-color: paleturquoise;"> <input type="radio" id="16.37.2" name="16.37" value="2" onchange="updateSelectedOption('16.37', '16.37.2', '2')"></td> 
+				<td id="td16.37.3" style="background-color: white;"><input type="radio" id="16.37.3" name="16.37" value="3" onchange="updateSelectedOption('16.37', '16.37.3', '3')"></td>	
+                <td id="td16.37.4" style="background-color: white;"><input type="radio" id="16.37.4" name="16.37" value="4" onchange="updateSelectedOption('16.37', '16.37.4', '4')"></td>
+				<td name="val16.37">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-Stat3 (pY705)-Alexa Fluor 647</td>
+				<td id="td16.38.1" style="background-color: white;"><input type="radio" id="16.38.1" name="16.38" value="1" checked="checked" onchange="updateSelectedOption('16.38', '16.38.1', '1')"></td>
+				<td id="td16.38.2" style="background-color: paleturquoise;"> <input type="radio" id="16.38.2" name="16.38" value="2" onchange="updateSelectedOption('16.38', '16.38.2', '2')"></td> 
+				<td id="td16.38.3" style="background-color: white;"><input type="radio" id="16.38.3" name="16.38" value="3" onchange="updateSelectedOption('16.38', '16.38.3', '3')"></td>	
+                <td id="td16.38.4" style="background-color: white;"><input type="radio" id="16.38.4" name="16.38" value="4" onchange="updateSelectedOption('16.38', '16.38.4', '4')"></td>
+				<td name="val16.38">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD45RA-PerCP-Cy5.5</td>
+				<td id="td16.39.1" style="background-color: white;"><input type="radio" id="16.39.1" name="16.39" value="1" checked="checked" onchange="updateSelectedOption('16.39', '16.39.1', '1')"></td>
+				<td id="td16.39.2" style="background-color: paleturquoise;"> <input type="radio" id="16.39.2" name="16.39" value="2" onchange="updateSelectedOption('16.39', '16.39.2', '2')"></td> 
+				<td id="td16.39.3" style="background-color: white;"><input type="radio" id="16.39.3" name="16.39" value="3" onchange="updateSelectedOption('16.39', '16.39.3', '3')"></td>	
+                <td id="td16.39.4" style="background-color: white;"><input type="radio" id="16.39.4" name="16.39" value="4" onchange="updateSelectedOption('16.39', '16.39.4', '4')"></td>
+				<td name="val16.39">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-CD4-APC-eFluor 780</td>
+				<td id="td16.40.1" style="background-color: white;"><input type="radio" id="16.40.1" name="16.40" value="1" checked="checked" onchange="updateSelectedOption('16.40', '16.40.1', '1')"></td>
+				<td id="td16.40.2" style="background-color: paleturquoise;"> <input type="radio" id="16.40.2" name="16.40" value="2" onchange="updateSelectedOption('16.40', '16.40.2', '2')"></td> 
+				<td id="td16.40.3" style="background-color: white;"><input type="radio" id="16.40.3" name="16.40" value="3" onchange="updateSelectedOption('16.40', '16.40.3', '3')"></td>	
+                <td id="td16.40.4" style="background-color: white;"><input type="radio" id="16.40.4" name="16.40" value="4" onchange="updateSelectedOption('16.40', '16.40.4', '4')"></td>
+				<td name="val16.40">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BD Phosflow Lyse/Fix and BD Phosflow Perm Buffer III</td>
+				<td id="td16.41.1" style="background-color: white;"><input type="radio" id="16.41.1" name="16.41" value="1" checked="checked" onchange="updateSelectedOption('16.41', '16.41.1', '1')"></td>
+				<td id="td16.41.2" style="background-color: paleturquoise;"> <input type="radio" id="16.41.2" name="16.41" value="2" onchange="updateSelectedOption('16.41', '16.41.2', '2')"></td> 
+				<td id="td16.41.3" style="background-color: white;"><input type="radio" id="16.41.3" name="16.41" value="3" onchange="updateSelectedOption('16.41', '16.41.3', '3')"></td>	
+                <td id="td16.41.4" style="background-color: white;"><input type="radio" id="16.41.4" name="16.41" value="4" onchange="updateSelectedOption('16.41', '16.41.4', '4')"></td>
+				<td name="val16.41">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>24-well plate</td>
+				<td id="td16.42.1" style="background-color: white;"><input type="radio" id="16.42.1" name="16.42" value="1" checked="checked" onchange="updateSelectedOption('16.42', '16.42.1', '1')"></td>
+				<td id="td16.42.2" style="background-color: paleturquoise;"> <input type="radio" id="16.42.2" name="16.42" value="2" onchange="updateSelectedOption('16.42', '16.42.2', '2')"></td> 
+				<td id="td16.42.3" style="background-color: white;"><input type="radio" id="16.42.3" name="16.42" value="3" onchange="updateSelectedOption('16.42', '16.42.3', '3')"></td>	
+                <td id="td16.42.4" style="background-color: white;"><input type="radio" id="16.42.4" name="16.42" value="4" onchange="updateSelectedOption('16.42', '16.42.4', '4')"></td>
+				<td name="val16.42">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Iscove's modified Dulbecco medium</td>
+				<td id="td16.43.1" style="background-color: white;"><input type="radio" id="16.43.1" name="16.43" value="1" checked="checked" onchange="updateSelectedOption('16.43', '16.43.1', '1')"></td>
+				<td id="td16.43.2" style="background-color: paleturquoise;"> <input type="radio" id="16.43.2" name="16.43" value="2" onchange="updateSelectedOption('16.43', '16.43.2', '2')"></td> 
+				<td id="td16.43.3" style="background-color: white;"><input type="radio" id="16.43.3" name="16.43" value="3" onchange="updateSelectedOption('16.43', '16.43.3', '3')"></td>	
+                <td id="td16.43.4" style="background-color: white;"><input type="radio" id="16.43.4" name="16.43" value="4" onchange="updateSelectedOption('16.43', '16.43.4', '4')"></td>
+				<td name="val16.43">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IMDM</td>
+				<td id="td16.44.1" style="background-color: white;"><input type="radio" id="16.44.1" name="16.44" value="1" checked="checked" onchange="updateSelectedOption('16.44', '16.44.1', '1')"></td>
+				<td id="td16.44.2" style="background-color: paleturquoise;"> <input type="radio" id="16.44.2" name="16.44" value="2" onchange="updateSelectedOption('16.44', '16.44.2', '2')"></td> 
+				<td id="td16.44.3" style="background-color: white;"><input type="radio" id="16.44.3" name="16.44" value="3" onchange="updateSelectedOption('16.44', '16.44.3', '3')"></td>	
+                <td id="td16.44.4" style="background-color: white;"><input type="radio" id="16.44.4" name="16.44" value="4" onchange="updateSelectedOption('16.44', '16.44.4', '4')"></td>
+				<td name="val16.44">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-IL-4</td>
+				<td id="td16.45.1" style="background-color: white;"><input type="radio" id="16.45.1" name="16.45" value="1" checked="checked" onchange="updateSelectedOption('16.45', '16.45.1', '1')"></td>
+				<td id="td16.45.2" style="background-color: paleturquoise;"> <input type="radio" id="16.45.2" name="16.45" value="2" onchange="updateSelectedOption('16.45', '16.45.2', '2')"></td> 
+				<td id="td16.45.3" style="background-color: white;"><input type="radio" id="16.45.3" name="16.45" value="3" onchange="updateSelectedOption('16.45', '16.45.3', '3')"></td>	
+                <td id="td16.45.4" style="background-color: white;"><input type="radio" id="16.45.4" name="16.45" value="4" onchange="updateSelectedOption('16.45', '16.45.4', '4')"></td>
+				<td name="val16.45">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-CD3</td>
+				<td id="td16.46.1" style="background-color: white;"><input type="radio" id="16.46.1" name="16.46" value="1" checked="checked" onchange="updateSelectedOption('16.46', '16.46.1', '1')"></td>
+				<td id="td16.46.2" style="background-color: paleturquoise;"> <input type="radio" id="16.46.2" name="16.46" value="2" onchange="updateSelectedOption('16.46', '16.46.2', '2')"></td> 
+				<td id="td16.46.3" style="background-color: white;"><input type="radio" id="16.46.3" name="16.46" value="3" onchange="updateSelectedOption('16.46', '16.46.3', '3')"></td>	
+                <td id="td16.46.4" style="background-color: white;"><input type="radio" id="16.46.4" name="16.46" value="4" onchange="updateSelectedOption('16.46', '16.46.4', '4')"></td>
+				<td name="val16.46">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-CD28</td>
+				<td id="td16.47.1" style="background-color: white;"><input type="radio" id="16.47.1" name="16.47" value="1" checked="checked" onchange="updateSelectedOption('16.47', '16.47.1', '1')"></td>
+				<td id="td16.47.2" style="background-color: paleturquoise;"> <input type="radio" id="16.47.2" name="16.47" value="2" onchange="updateSelectedOption('16.47', '16.47.2', '2')"></td> 
+				<td id="td16.47.3" style="background-color: white;"><input type="radio" id="16.47.3" name="16.47" value="3" onchange="updateSelectedOption('16.47', '16.47.3', '3')"></td>	
+                <td id="td16.47.4" style="background-color: white;"><input type="radio" id="16.47.4" name="16.47" value="4" onchange="updateSelectedOption('16.47', '16.47.4', '4')"></td>
+				<td name="val16.47">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Dynabeads</td>
+				<td id="td16.48.1" style="background-color: white;"><input type="radio" id="16.48.1" name="16.48" value="1" checked="checked" onchange="updateSelectedOption('16.48', '16.48.1', '1')"></td>
+				<td id="td16.48.2" style="background-color: paleturquoise;"> <input type="radio" id="16.48.2" name="16.48" value="2" onchange="updateSelectedOption('16.48', '16.48.2', '2')"></td> 
+				<td id="td16.48.3" style="background-color: white;"><input type="radio" id="16.48.3" name="16.48" value="3" onchange="updateSelectedOption('16.48', '16.48.3', '3')"></td>	
+                <td id="td16.48.4" style="background-color: white;"><input type="radio" id="16.48.4" name="16.48" value="4" onchange="updateSelectedOption('16.48', '16.48.4', '4')"></td>
+				<td name="val16.48">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>24 well plate</td>
+				<td id="td16.49.1" style="background-color: white;"><input type="radio" id="16.49.1" name="16.49" value="1" checked="checked" onchange="updateSelectedOption('16.49', '16.49.1', '1')"></td>
+				<td id="td16.49.2" style="background-color: paleturquoise;"> <input type="radio" id="16.49.2" name="16.49" value="2" onchange="updateSelectedOption('16.49', '16.49.2', '2')"></td> 
+				<td id="td16.49.3" style="background-color: white;"><input type="radio" id="16.49.3" name="16.49" value="3" onchange="updateSelectedOption('16.49', '16.49.3', '3')"></td>	
+                <td id="td16.49.4" style="background-color: white;"><input type="radio" id="16.49.4" name="16.49" value="4" onchange="updateSelectedOption('16.49', '16.49.4', '4')"></td>
+				<td name="val16.49">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>serum replacement</td>
+				<td id="td16.50.1" style="background-color: white;"><input type="radio" id="16.50.1" name="16.50" value="1" checked="checked" onchange="updateSelectedOption('16.50', '16.50.1', '1')"></td>
+				<td id="td16.50.2" style="background-color: paleturquoise;"> <input type="radio" id="16.50.2" name="16.50" value="2" onchange="updateSelectedOption('16.50', '16.50.2', '2')"></td> 
+				<td id="td16.50.3" style="background-color: white;"><input type="radio" id="16.50.3" name="16.50" value="3" onchange="updateSelectedOption('16.50', '16.50.3', '3')"></td>	
+                <td id="td16.50.4" style="background-color: white;"><input type="radio" id="16.50.4" name="16.50" value="4" onchange="updateSelectedOption('16.50', '16.50.4', '4')"></td>
+				<td name="val16.50">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IL-1</td>
+				<td id="td16.51.1" style="background-color: white;"><input type="radio" id="16.51.1" name="16.51" value="1" checked="checked" onchange="updateSelectedOption('16.51', '16.51.1', '1')"></td>
+				<td id="td16.51.2" style="background-color: paleturquoise;"> <input type="radio" id="16.51.2" name="16.51" value="2" onchange="updateSelectedOption('16.51', '16.51.2', '2')"></td> 
+				<td id="td16.51.3" style="background-color: white;"><input type="radio" id="16.51.3" name="16.51" value="3" onchange="updateSelectedOption('16.51', '16.51.3', '3')"></td>	
+                <td id="td16.51.4" style="background-color: white;"><input type="radio" id="16.51.4" name="16.51" value="4" onchange="updateSelectedOption('16.51', '16.51.4', '4')"></td>
+				<td name="val16.51">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IL-23</td>
+				<td id="td16.52.1" style="background-color: white;"><input type="radio" id="16.52.1" name="16.52" value="1" checked="checked" onchange="updateSelectedOption('16.52', '16.52.1', '1')"></td>
+				<td id="td16.52.2" style="background-color: paleturquoise;"> <input type="radio" id="16.52.2" name="16.52" value="2" onchange="updateSelectedOption('16.52', '16.52.2', '2')"></td> 
+				<td id="td16.52.3" style="background-color: white;"><input type="radio" id="16.52.3" name="16.52" value="3" onchange="updateSelectedOption('16.52', '16.52.3', '3')"></td>	
+                <td id="td16.52.4" style="background-color: white;"><input type="radio" id="16.52.4" name="16.52" value="4" onchange="updateSelectedOption('16.52', '16.52.4', '4')"></td>
+				<td name="val16.52">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>TGF</td>
+				<td id="td16.53.1" style="background-color: white;"><input type="radio" id="16.53.1" name="16.53" value="1" checked="checked" onchange="updateSelectedOption('16.53', '16.53.1', '1')"></td>
+				<td id="td16.53.2" style="background-color: paleturquoise;"> <input type="radio" id="16.53.2" name="16.53" value="2" onchange="updateSelectedOption('16.53', '16.53.2', '2')"></td> 
+				<td id="td16.53.3" style="background-color: white;"><input type="radio" id="16.53.3" name="16.53" value="3" onchange="updateSelectedOption('16.53', '16.53.3', '3')"></td>	
+                <td id="td16.53.4" style="background-color: white;"><input type="radio" id="16.53.4" name="16.53" value="4" onchange="updateSelectedOption('16.53', '16.53.4', '4')"></td>
+				<td name="val16.53">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>beads</td>
+				<td id="td16.54.1" style="background-color: white;"><input type="radio" id="16.54.1" name="16.54" value="1" checked="checked" onchange="updateSelectedOption('16.54', '16.54.1', '1')"></td>
+				<td id="td16.54.2" style="background-color: paleturquoise;"> <input type="radio" id="16.54.2" name="16.54" value="2" onchange="updateSelectedOption('16.54', '16.54.2', '2')"></td> 
+				<td id="td16.54.3" style="background-color: white;"><input type="radio" id="16.54.3" name="16.54" value="3" onchange="updateSelectedOption('16.54', '16.54.3', '3')"></td>	
+                <td id="td16.54.4" style="background-color: white;"><input type="radio" id="16.54.4" name="16.54" value="4" onchange="updateSelectedOption('16.54', '16.54.4', '4')"></td>
+				<td name="val16.54">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IL-2</td>
+				<td id="td16.55.1" style="background-color: white;"><input type="radio" id="16.55.1" name="16.55" value="1" checked="checked" onchange="updateSelectedOption('16.55', '16.55.1', '1')"></td>
+				<td id="td16.55.2" style="background-color: paleturquoise;"> <input type="radio" id="16.55.2" name="16.55" value="2" onchange="updateSelectedOption('16.55', '16.55.2', '2')"></td> 
+				<td id="td16.55.3" style="background-color: white;"><input type="radio" id="16.55.3" name="16.55" value="3" onchange="updateSelectedOption('16.55', '16.55.3', '3')"></td>	
+                <td id="td16.55.4" style="background-color: white;"><input type="radio" id="16.55.4" name="16.55" value="4" onchange="updateSelectedOption('16.55', '16.55.4', '4')"></td>
+				<td name="val16.55">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>serum-free medium</td>
+				<td id="td16.56.1" style="background-color: white;"><input type="radio" id="16.56.1" name="16.56" value="1" checked="checked" onchange="updateSelectedOption('16.56', '16.56.1', '1')"></td>
+				<td id="td16.56.2" style="background-color: paleturquoise;"> <input type="radio" id="16.56.2" name="16.56" value="2" onchange="updateSelectedOption('16.56', '16.56.2', '2')"></td> 
+				<td id="td16.56.3" style="background-color: white;"><input type="radio" id="16.56.3" name="16.56" value="3" onchange="updateSelectedOption('16.56', '16.56.3', '3')"></td>	
+                <td id="td16.56.4" style="background-color: white;"><input type="radio" id="16.56.4" name="16.56" value="4" onchange="updateSelectedOption('16.56', '16.56.4', '4')"></td>
+				<td name="val16.56">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>48-well plate</td>
+				<td id="td16.57.1" style="background-color: white;"><input type="radio" id="16.57.1" name="16.57" value="1" checked="checked" onchange="updateSelectedOption('16.57', '16.57.1', '1')"></td>
+				<td id="td16.57.2" style="background-color: paleturquoise;"> <input type="radio" id="16.57.2" name="16.57" value="2" onchange="updateSelectedOption('16.57', '16.57.2', '2')"></td> 
+				<td id="td16.57.3" style="background-color: white;"><input type="radio" id="16.57.3" name="16.57" value="3" onchange="updateSelectedOption('16.57', '16.57.3', '3')"></td>	
+                <td id="td16.57.4" style="background-color: white;"><input type="radio" id="16.57.4" name="16.57" value="4" onchange="updateSelectedOption('16.57', '16.57.4', '4')"></td>
+				<td name="val16.57">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD45RO MicroBeads</td>
+				<td id="td16.58.1" style="background-color: white;"><input type="radio" id="16.58.1" name="16.58" value="1" checked="checked" onchange="updateSelectedOption('16.58', '16.58.1', '1')"></td>
+				<td id="td16.58.2" style="background-color: paleturquoise;"> <input type="radio" id="16.58.2" name="16.58" value="2" onchange="updateSelectedOption('16.58', '16.58.2', '2')"></td> 
+				<td id="td16.58.3" style="background-color: white;"><input type="radio" id="16.58.3" name="16.58" value="3" onchange="updateSelectedOption('16.58', '16.58.3', '3')"></td>	
+                <td id="td16.58.4" style="background-color: white;"><input type="radio" id="16.58.4" name="16.58" value="4" onchange="updateSelectedOption('16.58', '16.58.4', '4')"></td>
+				<td name="val16.58">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RosetteSep Human CD4+ T cell Enrichment Cocktail</td>
+				<td id="td16.59.1" style="background-color: white;"><input type="radio" id="16.59.1" name="16.59" value="1" checked="checked" onchange="updateSelectedOption('16.59', '16.59.1', '1')"></td>
+				<td id="td16.59.2" style="background-color: paleturquoise;"> <input type="radio" id="16.59.2" name="16.59" value="2" onchange="updateSelectedOption('16.59', '16.59.2', '2')"></td> 
+				<td id="td16.59.3" style="background-color: white;"><input type="radio" id="16.59.3" name="16.59" value="3" onchange="updateSelectedOption('16.59', '16.59.3', '3')"></td>	
+                <td id="td16.59.4" style="background-color: white;"><input type="radio" id="16.59.4" name="16.59" value="4" onchange="updateSelectedOption('16.59', '16.59.4', '4')"></td>
+				<td name="val16.59">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Lymphoprep</td>
+				<td id="td16.60.1" style="background-color: white;"><input type="radio" id="16.60.1" name="16.60" value="1" checked="checked" onchange="updateSelectedOption('16.60', '16.60.1', '1')"></td>
+				<td id="td16.60.2" style="background-color: paleturquoise;"> <input type="radio" id="16.60.2" name="16.60" value="2" onchange="updateSelectedOption('16.60', '16.60.2', '2')"></td> 
+				<td id="td16.60.3" style="background-color: white;"><input type="radio" id="16.60.3" name="16.60" value="3" onchange="updateSelectedOption('16.60', '16.60.3', '3')"></td>	
+                <td id="td16.60.4" style="background-color: white;"><input type="radio" id="16.60.4" name="16.60" value="4" onchange="updateSelectedOption('16.60', '16.60.4', '4')"></td>
+				<td name="val16.60">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>electro-chemiluminescence immunosorbance detection system</td>
+				<td id="td16.61.1" style="background-color: white;"><input type="radio" id="16.61.1" name="16.61" value="1" checked="checked" onchange="updateSelectedOption('16.61', '16.61.1', '1')"></td>
+				<td id="td16.61.2" style="background-color: paleturquoise;"> <input type="radio" id="16.61.2" name="16.61" value="2" onchange="updateSelectedOption('16.61', '16.61.2', '2')"></td> 
+				<td id="td16.61.3" style="background-color: white;"><input type="radio" id="16.61.3" name="16.61" value="3" onchange="updateSelectedOption('16.61', '16.61.3', '3')"></td>	
+                <td id="td16.61.4" style="background-color: white;"><input type="radio" id="16.61.4" name="16.61" value="4" onchange="updateSelectedOption('16.61', '16.61.4', '4')"></td>
+				<td name="val16.61">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Meso Scale Discovery</td>
+				<td id="td16.62.1" style="background-color: white;"><input type="radio" id="16.62.1" name="16.62" value="1" checked="checked" onchange="updateSelectedOption('16.62', '16.62.1', '1')"></td>
+				<td id="td16.62.2" style="background-color: white;"> <input type="radio" id="16.62.2" name="16.62" value="2" onchange="updateSelectedOption('16.62', '16.62.2', '2')"></td> 
+				<td id="td16.62.3" style="background-color: white;"><input type="radio" id="16.62.3" name="16.62" value="3" onchange="updateSelectedOption('16.62', '16.62.3', '3')"></td>	
+                <td id="td16.62.4" style="background-color: paleturquoise;"><input type="radio" id="16.62.4" name="16.62" value="4" onchange="updateSelectedOption('16.62', '16.62.4', '4')"></td>
+				<td name="val16.62">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>citrate vacuette tubes</td>
+				<td id="td16.63.1"><input type="radio" id="16.63.1" name="16.63" value="1" checked="checked" onchange="updateSelectedOption('16.63', '16.63.1', '1')"></td>
+				<td id="td16.63.2"> <input type="radio" id="16.63.2" name="16.63" value="2" onchange="updateSelectedOption('16.63', '16.63.2', '2')"></td> 
+				<td id="td16.63.3"><input type="radio" id="16.63.3" name="16.63" value="3" onchange="updateSelectedOption('16.63', '16.63.3', '3')"></td>	
+                <td id="td16.63.4"><input type="radio" id="16.63.4" name="16.63" value="4" onchange="updateSelectedOption('16.63', '16.63.4', '4')"></td>
+				<td name="val16.63">1</td>					
+			</tr>
+            
+
+<tr>
+				<td>Triton X-100</td>
+				<td id="td16.64.1" style="background-color: white;"><input type="radio" id="16.64.1" name="16.64" value="1" checked="checked" onchange="updateSelectedOption('16.64', '16.64.1', '1')"></td>
+				<td id="td16.64.2" style="background-color: paleturquoise;"> <input type="radio" id="16.64.2" name="16.64" value="2" onchange="updateSelectedOption('16.64', '16.64.2', '2')"></td> 
+				<td id="td16.64.3" style="background-color: white;"><input type="radio" id="16.64.3" name="16.64" value="3" onchange="updateSelectedOption('16.64', '16.64.3', '3')"></td>	
+                <td id="td16.64.4" style="background-color: white;"><input type="radio" id="16.64.4" name="16.64" value="4" onchange="updateSelectedOption('16.64', '16.64.4', '4')"></td>
+				<td name="val16.64">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>DRC-ICP model ELAN DRC II</td>
+				<td id="td16.65.1" style="background-color: white;"><input type="radio" id="16.65.1" name="16.65" value="1" checked="checked" onchange="updateSelectedOption('16.65', '16.65.1', '1')"></td>
+				<td id="td16.65.2" style="background-color: paleturquoise;"> <input type="radio" id="16.65.2" name="16.65" value="2" onchange="updateSelectedOption('16.65', '16.65.2', '2')"></td> 
+				<td id="td16.65.3" style="background-color: white;"><input type="radio" id="16.65.3" name="16.65" value="3" onchange="updateSelectedOption('16.65', '16.65.3', '3')"></td>	
+                <td id="td16.65.4" style="background-color: white;"><input type="radio" id="16.65.4" name="16.65" value="4" onchange="updateSelectedOption('16.65', '16.65.4', '4')"></td>
+				<td name="val16.65">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Luminex technology with Milliplex MAP</td>
+				<td id="td16.66.1" style="background-color: white;"><input type="radio" id="16.66.1" name="16.66" value="1" checked="checked" onchange="updateSelectedOption('16.66', '16.66.1', '1')"></td>
+				<td id="td16.66.2" style="background-color: paleturquoise;"> <input type="radio" id="16.66.2" name="16.66" value="2" onchange="updateSelectedOption('16.66', '16.66.2', '2')"></td> 
+				<td id="td16.66.3" style="background-color: white;"><input type="radio" id="16.66.3" name="16.66" value="3" onchange="updateSelectedOption('16.66', '16.66.3', '3')"></td>	
+                <td id="td16.66.4" style="background-color: white;"><input type="radio" id="16.66.4" name="16.66" value="4" onchange="updateSelectedOption('16.66', '16.66.4', '4')"></td>
+				<td name="val16.66">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>microplate reader</td>
+				<td id="td16.67.1" style="background-color: white;"><input type="radio" id="16.67.1" name="16.67" value="1" checked="checked" onchange="updateSelectedOption('16.67', '16.67.1', '1')"></td>
+				<td id="td16.67.2" style="background-color: paleturquoise;"> <input type="radio" id="16.67.2" name="16.67" value="2" onchange="updateSelectedOption('16.67', '16.67.2', '2')"></td> 
+				<td id="td16.67.3" style="background-color: white;"><input type="radio" id="16.67.3" name="16.67" value="3" onchange="updateSelectedOption('16.67', '16.67.3', '3')"></td>	
+                <td id="td16.67.4" style="background-color: white;"><input type="radio" id="16.67.4" name="16.67" value="4" onchange="updateSelectedOption('16.67', '16.67.4', '4')"></td>
+				<td name="val16.67">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>erythrocyte lysates</td>
+				<td id="td16.68.1" style="background-color: white;"><input type="radio" id="16.68.1" name="16.68" value="1" checked="checked" onchange="updateSelectedOption('16.68', '16.68.1', '1')"></td>
+				<td id="td16.68.2" style="background-color: paleturquoise;"> <input type="radio" id="16.68.2" name="16.68" value="2" onchange="updateSelectedOption('16.68', '16.68.2', '2')"></td> 
+				<td id="td16.68.3" style="background-color: white;"><input type="radio" id="16.68.3" name="16.68" value="3" onchange="updateSelectedOption('16.68', '16.68.3', '3')"></td>	
+                <td id="td16.68.4" style="background-color: white;"><input type="radio" id="16.68.4" name="16.68" value="4" onchange="updateSelectedOption('16.68', '16.68.4', '4')"></td>
+				<td name="val16.68">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>multiplex magnetic bead-based antibody detection kits</td>
+				<td id="td16.69.1" style="background-color: white;"><input type="radio" id="16.69.1" name="16.69" value="1" checked="checked" onchange="updateSelectedOption('16.69', '16.69.1', '1')"></td>
+				<td id="td16.69.2" style="background-color: paleturquoise;"> <input type="radio" id="16.69.2" name="16.69" value="2" onchange="updateSelectedOption('16.69', '16.69.2', '2')"></td> 
+				<td id="td16.69.3" style="background-color: white;"><input type="radio" id="16.69.3" name="16.69" value="3" onchange="updateSelectedOption('16.69', '16.69.3', '3')"></td>	
+                <td id="td16.69.4" style="background-color: white;"><input type="radio" id="16.69.4" name="16.69" value="4" onchange="updateSelectedOption('16.69', '16.69.4', '4')"></td>
+				<td name="val16.69">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>G* Power software</td>
+				<td id="td16.70.1" style="background-color: white;"><input type="radio" id="16.70.1" name="16.70" value="1" checked="checked" onchange="updateSelectedOption('16.70', '16.70.1', '1')"></td>
+				<td id="td16.70.2" style="background-color: white;"> <input type="radio" id="16.70.2" name="16.70" value="2" onchange="updateSelectedOption('16.70', '16.70.2', '2')"></td> 
+				<td id="td16.70.3" style="background-color: white;"><input type="radio" id="16.70.3" name="16.70" value="3" onchange="updateSelectedOption('16.70', '16.70.3', '3')"></td>	
+                <td id="td16.70.4" style="background-color: paleturquoise;"><input type="radio" id="16.70.4" name="16.70" value="4" onchange="updateSelectedOption('16.70', '16.70.4', '4')"></td>
+				<td name="val16.70">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>VITROS 950 Xrl Chemistry System</td>
+				<td id="td16.71.1" style="background-color: white;"><input type="radio" id="16.71.1" name="16.71" value="1" checked="checked" onchange="updateSelectedOption('16.71', '16.71.1', '1')"></td>
+				<td id="td16.71.2" style="background-color: white;"> <input type="radio" id="16.71.2" name="16.71" value="2" onchange="updateSelectedOption('16.71', '16.71.2', '2')"></td> 
+				<td id="td16.71.3" style="background-color: white;"><input type="radio" id="16.71.3" name="16.71" value="3" onchange="updateSelectedOption('16.71', '16.71.3', '3')"></td>	
+                <td id="td16.71.4" style="background-color: paleturquoise;"><input type="radio" id="16.71.4" name="16.71" value="4" onchange="updateSelectedOption('16.71', '16.71.4', '4')"></td>
+				<td name="val16.71">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>96-well Equilibrium DIALYZER</td>
+				<td id="td16.72.1" style="background-color: white;"><input type="radio" id="16.72.1" name="16.72" value="1" checked="checked" onchange="updateSelectedOption('16.72', '16.72.1', '1')"></td>
+				<td id="td16.72.2" style="background-color: paleturquoise;"> <input type="radio" id="16.72.2" name="16.72" value="2" onchange="updateSelectedOption('16.72', '16.72.2', '2')"></td> 
+				<td id="td16.72.3" style="background-color: white;"><input type="radio" id="16.72.3" name="16.72" value="3" onchange="updateSelectedOption('16.72', '16.72.3', '3')"></td>	
+                <td id="td16.72.4" style="background-color: white;"><input type="radio" id="16.72.4" name="16.72" value="4" onchange="updateSelectedOption('16.72', '16.72.4', '4')"></td>
+				<td name="val16.72">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>5-kDa cutoff regenerated cellulose membrane</td>
+				<td id="td16.73.1" style="background-color: white;"><input type="radio" id="16.73.1" name="16.73" value="1" checked="checked" onchange="updateSelectedOption('16.73', '16.73.1', '1')"></td>
+				<td id="td16.73.2" style="background-color: paleturquoise;"> <input type="radio" id="16.73.2" name="16.73" value="2" onchange="updateSelectedOption('16.73', '16.73.2', '2')"></td> 
+				<td id="td16.73.3" style="background-color: white;"><input type="radio" id="16.73.3" name="16.73" value="3" onchange="updateSelectedOption('16.73', '16.73.3', '3')"></td>	
+                <td id="td16.73.4" style="background-color: white;"><input type="radio" id="16.73.4" name="16.73" value="4" onchange="updateSelectedOption('16.73', '16.73.4', '4')"></td>
+				<td name="val16.73">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-5mC antibody</td>
+				<td id="td16.74.1" style="background-color: white;"><input type="radio" id="16.74.1" name="16.74" value="1" checked="checked" onchange="updateSelectedOption('16.74', '16.74.1', '1')"></td>
+				<td id="td16.74.2" style="background-color: white;"> <input type="radio" id="16.74.2" name="16.74" value="2" onchange="updateSelectedOption('16.74', '16.74.2', '2')"></td> 
+				<td id="td16.74.3" style="background-color: white;"><input type="radio" id="16.74.3" name="16.74" value="3" onchange="updateSelectedOption('16.74', '16.74.3', '3')"></td>	
+                <td id="td16.74.4" style="background-color: paleturquoise;"><input type="radio" id="16.74.4" name="16.74" value="4" onchange="updateSelectedOption('16.74', '16.74.4', '4')"></td>
+				<td name="val16.74">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>EpiSeeker DNMT3B assay kit </td>
+				<td id="td16.75.1" style="background-color: white;"><input type="radio" id="16.75.1" name="16.75" value="1" checked="checked" onchange="updateSelectedOption('16.75', '16.75.1', '1')"></td>
+				<td id="td16.75.2" style="background-color: white;"> <input type="radio" id="16.75.2" name="16.75" value="2" onchange="updateSelectedOption('16.75', '16.75.2', '2')"></td> 
+				<td id="td16.75.3" style="background-color: white;"><input type="radio" id="16.75.3" name="16.75" value="3" onchange="updateSelectedOption('16.75', '16.75.3', '3')"></td>	
+                <td id="td16.75.4" style="background-color: paleturquoise;"><input type="radio" id="16.75.4" name="16.75" value="4" onchange="updateSelectedOption('16.75', '16.75.4', '4')"></td>
+				<td name="val16.75">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>ECL Plus Western blotting detection reagents</td>
+				<td id="td16.76.1" style="background-color: white;"><input type="radio" id="16.76.1" name="16.76" value="1" checked="checked" onchange="updateSelectedOption('16.76', '16.76.1', '1')"></td>
+				<td id="td16.76.2" style="background-color: paleturquoise;"> <input type="radio" id="16.76.2" name="16.76" value="2" onchange="updateSelectedOption('16.76', '16.76.2', '2')"></td> 
+				<td id="td16.76.3" style="background-color: white;"><input type="radio" id="16.76.3" name="16.76" value="3" onchange="updateSelectedOption('16.76', '16.76.3', '3')"></td>	
+                <td id="td16.76.4" style="background-color: white;"><input type="radio" id="16.76.4" name="16.76" value="4" onchange="updateSelectedOption('16.76', '16.76.4', '4')"></td>
+				<td name="val16.76">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Lipofectamine 2000</td>
+				<td id="td16.77.1" style="background-color: white;"><input type="radio" id="16.77.1" name="16.77" value="1" checked="checked" onchange="updateSelectedOption('16.77', '16.77.1', '1')"></td>
+				<td id="td16.77.2" style="background-color: paleturquoise;"> <input type="radio" id="16.77.2" name="16.77" value="2" onchange="updateSelectedOption('16.77', '16.77.2', '2')"></td> 
+				<td id="td16.77.3" style="background-color: white;"><input type="radio" id="16.77.3" name="16.77" value="3" onchange="updateSelectedOption('16.77', '16.77.3', '3')"></td>	
+                <td id="td16.77.4" style="background-color: white;"><input type="radio" id="16.77.4" name="16.77" value="4" onchange="updateSelectedOption('16.77', '16.77.4', '4')"></td>
+				<td name="val16.77">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>PGE2</td>
+				<td id="td16.78.1" style="background-color: white;"><input type="radio" id="16.78.1" name="16.78" value="1" checked="checked" onchange="updateSelectedOption('16.78', '16.78.1', '1')"></td>
+				<td id="td16.78.2" style="background-color: white;"> <input type="radio" id="16.78.2" name="16.78" value="2" onchange="updateSelectedOption('16.78', '16.78.2', '2')"></td> 
+				<td id="td16.78.3" style="background-color: white;"><input type="radio" id="16.78.3" name="16.78" value="3" onchange="updateSelectedOption('16.78', '16.78.3', '3')"></td>	
+                <td id="td16.78.4" style="background-color: paleturquoise;"><input type="radio" id="16.78.4" name="16.78" value="4" onchange="updateSelectedOption('16.78', '16.78.4', '4')"></td>
+				<td name="val16.78">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>QIAamp DNA Mini kit</td>
+				<td id="td16.79.1" style="background-color: white;"><input type="radio" id="16.79.1" name="16.79" value="1" checked="checked" onchange="updateSelectedOption('16.79', '16.79.1', '1')"></td>
+				<td id="td16.79.2" style="background-color: paleturquoise;"> <input type="radio" id="16.79.2" name="16.79" value="2" onchange="updateSelectedOption('16.79', '16.79.2', '2')"></td> 
+				<td id="td16.79.3" style="background-color: white;"><input type="radio" id="16.79.3" name="16.79" value="3" onchange="updateSelectedOption('16.79', '16.79.3', '3')"></td>	
+                <td id="td16.79.4" style="background-color: white;"><input type="radio" id="16.79.4" name="16.79" value="4" onchange="updateSelectedOption('16.79', '16.79.4', '4')"></td>
+				<td name="val16.79">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>DiMmer package</td>
+				<td id="td16.80.1" style="background-color: white;"><input type="radio" id="16.80.1" name="16.80" value="1" checked="checked" onchange="updateSelectedOption('16.80', '16.80.1', '1')"></td>
+				<td id="td16.80.2" style="background-color: white;"> <input type="radio" id="16.80.2" name="16.80" value="2" onchange="updateSelectedOption('16.80', '16.80.2', '2')"></td> 
+				<td id="td16.80.3" style="background-color: white;"><input type="radio" id="16.80.3" name="16.80" value="3" onchange="updateSelectedOption('16.80', '16.80.3', '3')"></td>	
+                <td id="td16.80.4" style="background-color: paleturquoise;"><input type="radio" id="16.80.4" name="16.80" value="4" onchange="updateSelectedOption('16.80', '16.80.4', '4')"></td>
+				<td name="val16.80">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Gene Set Analysis Toolkit</td>
+				<td id="td16.81.1" style="background-color: white;"><input type="radio" id="16.81.1" name="16.81" value="1" checked="checked" onchange="updateSelectedOption('16.81', '16.81.1', '1')"></td>
+				<td id="td16.81.2" style="background-color: white;"> <input type="radio" id="16.81.2" name="16.81" value="2" onchange="updateSelectedOption('16.81', '16.81.2', '2')"></td> 
+				<td id="td16.81.3" style="background-color: white;"><input type="radio" id="16.81.3" name="16.81" value="3" onchange="updateSelectedOption('16.81', '16.81.3', '3')"></td>	
+                <td id="td16.81.4" style="background-color: paleturquoise;"><input type="radio" id="16.81.4" name="16.81" value="4" onchange="updateSelectedOption('16.81', '16.81.4', '4')"></td>
+				<td name="val16.81">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Annexin V and 7-amino-actinomycin</td>
+				<td id="td16.82.1" style="background-color: white;"><input type="radio" id="16.82.1" name="16.82" value="1" checked="checked" onchange="updateSelectedOption('16.82', '16.82.1', '1')"></td>
+				<td id="td16.82.2" style="background-color: paleturquoise;"> <input type="radio" id="16.82.2" name="16.82" value="2" onchange="updateSelectedOption('16.82', '16.82.2', '2')"></td> 
+				<td id="td16.82.3" style="background-color: white;"><input type="radio" id="16.82.3" name="16.82" value="3" onchange="updateSelectedOption('16.82', '16.82.3', '3')"></td>	
+                <td id="td16.82.4" style="background-color: white;"><input type="radio" id="16.82.4" name="16.82" value="4" onchange="updateSelectedOption('16.82', '16.82.4', '4')"></td>
+				<td name="val16.82">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>7-AAD</td>
+				<td id="td16.83.1" style="background-color: white;"><input type="radio" id="16.83.1" name="16.83" value="1" checked="checked" onchange="updateSelectedOption('16.83', '16.83.1', '1')"></td>
+				<td id="td16.83.2" style="background-color: white;"> <input type="radio" id="16.83.2" name="16.83" value="2" onchange="updateSelectedOption('16.83', '16.83.2', '2')"></td> 
+				<td id="td16.83.3" style="background-color: white;"><input type="radio" id="16.83.3" name="16.83" value="3" onchange="updateSelectedOption('16.83', '16.83.3', '3')"></td>	
+                <td id="td16.83.4" style="background-color: paleturquoise;"><input type="radio" id="16.83.4" name="16.83" value="4" onchange="updateSelectedOption('16.83', '16.83.4', '4')"></td>
+				<td name="val16.83">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>96-well plate</td>
+				<td id="td16.84.1" style="background-color: white;"><input type="radio" id="16.84.1" name="16.84" value="1" checked="checked" onchange="updateSelectedOption('16.84', '16.84.1', '1')"></td>
+				<td id="td16.84.2" style="background-color: paleturquoise;"> <input type="radio" id="16.84.2" name="16.84" value="2" onchange="updateSelectedOption('16.84', '16.84.2', '2')"></td> 
+				<td id="td16.84.3" style="background-color: white;"><input type="radio" id="16.84.3" name="16.84" value="3" onchange="updateSelectedOption('16.84', '16.84.3', '3')"></td>	
+                <td id="td16.84.4" style="background-color: white;"><input type="radio" id="16.84.4" name="16.84" value="4" onchange="updateSelectedOption('16.84', '16.84.4', '4')"></td>
+				<td name="val16.84">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>MTT</td>
+				<td id="td16.85.1" style="background-color: white;"><input type="radio" id="16.85.1" name="16.85" value="1" checked="checked" onchange="updateSelectedOption('16.85', '16.85.1', '1')"></td>
+				<td id="td16.85.2" style="background-color: paleturquoise;"> <input type="radio" id="16.85.2" name="16.85" value="2" onchange="updateSelectedOption('16.85', '16.85.2', '2')"></td> 
+				<td id="td16.85.3" style="background-color: white;"><input type="radio" id="16.85.3" name="16.85" value="3" onchange="updateSelectedOption('16.85', '16.85.3', '3')"></td>	
+                <td id="td16.85.4" style="background-color: white;"><input type="radio" id="16.85.4" name="16.85" value="4" onchange="updateSelectedOption('16.85', '16.85.4', '4')"></td>
+				<td name="val16.85">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>EZ DNA MethylationTM Kit</td>
+				<td id="td16.86.1" style="background-color: white;"><input type="radio" id="16.86.1" name="16.86" value="1" checked="checked" onchange="updateSelectedOption('16.86', '16.86.1', '1')"></td>
+				<td id="td16.86.2" style="background-color: paleturquoise;"> <input type="radio" id="16.86.2" name="16.86" value="2" onchange="updateSelectedOption('16.86', '16.86.2', '2')"></td> 
+				<td id="td16.86.3" style="background-color: white;"><input type="radio" id="16.86.3" name="16.86" value="3" onchange="updateSelectedOption('16.86', '16.86.3', '3')"></td>	
+                <td id="td16.86.4" style="background-color: white;"><input type="radio" id="16.86.4" name="16.86" value="4" onchange="updateSelectedOption('16.86', '16.86.4', '4')"></td>
+				<td name="val16.86">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>MethPrimer</td>
+				<td id="td16.87.1" style="background-color: white;"><input type="radio" id="16.87.1" name="16.87" value="1" checked="checked" onchange="updateSelectedOption('16.87', '16.87.1', '1')"></td>
+				<td id="td16.87.2" style="background-color: paleturquoise;"> <input type="radio" id="16.87.2" name="16.87" value="2" onchange="updateSelectedOption('16.87', '16.87.2', '2')"></td> 
+				<td id="td16.87.3" style="background-color: white;"><input type="radio" id="16.87.3" name="16.87" value="3" onchange="updateSelectedOption('16.87', '16.87.3', '3')"></td>	
+                <td id="td16.87.4" style="background-color: white;"><input type="radio" id="16.87.4" name="16.87" value="4" onchange="updateSelectedOption('16.87', '16.87.4', '4')"></td>
+				<td name="val16.87">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Chromas software</td>
+				<td id="td16.88.1" style="background-color: white;"><input type="radio" id="16.88.1" name="16.88" value="1" checked="checked" onchange="updateSelectedOption('16.88', '16.88.1', '1')"></td>
+				<td id="td16.88.2" style="background-color: paleturquoise;"> <input type="radio" id="16.88.2" name="16.88" value="2" onchange="updateSelectedOption('16.88', '16.88.2', '2')"></td> 
+				<td id="td16.88.3" style="background-color: white;"><input type="radio" id="16.88.3" name="16.88" value="3" onchange="updateSelectedOption('16.88', '16.88.3', '3')"></td>	
+                <td id="td16.88.4" style="background-color: white;"><input type="radio" id="16.88.4" name="16.88" value="4" onchange="updateSelectedOption('16.88', '16.88.4', '4')"></td>
+				<td name="val16.88">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Direct-zolTM RNA MiniPrep kit</td>
+				<td id="td16.89.1" style="background-color: white;"><input type="radio" id="16.89.1" name="16.89" value="1" checked="checked" onchange="updateSelectedOption('16.89', '16.89.1', '1')"></td>
+				<td id="td16.89.2" style="background-color: paleturquoise;"> <input type="radio" id="16.89.2" name="16.89" value="2" onchange="updateSelectedOption('16.89', '16.89.2', '2')"></td> 
+				<td id="td16.89.3" style="background-color: white;"><input type="radio" id="16.89.3" name="16.89" value="3" onchange="updateSelectedOption('16.89', '16.89.3', '3')"></td>	
+                <td id="td16.89.4" style="background-color: white;"><input type="radio" id="16.89.4" name="16.89" value="4" onchange="updateSelectedOption('16.89', '16.89.4', '4')"></td>
+				<td name="val16.89">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>High-Capacity cDNA Reverse Transcription Kit</td>
+				<td id="td16.90.1" style="background-color: white;"><input type="radio" id="16.90.1" name="16.90" value="1" checked="checked" onchange="updateSelectedOption('16.90', '16.90.1', '1')"></td>
+				<td id="td16.90.2" style="background-color: paleturquoise;"> <input type="radio" id="16.90.2" name="16.90" value="2" onchange="updateSelectedOption('16.90', '16.90.2', '2')"></td> 
+				<td id="td16.90.3" style="background-color: white;"><input type="radio" id="16.90.3" name="16.90" value="3" onchange="updateSelectedOption('16.90', '16.90.3', '3')"></td>	
+                <td id="td16.90.4" style="background-color: white;"><input type="radio" id="16.90.4" name="16.90" value="4" onchange="updateSelectedOption('16.90', '16.90.4', '4')"></td>
+				<td name="val16.90">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Roche LightCycler 480 system</td>
+				<td id="td16.91.1" style="background-color: white;"><input type="radio" id="16.91.1" name="16.91" value="1" checked="checked" onchange="updateSelectedOption('16.91', '16.91.1', '1')"></td>
+				<td id="td16.91.2" style="background-color: paleturquoise;"> <input type="radio" id="16.91.2" name="16.91" value="2" onchange="updateSelectedOption('16.91', '16.91.2', '2')"></td> 
+				<td id="td16.91.3" style="background-color: white;"><input type="radio" id="16.91.3" name="16.91" value="3" onchange="updateSelectedOption('16.91', '16.91.3', '3')"></td>	
+                <td id="td16.91.4" style="background-color: white;"><input type="radio" id="16.91.4" name="16.91" value="4" onchange="updateSelectedOption('16.91', '16.91.4', '4')"></td>
+				<td name="val16.91">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Primer</td>
+				<td id="td16.92.1" style="background-color: white;"><input type="radio" id="16.92.1" name="16.92" value="1" checked="checked" onchange="updateSelectedOption('16.92', '16.92.1', '1')"></td>
+				<td id="td16.92.2" style="background-color: paleturquoise;"> <input type="radio" id="16.92.2" name="16.92" value="2" onchange="updateSelectedOption('16.92', '16.92.2', '2')"></td> 
+				<td id="td16.92.3" style="background-color: white;"><input type="radio" id="16.92.3" name="16.92" value="3" onchange="updateSelectedOption('16.92', '16.92.3', '3')"></td>	
+                <td id="td16.92.4" style="background-color: white;"><input type="radio" id="16.92.4" name="16.92" value="4" onchange="updateSelectedOption('16.92', '16.92.4', '4')"></td>
+				<td name="val16.92">2</td>					
+			</tr>
+            
+
+		</tbody>		
+	</table>	
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+
+ </body></html>

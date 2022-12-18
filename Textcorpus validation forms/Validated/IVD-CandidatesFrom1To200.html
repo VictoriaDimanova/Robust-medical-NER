@@ -1,0 +1,2146 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none; 
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table {border: none;}
+
+/* button */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+
+</style>
+<script>
+	function generateUpdate(){	
+	var content = document.documentElement.outerHTML;
+	console.log(content)     
+	var link = document.getElementById('link');	
+	link.click();  
+  }
+  
+  function updateSelectedOption(name, id, value){  
+	var options = document.getElementsByName(name);
+	var elem = document.getElementsByName("val" + name)[0];
+	var opt_val;
+	for(var i = 0; i < options.length; i++){
+		if(options[i].checked){
+			var cell = document.getElementById('td'+options[i].id);
+			cell.style.backgroundColor = "PaleTurquoise";			
+			elem.innerHTML = options[i].value;
+		}
+		else{
+			var cell = document.getElementById('td'+options[i].id);
+			cell.style.backgroundColor = "white";			
+		}
+	} 
+ 
+  }
+   
+  
+	
+</script>
+</head>
+<body>
+
+<h2>Begriffe der medizinischen Technologie im Bereich Genexpressionsanalyse validieren</h2>
+
+<p style="color:DodgerBlue;"><b>TESTDATEN 1-200</b></p>
+
+
+<div class="tab" style="position:sticky;top: 0;">		
+	<button onclick="generateUpdate()" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.900em; background:SteelBlue; color:white;"><b>Änderungen speichern</b></button>
+	<a id="link" onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)" <a="" href="#" download="IVD-CandidatesFrom1To200.html" hidden=""></a>  
+</div>  
+  
+	 <table style="width:100%">
+		<colgroup>
+			<col style="width: 30%;" span="1">
+			<col style="width: 10%;" span="1">
+			<col style="width: 10%;" span="1">
+			<col style="width: 10%;" span="1">		
+			<col style="width: 10%;" span="1">	
+			<col style="width: 10%;" span="1">				
+		</colgroup>
+		<tbody>	
+		<tr style="position:sticky;top: 0;background: #eee;">			
+				<th style="position:sticky;top: 0;"><b>Kandidate für IVD-Begriffe</b></th>
+				<th style="position:sticky;top: 0;"><b>IVD-Begriff</b></th>
+				<th style="position:sticky;top: 0;"><b>Kein IVD-Begriff  aber relevant (z.B Methoden, Verfahren)</b></th>
+				<th style="position:sticky;top: 0;"><b>Nicht relevant</b></th>
+				<th style="position:sticky;top: 0;"><b>Keine Ahnung, Kontext notwendig</b></th>	
+				<th style="position:sticky;top: 0;"><b>Ausgewählte Option</b></th>	
+			</tr>	
+		<tr>
+				<td>EVOS XL microscope</td>
+				<td id="td13.1.1" style="background-color: white;"><input type="radio" id="13.1.1" name="13.1" value="1" checked="checked" onchange="updateSelectedOption('13.1', '13.1.1', '1')"></td>
+				<td id="td13.1.2" style="background-color: paleturquoise;"> <input type="radio" id="13.1.2" name="13.1" value="2" onchange="updateSelectedOption('13.1', '13.1.2', '2')"></td> 
+				<td id="td13.1.3" style="background-color: white;"><input type="radio" id="13.1.3" name="13.1" value="3" onchange="updateSelectedOption('13.1', '13.1.3', '3')"></td>	
+                <td id="td13.1.4" style="background-color: white;"><input type="radio" id="13.1.4" name="13.1" value="4" onchange="updateSelectedOption('13.1', '13.1.4', '4')"></td>
+				<td name="val13.1">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>ImageJ software</td>
+				<td id="td13.2.1" style="background-color: white;"><input type="radio" id="13.2.1" name="13.2" value="1" checked="checked" onchange="updateSelectedOption('13.2', '13.2.1', '1')"></td>
+				<td id="td13.2.2" style="background-color: white;"> <input type="radio" id="13.2.2" name="13.2" value="2" onchange="updateSelectedOption('13.2', '13.2.2', '2')"></td> 
+				<td id="td13.2.3" style="background-color: white;"><input type="radio" id="13.2.3" name="13.2" value="3" onchange="updateSelectedOption('13.2', '13.2.3', '3')"></td>	
+                <td id="td13.2.4" style="background-color: paleturquoise;"><input type="radio" id="13.2.4" name="13.2" value="4" onchange="updateSelectedOption('13.2', '13.2.4', '4')"></td>
+				<td name="val13.2">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>AIDA image analyzer 4.26 software</td>
+				<td id="td13.3.1" style="background-color: white;"><input type="radio" id="13.3.1" name="13.3" value="1" checked="checked" onchange="updateSelectedOption('13.3', '13.3.1', '1')"></td>
+				<td id="td13.3.2" style="background-color: white;"> <input type="radio" id="13.3.2" name="13.3" value="2" onchange="updateSelectedOption('13.3', '13.3.2', '2')"></td> 
+				<td id="td13.3.3" style="background-color: white;"><input type="radio" id="13.3.3" name="13.3" value="3" onchange="updateSelectedOption('13.3', '13.3.3', '3')"></td>	
+                <td id="td13.3.4" style="background-color: paleturquoise;"><input type="radio" id="13.3.4" name="13.3" value="4" onchange="updateSelectedOption('13.3', '13.3.4', '4')"></td>
+				<td name="val13.3">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNA II</td>
+				<td id="td13.4.1" style="background-color: white;"><input type="radio" id="13.4.1" name="13.4" value="1" checked="checked" onchange="updateSelectedOption('13.4', '13.4.1', '1')"></td>
+				<td id="td13.4.2" style="background-color: paleturquoise;"> <input type="radio" id="13.4.2" name="13.4" value="2" onchange="updateSelectedOption('13.4', '13.4.2', '2')"></td> 
+				<td id="td13.4.3" style="background-color: white;"><input type="radio" id="13.4.3" name="13.4" value="3" onchange="updateSelectedOption('13.4', '13.4.3', '3')"></td>	
+                <td id="td13.4.4" style="background-color: white;"><input type="radio" id="13.4.4" name="13.4" value="4" onchange="updateSelectedOption('13.4', '13.4.4', '4')"></td>
+				<td name="val13.4">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>QuantiTectSYBRGreen Kit</td>
+				<td id="td13.5.1" style="background-color: white;"><input type="radio" id="13.5.1" name="13.5" value="1" checked="checked" onchange="updateSelectedOption('13.5', '13.5.1', '1')"></td>
+				<td id="td13.5.2" style="background-color: paleturquoise;"> <input type="radio" id="13.5.2" name="13.5" value="2" onchange="updateSelectedOption('13.5', '13.5.2', '2')"></td> 
+				<td id="td13.5.3" style="background-color: white;"><input type="radio" id="13.5.3" name="13.5" value="3" onchange="updateSelectedOption('13.5', '13.5.3', '3')"></td>	
+                <td id="td13.5.4" style="background-color: white;"><input type="radio" id="13.5.4" name="13.5" value="4" onchange="updateSelectedOption('13.5', '13.5.4', '4')"></td>
+				<td name="val13.5">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>StepOnePlusCycler</td>
+				<td id="td13.6.1" style="background-color: white;"><input type="radio" id="13.6.1" name="13.6" value="1" checked="checked" onchange="updateSelectedOption('13.6', '13.6.1', '1')"></td>
+				<td id="td13.6.2" style="background-color: paleturquoise;"> <input type="radio" id="13.6.2" name="13.6" value="2" onchange="updateSelectedOption('13.6', '13.6.2', '2')"></td> 
+				<td id="td13.6.3" style="background-color: white;"><input type="radio" id="13.6.3" name="13.6" value="3" onchange="updateSelectedOption('13.6', '13.6.3', '3')"></td>	
+                <td id="td13.6.4" style="background-color: white;"><input type="radio" id="13.6.4" name="13.6" value="4" onchange="updateSelectedOption('13.6', '13.6.4', '4')"></td>
+				<td name="val13.6">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Primers</td>
+				<td id="td13.7.1" style="background-color: white;"><input type="radio" id="13.7.1" name="13.7" value="1" checked="checked" onchange="updateSelectedOption('13.7', '13.7.1', '1')"></td>
+				<td id="td13.7.2" style="background-color: paleturquoise;"> <input type="radio" id="13.7.2" name="13.7" value="2" onchange="updateSelectedOption('13.7', '13.7.2', '2')"></td> 
+				<td id="td13.7.3" style="background-color: white;"><input type="radio" id="13.7.3" name="13.7" value="3" onchange="updateSelectedOption('13.7', '13.7.3', '3')"></td>	
+                <td id="td13.7.4" style="background-color: white;"><input type="radio" id="13.7.4" name="13.7" value="4" onchange="updateSelectedOption('13.7', '13.7.4', '4')"></td>
+				<td name="val13.7">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Adam10</td>
+				<td id="td13.8.1" style="background-color: white;"><input type="radio" id="13.8.1" name="13.8" value="1" checked="checked" onchange="updateSelectedOption('13.8', '13.8.1', '1')"></td>
+				<td id="td13.8.2" style="background-color: paleturquoise;"> <input type="radio" id="13.8.2" name="13.8" value="2" onchange="updateSelectedOption('13.8', '13.8.2', '2')"></td> 
+				<td id="td13.8.3" style="background-color: white;"><input type="radio" id="13.8.3" name="13.8" value="3" onchange="updateSelectedOption('13.8', '13.8.3', '3')"></td>	
+                <td id="td13.8.4" style="background-color: white;"><input type="radio" id="13.8.4" name="13.8" value="4" onchange="updateSelectedOption('13.8', '13.8.4', '4')"></td>
+				<td name="val13.8">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Bace-1</td>
+				<td id="td13.9.1" style="background-color: white;"><input type="radio" id="13.9.1" name="13.9" value="1" checked="checked" onchange="updateSelectedOption('13.9', '13.9.1', '1')"></td>
+				<td id="td13.9.2" style="background-color: paleturquoise;"> <input type="radio" id="13.9.2" name="13.9" value="2" onchange="updateSelectedOption('13.9', '13.9.2', '2')"></td> 
+				<td id="td13.9.3" style="background-color: white;"><input type="radio" id="13.9.3" name="13.9" value="3" onchange="updateSelectedOption('13.9', '13.9.3', '3')"></td>	
+                <td id="td13.9.4" style="background-color: white;"><input type="radio" id="13.9.4" name="13.9" value="4" onchange="updateSelectedOption('13.9', '13.9.4', '4')"></td>
+				<td name="val13.9">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>murine 18SrRNA</td>
+				<td id="td13.10.1" style="background-color: white;"><input type="radio" id="13.10.1" name="13.10" value="1" checked="checked" onchange="updateSelectedOption('13.10', '13.10.1', '1')"></td>
+				<td id="td13.10.2" style="background-color: paleturquoise;"> <input type="radio" id="13.10.2" name="13.10" value="2" onchange="updateSelectedOption('13.10', '13.10.2', '2')"></td> 
+				<td id="td13.10.3" style="background-color: white;"><input type="radio" id="13.10.3" name="13.10" value="3" onchange="updateSelectedOption('13.10', '13.10.3', '3')"></td>	
+                <td id="td13.10.4" style="background-color: white;"><input type="radio" id="13.10.4" name="13.10" value="4" onchange="updateSelectedOption('13.10', '13.10.4', '4')"></td>
+				<td name="val13.10">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>ADAM10</td>
+				<td id="td13.11.1" style="background-color: white;"><input type="radio" id="13.11.1" name="13.11" value="1" checked="checked" onchange="updateSelectedOption('13.11', '13.11.1', '1')"></td>
+				<td id="td13.11.2" style="background-color: paleturquoise;"> <input type="radio" id="13.11.2" name="13.11" value="2" onchange="updateSelectedOption('13.11', '13.11.2', '2')"></td> 
+				<td id="td13.11.3" style="background-color: white;"><input type="radio" id="13.11.3" name="13.11" value="3" onchange="updateSelectedOption('13.11', '13.11.3', '3')"></td>	
+                <td id="td13.11.4" style="background-color: white;"><input type="radio" id="13.11.4" name="13.11" value="4" onchange="updateSelectedOption('13.11', '13.11.4', '4')"></td>
+				<td name="val13.11">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>PGK-1</td>
+				<td id="td13.12.1" style="background-color: white;"><input type="radio" id="13.12.1" name="13.12" value="1" checked="checked" onchange="updateSelectedOption('13.12', '13.12.1', '1')"></td>
+				<td id="td13.12.2" style="background-color: paleturquoise;"> <input type="radio" id="13.12.2" name="13.12" value="2" onchange="updateSelectedOption('13.12', '13.12.2', '2')"></td> 
+				<td id="td13.12.3" style="background-color: white;"><input type="radio" id="13.12.3" name="13.12" value="3" onchange="updateSelectedOption('13.12', '13.12.3', '3')"></td>	
+                <td id="td13.12.4" style="background-color: white;"><input type="radio" id="13.12.4" name="13.12" value="4" onchange="updateSelectedOption('13.12', '13.12.4', '4')"></td>
+				<td name="val13.12">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RiboPure Blood Kit</td>
+				<td id="td13.13.1" style="background-color: white;"><input type="radio" id="13.13.1" name="13.13" value="1" checked="checked" onchange="updateSelectedOption('13.13', '13.13.1', '1')"></td>
+				<td id="td13.13.2" style="background-color: paleturquoise;"> <input type="radio" id="13.13.2" name="13.13" value="2" onchange="updateSelectedOption('13.13', '13.13.2', '2')"></td> 
+				<td id="td13.13.3" style="background-color: white;"><input type="radio" id="13.13.3" name="13.13" value="3" onchange="updateSelectedOption('13.13', '13.13.3', '3')"></td>	
+                <td id="td13.13.4" style="background-color: white;"><input type="radio" id="13.13.4" name="13.13" value="4" onchange="updateSelectedOption('13.13', '13.13.4', '4')"></td>
+				<td name="val13.13">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-APP antibody 6E10</td>
+				<td id="td13.14.1" style="background-color: white;"><input type="radio" id="13.14.1" name="13.14" value="1" checked="checked" onchange="updateSelectedOption('13.14', '13.14.1', '1')"></td>
+				<td id="td13.14.2" style="background-color: paleturquoise;"> <input type="radio" id="13.14.2" name="13.14" value="2" onchange="updateSelectedOption('13.14', '13.14.2', '2')"></td> 
+				<td id="td13.14.3" style="background-color: white;"><input type="radio" id="13.14.3" name="13.14" value="3" onchange="updateSelectedOption('13.14', '13.14.3', '3')"></td>	
+                <td id="td13.14.4" style="background-color: white;"><input type="radio" id="13.14.4" name="13.14" value="4" onchange="updateSelectedOption('13.14', '13.14.4', '4')"></td>
+				<td name="val13.14">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>substrate solution</td>
+				<td id="td13.15.1" style="background-color: white;"><input type="radio" id="13.15.1" name="13.15" value="1" checked="checked" onchange="updateSelectedOption('13.15', '13.15.1', '1')"></td>
+				<td id="td13.15.2" style="background-color: white;"> <input type="radio" id="13.15.2" name="13.15" value="2" onchange="updateSelectedOption('13.15', '13.15.2', '2')"></td> 
+				<td id="td13.15.3" style="background-color: paleturquoise;"><input type="radio" id="13.15.3" name="13.15" value="3" onchange="updateSelectedOption('13.15', '13.15.3', '3')"></td>	
+                <td id="td13.15.4" style="background-color: white;"><input type="radio" id="13.15.4" name="13.15" value="4" onchange="updateSelectedOption('13.15', '13.15.4', '4')"></td>
+				<td name="val13.15">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>FluoStarOmega</td>
+				<td id="td13.16.1" style="background-color: white;"><input type="radio" id="13.16.1" name="13.16" value="1" checked="checked" onchange="updateSelectedOption('13.16', '13.16.1', '1')"></td>
+				<td id="td13.16.2" style="background-color: paleturquoise;"> <input type="radio" id="13.16.2" name="13.16" value="2" onchange="updateSelectedOption('13.16', '13.16.2', '2')"></td> 
+				<td id="td13.16.3" style="background-color: white;"><input type="radio" id="13.16.3" name="13.16" value="3" onchange="updateSelectedOption('13.16', '13.16.3', '3')"></td>	
+                <td id="td13.16.4" style="background-color: white;"><input type="radio" id="13.16.4" name="13.16" value="4" onchange="updateSelectedOption('13.16', '13.16.4', '4')"></td>
+				<td name="val13.16">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>DMSO</td>
+				<td id="td13.17.1" style="background-color: white;"><input type="radio" id="13.17.1" name="13.17" value="1" checked="checked" onchange="updateSelectedOption('13.17', '13.17.1', '1')"></td>
+				<td id="td13.17.2" style="background-color: paleturquoise;"> <input type="radio" id="13.17.2" name="13.17" value="2" onchange="updateSelectedOption('13.17', '13.17.2', '2')"></td> 
+				<td id="td13.17.3" style="background-color: white;"><input type="radio" id="13.17.3" name="13.17" value="3" onchange="updateSelectedOption('13.17', '13.17.3', '3')"></td>	
+                <td id="td13.17.4" style="background-color: white;"><input type="radio" id="13.17.4" name="13.17" value="4" onchange="updateSelectedOption('13.17', '13.17.4', '4')"></td>
+				<td name="val13.17">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>GM6001</td>
+				<td id="td13.18.1" style="background-color: white;"><input type="radio" id="13.18.1" name="13.18" value="1" checked="checked" onchange="updateSelectedOption('13.18', '13.18.1', '1')"></td>
+				<td id="td13.18.2" style="background-color: white;"> <input type="radio" id="13.18.2" name="13.18" value="2" onchange="updateSelectedOption('13.18', '13.18.2', '2')"></td> 
+				<td id="td13.18.3" style="background-color: white;"><input type="radio" id="13.18.3" name="13.18" value="3" onchange="updateSelectedOption('13.18', '13.18.3', '3')"></td>	
+                <td id="td13.18.4" style="background-color: paleturquoise;"><input type="radio" id="13.18.4" name="13.18" value="4" onchange="updateSelectedOption('13.18', '13.18.4', '4')"></td>
+				<td name="val13.18">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>A-beta ELISA</td>
+				<td id="td13.19.1" style="background-color: white;"><input type="radio" id="13.19.1" name="13.19" value="1" checked="checked" onchange="updateSelectedOption('13.19', '13.19.1', '1')"></td>
+				<td id="td13.19.2" style="background-color: paleturquoise;"> <input type="radio" id="13.19.2" name="13.19" value="2" onchange="updateSelectedOption('13.19', '13.19.2', '2')"></td> 
+				<td id="td13.19.3" style="background-color: white;"><input type="radio" id="13.19.3" name="13.19" value="3" onchange="updateSelectedOption('13.19', '13.19.3', '3')"></td>	
+                <td id="td13.19.4" style="background-color: white;"><input type="radio" id="13.19.4" name="13.19" value="4" onchange="updateSelectedOption('13.19', '13.19.4', '4')"></td>
+				<td name="val13.19">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>protease inhibitors</td>
+				<td id="td13.20.1" style="background-color: white;"><input type="radio" id="13.20.1" name="13.20" value="1" checked="checked" onchange="updateSelectedOption('13.20', '13.20.1', '1')"></td>
+				<td id="td13.20.2" style="background-color: paleturquoise;"> <input type="radio" id="13.20.2" name="13.20" value="2" onchange="updateSelectedOption('13.20', '13.20.2', '2')"></td> 
+				<td id="td13.20.3" style="background-color: white;"><input type="radio" id="13.20.3" name="13.20" value="3" onchange="updateSelectedOption('13.20', '13.20.3', '3')"></td>	
+                <td id="td13.20.4" style="background-color: white;"><input type="radio" id="13.20.4" name="13.20" value="4" onchange="updateSelectedOption('13.20', '13.20.4', '4')"></td>
+				<td name="val13.20">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>assay buffer</td>
+				<td id="td13.21.1" style="background-color: white;"><input type="radio" id="13.21.1" name="13.21" value="1" checked="checked" onchange="updateSelectedOption('13.21', '13.21.1', '1')"></td>
+				<td id="td13.21.2" style="background-color: white;"> <input type="radio" id="13.21.2" name="13.21" value="2" onchange="updateSelectedOption('13.21', '13.21.2', '2')"></td> 
+				<td id="td13.21.3" style="background-color: paleturquoise;"><input type="radio" id="13.21.3" name="13.21" value="3" onchange="updateSelectedOption('13.21', '13.21.3', '3')"></td>	
+                <td id="td13.21.4" style="background-color: white;"><input type="radio" id="13.21.4" name="13.21" value="4" onchange="updateSelectedOption('13.21', '13.21.4', '4')"></td>
+				<td name="val13.21">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>384 well plates</td>
+				<td id="td13.22.1" style="background-color: white;"><input type="radio" id="13.22.1" name="13.22" value="1" checked="checked" onchange="updateSelectedOption('13.22', '13.22.1', '1')"></td>
+				<td id="td13.22.2" style="background-color: paleturquoise;"> <input type="radio" id="13.22.2" name="13.22" value="2" onchange="updateSelectedOption('13.22', '13.22.2', '2')"></td> 
+				<td id="td13.22.3" style="background-color: white;"><input type="radio" id="13.22.3" name="13.22" value="3" onchange="updateSelectedOption('13.22', '13.22.3', '3')"></td>	
+                <td id="td13.22.4" style="background-color: white;"><input type="radio" id="13.22.4" name="13.22" value="4" onchange="updateSelectedOption('13.22', '13.22.4', '4')"></td>
+				<td name="val13.22">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>GM6001 solution</td>
+				<td id="td13.23.1" style="background-color: white;"><input type="radio" id="13.23.1" name="13.23" value="1" checked="checked" onchange="updateSelectedOption('13.23', '13.23.1', '1')"></td>
+				<td id="td13.23.2" style="background-color: white;"> <input type="radio" id="13.23.2" name="13.23" value="2" onchange="updateSelectedOption('13.23', '13.23.2', '2')"></td> 
+				<td id="td13.23.3" style="background-color: white;"><input type="radio" id="13.23.3" name="13.23" value="3" onchange="updateSelectedOption('13.23', '13.23.3', '3')"></td>	
+                <td id="td13.23.4" style="background-color: paleturquoise;"><input type="radio" id="13.23.4" name="13.23" value="4" onchange="updateSelectedOption('13.23', '13.23.4', '4')"></td>
+				<td name="val13.23">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>solvent</td>
+				<td id="td13.24.1" style="background-color: white;"><input type="radio" id="13.24.1" name="13.24" value="1" checked="checked" onchange="updateSelectedOption('13.24', '13.24.1', '1')"></td>
+				<td id="td13.24.2" style="background-color: white;"> <input type="radio" id="13.24.2" name="13.24" value="2" onchange="updateSelectedOption('13.24', '13.24.2', '2')"></td> 
+				<td id="td13.24.3" style="background-color: paleturquoise;"><input type="radio" id="13.24.3" name="13.24" value="3" onchange="updateSelectedOption('13.24', '13.24.3', '3')"></td>	
+                <td id="td13.24.4" style="background-color: white;"><input type="radio" id="13.24.4" name="13.24" value="4" onchange="updateSelectedOption('13.24', '13.24.4', '4')"></td>
+				<td name="val13.24">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>24 well plates</td>
+				<td id="td13.25.1" style="background-color: white;"><input type="radio" id="13.25.1" name="13.25" value="1" checked="checked" onchange="updateSelectedOption('13.25', '13.25.1', '1')"></td>
+				<td id="td13.25.2" style="background-color: paleturquoise;"> <input type="radio" id="13.25.2" name="13.25" value="2" onchange="updateSelectedOption('13.25', '13.25.2', '2')"></td> 
+				<td id="td13.25.3" style="background-color: white;"><input type="radio" id="13.25.3" name="13.25" value="3" onchange="updateSelectedOption('13.25', '13.25.3', '3')"></td>	
+                <td id="td13.25.4" style="background-color: white;"><input type="radio" id="13.25.4" name="13.25" value="4" onchange="updateSelectedOption('13.25', '13.25.4', '4')"></td>
+				<td name="val13.25">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>well</td>
+				<td id="td13.26.1" style="background-color: white;"><input type="radio" id="13.26.1" name="13.26" value="1" checked="checked" onchange="updateSelectedOption('13.26', '13.26.1', '1')"></td>
+				<td id="td13.26.2" style="background-color: white;"> <input type="radio" id="13.26.2" name="13.26" value="2" onchange="updateSelectedOption('13.26', '13.26.2', '2')"></td> 
+				<td id="td13.26.3" style="background-color: paleturquoise;"><input type="radio" id="13.26.3" name="13.26" value="3" onchange="updateSelectedOption('13.26', '13.26.3', '3')"></td>	
+                <td id="td13.26.4" style="background-color: white;"><input type="radio" id="13.26.4" name="13.26" value="4" onchange="updateSelectedOption('13.26', '13.26.4', '4')"></td>
+				<td name="val13.26">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>medium</td>
+				<td id="td13.27.1" style="background-color: white;"><input type="radio" id="13.27.1" name="13.27" value="1" checked="checked" onchange="updateSelectedOption('13.27', '13.27.1', '1')"></td>
+				<td id="td13.27.2" style="background-color: white;"> <input type="radio" id="13.27.2" name="13.27" value="2" onchange="updateSelectedOption('13.27', '13.27.2', '2')"></td> 
+				<td id="td13.27.3" style="background-color: paleturquoise;"><input type="radio" id="13.27.3" name="13.27" value="3" onchange="updateSelectedOption('13.27', '13.27.3', '3')"></td>	
+                <td id="td13.27.4" style="background-color: white;"><input type="radio" id="13.27.4" name="13.27" value="4" onchange="updateSelectedOption('13.27', '13.27.4', '4')"></td>
+				<td name="val13.27">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>extraction buffer</td>
+				<td id="td13.28.1" style="background-color: white;"><input type="radio" id="13.28.1" name="13.28" value="1" checked="checked" onchange="updateSelectedOption('13.28', '13.28.1', '1')"></td>
+				<td id="td13.28.2" style="background-color: paleturquoise;"> <input type="radio" id="13.28.2" name="13.28" value="2" onchange="updateSelectedOption('13.28', '13.28.2', '2')"></td> 
+				<td id="td13.28.3" style="background-color: white;"><input type="radio" id="13.28.3" name="13.28" value="3" onchange="updateSelectedOption('13.28', '13.28.3', '3')"></td>	
+                <td id="td13.28.4" style="background-color: white;"><input type="radio" id="13.28.4" name="13.28" value="4" onchange="updateSelectedOption('13.28', '13.28.4', '4')"></td>
+				<td name="val13.28">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>TritonX100</td>
+				<td id="td13.29.1" style="background-color: white;"><input type="radio" id="13.29.1" name="13.29" value="1" checked="checked" onchange="updateSelectedOption('13.29', '13.29.1', '1')"></td>
+				<td id="td13.29.2" style="background-color: paleturquoise;"> <input type="radio" id="13.29.2" name="13.29" value="2" onchange="updateSelectedOption('13.29', '13.29.2', '2')"></td> 
+				<td id="td13.29.3" style="background-color: white;"><input type="radio" id="13.29.3" name="13.29" value="3" onchange="updateSelectedOption('13.29', '13.29.3', '3')"></td>	
+                <td id="td13.29.4" style="background-color: white;"><input type="radio" id="13.29.4" name="13.29" value="4" onchange="updateSelectedOption('13.29', '13.29.4', '4')"></td>
+				<td name="val13.29">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Tris HCl</td>
+				<td id="td13.30.1" style="background-color: white;"><input type="radio" id="13.30.1" name="13.30" value="1" checked="checked" onchange="updateSelectedOption('13.30', '13.30.1', '1')"></td>
+				<td id="td13.30.2" style="background-color: paleturquoise;"> <input type="radio" id="13.30.2" name="13.30" value="2" onchange="updateSelectedOption('13.30', '13.30.2', '2')"></td> 
+				<td id="td13.30.3" style="background-color: white;"><input type="radio" id="13.30.3" name="13.30" value="3" onchange="updateSelectedOption('13.30', '13.30.3', '3')"></td>	
+                <td id="td13.30.4" style="background-color: white;"><input type="radio" id="13.30.4" name="13.30" value="4" onchange="updateSelectedOption('13.30', '13.30.4', '4')"></td>
+				<td name="val13.30">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>EDTA</td>
+				<td id="td13.31.1" style="background-color: white;"><input type="radio" id="13.31.1" name="13.31" value="1" checked="checked" onchange="updateSelectedOption('13.31', '13.31.1', '1')"></td>
+				<td id="td13.31.2" style="background-color: paleturquoise;"> <input type="radio" id="13.31.2" name="13.31" value="2" onchange="updateSelectedOption('13.31', '13.31.2', '2')"></td> 
+				<td id="td13.31.3" style="background-color: white;"><input type="radio" id="13.31.3" name="13.31" value="3" onchange="updateSelectedOption('13.31', '13.31.3', '3')"></td>	
+                <td id="td13.31.4" style="background-color: white;"><input type="radio" id="13.31.4" name="13.31" value="4" onchange="updateSelectedOption('13.31', '13.31.4', '4')"></td>
+				<td name="val13.31">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Protease-Inhibitor</td>
+				<td id="td13.32.1" style="background-color: white;"><input type="radio" id="13.32.1" name="13.32" value="1" checked="checked" onchange="updateSelectedOption('13.32', '13.32.1', '1')"></td>
+				<td id="td13.32.2" style="background-color: paleturquoise;"> <input type="radio" id="13.32.2" name="13.32" value="2" onchange="updateSelectedOption('13.32', '13.32.2', '2')"></td> 
+				<td id="td13.32.3" style="background-color: white;"><input type="radio" id="13.32.3" name="13.32" value="3" onchange="updateSelectedOption('13.32', '13.32.3', '3')"></td>	
+                <td id="td13.32.4" style="background-color: white;"><input type="radio" id="13.32.4" name="13.32" value="4" onchange="updateSelectedOption('13.32', '13.32.4', '4')"></td>
+				<td name="val13.32">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>tissue mill</td>
+				<td id="td13.33.1" style="background-color: white;"><input type="radio" id="13.33.1" name="13.33" value="1" checked="checked" onchange="updateSelectedOption('13.33', '13.33.1', '1')"></td>
+				<td id="td13.33.2" style="background-color: paleturquoise;"> <input type="radio" id="13.33.2" name="13.33" value="2" onchange="updateSelectedOption('13.33', '13.33.2', '2')"></td> 
+				<td id="td13.33.3" style="background-color: white;"><input type="radio" id="13.33.3" name="13.33" value="3" onchange="updateSelectedOption('13.33', '13.33.3', '3')"></td>	
+                <td id="td13.33.4" style="background-color: white;"><input type="radio" id="13.33.4" name="13.33" value="4" onchange="updateSelectedOption('13.33', '13.33.4', '4')"></td>
+				<td name="val13.33">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>stainless steel beads</td>
+				<td id="td13.34.1" style="background-color: white;"><input type="radio" id="13.34.1" name="13.34" value="1" checked="checked" onchange="updateSelectedOption('13.34', '13.34.1', '1')"></td>
+				<td id="td13.34.2" style="background-color: paleturquoise;"> <input type="radio" id="13.34.2" name="13.34" value="2" onchange="updateSelectedOption('13.34', '13.34.2', '2')"></td> 
+				<td id="td13.34.3" style="background-color: white;"><input type="radio" id="13.34.3" name="13.34" value="3" onchange="updateSelectedOption('13.34', '13.34.3', '3')"></td>	
+                <td id="td13.34.4" style="background-color: white;"><input type="radio" id="13.34.4" name="13.34" value="4" onchange="updateSelectedOption('13.34', '13.34.4', '4')"></td>
+				<td name="val13.34">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>supernatant</td>
+				<td id="td13.35.1" style="background-color: white;"><input type="radio" id="13.35.1" name="13.35" value="1" checked="checked" onchange="updateSelectedOption('13.35', '13.35.1', '1')"></td>
+				<td id="td13.35.2" style="background-color: white;"> <input type="radio" id="13.35.2" name="13.35" value="2" onchange="updateSelectedOption('13.35', '13.35.2', '2')"></td> 
+				<td id="td13.35.3" style="background-color: paleturquoise;"><input type="radio" id="13.35.3" name="13.35" value="3" onchange="updateSelectedOption('13.35', '13.35.3', '3')"></td>	
+                <td id="td13.35.4" style="background-color: white;"><input type="radio" id="13.35.4" name="13.35" value="4" onchange="updateSelectedOption('13.35', '13.35.4', '4')"></td>
+				<td name="val13.35">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>ELISA kit</td>
+				<td id="td13.36.1" style="background-color: white;"><input type="radio" id="13.36.1" name="13.36" value="1" checked="checked" onchange="updateSelectedOption('13.36', '13.36.1', '1')"></td>
+				<td id="td13.36.2" style="background-color: paleturquoise;"> <input type="radio" id="13.36.2" name="13.36" value="2" onchange="updateSelectedOption('13.36', '13.36.2', '2')"></td> 
+				<td id="td13.36.3" style="background-color: white;"><input type="radio" id="13.36.3" name="13.36" value="3" onchange="updateSelectedOption('13.36', '13.36.3', '3')"></td>	
+                <td id="td13.36.4" style="background-color: white;"><input type="radio" id="13.36.4" name="13.36" value="4" onchange="updateSelectedOption('13.36', '13.36.4', '4')"></td>
+				<td name="val13.36">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>diluent buffer</td>
+				<td id="td13.37.1" style="background-color: white;"><input type="radio" id="13.37.1" name="13.37" value="1" checked="checked" onchange="updateSelectedOption('13.37', '13.37.1', '1')"></td>
+				<td id="td13.37.2" style="background-color: paleturquoise;"> <input type="radio" id="13.37.2" name="13.37" value="2" onchange="updateSelectedOption('13.37', '13.37.2', '2')"></td> 
+				<td id="td13.37.3" style="background-color: white;"><input type="radio" id="13.37.3" name="13.37" value="3" onchange="updateSelectedOption('13.37', '13.37.3', '3')"></td>	
+                <td id="td13.37.4" style="background-color: white;"><input type="radio" id="13.37.4" name="13.37" value="4" onchange="updateSelectedOption('13.37', '13.37.4', '4')"></td>
+				<td name="val13.37">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>cell supernatant</td>
+				<td id="td13.38.1" style="background-color: white;"><input type="radio" id="13.38.1" name="13.38" value="1" checked="checked" onchange="updateSelectedOption('13.38', '13.38.1', '1')"></td>
+				<td id="td13.38.2" style="background-color: paleturquoise;"> <input type="radio" id="13.38.2" name="13.38" value="2" onchange="updateSelectedOption('13.38', '13.38.2', '2')"></td> 
+				<td id="td13.38.3" style="background-color: white;"><input type="radio" id="13.38.3" name="13.38" value="3" onchange="updateSelectedOption('13.38', '13.38.3', '3')"></td>	
+                <td id="td13.38.4" style="background-color: white;"><input type="radio" id="13.38.4" name="13.38" value="4" onchange="updateSelectedOption('13.38', '13.38.4', '4')"></td>
+				<td name="val13.38">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>human A-beta 1-x ELISA</td>
+				<td id="td13.39.1" style="background-color: white;"><input type="radio" id="13.39.1" name="13.39" value="1" checked="checked" onchange="updateSelectedOption('13.39', '13.39.1', '1')"></td>
+				<td id="td13.39.2" style="background-color: paleturquoise;"> <input type="radio" id="13.39.2" name="13.39" value="2" onchange="updateSelectedOption('13.39', '13.39.2', '2')"></td> 
+				<td id="td13.39.3" style="background-color: white;"><input type="radio" id="13.39.3" name="13.39" value="3" onchange="updateSelectedOption('13.39', '13.39.3', '3')"></td>	
+                <td id="td13.39.4" style="background-color: white;"><input type="radio" id="13.39.4" name="13.39" value="4" onchange="updateSelectedOption('13.39', '13.39.4', '4')"></td>
+				<td name="val13.39">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>12 well plates</td>
+				<td id="td13.40.1" style="background-color: white;"><input type="radio" id="13.40.1" name="13.40" value="1" checked="checked" onchange="updateSelectedOption('13.40', '13.40.1', '1')"></td>
+				<td id="td13.40.2" style="background-color: paleturquoise;"> <input type="radio" id="13.40.2" name="13.40" value="2" onchange="updateSelectedOption('13.40', '13.40.2', '2')"></td> 
+				<td id="td13.40.3" style="background-color: white;"><input type="radio" id="13.40.3" name="13.40" value="3" onchange="updateSelectedOption('13.40', '13.40.3', '3')"></td>	
+                <td id="td13.40.4" style="background-color: white;"><input type="radio" id="13.40.4" name="13.40" value="4" onchange="updateSelectedOption('13.40', '13.40.4', '4')"></td>
+				<td name="val13.40">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>fluorogenic zinc quantification kit</td>
+				<td id="td13.41.1" style="background-color: white;"><input type="radio" id="13.41.1" name="13.41" value="1" checked="checked" onchange="updateSelectedOption('13.41', '13.41.1', '1')"></td>
+				<td id="td13.41.2" style="background-color: paleturquoise;"> <input type="radio" id="13.41.2" name="13.41" value="2" onchange="updateSelectedOption('13.41', '13.41.2', '2')"></td> 
+				<td id="td13.41.3" style="background-color: white;"><input type="radio" id="13.41.3" name="13.41" value="3" onchange="updateSelectedOption('13.41', '13.41.3', '3')"></td>	
+                <td id="td13.41.4" style="background-color: white;"><input type="radio" id="13.41.4" name="13.41" value="4" onchange="updateSelectedOption('13.41', '13.41.4', '4')"></td>
+				<td name="val13.41">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>EDTA monovette</td>
+				<td id="td13.42.1" style="background-color: white;"><input type="radio" id="13.42.1" name="13.42" value="1" checked="checked" onchange="updateSelectedOption('13.42', '13.42.1', '1')"></td>
+				<td id="td13.42.2" style="background-color: paleturquoise;"> <input type="radio" id="13.42.2" name="13.42" value="2" onchange="updateSelectedOption('13.42', '13.42.2', '2')"></td> 
+				<td id="td13.42.3" style="background-color: white;"><input type="radio" id="13.42.3" name="13.42" value="3" onchange="updateSelectedOption('13.42', '13.42.3', '3')"></td>	
+                <td id="td13.42.4" style="background-color: white;"><input type="radio" id="13.42.4" name="13.42" value="4" onchange="updateSelectedOption('13.42', '13.42.4', '4')"></td>
+				<td name="val13.42">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNAlater</td>
+				<td id="td13.43.1" style="background-color: white;"><input type="radio" id="13.43.1" name="13.43" value="1" checked="checked" onchange="updateSelectedOption('13.43', '13.43.1', '1')"></td>
+				<td id="td13.43.2" style="background-color: paleturquoise;"> <input type="radio" id="13.43.2" name="13.43" value="2" onchange="updateSelectedOption('13.43', '13.43.2', '2')"></td> 
+				<td id="td13.43.3" style="background-color: white;"><input type="radio" id="13.43.3" name="13.43" value="3" onchange="updateSelectedOption('13.43', '13.43.3', '3')"></td>	
+                <td id="td13.43.4" style="background-color: white;"><input type="radio" id="13.43.4" name="13.43" value="4" onchange="updateSelectedOption('13.43', '13.43.4', '4')"></td>
+				<td name="val13.43">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNA later</td>
+				<td id="td13.44.1" style="background-color: white;"><input type="radio" id="13.44.1" name="13.44" value="1" checked="checked" onchange="updateSelectedOption('13.44', '13.44.1', '1')"></td>
+				<td id="td13.44.2" style="background-color: paleturquoise;"> <input type="radio" id="13.44.2" name="13.44" value="2" onchange="updateSelectedOption('13.44', '13.44.2', '2')"></td> 
+				<td id="td13.44.3" style="background-color: white;"><input type="radio" id="13.44.3" name="13.44" value="3" onchange="updateSelectedOption('13.44', '13.44.3', '3')"></td>	
+                <td id="td13.44.4" style="background-color: white;"><input type="radio" id="13.44.4" name="13.44" value="4" onchange="updateSelectedOption('13.44', '13.44.4', '4')"></td>
+				<td name="val13.44">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>DMEM</td>
+				<td id="td13.45.1" style="background-color: white;"><input type="radio" id="13.45.1" name="13.45" value="1" checked="checked" onchange="updateSelectedOption('13.45', '13.45.1', '1')"></td>
+				<td id="td13.45.2" style="background-color: paleturquoise;"> <input type="radio" id="13.45.2" name="13.45" value="2" onchange="updateSelectedOption('13.45', '13.45.2', '2')"></td> 
+				<td id="td13.45.3" style="background-color: white;"><input type="radio" id="13.45.3" name="13.45" value="3" onchange="updateSelectedOption('13.45', '13.45.3', '3')"></td>	
+                <td id="td13.45.4" style="background-color: white;"><input type="radio" id="13.45.4" name="13.45" value="4" onchange="updateSelectedOption('13.45', '13.45.4', '4')"></td>
+				<td name="val13.45">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>F12</td>
+				<td id="td13.46.1" style="background-color: white;"><input type="radio" id="13.46.1" name="13.46" value="1" checked="checked" onchange="updateSelectedOption('13.46', '13.46.1', '1')"></td>
+				<td id="td13.46.2" style="background-color: white;"> <input type="radio" id="13.46.2" name="13.46" value="2" onchange="updateSelectedOption('13.46', '13.46.2', '2')"></td> 
+				<td id="td13.46.3" style="background-color: white;"><input type="radio" id="13.46.3" name="13.46" value="3" onchange="updateSelectedOption('13.46', '13.46.3', '3')"></td>	
+                <td id="td13.46.4" style="background-color: paleturquoise;"><input type="radio" id="13.46.4" name="13.46" value="4" onchange="updateSelectedOption('13.46', '13.46.4', '4')"></td>
+				<td name="val13.46">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>FCS</td>
+				<td id="td13.47.1" style="background-color: white;"><input type="radio" id="13.47.1" name="13.47" value="1" checked="checked" onchange="updateSelectedOption('13.47', '13.47.1', '1')"></td>
+				<td id="td13.47.2" style="background-color: paleturquoise;"> <input type="radio" id="13.47.2" name="13.47" value="2" onchange="updateSelectedOption('13.47', '13.47.2', '2')"></td> 
+				<td id="td13.47.3" style="background-color: white;"><input type="radio" id="13.47.3" name="13.47" value="3" onchange="updateSelectedOption('13.47', '13.47.3', '3')"></td>	
+                <td id="td13.47.4" style="background-color: white;"><input type="radio" id="13.47.4" name="13.47" value="4" onchange="updateSelectedOption('13.47', '13.47.4', '4')"></td>
+				<td name="val13.47">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Liquidator</td>
+				<td id="td13.48.1" style="background-color: white;"><input type="radio" id="13.48.1" name="13.48" value="1" checked="checked" onchange="updateSelectedOption('13.48', '13.48.1', '1')"></td>
+				<td id="td13.48.2" style="background-color: white;"> <input type="radio" id="13.48.2" name="13.48" value="2" onchange="updateSelectedOption('13.48', '13.48.2', '2')"></td> 
+				<td id="td13.48.3" style="background-color: paleturquoise;"><input type="radio" id="13.48.3" name="13.48" value="3" onchange="updateSelectedOption('13.48', '13.48.3', '3')"></td>	
+                <td id="td13.48.4" style="background-color: white;"><input type="radio" id="13.48.4" name="13.48" value="4" onchange="updateSelectedOption('13.48', '13.48.4', '4')"></td>
+				<td name="val13.48">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>96 well plates</td>
+				<td id="td13.49.1" style="background-color: white;"><input type="radio" id="13.49.1" name="13.49" value="1" checked="checked" onchange="updateSelectedOption('13.49', '13.49.1', '1')"></td>
+				<td id="td13.49.2" style="background-color: paleturquoise;"> <input type="radio" id="13.49.2" name="13.49" value="2" onchange="updateSelectedOption('13.49', '13.49.2', '2')"></td> 
+				<td id="td13.49.3" style="background-color: white;"><input type="radio" id="13.49.3" name="13.49" value="3" onchange="updateSelectedOption('13.49', '13.49.3', '3')"></td>	
+                <td id="td13.49.4" style="background-color: white;"><input type="radio" id="13.49.4" name="13.49" value="4" onchange="updateSelectedOption('13.49', '13.49.4', '4')"></td>
+				<td name="val13.49">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>dual luciferase reporter assay</td>
+				<td id="td13.50.1" style="background-color: white;"><input type="radio" id="13.50.1" name="13.50" value="1" checked="checked" onchange="updateSelectedOption('13.50', '13.50.1', '1')"></td>
+				<td id="td13.50.2" style="background-color: paleturquoise;"> <input type="radio" id="13.50.2" name="13.50" value="2" onchange="updateSelectedOption('13.50', '13.50.2', '2')"></td> 
+				<td id="td13.50.3" style="background-color: white;"><input type="radio" id="13.50.3" name="13.50" value="3" onchange="updateSelectedOption('13.50', '13.50.3', '3')"></td>	
+                <td id="td13.50.4" style="background-color: white;"><input type="radio" id="13.50.4" name="13.50" value="4" onchange="updateSelectedOption('13.50', '13.50.4', '4')"></td>
+				<td name="val13.50">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>dual luciferase reporter kit</td>
+				<td id="td13.51.1" style="background-color: white;"><input type="radio" id="13.51.1" name="13.51" value="1" checked="checked" onchange="updateSelectedOption('13.51', '13.51.1', '1')"></td>
+				<td id="td13.51.2" style="background-color: paleturquoise;"> <input type="radio" id="13.51.2" name="13.51" value="2" onchange="updateSelectedOption('13.51', '13.51.2', '2')"></td> 
+				<td id="td13.51.3" style="background-color: white;"><input type="radio" id="13.51.3" name="13.51" value="3" onchange="updateSelectedOption('13.51', '13.51.3', '3')"></td>	
+                <td id="td13.51.4" style="background-color: white;"><input type="radio" id="13.51.4" name="13.51" value="4" onchange="updateSelectedOption('13.51', '13.51.4', '4')"></td>
+				<td name="val13.51">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Tris</td>
+				<td id="td13.52.1" style="background-color: white;"><input type="radio" id="13.52.1" name="13.52" value="1" checked="checked" onchange="updateSelectedOption('13.52', '13.52.1', '1')"></td>
+				<td id="td13.52.2" style="background-color: paleturquoise;"> <input type="radio" id="13.52.2" name="13.52" value="2" onchange="updateSelectedOption('13.52', '13.52.2', '2')"></td> 
+				<td id="td13.52.3" style="background-color: white;"><input type="radio" id="13.52.3" name="13.52" value="3" onchange="updateSelectedOption('13.52', '13.52.3', '3')"></td>	
+                <td id="td13.52.4" style="background-color: white;"><input type="radio" id="13.52.4" name="13.52" value="4" onchange="updateSelectedOption('13.52', '13.52.4', '4')"></td>
+				<td name="val13.52">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Fluostar Omega</td>
+				<td id="td13.53.1" style="background-color: white;"><input type="radio" id="13.53.1" name="13.53" value="1" checked="checked" onchange="updateSelectedOption('13.53', '13.53.1', '1')"></td>
+				<td id="td13.53.2" style="background-color: paleturquoise;"> <input type="radio" id="13.53.2" name="13.53" value="2" onchange="updateSelectedOption('13.53', '13.53.2', '2')"></td> 
+				<td id="td13.53.3" style="background-color: white;"><input type="radio" id="13.53.3" name="13.53" value="3" onchange="updateSelectedOption('13.53', '13.53.3', '3')"></td>	
+                <td id="td13.53.4" style="background-color: white;"><input type="radio" id="13.53.4" name="13.53" value="4" onchange="updateSelectedOption('13.53', '13.53.4', '4')"></td>
+				<td name="val13.53">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>12-well plates</td>
+				<td id="td13.54.1" style="background-color: white;"><input type="radio" id="13.54.1" name="13.54" value="1" checked="checked" onchange="updateSelectedOption('13.54', '13.54.1', '1')"></td>
+				<td id="td13.54.2" style="background-color: paleturquoise;"> <input type="radio" id="13.54.2" name="13.54" value="2" onchange="updateSelectedOption('13.54', '13.54.2', '2')"></td> 
+				<td id="td13.54.3" style="background-color: white;"><input type="radio" id="13.54.3" name="13.54" value="3" onchange="updateSelectedOption('13.54', '13.54.3', '3')"></td>	
+                <td id="td13.54.4" style="background-color: white;"><input type="radio" id="13.54.4" name="13.54" value="4" onchange="updateSelectedOption('13.54', '13.54.4', '4')"></td>
+				<td name="val13.54">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Cell supernatant</td>
+				<td id="td13.55.1" style="background-color: white;"><input type="radio" id="13.55.1" name="13.55" value="1" checked="checked" onchange="updateSelectedOption('13.55', '13.55.1', '1')"></td>
+				<td id="td13.55.2" style="background-color: paleturquoise;"> <input type="radio" id="13.55.2" name="13.55" value="2" onchange="updateSelectedOption('13.55', '13.55.2', '2')"></td> 
+				<td id="td13.55.3" style="background-color: white;"><input type="radio" id="13.55.3" name="13.55" value="3" onchange="updateSelectedOption('13.55', '13.55.3', '3')"></td>	
+                <td id="td13.55.4" style="background-color: white;"><input type="radio" id="13.55.4" name="13.55" value="4" onchange="updateSelectedOption('13.55', '13.55.4', '4')"></td>
+				<td name="val13.55">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>supernatant </td>
+				<td id="td13.56.1" style="background-color: white;"><input type="radio" id="13.56.1" name="13.56" value="1" checked="checked" onchange="updateSelectedOption('13.56', '13.56.1', '1')"></td>
+				<td id="td13.56.2" style="background-color: white;"> <input type="radio" id="13.56.2" name="13.56" value="2" onchange="updateSelectedOption('13.56', '13.56.2', '2')"></td> 
+				<td id="td13.56.3" style="background-color: paleturquoise;"><input type="radio" id="13.56.3" name="13.56" value="3" onchange="updateSelectedOption('13.56', '13.56.3', '3')"></td>	
+                <td id="td13.56.4" style="background-color: white;"><input type="radio" id="13.56.4" name="13.56" value="4" onchange="updateSelectedOption('13.56', '13.56.4', '4')"></td>
+				<td name="val13.56">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>SDS polyacrylamide gel electrophoresis</td>
+				<td id="td13.57.1" style="background-color: white;"><input type="radio" id="13.57.1" name="13.57" value="1" checked="checked" onchange="updateSelectedOption('13.57', '13.57.1', '1')"></td>
+				<td id="td13.57.2" style="background-color: paleturquoise;"> <input type="radio" id="13.57.2" name="13.57" value="2" onchange="updateSelectedOption('13.57', '13.57.2', '2')"></td> 
+				<td id="td13.57.3" style="background-color: white;"><input type="radio" id="13.57.3" name="13.57" value="3" onchange="updateSelectedOption('13.57', '13.57.3', '3')"></td>	
+                <td id="td13.57.4" style="background-color: white;"><input type="radio" id="13.57.4" name="13.57" value="4" onchange="updateSelectedOption('13.57', '13.57.4', '4')"></td>
+				<td name="val13.57">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>I-Block</td>
+				<td id="td13.58.1" style="background-color: white;"><input type="radio" id="13.58.1" name="13.58" value="1" checked="checked" onchange="updateSelectedOption('13.58', '13.58.1', '1')"></td>
+				<td id="td13.58.2" style="background-color: white;"> <input type="radio" id="13.58.2" name="13.58" value="2" onchange="updateSelectedOption('13.58', '13.58.2', '2')"></td> 
+				<td id="td13.58.3" style="background-color: white;"><input type="radio" id="13.58.3" name="13.58" value="3" onchange="updateSelectedOption('13.58', '13.58.3', '3')"></td>	
+                <td id="td13.58.4" style="background-color: paleturquoise;"><input type="radio" id="13.58.4" name="13.58" value="4" onchange="updateSelectedOption('13.58', '13.58.4', '4')"></td>
+				<td name="val13.58">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>solution</td>
+				<td id="td13.59.1" style="background-color: white;"><input type="radio" id="13.59.1" name="13.59" value="1" checked="checked" onchange="updateSelectedOption('13.59', '13.59.1', '1')"></td>
+				<td id="td13.59.2" style="background-color: white;"> <input type="radio" id="13.59.2" name="13.59" value="2" onchange="updateSelectedOption('13.59', '13.59.2', '2')"></td> 
+				<td id="td13.59.3" style="background-color: paleturquoise;"><input type="radio" id="13.59.3" name="13.59" value="3" onchange="updateSelectedOption('13.59', '13.59.3', '3')"></td>	
+                <td id="td13.59.4" style="background-color: white;"><input type="radio" id="13.59.4" name="13.59" value="4" onchange="updateSelectedOption('13.59', '13.59.4', '4')"></td>
+				<td name="val13.59">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>Tween20</td>
+				<td id="td13.60.1" style="background-color: white;"><input type="radio" id="13.60.1" name="13.60" value="1" checked="checked" onchange="updateSelectedOption('13.60', '13.60.1', '1')"></td>
+				<td id="td13.60.2" style="background-color: paleturquoise;"> <input type="radio" id="13.60.2" name="13.60" value="2" onchange="updateSelectedOption('13.60', '13.60.2', '2')"></td> 
+				<td id="td13.60.3" style="background-color: white;"><input type="radio" id="13.60.3" name="13.60" value="3" onchange="updateSelectedOption('13.60', '13.60.3', '3')"></td>	
+                <td id="td13.60.4" style="background-color: white;"><input type="radio" id="13.60.4" name="13.60" value="4" onchange="updateSelectedOption('13.60', '13.60.4', '4')"></td>
+				<td name="val13.60">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Primary antibodies</td>
+				<td id="td13.61.1" style="background-color: white;"><input type="radio" id="13.61.1" name="13.61" value="1" checked="checked" onchange="updateSelectedOption('13.61', '13.61.1', '1')"></td>
+				<td id="td13.61.2" style="background-color: paleturquoise;"> <input type="radio" id="13.61.2" name="13.61" value="2" onchange="updateSelectedOption('13.61', '13.61.2', '2')"></td> 
+				<td id="td13.61.3" style="background-color: white;"><input type="radio" id="13.61.3" name="13.61" value="3" onchange="updateSelectedOption('13.61', '13.61.3', '3')"></td>	
+                <td id="td13.61.4" style="background-color: white;"><input type="radio" id="13.61.4" name="13.61" value="4" onchange="updateSelectedOption('13.61', '13.61.4', '4')"></td>
+				<td name="val13.61">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>ADAM17 rabbit polyclonal antibody</td>
+				<td id="td13.62.1" style="background-color: white;"><input type="radio" id="13.62.1" name="13.62" value="1" checked="checked" onchange="updateSelectedOption('13.62', '13.62.1', '1')"></td>
+				<td id="td13.62.2" style="background-color: paleturquoise;"> <input type="radio" id="13.62.2" name="13.62" value="2" onchange="updateSelectedOption('13.62', '13.62.2', '2')"></td> 
+				<td id="td13.62.3" style="background-color: white;"><input type="radio" id="13.62.3" name="13.62" value="3" onchange="updateSelectedOption('13.62', '13.62.3', '3')"></td>	
+                <td id="td13.62.4" style="background-color: white;"><input type="radio" id="13.62.4" name="13.62" value="4" onchange="updateSelectedOption('13.62', '13.62.4', '4')"></td>
+				<td name="val13.62">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BACE-1 rabbit monoclonal antibody</td>
+				<td id="td13.63.1" style="background-color: white;"><input type="radio" id="13.63.1" name="13.63" value="1" checked="checked" onchange="updateSelectedOption('13.63', '13.63.1', '1')"></td>
+				<td id="td13.63.2" style="background-color: paleturquoise;"> <input type="radio" id="13.63.2" name="13.63" value="2" onchange="updateSelectedOption('13.63', '13.63.2', '2')"></td> 
+				<td id="td13.63.3" style="background-color: white;"><input type="radio" id="13.63.3" name="13.63" value="3" onchange="updateSelectedOption('13.63', '13.63.3', '3')"></td>	
+                <td id="td13.63.4" style="background-color: white;"><input type="radio" id="13.63.4" name="13.63" value="4" onchange="updateSelectedOption('13.63', '13.63.4', '4')"></td>
+				<td name="val13.63">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>APP N-terminal mouse monoclonal antibody</td>
+				<td id="td13.64.1" style="background-color: white;"><input type="radio" id="13.64.1" name="13.64" value="1" checked="checked" onchange="updateSelectedOption('13.64', '13.64.1', '1')"></td>
+				<td id="td13.64.2" style="background-color: paleturquoise;"> <input type="radio" id="13.64.2" name="13.64" value="2" onchange="updateSelectedOption('13.64', '13.64.2', '2')"></td> 
+				<td id="td13.64.3" style="background-color: white;"><input type="radio" id="13.64.3" name="13.64" value="3" onchange="updateSelectedOption('13.64', '13.64.3', '3')"></td>	
+                <td id="td13.64.4" style="background-color: white;"><input type="radio" id="13.64.4" name="13.64" value="4" onchange="updateSelectedOption('13.64', '13.64.4', '4')"></td>
+				<td name="val13.64">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-sAPP-beta</td>
+				<td id="td13.65.1" style="background-color: white;"><input type="radio" id="13.65.1" name="13.65" value="1" checked="checked" onchange="updateSelectedOption('13.65', '13.65.1', '1')"></td>
+				<td id="td13.65.2" style="background-color: paleturquoise;"> <input type="radio" id="13.65.2" name="13.65" value="2" onchange="updateSelectedOption('13.65', '13.65.2', '2')"></td> 
+				<td id="td13.65.3" style="background-color: white;"><input type="radio" id="13.65.3" name="13.65" value="3" onchange="updateSelectedOption('13.65', '13.65.3', '3')"></td>	
+                <td id="td13.65.4" style="background-color: white;"><input type="radio" id="13.65.4" name="13.65" value="4" onchange="updateSelectedOption('13.65', '13.65.4', '4')"></td>
+				<td name="val13.65">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>APP C-terminal antibody</td>
+				<td id="td13.66.1" style="background-color: white;"><input type="radio" id="13.66.1" name="13.66" value="1" checked="checked" onchange="updateSelectedOption('13.66', '13.66.1', '1')"></td>
+				<td id="td13.66.2" style="background-color: paleturquoise;"> <input type="radio" id="13.66.2" name="13.66" value="2" onchange="updateSelectedOption('13.66', '13.66.2', '2')"></td> 
+				<td id="td13.66.3" style="background-color: white;"><input type="radio" id="13.66.3" name="13.66" value="3" onchange="updateSelectedOption('13.66', '13.66.3', '3')"></td>	
+                <td id="td13.66.4" style="background-color: white;"><input type="radio" id="13.66.4" name="13.66" value="4" onchange="updateSelectedOption('13.66', '13.66.4', '4')"></td>
+				<td name="val13.66">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>secondary antibody</td>
+				<td id="td13.67.1" style="background-color: white;"><input type="radio" id="13.67.1" name="13.67" value="1" checked="checked" onchange="updateSelectedOption('13.67', '13.67.1', '1')"></td>
+				<td id="td13.67.2" style="background-color: paleturquoise;"> <input type="radio" id="13.67.2" name="13.67" value="2" onchange="updateSelectedOption('13.67', '13.67.2', '2')"></td> 
+				<td id="td13.67.3" style="background-color: white;"><input type="radio" id="13.67.3" name="13.67" value="3" onchange="updateSelectedOption('13.67', '13.67.3', '3')"></td>	
+                <td id="td13.67.4" style="background-color: white;"><input type="radio" id="13.67.4" name="13.67" value="4" onchange="updateSelectedOption('13.67', '13.67.4', '4')"></td>
+				<td name="val13.67">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>SuperSignal West Femto chemiluminescent substrate</td>
+				<td id="td13.68.1" style="background-color: white;"><input type="radio" id="13.68.1" name="13.68" value="1" checked="checked" onchange="updateSelectedOption('13.68', '13.68.1', '1')"></td>
+				<td id="td13.68.2" style="background-color: paleturquoise;"> <input type="radio" id="13.68.2" name="13.68" value="2" onchange="updateSelectedOption('13.68', '13.68.2', '2')"></td> 
+				<td id="td13.68.3" style="background-color: white;"><input type="radio" id="13.68.3" name="13.68" value="3" onchange="updateSelectedOption('13.68', '13.68.3', '3')"></td>	
+                <td id="td13.68.4" style="background-color: white;"><input type="radio" id="13.68.4" name="13.68" value="4" onchange="updateSelectedOption('13.68', '13.68.4', '4')"></td>
+				<td name="val13.68">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CCD-camera imaging system</td>
+				<td id="td13.69.1" style="background-color: white;"><input type="radio" id="13.69.1" name="13.69" value="1" checked="checked" onchange="updateSelectedOption('13.69', '13.69.1', '1')"></td>
+				<td id="td13.69.2" style="background-color: white;"> <input type="radio" id="13.69.2" name="13.69" value="2" onchange="updateSelectedOption('13.69', '13.69.2', '2')"></td> 
+				<td id="td13.69.3" style="background-color: white;"><input type="radio" id="13.69.3" name="13.69" value="3" onchange="updateSelectedOption('13.69', '13.69.3', '3')"></td>	
+                <td id="td13.69.4" style="background-color: paleturquoise;"><input type="radio" id="13.69.4" name="13.69" value="4" onchange="updateSelectedOption('13.69', '13.69.4', '4')"></td>
+				<td name="val13.69">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>ADAM10 rabbit polyclonal antibody</td>
+				<td id="td13.70.1" style="background-color: white;"><input type="radio" id="13.70.1" name="13.70" value="1" checked="checked" onchange="updateSelectedOption('13.70', '13.70.1', '1')"></td>
+				<td id="td13.70.2" style="background-color: paleturquoise;"> <input type="radio" id="13.70.2" name="13.70" value="2" onchange="updateSelectedOption('13.70', '13.70.2', '2')"></td> 
+				<td id="td13.70.3" style="background-color: white;"><input type="radio" id="13.70.3" name="13.70" value="3" onchange="updateSelectedOption('13.70', '13.70.3', '3')"></td>	
+                <td id="td13.70.4" style="background-color: white;"><input type="radio" id="13.70.4" name="13.70" value="4" onchange="updateSelectedOption('13.70', '13.70.4', '4')"></td>
+				<td name="val13.70">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>96 well plate</td>
+				<td id="td13.71.1" style="background-color: white;"><input type="radio" id="13.71.1" name="13.71" value="1" checked="checked" onchange="updateSelectedOption('13.71', '13.71.1', '1')"></td>
+				<td id="td13.71.2" style="background-color: paleturquoise;"> <input type="radio" id="13.71.2" name="13.71" value="2" onchange="updateSelectedOption('13.71', '13.71.2', '2')"></td> 
+				<td id="td13.71.3" style="background-color: white;"><input type="radio" id="13.71.3" name="13.71" value="3" onchange="updateSelectedOption('13.71', '13.71.3', '3')"></td>	
+                <td id="td13.71.4" style="background-color: white;"><input type="radio" id="13.71.4" name="13.71" value="4" onchange="updateSelectedOption('13.71', '13.71.4', '4')"></td>
+				<td name="val13.71">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>culture medium</td>
+				<td id="td13.72.1" style="background-color: white;"><input type="radio" id="13.72.1" name="13.72" value="1" checked="checked" onchange="updateSelectedOption('13.72', '13.72.1', '1')"></td>
+				<td id="td13.72.2" style="background-color: paleturquoise;"> <input type="radio" id="13.72.2" name="13.72" value="2" onchange="updateSelectedOption('13.72', '13.72.2', '2')"></td> 
+				<td id="td13.72.3" style="background-color: white;"><input type="radio" id="13.72.3" name="13.72" value="3" onchange="updateSelectedOption('13.72', '13.72.3', '3')"></td>	
+                <td id="td13.72.4" style="background-color: white;"><input type="radio" id="13.72.4" name="13.72" value="4" onchange="updateSelectedOption('13.72', '13.72.4', '4')"></td>
+				<td name="val13.72">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>MTT reagent</td>
+				<td id="td13.73.1" style="background-color: white;"><input type="radio" id="13.73.1" name="13.73" value="1" checked="checked" onchange="updateSelectedOption('13.73', '13.73.1', '1')"></td>
+				<td id="td13.73.2" style="background-color: paleturquoise;"> <input type="radio" id="13.73.2" name="13.73" value="2" onchange="updateSelectedOption('13.73', '13.73.2', '2')"></td> 
+				<td id="td13.73.3" style="background-color: white;"><input type="radio" id="13.73.3" name="13.73" value="3" onchange="updateSelectedOption('13.73', '13.73.3', '3')"></td>	
+                <td id="td13.73.4" style="background-color: white;"><input type="radio" id="13.73.4" name="13.73" value="4" onchange="updateSelectedOption('13.73', '13.73.4', '4')"></td>
+				<td name="val13.73">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>OptiMEM</td>
+				<td id="td13.74.1" style="background-color: white;"><input type="radio" id="13.74.1" name="13.74" value="1" checked="checked" onchange="updateSelectedOption('13.74', '13.74.1', '1')"></td>
+				<td id="td13.74.2" style="background-color: paleturquoise;"> <input type="radio" id="13.74.2" name="13.74" value="2" onchange="updateSelectedOption('13.74', '13.74.2', '2')"></td> 
+				<td id="td13.74.3" style="background-color: white;"><input type="radio" id="13.74.3" name="13.74" value="3" onchange="updateSelectedOption('13.74', '13.74.3', '3')"></td>	
+                <td id="td13.74.4" style="background-color: white;"><input type="radio" id="13.74.4" name="13.74" value="4" onchange="updateSelectedOption('13.74', '13.74.4', '4')"></td>
+				<td name="val13.74">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Cell Titer Glo Assay</td>
+				<td id="td13.75.1" style="background-color: white;"><input type="radio" id="13.75.1" name="13.75" value="1" checked="checked" onchange="updateSelectedOption('13.75', '13.75.1', '1')"></td>
+				<td id="td13.75.2" style="background-color: paleturquoise;"> <input type="radio" id="13.75.2" name="13.75" value="2" onchange="updateSelectedOption('13.75', '13.75.2', '2')"></td> 
+				<td id="td13.75.3" style="background-color: white;"><input type="radio" id="13.75.3" name="13.75" value="3" onchange="updateSelectedOption('13.75', '13.75.3', '3')"></td>	
+                <td id="td13.75.4" style="background-color: white;"><input type="radio" id="13.75.4" name="13.75" value="4" onchange="updateSelectedOption('13.75', '13.75.4', '4')"></td>
+				<td name="val13.75">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>QIAshredder</td>
+				<td id="td13.76.1" style="background-color: white;"><input type="radio" id="13.76.1" name="13.76" value="1" checked="checked" onchange="updateSelectedOption('13.76', '13.76.1', '1')"></td>
+				<td id="td13.76.2" style="background-color: paleturquoise;"> <input type="radio" id="13.76.2" name="13.76" value="2" onchange="updateSelectedOption('13.76', '13.76.2', '2')"></td> 
+				<td id="td13.76.3" style="background-color: white;"><input type="radio" id="13.76.3" name="13.76" value="3" onchange="updateSelectedOption('13.76', '13.76.3', '3')"></td>	
+                <td id="td13.76.4" style="background-color: white;"><input type="radio" id="13.76.4" name="13.76" value="4" onchange="updateSelectedOption('13.76', '13.76.4', '4')"></td>
+				<td name="val13.76">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNeasy kits</td>
+				<td id="td13.77.1" style="background-color: white;"><input type="radio" id="13.77.1" name="13.77" value="1" checked="checked" onchange="updateSelectedOption('13.77', '13.77.1', '1')"></td>
+				<td id="td13.77.2" style="background-color: paleturquoise;"> <input type="radio" id="13.77.2" name="13.77" value="2" onchange="updateSelectedOption('13.77', '13.77.2', '2')"></td> 
+				<td id="td13.77.3" style="background-color: white;"><input type="radio" id="13.77.3" name="13.77" value="3" onchange="updateSelectedOption('13.77', '13.77.3', '3')"></td>	
+                <td id="td13.77.4" style="background-color: white;"><input type="radio" id="13.77.4" name="13.77" value="4" onchange="updateSelectedOption('13.77', '13.77.4', '4')"></td>
+				<td name="val13.77">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>SuperScript III First-strand Synthesis System</td>
+				<td id="td13.78.1" style="background-color: white;"><input type="radio" id="13.78.1" name="13.78" value="1" checked="checked" onchange="updateSelectedOption('13.78', '13.78.1', '1')"></td>
+				<td id="td13.78.2" style="background-color: paleturquoise;"> <input type="radio" id="13.78.2" name="13.78" value="2" onchange="updateSelectedOption('13.78', '13.78.2', '2')"></td> 
+				<td id="td13.78.3" style="background-color: white;"><input type="radio" id="13.78.3" name="13.78" value="3" onchange="updateSelectedOption('13.78', '13.78.3', '3')"></td>	
+                <td id="td13.78.4" style="background-color: white;"><input type="radio" id="13.78.4" name="13.78" value="4" onchange="updateSelectedOption('13.78', '13.78.4', '4')"></td>
+				<td name="val13.78">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>QuantiTect SYBR Green PCR kit</td>
+				<td id="td13.79.1" style="background-color: white;"><input type="radio" id="13.79.1" name="13.79" value="1" checked="checked" onchange="updateSelectedOption('13.79', '13.79.1', '1')"></td>
+				<td id="td13.79.2" style="background-color: paleturquoise;"> <input type="radio" id="13.79.2" name="13.79" value="2" onchange="updateSelectedOption('13.79', '13.79.2', '2')"></td> 
+				<td id="td13.79.3" style="background-color: white;"><input type="radio" id="13.79.3" name="13.79" value="3" onchange="updateSelectedOption('13.79', '13.79.3', '3')"></td>	
+                <td id="td13.79.4" style="background-color: white;"><input type="radio" id="13.79.4" name="13.79" value="4" onchange="updateSelectedOption('13.79', '13.79.4', '4')"></td>
+				<td name="val13.79">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>StepOne Plus real time PCR machine</td>
+				<td id="td13.80.1" style="background-color: white;"><input type="radio" id="13.80.1" name="13.80" value="1" checked="checked" onchange="updateSelectedOption('13.80', '13.80.1', '1')"></td>
+				<td id="td13.80.2" style="background-color: paleturquoise;"> <input type="radio" id="13.80.2" name="13.80" value="2" onchange="updateSelectedOption('13.80', '13.80.2', '2')"></td> 
+				<td id="td13.80.3" style="background-color: white;"><input type="radio" id="13.80.3" name="13.80" value="3" onchange="updateSelectedOption('13.80', '13.80.3', '3')"></td>	
+                <td id="td13.80.4" style="background-color: white;"><input type="radio" id="13.80.4" name="13.80" value="4" onchange="updateSelectedOption('13.80', '13.80.4', '4')"></td>
+				<td name="val13.80">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Glo Lysis Buffer</td>
+				<td id="td13.81.1" style="background-color: white;"><input type="radio" id="13.81.1" name="13.81" value="1" checked="checked" onchange="updateSelectedOption('13.81', '13.81.1', '1')"></td>
+				<td id="td13.81.2" style="background-color: paleturquoise;"> <input type="radio" id="13.81.2" name="13.81" value="2" onchange="updateSelectedOption('13.81', '13.81.2', '2')"></td> 
+				<td id="td13.81.3" style="background-color: white;"><input type="radio" id="13.81.3" name="13.81" value="3" onchange="updateSelectedOption('13.81', '13.81.3', '3')"></td>	
+                <td id="td13.81.4" style="background-color: white;"><input type="radio" id="13.81.4" name="13.81" value="4" onchange="updateSelectedOption('13.81', '13.81.4', '4')"></td>
+				<td name="val13.81">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BCA</td>
+				<td id="td13.82.1" style="background-color: white;"><input type="radio" id="13.82.1" name="13.82" value="1" checked="checked" onchange="updateSelectedOption('13.82', '13.82.1', '1')"></td>
+				<td id="td13.82.2" style="background-color: paleturquoise;"> <input type="radio" id="13.82.2" name="13.82" value="2" onchange="updateSelectedOption('13.82', '13.82.2', '2')"></td> 
+				<td id="td13.82.3" style="background-color: white;"><input type="radio" id="13.82.3" name="13.82" value="3" onchange="updateSelectedOption('13.82', '13.82.3', '3')"></td>	
+                <td id="td13.82.4" style="background-color: white;"><input type="radio" id="13.82.4" name="13.82" value="4" onchange="updateSelectedOption('13.82', '13.82.4', '4')"></td>
+				<td name="val13.82">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>agent</td>
+				<td id="td13.83.1" style="background-color: white;"><input type="radio" id="13.83.1" name="13.83" value="1" checked="checked" onchange="updateSelectedOption('13.83', '13.83.1', '1')"></td>
+				<td id="td13.83.2" style="background-color: white;"> <input type="radio" id="13.83.2" name="13.83" value="2" onchange="updateSelectedOption('13.83', '13.83.2', '2')"></td> 
+				<td id="td13.83.3" style="background-color: paleturquoise;"><input type="radio" id="13.83.3" name="13.83" value="3" onchange="updateSelectedOption('13.83', '13.83.3', '3')"></td>	
+                <td id="td13.83.4" style="background-color: white;"><input type="radio" id="13.83.4" name="13.83" value="4" onchange="updateSelectedOption('13.83', '13.83.4', '4')"></td>
+				<td name="val13.83">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>Luciferase assays</td>
+				<td id="td13.84.1" style="background-color: white;"><input type="radio" id="13.84.1" name="13.84" value="1" checked="checked" onchange="updateSelectedOption('13.84', '13.84.1', '1')"></td>
+				<td id="td13.84.2" style="background-color: paleturquoise;"> <input type="radio" id="13.84.2" name="13.84" value="2" onchange="updateSelectedOption('13.84', '13.84.2', '2')"></td> 
+				<td id="td13.84.3" style="background-color: white;"><input type="radio" id="13.84.3" name="13.84" value="3" onchange="updateSelectedOption('13.84', '13.84.3', '3')"></td>	
+                <td id="td13.84.4" style="background-color: white;"><input type="radio" id="13.84.4" name="13.84" value="4" onchange="updateSelectedOption('13.84', '13.84.4', '4')"></td>
+				<td name="val13.84">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Steady-Glo luciferase agent </td>
+				<td id="td13.85.1" style="background-color: white;"><input type="radio" id="13.85.1" name="13.85" value="1" checked="checked" onchange="updateSelectedOption('13.85', '13.85.1', '1')"></td>
+				<td id="td13.85.2" style="background-color: paleturquoise;"> <input type="radio" id="13.85.2" name="13.85" value="2" onchange="updateSelectedOption('13.85', '13.85.2', '2')"></td> 
+				<td id="td13.85.3" style="background-color: white;"><input type="radio" id="13.85.3" name="13.85" value="3" onchange="updateSelectedOption('13.85', '13.85.3', '3')"></td>	
+                <td id="td13.85.4" style="background-color: white;"><input type="radio" id="13.85.4" name="13.85" value="4" onchange="updateSelectedOption('13.85', '13.85.4', '4')"></td>
+				<td name="val13.85">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Synergy 2 plate reader</td>
+				<td id="td13.86.1" style="background-color: white;"><input type="radio" id="13.86.1" name="13.86" value="1" checked="checked" onchange="updateSelectedOption('13.86', '13.86.1', '1')"></td>
+				<td id="td13.86.2" style="background-color: paleturquoise;"> <input type="radio" id="13.86.2" name="13.86" value="2" onchange="updateSelectedOption('13.86', '13.86.2', '2')"></td> 
+				<td id="td13.86.3" style="background-color: white;"><input type="radio" id="13.86.3" name="13.86" value="3" onchange="updateSelectedOption('13.86', '13.86.3', '3')"></td>	
+                <td id="td13.86.4" style="background-color: white;"><input type="radio" id="13.86.4" name="13.86" value="4" onchange="updateSelectedOption('13.86', '13.86.4', '4')"></td>
+				<td name="val13.86">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Dulbecco's Modified Eagle Medium</td>
+				<td id="td13.87.1" style="background-color: white;"><input type="radio" id="13.87.1" name="13.87" value="1" checked="checked" onchange="updateSelectedOption('13.87', '13.87.1', '1')"></td>
+				<td id="td13.87.2" style="background-color: paleturquoise;"> <input type="radio" id="13.87.2" name="13.87" value="2" onchange="updateSelectedOption('13.87', '13.87.2', '2')"></td> 
+				<td id="td13.87.3" style="background-color: white;"><input type="radio" id="13.87.3" name="13.87" value="3" onchange="updateSelectedOption('13.87', '13.87.3', '3')"></td>	
+                <td id="td13.87.4" style="background-color: white;"><input type="radio" id="13.87.4" name="13.87" value="4" onchange="updateSelectedOption('13.87', '13.87.4', '4')"></td>
+				<td name="val13.87">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Fetal Bovine Serum</td>
+				<td id="td13.88.1" style="background-color: white;"><input type="radio" id="13.88.1" name="13.88" value="1" checked="checked" onchange="updateSelectedOption('13.88', '13.88.1', '1')"></td>
+				<td id="td13.88.2" style="background-color: paleturquoise;"> <input type="radio" id="13.88.2" name="13.88" value="2" onchange="updateSelectedOption('13.88', '13.88.2', '2')"></td> 
+				<td id="td13.88.3" style="background-color: white;"><input type="radio" id="13.88.3" name="13.88" value="3" onchange="updateSelectedOption('13.88', '13.88.3', '3')"></td>	
+                <td id="td13.88.4" style="background-color: white;"><input type="radio" id="13.88.4" name="13.88" value="4" onchange="updateSelectedOption('13.88', '13.88.4', '4')"></td>
+				<td name="val13.88">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>FBS</td>
+				<td id="td13.89.1" style="background-color: white;"><input type="radio" id="13.89.1" name="13.89" value="1" checked="checked" onchange="updateSelectedOption('13.89', '13.89.1', '1')"></td>
+				<td id="td13.89.2" style="background-color: paleturquoise;"> <input type="radio" id="13.89.2" name="13.89" value="2" onchange="updateSelectedOption('13.89', '13.89.2', '2')"></td> 
+				<td id="td13.89.3" style="background-color: white;"><input type="radio" id="13.89.3" name="13.89" value="3" onchange="updateSelectedOption('13.89', '13.89.3', '3')"></td>	
+                <td id="td13.89.4" style="background-color: white;"><input type="radio" id="13.89.4" name="13.89" value="4" onchange="updateSelectedOption('13.89', '13.89.4', '4')"></td>
+				<td name="val13.89">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>ON-TARGETplus pools</td>
+				<td id="td13.90.1" style="background-color: white;"><input type="radio" id="13.90.1" name="13.90" value="1" checked="checked" onchange="updateSelectedOption('13.90', '13.90.1', '1')"></td>
+				<td id="td13.90.2" style="background-color: white;"> <input type="radio" id="13.90.2" name="13.90" value="2" onchange="updateSelectedOption('13.90', '13.90.2', '2')"></td> 
+				<td id="td13.90.3" style="background-color: white;"><input type="radio" id="13.90.3" name="13.90" value="3" onchange="updateSelectedOption('13.90', '13.90.3', '3')"></td>	
+                <td id="td13.90.4" style="background-color: paleturquoise;"><input type="radio" id="13.90.4" name="13.90" value="4" onchange="updateSelectedOption('13.90', '13.90.4', '4')"></td>
+				<td name="val13.90">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>DharmaFECT 1 reagent</td>
+				<td id="td13.91.1" style="background-color: white;"><input type="radio" id="13.91.1" name="13.91" value="1" checked="checked" onchange="updateSelectedOption('13.91', '13.91.1', '1')"></td>
+				<td id="td13.91.2" style="background-color: paleturquoise;"> <input type="radio" id="13.91.2" name="13.91" value="2" onchange="updateSelectedOption('13.91', '13.91.2', '2')"></td> 
+				<td id="td13.91.3" style="background-color: white;"><input type="radio" id="13.91.3" name="13.91" value="3" onchange="updateSelectedOption('13.91', '13.91.3', '3')"></td>	
+                <td id="td13.91.4" style="background-color: white;"><input type="radio" id="13.91.4" name="13.91" value="4" onchange="updateSelectedOption('13.91', '13.91.4', '4')"></td>
+				<td name="val13.91">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>GenABLE</td>
+				<td id="td13.92.1" style="background-color: white;"><input type="radio" id="13.92.1" name="13.92" value="1" checked="checked" onchange="updateSelectedOption('13.92', '13.92.1', '1')"></td>
+				<td id="td13.92.2" style="background-color: white;"> <input type="radio" id="13.92.2" name="13.92" value="2" onchange="updateSelectedOption('13.92', '13.92.2', '2')"></td> 
+				<td id="td13.92.3" style="background-color: white;"><input type="radio" id="13.92.3" name="13.92" value="3" onchange="updateSelectedOption('13.92', '13.92.3', '3')"></td>	
+                <td id="td13.92.4" style="background-color: paleturquoise;"><input type="radio" id="13.92.4" name="13.92" value="4" onchange="updateSelectedOption('13.92', '13.92.4', '4')"></td>
+				<td name="val13.92">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>R GenABLE package</td>
+				<td id="td13.93.1" style="background-color: white;"><input type="radio" id="13.93.1" name="13.93" value="1" checked="checked" onchange="updateSelectedOption('13.93', '13.93.1', '1')"></td>
+				<td id="td13.93.2" style="background-color: white;"> <input type="radio" id="13.93.2" name="13.93" value="2" onchange="updateSelectedOption('13.93', '13.93.2', '2')"></td> 
+				<td id="td13.93.3" style="background-color: white;"><input type="radio" id="13.93.3" name="13.93" value="3" onchange="updateSelectedOption('13.93', '13.93.3', '3')"></td>	
+                <td id="td13.93.4" style="background-color: paleturquoise;"><input type="radio" id="13.93.4" name="13.93" value="4" onchange="updateSelectedOption('13.93', '13.93.4', '4')"></td>
+				<td name="val13.93">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Illumina HumanHap 610 bead chips</td>
+				<td id="td13.94.1" style="background-color: white;"><input type="radio" id="13.94.1" name="13.94" value="1" checked="checked" onchange="updateSelectedOption('13.94', '13.94.1', '1')"></td>
+				<td id="td13.94.2" style="background-color: paleturquoise;"> <input type="radio" id="13.94.2" name="13.94" value="2" onchange="updateSelectedOption('13.94', '13.94.2', '2')"></td> 
+				<td id="td13.94.3" style="background-color: white;"><input type="radio" id="13.94.3" name="13.94" value="3" onchange="updateSelectedOption('13.94', '13.94.3', '3')"></td>	
+                <td id="td13.94.4" style="background-color: white;"><input type="radio" id="13.94.4" name="13.94" value="4" onchange="updateSelectedOption('13.94', '13.94.4', '4')"></td>
+				<td name="val13.94">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Illumina</td>
+				<td id="td13.95.1" style="background-color: white;"><input type="radio" id="13.95.1" name="13.95" value="1" checked="checked" onchange="updateSelectedOption('13.95', '13.95.1', '1')"></td>
+				<td id="td13.95.2" style="background-color: white;"> <input type="radio" id="13.95.2" name="13.95" value="2" onchange="updateSelectedOption('13.95', '13.95.2', '2')"></td> 
+				<td id="td13.95.3" style="background-color: paleturquoise;"><input type="radio" id="13.95.3" name="13.95" value="3" onchange="updateSelectedOption('13.95', '13.95.3', '3')"></td>	
+                <td id="td13.95.4" style="background-color: white;"><input type="radio" id="13.95.4" name="13.95" value="4" onchange="updateSelectedOption('13.95', '13.95.4', '4')"></td>
+				<td name="val13.95">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>MaCH</td>
+				<td id="td13.96.1" style="background-color: white;"><input type="radio" id="13.96.1" name="13.96" value="1" checked="checked" onchange="updateSelectedOption('13.96', '13.96.1', '1')"></td>
+				<td id="td13.96.2" style="background-color: white;"> <input type="radio" id="13.96.2" name="13.96" value="2" onchange="updateSelectedOption('13.96', '13.96.2', '2')"></td> 
+				<td id="td13.96.3" style="background-color: white;"><input type="radio" id="13.96.3" name="13.96" value="3" onchange="updateSelectedOption('13.96', '13.96.3', '3')"></td>	
+                <td id="td13.96.4" style="background-color: paleturquoise;"><input type="radio" id="13.96.4" name="13.96" value="4" onchange="updateSelectedOption('13.96', '13.96.4', '4')"></td>
+				<td name="val13.96">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>R beadarrayFilter package</td>
+				<td id="td13.97.1" style="background-color: white;"><input type="radio" id="13.97.1" name="13.97" value="1" checked="checked" onchange="updateSelectedOption('13.97', '13.97.1', '1')"></td>
+				<td id="td13.97.2" style="background-color: paleturquoise;"> <input type="radio" id="13.97.2" name="13.97" value="2" onchange="updateSelectedOption('13.97', '13.97.2', '2')"></td> 
+				<td id="td13.97.3" style="background-color: white;"><input type="radio" id="13.97.3" name="13.97" value="3" onchange="updateSelectedOption('13.97', '13.97.3', '3')"></td>	
+                <td id="td13.97.4" style="background-color: white;"><input type="radio" id="13.97.4" name="13.97" value="4" onchange="updateSelectedOption('13.97', '13.97.4', '4')"></td>
+				<td name="val13.97">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Illumina Spike-in expression set</td>
+				<td id="td13.98.1" style="background-color: white;"><input type="radio" id="13.98.1" name="13.98" value="1" checked="checked" onchange="updateSelectedOption('13.98', '13.98.1', '1')"></td>
+				<td id="td13.98.2" style="background-color: paleturquoise;"> <input type="radio" id="13.98.2" name="13.98" value="2" onchange="updateSelectedOption('13.98', '13.98.2', '2')"></td> 
+				<td id="td13.98.3" style="background-color: white;"><input type="radio" id="13.98.3" name="13.98" value="3" onchange="updateSelectedOption('13.98', '13.98.3', '3')"></td>	
+                <td id="td13.98.4" style="background-color: white;"><input type="radio" id="13.98.4" name="13.98" value="4" onchange="updateSelectedOption('13.98', '13.98.4', '4')"></td>
+				<td name="val13.98">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>beadarray package</td>
+				<td id="td13.99.1" style="background-color: white;"><input type="radio" id="13.99.1" name="13.99" value="1" checked="checked" onchange="updateSelectedOption('13.99', '13.99.1', '1')"></td>
+				<td id="td13.99.2" style="background-color: paleturquoise;"> <input type="radio" id="13.99.2" name="13.99" value="2" onchange="updateSelectedOption('13.99', '13.99.2', '2')"></td> 
+				<td id="td13.99.3" style="background-color: white;"><input type="radio" id="13.99.3" name="13.99" value="3" onchange="updateSelectedOption('13.99', '13.99.3', '3')"></td>	
+                <td id="td13.99.4" style="background-color: white;"><input type="radio" id="13.99.4" name="13.99" value="4" onchange="updateSelectedOption('13.99', '13.99.4', '4')"></td>
+				<td name="val13.99">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Bioconductor limma package</td>
+				<td id="td13.100.1" style="background-color: white;"><input type="radio" id="13.100.1" name="13.100" value="1" checked="checked" onchange="updateSelectedOption('13.100', '13.100.1', '1')"></td>
+				<td id="td13.100.2" style="background-color: paleturquoise;"> <input type="radio" id="13.100.2" name="13.100" value="2" onchange="updateSelectedOption('13.100', '13.100.2', '2')"></td> 
+				<td id="td13.100.3" style="background-color: white;"><input type="radio" id="13.100.3" name="13.100" value="3" onchange="updateSelectedOption('13.100', '13.100.3', '3')"></td>	
+                <td id="td13.100.4" style="background-color: white;"><input type="radio" id="13.100.4" name="13.100" value="4" onchange="updateSelectedOption('13.100', '13.100.4', '4')"></td>
+				<td name="val13.100">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Illumina HumanRef8 v2 BeadChip</td>
+				<td id="td13.101.1" style="background-color: white;"><input type="radio" id="13.101.1" name="13.101" value="1" checked="checked" onchange="updateSelectedOption('13.101', '13.101.1', '1')"></td>
+				<td id="td13.101.2" style="background-color: paleturquoise;"> <input type="radio" id="13.101.2" name="13.101" value="2" onchange="updateSelectedOption('13.101', '13.101.2', '2')"></td> 
+				<td id="td13.101.3" style="background-color: white;"><input type="radio" id="13.101.3" name="13.101" value="3" onchange="updateSelectedOption('13.101', '13.101.3', '3')"></td>	
+                <td id="td13.101.4" style="background-color: white;"><input type="radio" id="13.101.4" name="13.101" value="4" onchange="updateSelectedOption('13.101', '13.101.4', '4')"></td>
+				<td name="val13.101">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BeadStudio</td>
+				<td id="td13.102.1" style="background-color: white;"><input type="radio" id="13.102.1" name="13.102" value="1" checked="checked" onchange="updateSelectedOption('13.102', '13.102.1', '1')"></td>
+				<td id="td13.102.2" style="background-color: white;"> <input type="radio" id="13.102.2" name="13.102" value="2" onchange="updateSelectedOption('13.102', '13.102.2', '2')"></td> 
+				<td id="td13.102.3" style="background-color: white;"><input type="radio" id="13.102.3" name="13.102" value="3" onchange="updateSelectedOption('13.102', '13.102.3', '3')"></td>	
+                <td id="td13.102.4" style="background-color: paleturquoise;"><input type="radio" id="13.102.4" name="13.102" value="4" onchange="updateSelectedOption('13.102', '13.102.4', '4')"></td>
+				<td name="val13.102">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNA sequencing</td>
+				<td id="td13.103.1" style="background-color: white;"><input type="radio" id="13.103.1" name="13.103" value="1" checked="checked" onchange="updateSelectedOption('13.103', '13.103.1', '1')"></td>
+				<td id="td13.103.2" style="background-color: paleturquoise;"> <input type="radio" id="13.103.2" name="13.103" value="2" onchange="updateSelectedOption('13.103', '13.103.2', '2')"></td> 
+				<td id="td13.103.3" style="background-color: white;"><input type="radio" id="13.103.3" name="13.103" value="3" onchange="updateSelectedOption('13.103', '13.103.3', '3')"></td>	
+                <td id="td13.103.4" style="background-color: white;"><input type="radio" id="13.103.4" name="13.103" value="4" onchange="updateSelectedOption('13.103', '13.103.4', '4')"></td>
+				<td name="val13.103">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNAlater solution</td>
+				<td id="td13.104.1" style="background-color: white;"><input type="radio" id="13.104.1" name="13.104" value="1" checked="checked" onchange="updateSelectedOption('13.104', '13.104.1', '1')"></td>
+				<td id="td13.104.2" style="background-color: paleturquoise;"> <input type="radio" id="13.104.2" name="13.104" value="2" onchange="updateSelectedOption('13.104', '13.104.2', '2')"></td> 
+				<td id="td13.104.3" style="background-color: white;"><input type="radio" id="13.104.3" name="13.104" value="3" onchange="updateSelectedOption('13.104', '13.104.3', '3')"></td>	
+                <td id="td13.104.4" style="background-color: white;"><input type="radio" id="13.104.4" name="13.104" value="4" onchange="updateSelectedOption('13.104', '13.104.4', '4')"></td>
+				<td name="val13.104">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Qiagen AllPrep DNA/RNA Micro Kit</td>
+				<td id="td13.105.1" style="background-color: white;"><input type="radio" id="13.105.1" name="13.105" value="1" checked="checked" onchange="updateSelectedOption('13.105', '13.105.1', '1')"></td>
+				<td id="td13.105.2" style="background-color: paleturquoise;"> <input type="radio" id="13.105.2" name="13.105" value="2" onchange="updateSelectedOption('13.105', '13.105.2', '2')"></td> 
+				<td id="td13.105.3" style="background-color: white;"><input type="radio" id="13.105.3" name="13.105" value="3" onchange="updateSelectedOption('13.105', '13.105.3', '3')"></td>	
+                <td id="td13.105.4" style="background-color: white;"><input type="radio" id="13.105.4" name="13.105" value="4" onchange="updateSelectedOption('13.105', '13.105.4', '4')"></td>
+				<td name="val13.105">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>NanoDrop spectrophotometer</td>
+				<td id="td13.106.1" style="background-color: white;"><input type="radio" id="13.106.1" name="13.106" value="1" checked="checked" onchange="updateSelectedOption('13.106', '13.106.1', '1')"></td>
+				<td id="td13.106.2" style="background-color: paleturquoise;"> <input type="radio" id="13.106.2" name="13.106" value="2" onchange="updateSelectedOption('13.106', '13.106.2', '2')"></td> 
+				<td id="td13.106.3" style="background-color: white;"><input type="radio" id="13.106.3" name="13.106" value="3" onchange="updateSelectedOption('13.106', '13.106.3', '3')"></td>	
+                <td id="td13.106.4" style="background-color: white;"><input type="radio" id="13.106.4" name="13.106" value="4" onchange="updateSelectedOption('13.106', '13.106.4', '4')"></td>
+				<td name="val13.106">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Illumina HumanHT-12-v3 Expression BeadChips</td>
+				<td id="td13.107.1" style="background-color: white;"><input type="radio" id="13.107.1" name="13.107" value="1" checked="checked" onchange="updateSelectedOption('13.107', '13.107.1', '1')"></td>
+				<td id="td13.107.2" style="background-color: paleturquoise;"> <input type="radio" id="13.107.2" name="13.107" value="2" onchange="updateSelectedOption('13.107', '13.107.2', '2')"></td> 
+				<td id="td13.107.3" style="background-color: white;"><input type="radio" id="13.107.3" name="13.107" value="3" onchange="updateSelectedOption('13.107', '13.107.3', '3')"></td>	
+                <td id="td13.107.4" style="background-color: white;"><input type="radio" id="13.107.4" name="13.107" value="4" onchange="updateSelectedOption('13.107', '13.107.4', '4')"></td>
+				<td name="val13.107">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Illumina GenomeStudio software</td>
+				<td id="td13.108.1" style="background-color: white;"><input type="radio" id="13.108.1" name="13.108" value="1" checked="checked" onchange="updateSelectedOption('13.108', '13.108.1', '1')"></td>
+				<td id="td13.108.2" style="background-color: paleturquoise;"> <input type="radio" id="13.108.2" name="13.108" value="2" onchange="updateSelectedOption('13.108', '13.108.2', '2')"></td> 
+				<td id="td13.108.3" style="background-color: white;"><input type="radio" id="13.108.3" name="13.108" value="3" onchange="updateSelectedOption('13.108', '13.108.3', '3')"></td>	
+                <td id="td13.108.4" style="background-color: white;"><input type="radio" id="13.108.4" name="13.108" value="4" onchange="updateSelectedOption('13.108', '13.108.4', '4')"></td>
+				<td name="val13.108">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BioConductor packages</td>
+				<td id="td13.109.1" style="background-color: white;"><input type="radio" id="13.109.1" name="13.109" value="1" checked="checked" onchange="updateSelectedOption('13.109', '13.109.1', '1')"></td>
+				<td id="td13.109.2" style="background-color: paleturquoise;"> <input type="radio" id="13.109.2" name="13.109" value="2" onchange="updateSelectedOption('13.109', '13.109.2', '2')"></td> 
+				<td id="td13.109.3" style="background-color: white;"><input type="radio" id="13.109.3" name="13.109" value="3" onchange="updateSelectedOption('13.109', '13.109.3', '3')"></td>	
+                <td id="td13.109.4" style="background-color: white;"><input type="radio" id="13.109.4" name="13.109" value="4" onchange="updateSelectedOption('13.109', '13.109.4', '4')"></td>
+				<td name="val13.109">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>limma</td>
+				<td id="td13.110.1" style="background-color: white;"><input type="radio" id="13.110.1" name="13.110" value="1" checked="checked" onchange="updateSelectedOption('13.110', '13.110.1', '1')"></td>
+				<td id="td13.110.2" style="background-color: white;"> <input type="radio" id="13.110.2" name="13.110" value="2" onchange="updateSelectedOption('13.110', '13.110.2', '2')"></td> 
+				<td id="td13.110.3" style="background-color: white;"><input type="radio" id="13.110.3" name="13.110" value="3" onchange="updateSelectedOption('13.110', '13.110.3', '3')"></td>	
+                <td id="td13.110.4" style="background-color: paleturquoise;"><input type="radio" id="13.110.4" name="13.110" value="4" onchange="updateSelectedOption('13.110', '13.110.4', '4')"></td>
+				<td name="val13.110">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>survival</td>
+				<td id="td13.111.1" style="background-color: white;"><input type="radio" id="13.111.1" name="13.111" value="1" checked="checked" onchange="updateSelectedOption('13.111', '13.111.1', '1')"></td>
+				<td id="td13.111.2" style="background-color: white;"> <input type="radio" id="13.111.2" name="13.111" value="2" onchange="updateSelectedOption('13.111', '13.111.2', '2')"></td> 
+				<td id="td13.111.3" style="background-color: paleturquoise;"><input type="radio" id="13.111.3" name="13.111" value="3" onchange="updateSelectedOption('13.111', '13.111.3', '3')"></td>	
+                <td id="td13.111.4" style="background-color: white;"><input type="radio" id="13.111.4" name="13.111" value="4" onchange="updateSelectedOption('13.111', '13.111.4', '4')"></td>
+				<td name="val13.111">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>Gene Set Analysis (GSA) R package</td>
+				<td id="td13.112.1" style="background-color: white;"><input type="radio" id="13.112.1" name="13.112" value="1" checked="checked" onchange="updateSelectedOption('13.112', '13.112.1', '1')"></td>
+				<td id="td13.112.2" style="background-color: paleturquoise;"> <input type="radio" id="13.112.2" name="13.112" value="2" onchange="updateSelectedOption('13.112', '13.112.2', '2')"></td> 
+				<td id="td13.112.3" style="background-color: white;"><input type="radio" id="13.112.3" name="13.112" value="3" onchange="updateSelectedOption('13.112', '13.112.3', '3')"></td>	
+                <td id="td13.112.4" style="background-color: white;"><input type="radio" id="13.112.4" name="13.112" value="4" onchange="updateSelectedOption('13.112', '13.112.4', '4')"></td>
+				<td name="val13.112">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>slides</td>
+				<td id="td13.113.1" style="background-color: white;"><input type="radio" id="13.113.1" name="13.113" value="1" checked="checked" onchange="updateSelectedOption('13.113', '13.113.1', '1')"></td>
+				<td id="td13.113.2" style="background-color: white;"> <input type="radio" id="13.113.2" name="13.113" value="2" onchange="updateSelectedOption('13.113', '13.113.2', '2')"></td> 
+				<td id="td13.113.3" style="background-color: paleturquoise;"><input type="radio" id="13.113.3" name="13.113" value="3" onchange="updateSelectedOption('13.113', '13.113.3', '3')"></td>	
+                <td id="td13.113.4" style="background-color: white;"><input type="radio" id="13.113.4" name="13.113" value="4" onchange="updateSelectedOption('13.113', '13.113.4', '4')"></td>
+				<td name="val13.113">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>ON-TARGETplus siRNA</td>
+				<td id="td13.114.1" style="background-color: white;"><input type="radio" id="13.114.1" name="13.114" value="1" checked="checked" onchange="updateSelectedOption('13.114', '13.114.1', '1')"></td>
+				<td id="td13.114.2" style="background-color: paleturquoise;"> <input type="radio" id="13.114.2" name="13.114" value="2" onchange="updateSelectedOption('13.114', '13.114.2', '2')"></td> 
+				<td id="td13.114.3" style="background-color: white;"><input type="radio" id="13.114.3" name="13.114" value="3" onchange="updateSelectedOption('13.114', '13.114.3', '3')"></td>	
+                <td id="td13.114.4" style="background-color: white;"><input type="radio" id="13.114.4" name="13.114" value="4" onchange="updateSelectedOption('13.114', '13.114.4', '4')"></td>
+				<td name="val13.114">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>MUS81</td>
+				<td id="td13.115.1" style="background-color: white;"><input type="radio" id="13.115.1" name="13.115" value="1" checked="checked" onchange="updateSelectedOption('13.115', '13.115.1', '1')"></td>
+				<td id="td13.115.2" style="background-color: white;"> <input type="radio" id="13.115.2" name="13.115" value="2" onchange="updateSelectedOption('13.115', '13.115.2', '2')"></td> 
+				<td id="td13.115.3" style="background-color: white;"><input type="radio" id="13.115.3" name="13.115" value="3" onchange="updateSelectedOption('13.115', '13.115.3', '3')"></td>	
+                <td id="td13.115.4" style="background-color: paleturquoise;"><input type="radio" id="13.115.4" name="13.115" value="4" onchange="updateSelectedOption('13.115', '13.115.4', '4')"></td>
+				<td name="val13.115">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>XPF</td>
+				<td id="td13.116.1" style="background-color: white;"><input type="radio" id="13.116.1" name="13.116" value="1" checked="checked" onchange="updateSelectedOption('13.116', '13.116.1', '1')"></td>
+				<td id="td13.116.2" style="background-color: white;"> <input type="radio" id="13.116.2" name="13.116" value="2" onchange="updateSelectedOption('13.116', '13.116.2', '2')"></td> 
+				<td id="td13.116.3" style="background-color: white;"><input type="radio" id="13.116.3" name="13.116" value="3" onchange="updateSelectedOption('13.116', '13.116.3', '3')"></td>	
+                <td id="td13.116.4" style="background-color: paleturquoise;"><input type="radio" id="13.116.4" name="13.116" value="4" onchange="updateSelectedOption('13.116', '13.116.4', '4')"></td>
+				<td name="val13.116">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Lipofectamine RNAiMAX transfection reagent</td>
+				<td id="td13.117.1" style="background-color: white;"><input type="radio" id="13.117.1" name="13.117" value="1" checked="checked" onchange="updateSelectedOption('13.117', '13.117.1', '1')"></td>
+				<td id="td13.117.2" style="background-color: paleturquoise;"> <input type="radio" id="13.117.2" name="13.117" value="2" onchange="updateSelectedOption('13.117', '13.117.2', '2')"></td> 
+				<td id="td13.117.3" style="background-color: white;"><input type="radio" id="13.117.3" name="13.117" value="3" onchange="updateSelectedOption('13.117', '13.117.3', '3')"></td>	
+                <td id="td13.117.4" style="background-color: white;"><input type="radio" id="13.117.4" name="13.117" value="4" onchange="updateSelectedOption('13.117', '13.117.4', '4')"></td>
+				<td name="val13.117">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Leica Bond-Max automated immunostainer</td>
+				<td id="td13.118.1" style="background-color: white;"><input type="radio" id="13.118.1" name="13.118" value="1" checked="checked" onchange="updateSelectedOption('13.118', '13.118.1', '1')"></td>
+				<td id="td13.118.2" style="background-color: paleturquoise;"> <input type="radio" id="13.118.2" name="13.118" value="2" onchange="updateSelectedOption('13.118', '13.118.2', '2')"></td> 
+				<td id="td13.118.3" style="background-color: white;"><input type="radio" id="13.118.3" name="13.118" value="3" onchange="updateSelectedOption('13.118', '13.118.3', '3')"></td>	
+                <td id="td13.118.4" style="background-color: white;"><input type="radio" id="13.118.4" name="13.118" value="4" onchange="updateSelectedOption('13.118', '13.118.4', '4')"></td>
+				<td name="val13.118">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Antibodies</td>
+				<td id="td13.119.1" style="background-color: white;"><input type="radio" id="13.119.1" name="13.119" value="1" checked="checked" onchange="updateSelectedOption('13.119', '13.119.1', '1')"></td>
+				<td id="td13.119.2" style="background-color: paleturquoise;"> <input type="radio" id="13.119.2" name="13.119" value="2" onchange="updateSelectedOption('13.119', '13.119.2', '2')"></td> 
+				<td id="td13.119.3" style="background-color: white;"><input type="radio" id="13.119.3" name="13.119" value="3" onchange="updateSelectedOption('13.119', '13.119.3', '3')"></td>	
+                <td id="td13.119.4" style="background-color: white;"><input type="radio" id="13.119.4" name="13.119" value="4" onchange="updateSelectedOption('13.119', '13.119.4', '4')"></td>
+				<td name="val13.119">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>MUS81 protein</td>
+				<td id="td13.120.1" style="background-color: white;"><input type="radio" id="13.120.1" name="13.120" value="1" checked="checked" onchange="updateSelectedOption('13.120', '13.120.1', '1')"></td>
+				<td id="td13.120.2" style="background-color: paleturquoise;"> <input type="radio" id="13.120.2" name="13.120" value="2" onchange="updateSelectedOption('13.120', '13.120.2', '2')"></td> 
+				<td id="td13.120.3" style="background-color: white;"><input type="radio" id="13.120.3" name="13.120" value="3" onchange="updateSelectedOption('13.120', '13.120.3', '3')"></td>	
+                <td id="td13.120.4" style="background-color: white;"><input type="radio" id="13.120.4" name="13.120" value="4" onchange="updateSelectedOption('13.120', '13.120.4', '4')"></td>
+				<td name="val13.120">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>mouse anti-XPF</td>
+				<td id="td13.121.1" style="background-color: white;"><input type="radio" id="13.121.1" name="13.121" value="1" checked="checked" onchange="updateSelectedOption('13.121', '13.121.1', '1')"></td>
+				<td id="td13.121.2" style="background-color: paleturquoise;"> <input type="radio" id="13.121.2" name="13.121" value="2" onchange="updateSelectedOption('13.121', '13.121.2', '2')"></td> 
+				<td id="td13.121.3" style="background-color: white;"><input type="radio" id="13.121.3" name="13.121" value="3" onchange="updateSelectedOption('13.121', '13.121.3', '3')"></td>	
+                <td id="td13.121.4" style="background-color: white;"><input type="radio" id="13.121.4" name="13.121" value="4" onchange="updateSelectedOption('13.121', '13.121.4', '4')"></td>
+				<td name="val13.121">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>mouse anti-MUS81</td>
+				<td id="td13.122.1" style="background-color: white;"><input type="radio" id="13.122.1" name="13.122" value="1" checked="checked" onchange="updateSelectedOption('13.122', '13.122.1', '1')"></td>
+				<td id="td13.122.2" style="background-color: paleturquoise;"> <input type="radio" id="13.122.2" name="13.122" value="2" onchange="updateSelectedOption('13.122', '13.122.2', '2')"></td> 
+				<td id="td13.122.3" style="background-color: white;"><input type="radio" id="13.122.3" name="13.122" value="3" onchange="updateSelectedOption('13.122', '13.122.3', '3')"></td>	
+                <td id="td13.122.4" style="background-color: white;"><input type="radio" id="13.122.4" name="13.122" value="4" onchange="updateSelectedOption('13.122', '13.122.4', '4')"></td>
+				<td name="val13.122">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Agilent Microarray Scanner</td>
+				<td id="td13.123.1" style="background-color: white;"><input type="radio" id="13.123.1" name="13.123" value="1" checked="checked" onchange="updateSelectedOption('13.123', '13.123.1', '1')"></td>
+				<td id="td13.123.2" style="background-color: paleturquoise;"> <input type="radio" id="13.123.2" name="13.123" value="2" onchange="updateSelectedOption('13.123', '13.123.2', '2')"></td> 
+				<td id="td13.123.3" style="background-color: white;"><input type="radio" id="13.123.3" name="13.123" value="3" onchange="updateSelectedOption('13.123', '13.123.3', '3')"></td>	
+                <td id="td13.123.4" style="background-color: white;"><input type="radio" id="13.123.4" name="13.123" value="4" onchange="updateSelectedOption('13.123', '13.123.4', '4')"></td>
+				<td name="val13.123">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Feature Extraction software</td>
+				<td id="td13.124.1" style="background-color: white;"><input type="radio" id="13.124.1" name="13.124" value="1" checked="checked" onchange="updateSelectedOption('13.124', '13.124.1', '1')"></td>
+				<td id="td13.124.2" style="background-color: white;"> <input type="radio" id="13.124.2" name="13.124" value="2" onchange="updateSelectedOption('13.124', '13.124.2', '2')"></td> 
+				<td id="td13.124.3" style="background-color: white;"><input type="radio" id="13.124.3" name="13.124" value="3" onchange="updateSelectedOption('13.124', '13.124.3', '3')"></td>	
+                <td id="td13.124.4" style="background-color: paleturquoise;"><input type="radio" id="13.124.4" name="13.124" value="4" onchange="updateSelectedOption('13.124', '13.124.4', '4')"></td>
+				<td name="val13.124">4</td>					
+			</tr>
+            
+
+<tr>
+				<td> LncRNA</td>
+				<td id="td13.125.1" style="background-color: white;"><input type="radio" id="13.125.1" name="13.125" value="1" checked="checked" onchange="updateSelectedOption('13.125', '13.125.1', '1')"></td>
+				<td id="td13.125.2" style="background-color: paleturquoise;"> <input type="radio" id="13.125.2" name="13.125" value="2" onchange="updateSelectedOption('13.125', '13.125.2', '2')"></td> 
+				<td id="td13.125.3" style="background-color: white;"><input type="radio" id="13.125.3" name="13.125" value="3" onchange="updateSelectedOption('13.125', '13.125.3', '3')"></td>	
+                <td id="td13.125.4" style="background-color: white;"><input type="radio" id="13.125.4" name="13.125" value="4" onchange="updateSelectedOption('13.125', '13.125.4', '4')"></td>
+				<td name="val13.125">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>mRNA microarray assays</td>
+				<td id="td13.126.1" style="background-color: white;"><input type="radio" id="13.126.1" name="13.126" value="1" checked="checked" onchange="updateSelectedOption('13.126', '13.126.1', '1')"></td>
+				<td id="td13.126.2" style="background-color: paleturquoise;"> <input type="radio" id="13.126.2" name="13.126" value="2" onchange="updateSelectedOption('13.126', '13.126.2', '2')"></td> 
+				<td id="td13.126.3" style="background-color: white;"><input type="radio" id="13.126.3" name="13.126" value="3" onchange="updateSelectedOption('13.126', '13.126.3', '3')"></td>	
+                <td id="td13.126.4" style="background-color: white;"><input type="radio" id="13.126.4" name="13.126" value="4" onchange="updateSelectedOption('13.126', '13.126.4', '4')"></td>
+				<td name="val13.126">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>limma packages</td>
+				<td id="td13.127.1" style="background-color: white;"><input type="radio" id="13.127.1" name="13.127" value="1" checked="checked" onchange="updateSelectedOption('13.127', '13.127.1', '1')"></td>
+				<td id="td13.127.2" style="background-color: white;"> <input type="radio" id="13.127.2" name="13.127" value="2" onchange="updateSelectedOption('13.127', '13.127.2', '2')"></td> 
+				<td id="td13.127.3" style="background-color: white;"><input type="radio" id="13.127.3" name="13.127" value="3" onchange="updateSelectedOption('13.127', '13.127.3', '3')"></td>	
+                <td id="td13.127.4" style="background-color: paleturquoise;"><input type="radio" id="13.127.4" name="13.127" value="4" onchange="updateSelectedOption('13.127', '13.127.4', '4')"></td>
+				<td name="val13.127">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Gene Expression Hybridization Kit</td>
+				<td id="td13.128.1" style="background-color: white;"><input type="radio" id="13.128.1" name="13.128" value="1" checked="checked" onchange="updateSelectedOption('13.128', '13.128.1', '1')"></td>
+				<td id="td13.128.2" style="background-color: paleturquoise;"> <input type="radio" id="13.128.2" name="13.128" value="2" onchange="updateSelectedOption('13.128', '13.128.2', '2')"></td> 
+				<td id="td13.128.3" style="background-color: white;"><input type="radio" id="13.128.3" name="13.128" value="3" onchange="updateSelectedOption('13.128', '13.128.3', '3')"></td>	
+                <td id="td13.128.4" style="background-color: white;"><input type="radio" id="13.128.4" name="13.128" value="4" onchange="updateSelectedOption('13.128', '13.128.4', '4')"></td>
+				<td name="val13.128">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>hybridization oven</td>
+				<td id="td13.129.1" style="background-color: white;"><input type="radio" id="13.129.1" name="13.129" value="1" checked="checked" onchange="updateSelectedOption('13.129', '13.129.1', '1')"></td>
+				<td id="td13.129.2" style="background-color: paleturquoise;"> <input type="radio" id="13.129.2" name="13.129" value="2" onchange="updateSelectedOption('13.129', '13.129.2', '2')"></td> 
+				<td id="td13.129.3" style="background-color: white;"><input type="radio" id="13.129.3" name="13.129" value="3" onchange="updateSelectedOption('13.129', '13.129.3', '3')"></td>	
+                <td id="td13.129.4" style="background-color: white;"><input type="radio" id="13.129.4" name="13.129" value="4" onchange="updateSelectedOption('13.129', '13.129.4', '4')"></td>
+				<td name="val13.129">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>staining dishes</td>
+				<td id="td13.130.1" style="background-color: white;"><input type="radio" id="13.130.1" name="13.130" value="1" checked="checked" onchange="updateSelectedOption('13.130', '13.130.1', '1')"></td>
+				<td id="td13.130.2" style="background-color: paleturquoise;"> <input type="radio" id="13.130.2" name="13.130" value="2" onchange="updateSelectedOption('13.130', '13.130.2', '2')"></td> 
+				<td id="td13.130.3" style="background-color: white;"><input type="radio" id="13.130.3" name="13.130" value="3" onchange="updateSelectedOption('13.130', '13.130.3', '3')"></td>	
+                <td id="td13.130.4" style="background-color: white;"><input type="radio" id="13.130.4" name="13.130" value="4" onchange="updateSelectedOption('13.130', '13.130.4', '4')"></td>
+				<td name="val13.130">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Gene Expression Wash Buffer Kit</td>
+				<td id="td13.131.1" style="background-color: white;"><input type="radio" id="13.131.1" name="13.131" value="1" checked="checked" onchange="updateSelectedOption('13.131', '13.131.1', '1')"></td>
+				<td id="td13.131.2" style="background-color: paleturquoise;"> <input type="radio" id="13.131.2" name="13.131" value="2" onchange="updateSelectedOption('13.131', '13.131.2', '2')"></td> 
+				<td id="td13.131.3" style="background-color: white;"><input type="radio" id="13.131.3" name="13.131" value="3" onchange="updateSelectedOption('13.131', '13.131.3', '3')"></td>	
+                <td id="td13.131.4" style="background-color: white;"><input type="radio" id="13.131.4" name="13.131" value="4" onchange="updateSelectedOption('13.131', '13.131.4', '4')"></td>
+				<td name="val13.131">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>TRIZOL Reagent</td>
+				<td id="td13.132.1" style="background-color: white;"><input type="radio" id="13.132.1" name="13.132" value="1" checked="checked" onchange="updateSelectedOption('13.132', '13.132.1', '1')"></td>
+				<td id="td13.132.2" style="background-color: paleturquoise;"> <input type="radio" id="13.132.2" name="13.132" value="2" onchange="updateSelectedOption('13.132', '13.132.2', '2')"></td> 
+				<td id="td13.132.3" style="background-color: white;"><input type="radio" id="13.132.3" name="13.132" value="3" onchange="updateSelectedOption('13.132', '13.132.3', '3')"></td>	
+                <td id="td13.132.4" style="background-color: white;"><input type="radio" id="13.132.4" name="13.132" value="4" onchange="updateSelectedOption('13.132', '13.132.4', '4')"></td>
+				<td name="val13.132">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>NanoDrop ND-20003.2 Spectrophotometer</td>
+				<td id="td13.133.1" style="background-color: white;"><input type="radio" id="13.133.1" name="13.133" value="1" checked="checked" onchange="updateSelectedOption('13.133', '13.133.1', '1')"></td>
+				<td id="td13.133.2" style="background-color: paleturquoise;"> <input type="radio" id="13.133.2" name="13.133" value="2" onchange="updateSelectedOption('13.133', '13.133.2', '2')"></td> 
+				<td id="td13.133.3" style="background-color: white;"><input type="radio" id="13.133.3" name="13.133" value="3" onchange="updateSelectedOption('13.133', '13.133.3', '3')"></td>	
+                <td id="td13.133.4" style="background-color: white;"><input type="radio" id="13.133.4" name="13.133" value="4" onchange="updateSelectedOption('13.133', '13.133.4', '4')"></td>
+				<td name="val13.133">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Agilent Bioanalyzer 2100</td>
+				<td id="td13.134.1" style="background-color: white;"><input type="radio" id="13.134.1" name="13.134" value="1" checked="checked" onchange="updateSelectedOption('13.134', '13.134.1', '1')"></td>
+				<td id="td13.134.2" style="background-color: paleturquoise;"> <input type="radio" id="13.134.2" name="13.134" value="2" onchange="updateSelectedOption('13.134', '13.134.2', '2')"></td> 
+				<td id="td13.134.3" style="background-color: white;"><input type="radio" id="13.134.3" name="13.134" value="3" onchange="updateSelectedOption('13.134', '13.134.3', '3')"></td>	
+                <td id="td13.134.4" style="background-color: white;"><input type="radio" id="13.134.4" name="13.134" value="4" onchange="updateSelectedOption('13.134', '13.134.4', '4')"></td>
+				<td name="val13.134">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNeasy mini kit </td>
+				<td id="td13.135.1" style="background-color: white;"><input type="radio" id="13.135.1" name="13.135" value="1" checked="checked" onchange="updateSelectedOption('13.135', '13.135.1', '1')"></td>
+				<td id="td13.135.2" style="background-color: paleturquoise;"> <input type="radio" id="13.135.2" name="13.135" value="2" onchange="updateSelectedOption('13.135', '13.135.2', '2')"></td> 
+				<td id="td13.135.3" style="background-color: white;"><input type="radio" id="13.135.3" name="13.135" value="3" onchange="updateSelectedOption('13.135', '13.135.3', '3')"></td>	
+                <td id="td13.135.4" style="background-color: white;"><input type="radio" id="13.135.4" name="13.135" value="4" onchange="updateSelectedOption('13.135', '13.135.4', '4')"></td>
+				<td name="val13.135">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNase-Free DNase Set</td>
+				<td id="td13.136.1" style="background-color: white;"><input type="radio" id="13.136.1" name="13.136" value="1" checked="checked" onchange="updateSelectedOption('13.136', '13.136.1', '1')"></td>
+				<td id="td13.136.2" style="background-color: paleturquoise;"> <input type="radio" id="13.136.2" name="13.136" value="2" onchange="updateSelectedOption('13.136', '13.136.2', '2')"></td> 
+				<td id="td13.136.3" style="background-color: white;"><input type="radio" id="13.136.3" name="13.136" value="3" onchange="updateSelectedOption('13.136', '13.136.3', '3')"></td>	
+                <td id="td13.136.4" style="background-color: white;"><input type="radio" id="13.136.4" name="13.136" value="4" onchange="updateSelectedOption('13.136', '13.136.4', '4')"></td>
+				<td name="val13.136">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>endothelial cell medium</td>
+				<td id="td13.137.1" style="background-color: white;"><input type="radio" id="13.137.1" name="13.137" value="1" checked="checked" onchange="updateSelectedOption('13.137', '13.137.1', '1')"></td>
+				<td id="td13.137.2" style="background-color: paleturquoise;"> <input type="radio" id="13.137.2" name="13.137" value="2" onchange="updateSelectedOption('13.137', '13.137.2', '2')"></td> 
+				<td id="td13.137.3" style="background-color: white;"><input type="radio" id="13.137.3" name="13.137" value="3" onchange="updateSelectedOption('13.137', '13.137.3', '3')"></td>	
+                <td id="td13.137.4" style="background-color: white;"><input type="radio" id="13.137.4" name="13.137" value="4" onchange="updateSelectedOption('13.137', '13.137.4', '4')"></td>
+				<td name="val13.137">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>ECM</td>
+				<td id="td13.138.1" style="background-color: white;"><input type="radio" id="13.138.1" name="13.138" value="1" checked="checked" onchange="updateSelectedOption('13.138', '13.138.1', '1')"></td>
+				<td id="td13.138.2" style="background-color: paleturquoise;"> <input type="radio" id="13.138.2" name="13.138" value="2" onchange="updateSelectedOption('13.138', '13.138.2', '2')"></td> 
+				<td id="td13.138.3" style="background-color: white;"><input type="radio" id="13.138.3" name="13.138" value="3" onchange="updateSelectedOption('13.138', '13.138.3', '3')"></td>	
+                <td id="td13.138.4" style="background-color: white;"><input type="radio" id="13.138.4" name="13.138" value="4" onchange="updateSelectedOption('13.138', '13.138.4', '4')"></td>
+				<td name="val13.138">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>fetal bovine serum</td>
+				<td id="td13.139.1" style="background-color: white;"><input type="radio" id="13.139.1" name="13.139" value="1" checked="checked" onchange="updateSelectedOption('13.139', '13.139.1', '1')"></td>
+				<td id="td13.139.2" style="background-color: paleturquoise;"> <input type="radio" id="13.139.2" name="13.139" value="2" onchange="updateSelectedOption('13.139', '13.139.2', '2')"></td> 
+				<td id="td13.139.3" style="background-color: white;"><input type="radio" id="13.139.3" name="13.139" value="3" onchange="updateSelectedOption('13.139', '13.139.3', '3')"></td>	
+                <td id="td13.139.4" style="background-color: white;"><input type="radio" id="13.139.4" name="13.139" value="4" onchange="updateSelectedOption('13.139', '13.139.4', '4')"></td>
+				<td name="val13.139">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>fibronectin-precoated 6-well plates</td>
+				<td id="td13.140.1" style="background-color: white;"><input type="radio" id="13.140.1" name="13.140" value="1" checked="checked" onchange="updateSelectedOption('13.140', '13.140.1', '1')"></td>
+				<td id="td13.140.2" style="background-color: paleturquoise;"> <input type="radio" id="13.140.2" name="13.140" value="2" onchange="updateSelectedOption('13.140', '13.140.2', '2')"></td> 
+				<td id="td13.140.3" style="background-color: white;"><input type="radio" id="13.140.3" name="13.140" value="3" onchange="updateSelectedOption('13.140', '13.140.3', '3')"></td>	
+                <td id="td13.140.4" style="background-color: white;"><input type="radio" id="13.140.4" name="13.140" value="4" onchange="updateSelectedOption('13.140', '13.140.4', '4')"></td>
+				<td name="val13.140">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>ox-LDL</td>
+				<td id="td13.141.1" style="background-color: white;"><input type="radio" id="13.141.1" name="13.141" value="1" checked="checked" onchange="updateSelectedOption('13.141', '13.141.1', '1')"></td>
+				<td id="td13.141.2" style="background-color: paleturquoise;"> <input type="radio" id="13.141.2" name="13.141" value="2" onchange="updateSelectedOption('13.141', '13.141.2', '2')"></td> 
+				<td id="td13.141.3" style="background-color: white;"><input type="radio" id="13.141.3" name="13.141" value="3" onchange="updateSelectedOption('13.141', '13.141.3', '3')"></td>	
+                <td id="td13.141.4" style="background-color: white;"><input type="radio" id="13.141.4" name="13.141" value="4" onchange="updateSelectedOption('13.141', '13.141.4', '4')"></td>
+				<td name="val13.141">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>endothelial cell growth supplement</td>
+				<td id="td13.142.1" style="background-color: white;"><input type="radio" id="13.142.1" name="13.142" value="1" checked="checked" onchange="updateSelectedOption('13.142', '13.142.1', '1')"></td>
+				<td id="td13.142.2" style="background-color: paleturquoise;"> <input type="radio" id="13.142.2" name="13.142" value="2" onchange="updateSelectedOption('13.142', '13.142.2', '2')"></td> 
+				<td id="td13.142.3" style="background-color: white;"><input type="radio" id="13.142.3" name="13.142" value="3" onchange="updateSelectedOption('13.142', '13.142.3', '3')"></td>	
+                <td id="td13.142.4" style="background-color: white;"><input type="radio" id="13.142.4" name="13.142" value="4" onchange="updateSelectedOption('13.142', '13.142.4', '4')"></td>
+				<td name="val13.142">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>ECGS</td>
+				<td id="td13.143.1" style="background-color: white;"><input type="radio" id="13.143.1" name="13.143" value="1" checked="checked" onchange="updateSelectedOption('13.143', '13.143.1', '1')"></td>
+				<td id="td13.143.2" style="background-color: white;"> <input type="radio" id="13.143.2" name="13.143" value="2" onchange="updateSelectedOption('13.143', '13.143.2', '2')"></td> 
+				<td id="td13.143.3" style="background-color: white;"><input type="radio" id="13.143.3" name="13.143" value="3" onchange="updateSelectedOption('13.143', '13.143.3', '3')"></td>	
+                <td id="td13.143.4" style="background-color: paleturquoise;"><input type="radio" id="13.143.4" name="13.143" value="4" onchange="updateSelectedOption('13.143', '13.143.4', '4')"></td>
+				<td name="val13.143">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Transcriptor First Strand cDNA Synthesis Kit</td>
+				<td id="td13.144.1" style="background-color: white;"><input type="radio" id="13.144.1" name="13.144" value="1" checked="checked" onchange="updateSelectedOption('13.144', '13.144.1', '1')"></td>
+				<td id="td13.144.2" style="background-color: paleturquoise;"> <input type="radio" id="13.144.2" name="13.144" value="2" onchange="updateSelectedOption('13.144', '13.144.2', '2')"></td> 
+				<td id="td13.144.3" style="background-color: white;"><input type="radio" id="13.144.3" name="13.144" value="3" onchange="updateSelectedOption('13.144', '13.144.3', '3')"></td>	
+                <td id="td13.144.4" style="background-color: white;"><input type="radio" id="13.144.4" name="13.144" value="4" onchange="updateSelectedOption('13.144', '13.144.4', '4')"></td>
+				<td name="val13.144">2</td>					
+			</tr>
+            
+
+<tr>
+				<td> LightCycler 480 SYBR Green I Master</td>
+				<td id="td13.145.1" style="background-color: white;"><input type="radio" id="13.145.1" name="13.145" value="1" checked="checked" onchange="updateSelectedOption('13.145', '13.145.1', '1')"></td>
+				<td id="td13.145.2" style="background-color: paleturquoise;"> <input type="radio" id="13.145.2" name="13.145" value="2" onchange="updateSelectedOption('13.145', '13.145.2', '2')"></td> 
+				<td id="td13.145.3" style="background-color: white;"><input type="radio" id="13.145.3" name="13.145" value="3" onchange="updateSelectedOption('13.145', '13.145.3', '3')"></td>	
+                <td id="td13.145.4" style="background-color: white;"><input type="radio" id="13.145.4" name="13.145" value="4" onchange="updateSelectedOption('13.145', '13.145.4', '4')"></td>
+				<td name="val13.145">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>LightCycler480 instrument</td>
+				<td id="td13.146.1" style="background-color: white;"><input type="radio" id="13.146.1" name="13.146" value="1" checked="checked" onchange="updateSelectedOption('13.146', '13.146.1', '1')"></td>
+				<td id="td13.146.2" style="background-color: paleturquoise;"> <input type="radio" id="13.146.2" name="13.146" value="2" onchange="updateSelectedOption('13.146', '13.146.2', '2')"></td> 
+				<td id="td13.146.3" style="background-color: white;"><input type="radio" id="13.146.3" name="13.146" value="3" onchange="updateSelectedOption('13.146', '13.146.3', '3')"></td>	
+                <td id="td13.146.4" style="background-color: white;"><input type="radio" id="13.146.4" name="13.146" value="4" onchange="updateSelectedOption('13.146', '13.146.4', '4')"></td>
+				<td name="val13.146">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>primer sequences</td>
+				<td id="td13.147.1" style="background-color: white;"><input type="radio" id="13.147.1" name="13.147" value="1" checked="checked" onchange="updateSelectedOption('13.147', '13.147.1', '1')"></td>
+				<td id="td13.147.2" style="background-color: paleturquoise;"> <input type="radio" id="13.147.2" name="13.147" value="2" onchange="updateSelectedOption('13.147', '13.147.2', '2')"></td> 
+				<td id="td13.147.3" style="background-color: white;"><input type="radio" id="13.147.3" name="13.147" value="3" onchange="updateSelectedOption('13.147', '13.147.3', '3')"></td>	
+                <td id="td13.147.4" style="background-color: white;"><input type="radio" id="13.147.4" name="13.147" value="4" onchange="updateSelectedOption('13.147', '13.147.4', '4')"></td>
+				<td name="val13.147">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Blast</td>
+				<td id="td13.148.1" style="background-color: white;"><input type="radio" id="13.148.1" name="13.148" value="1" checked="checked" onchange="updateSelectedOption('13.148', '13.148.1', '1')"></td>
+				<td id="td13.148.2" style="background-color: paleturquoise;"> <input type="radio" id="13.148.2" name="13.148" value="2" onchange="updateSelectedOption('13.148', '13.148.2', '2')"></td> 
+				<td id="td13.148.3" style="background-color: white;"><input type="radio" id="13.148.3" name="13.148" value="3" onchange="updateSelectedOption('13.148', '13.148.3', '3')"></td>	
+                <td id="td13.148.4" style="background-color: white;"><input type="radio" id="13.148.4" name="13.148" value="4" onchange="updateSelectedOption('13.148', '13.148.4', '4')"></td>
+				<td name="val13.148">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNA-plex</td>
+				<td id="td13.149.1" style="background-color: white;"><input type="radio" id="13.149.1" name="13.149" value="1" checked="checked" onchange="updateSelectedOption('13.149', '13.149.1', '1')"></td>
+				<td id="td13.149.2" style="background-color: white;"> <input type="radio" id="13.149.2" name="13.149" value="2" onchange="updateSelectedOption('13.149', '13.149.2', '2')"></td> 
+				<td id="td13.149.3" style="background-color: white;"><input type="radio" id="13.149.3" name="13.149" value="3" onchange="updateSelectedOption('13.149', '13.149.3', '3')"></td>	
+                <td id="td13.149.4" style="background-color: paleturquoise;"><input type="radio" id="13.149.4" name="13.149" value="4" onchange="updateSelectedOption('13.149', '13.149.4', '4')"></td>
+				<td name="val13.149">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>Low Input Quick Amp WT Labeling Kit</td>
+				<td id="td13.150.1" style="background-color: white;"><input type="radio" id="13.150.1" name="13.150" value="1" checked="checked" onchange="updateSelectedOption('13.150', '13.150.1', '1')"></td>
+				<td id="td13.150.2" style="background-color: paleturquoise;"> <input type="radio" id="13.150.2" name="13.150" value="2" onchange="updateSelectedOption('13.150', '13.150.2', '2')"></td> 
+				<td id="td13.150.3" style="background-color: white;"><input type="radio" id="13.150.3" name="13.150" value="3" onchange="updateSelectedOption('13.150', '13.150.3', '3')"></td>	
+                <td id="td13.150.4" style="background-color: white;"><input type="radio" id="13.150.4" name="13.150" value="4" onchange="updateSelectedOption('13.150', '13.150.4', '4')"></td>
+				<td name="val13.150">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RNeasy mini kit</td>
+				<td id="td13.151.1" style="background-color: white;"><input type="radio" id="13.151.1" name="13.151" value="1" checked="checked" onchange="updateSelectedOption('13.151', '13.151.1', '1')"></td>
+				<td id="td13.151.2" style="background-color: paleturquoise;"> <input type="radio" id="13.151.2" name="13.151" value="2" onchange="updateSelectedOption('13.151', '13.151.2', '2')"></td> 
+				<td id="td13.151.3" style="background-color: white;"><input type="radio" id="13.151.3" name="13.151" value="3" onchange="updateSelectedOption('13.151', '13.151.3', '3')"></td>	
+                <td id="td13.151.4" style="background-color: white;"><input type="radio" id="13.151.4" name="13.151" value="4" onchange="updateSelectedOption('13.151', '13.151.4', '4')"></td>
+				<td name="val13.151">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Anti-Flotillin-1</td>
+				<td id="td13.152.1" style="background-color: white;"><input type="radio" id="13.152.1" name="13.152" value="1" checked="checked" onchange="updateSelectedOption('13.152', '13.152.1', '1')"></td>
+				<td id="td13.152.2" style="background-color: paleturquoise;"> <input type="radio" id="13.152.2" name="13.152" value="2" onchange="updateSelectedOption('13.152', '13.152.2', '2')"></td> 
+				<td id="td13.152.3" style="background-color: white;"><input type="radio" id="13.152.3" name="13.152" value="3" onchange="updateSelectedOption('13.152', '13.152.3', '3')"></td>	
+                <td id="td13.152.4" style="background-color: white;"><input type="radio" id="13.152.4" name="13.152" value="4" onchange="updateSelectedOption('13.152', '13.152.4', '4')"></td>
+				<td name="val13.152">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-CD63 antibodies</td>
+				<td id="td13.153.1" style="background-color: white;"><input type="radio" id="13.153.1" name="13.153" value="1" checked="checked" onchange="updateSelectedOption('13.153', '13.153.1', '1')"></td>
+				<td id="td13.153.2" style="background-color: paleturquoise;"> <input type="radio" id="13.153.2" name="13.153" value="2" onchange="updateSelectedOption('13.153', '13.153.2', '2')"></td> 
+				<td id="td13.153.3" style="background-color: white;"><input type="radio" id="13.153.3" name="13.153" value="3" onchange="updateSelectedOption('13.153', '13.153.3', '3')"></td>	
+                <td id="td13.153.4" style="background-color: white;"><input type="radio" id="13.153.4" name="13.153" value="4" onchange="updateSelectedOption('13.153', '13.153.4', '4')"></td>
+				<td name="val13.153">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Total Exosome Isolation Kit</td>
+				<td id="td13.154.1" style="background-color: white;"><input type="radio" id="13.154.1" name="13.154" value="1" checked="checked" onchange="updateSelectedOption('13.154', '13.154.1', '1')"></td>
+				<td id="td13.154.2" style="background-color: paleturquoise;"> <input type="radio" id="13.154.2" name="13.154" value="2" onchange="updateSelectedOption('13.154', '13.154.2', '2')"></td> 
+				<td id="td13.154.3" style="background-color: white;"><input type="radio" id="13.154.3" name="13.154" value="3" onchange="updateSelectedOption('13.154', '13.154.3', '3')"></td>	
+                <td id="td13.154.4" style="background-color: white;"><input type="radio" id="13.154.4" name="13.154" value="4" onchange="updateSelectedOption('13.154', '13.154.4', '4')"></td>
+				<td name="val13.154">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>reagent</td>
+				<td id="td13.155.1" style="background-color: white;"><input type="radio" id="13.155.1" name="13.155" value="1" checked="checked" onchange="updateSelectedOption('13.155', '13.155.1', '1')"></td>
+				<td id="td13.155.2" style="background-color: white;"> <input type="radio" id="13.155.2" name="13.155" value="2" onchange="updateSelectedOption('13.155', '13.155.2', '2')"></td> 
+				<td id="td13.155.3" style="background-color: paleturquoise;"><input type="radio" id="13.155.3" name="13.155" value="3" onchange="updateSelectedOption('13.155', '13.155.3', '3')"></td>	
+                <td id="td13.155.4" style="background-color: white;"><input type="radio" id="13.155.4" name="13.155" value="4" onchange="updateSelectedOption('13.155', '13.155.4', '4')"></td>
+				<td name="val13.155">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>Supernatant</td>
+				<td id="td13.156.1" style="background-color: white;"><input type="radio" id="13.156.1" name="13.156" value="1" checked="checked" onchange="updateSelectedOption('13.156', '13.156.1', '1')"></td>
+				<td id="td13.156.2" style="background-color: white;"> <input type="radio" id="13.156.2" name="13.156" value="2" onchange="updateSelectedOption('13.156', '13.156.2', '2')"></td> 
+				<td id="td13.156.3" style="background-color: paleturquoise;"><input type="radio" id="13.156.3" name="13.156" value="3" onchange="updateSelectedOption('13.156', '13.156.3', '3')"></td>	
+                <td id="td13.156.4" style="background-color: white;"><input type="radio" id="13.156.4" name="13.156" value="4" onchange="updateSelectedOption('13.156', '13.156.4', '4')"></td>
+				<td name="val13.156">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>Total Exosome RNA and Protein Isolation Kit</td>
+				<td id="td13.157.1" style="background-color: white;"><input type="radio" id="13.157.1" name="13.157" value="1" checked="checked" onchange="updateSelectedOption('13.157', '13.157.1', '1')"></td>
+				<td id="td13.157.2" style="background-color: paleturquoise;"> <input type="radio" id="13.157.2" name="13.157" value="2" onchange="updateSelectedOption('13.157', '13.157.2', '2')"></td> 
+				<td id="td13.157.3" style="background-color: white;"><input type="radio" id="13.157.3" name="13.157" value="3" onchange="updateSelectedOption('13.157', '13.157.3', '3')"></td>	
+                <td id="td13.157.4" style="background-color: white;"><input type="radio" id="13.157.4" name="13.157" value="4" onchange="updateSelectedOption('13.157', '13.157.4', '4')"></td>
+				<td name="val13.157">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Exosome Resuspension Buffer</td>
+				<td id="td13.158.1" style="background-color: white;"><input type="radio" id="13.158.1" name="13.158" value="1" checked="checked" onchange="updateSelectedOption('13.158', '13.158.1', '1')"></td>
+				<td id="td13.158.2" style="background-color: paleturquoise;"> <input type="radio" id="13.158.2" name="13.158" value="2" onchange="updateSelectedOption('13.158', '13.158.2', '2')"></td> 
+				<td id="td13.158.3" style="background-color: white;"><input type="radio" id="13.158.3" name="13.158" value="3" onchange="updateSelectedOption('13.158', '13.158.3', '3')"></td>	
+                <td id="td13.158.4" style="background-color: white;"><input type="radio" id="13.158.4" name="13.158" value="4" onchange="updateSelectedOption('13.158', '13.158.4', '4')"></td>
+				<td name="val13.158">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>TaqMan MicroRNA Reverse Transcription Kit</td>
+				<td id="td13.159.1" style="background-color: white;"><input type="radio" id="13.159.1" name="13.159" value="1" checked="checked" onchange="updateSelectedOption('13.159', '13.159.1', '1')"></td>
+				<td id="td13.159.2" style="background-color: paleturquoise;"> <input type="radio" id="13.159.2" name="13.159" value="2" onchange="updateSelectedOption('13.159', '13.159.2', '2')"></td> 
+				<td id="td13.159.3" style="background-color: white;"><input type="radio" id="13.159.3" name="13.159" value="3" onchange="updateSelectedOption('13.159', '13.159.3', '3')"></td>	
+                <td id="td13.159.4" style="background-color: white;"><input type="radio" id="13.159.4" name="13.159" value="4" onchange="updateSelectedOption('13.159', '13.159.4', '4')"></td>
+				<td name="val13.159">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>TaqMan MicroRNA assay</td>
+				<td id="td13.160.1" style="background-color: white;"><input type="radio" id="13.160.1" name="13.160" value="1" checked="checked" onchange="updateSelectedOption('13.160', '13.160.1', '1')"></td>
+				<td id="td13.160.2" style="background-color: paleturquoise;"> <input type="radio" id="13.160.2" name="13.160" value="2" onchange="updateSelectedOption('13.160', '13.160.2', '2')"></td> 
+				<td id="td13.160.3" style="background-color: white;"><input type="radio" id="13.160.3" name="13.160" value="3" onchange="updateSelectedOption('13.160', '13.160.3', '3')"></td>	
+                <td id="td13.160.4" style="background-color: white;"><input type="radio" id="13.160.4" name="13.160" value="4" onchange="updateSelectedOption('13.160', '13.160.4', '4')"></td>
+				<td name="val13.160">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>7500 Fast Real Time PCR system</td>
+				<td id="td13.161.1" style="background-color: white;"><input type="radio" id="13.161.1" name="13.161" value="1" checked="checked" onchange="updateSelectedOption('13.161', '13.161.1', '1')"></td>
+				<td id="td13.161.2" style="background-color: paleturquoise;"> <input type="radio" id="13.161.2" name="13.161" value="2" onchange="updateSelectedOption('13.161', '13.161.2', '2')"></td> 
+				<td id="td13.161.3" style="background-color: white;"><input type="radio" id="13.161.3" name="13.161" value="3" onchange="updateSelectedOption('13.161', '13.161.3', '3')"></td>	
+                <td id="td13.161.4" style="background-color: white;"><input type="radio" id="13.161.4" name="13.161" value="4" onchange="updateSelectedOption('13.161', '13.161.4', '4')"></td>
+				<td name="val13.161">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>PCR plate</td>
+				<td id="td13.162.1" style="background-color: white;"><input type="radio" id="13.162.1" name="13.162" value="1" checked="checked" onchange="updateSelectedOption('13.162', '13.162.1', '1')"></td>
+				<td id="td13.162.2" style="background-color: paleturquoise;"> <input type="radio" id="13.162.2" name="13.162" value="2" onchange="updateSelectedOption('13.162', '13.162.2', '2')"></td> 
+				<td id="td13.162.3" style="background-color: white;"><input type="radio" id="13.162.3" name="13.162" value="3" onchange="updateSelectedOption('13.162', '13.162.3', '3')"></td>	
+                <td id="td13.162.4" style="background-color: white;"><input type="radio" id="13.162.4" name="13.162" value="4" onchange="updateSelectedOption('13.162', '13.162.4', '4')"></td>
+				<td name="val13.162">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>StepOnePlus Real Time PCR system</td>
+				<td id="td13.163.1" style="background-color: white;"><input type="radio" id="13.163.1" name="13.163" value="1" checked="checked" onchange="updateSelectedOption('13.163', '13.163.1', '1')"></td>
+				<td id="td13.163.2" style="background-color: paleturquoise;"> <input type="radio" id="13.163.2" name="13.163" value="2" onchange="updateSelectedOption('13.163', '13.163.2', '2')"></td> 
+				<td id="td13.163.3" style="background-color: white;"><input type="radio" id="13.163.3" name="13.163" value="3" onchange="updateSelectedOption('13.163', '13.163.3', '3')"></td>	
+                <td id="td13.163.4" style="background-color: white;"><input type="radio" id="13.163.4" name="13.163" value="4" onchange="updateSelectedOption('13.163', '13.163.4', '4')"></td>
+				<td name="val13.163">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>mirVana PARIS RNA Isolation kit</td>
+				<td id="td13.164.1" style="background-color: white;"><input type="radio" id="13.164.1" name="13.164" value="1" checked="checked" onchange="updateSelectedOption('13.164', '13.164.1', '1')"></td>
+				<td id="td13.164.2" style="background-color: paleturquoise;"> <input type="radio" id="13.164.2" name="13.164" value="2" onchange="updateSelectedOption('13.164', '13.164.2', '2')"></td> 
+				<td id="td13.164.3" style="background-color: white;"><input type="radio" id="13.164.3" name="13.164" value="3" onchange="updateSelectedOption('13.164', '13.164.3', '3')"></td>	
+                <td id="td13.164.4" style="background-color: white;"><input type="radio" id="13.164.4" name="13.164" value="4" onchange="updateSelectedOption('13.164', '13.164.4', '4')"></td>
+				<td name="val13.164">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>nanophotometry</td>
+				<td id="td13.165.1" style="background-color: white;"><input type="radio" id="13.165.1" name="13.165" value="1" checked="checked" onchange="updateSelectedOption('13.165', '13.165.1', '1')"></td>
+				<td id="td13.165.2" style="background-color: paleturquoise;"> <input type="radio" id="13.165.2" name="13.165" value="2" onchange="updateSelectedOption('13.165', '13.165.2', '2')"></td> 
+				<td id="td13.165.3" style="background-color: white;"><input type="radio" id="13.165.3" name="13.165" value="3" onchange="updateSelectedOption('13.165', '13.165.3', '3')"></td>	
+                <td id="td13.165.4" style="background-color: white;"><input type="radio" id="13.165.4" name="13.165" value="4" onchange="updateSelectedOption('13.165', '13.165.4', '4')"></td>
+				<td name="val13.165">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>filter cartridge</td>
+				<td id="td13.166.1" style="background-color: white;"><input type="radio" id="13.166.1" name="13.166" value="1" checked="checked" onchange="updateSelectedOption('13.166', '13.166.1', '1')"></td>
+				<td id="td13.166.2" style="background-color: paleturquoise;"> <input type="radio" id="13.166.2" name="13.166" value="2" onchange="updateSelectedOption('13.166', '13.166.2', '2')"></td> 
+				<td id="td13.166.3" style="background-color: white;"><input type="radio" id="13.166.3" name="13.166" value="3" onchange="updateSelectedOption('13.166', '13.166.3', '3')"></td>	
+                <td id="td13.166.4" style="background-color: white;"><input type="radio" id="13.166.4" name="13.166" value="4" onchange="updateSelectedOption('13.166', '13.166.4', '4')"></td>
+				<td name="val13.166">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BD Cytofix/CytopermTM Kit</td>
+				<td id="td13.167.1" style="background-color: white;"><input type="radio" id="13.167.1" name="13.167" value="1" checked="checked" onchange="updateSelectedOption('13.167', '13.167.1', '1')"></td>
+				<td id="td13.167.2" style="background-color: paleturquoise;"> <input type="radio" id="13.167.2" name="13.167" value="2" onchange="updateSelectedOption('13.167', '13.167.2', '2')"></td> 
+				<td id="td13.167.3" style="background-color: white;"><input type="radio" id="13.167.3" name="13.167" value="3" onchange="updateSelectedOption('13.167', '13.167.3', '3')"></td>	
+                <td id="td13.167.4" style="background-color: white;"><input type="radio" id="13.167.4" name="13.167" value="4" onchange="updateSelectedOption('13.167', '13.167.4', '4')"></td>
+				<td name="val13.167">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>anti-TLR7 Alexa488 antibody</td>
+				<td id="td13.168.1" style="background-color: white;"><input type="radio" id="13.168.1" name="13.168" value="1" checked="checked" onchange="updateSelectedOption('13.168', '13.168.1', '1')"></td>
+				<td id="td13.168.2" style="background-color: paleturquoise;"> <input type="radio" id="13.168.2" name="13.168" value="2" onchange="updateSelectedOption('13.168', '13.168.2', '2')"></td> 
+				<td id="td13.168.3" style="background-color: white;"><input type="radio" id="13.168.3" name="13.168" value="3" onchange="updateSelectedOption('13.168', '13.168.3', '3')"></td>	
+                <td id="td13.168.4" style="background-color: white;"><input type="radio" id="13.168.4" name="13.168" value="4" onchange="updateSelectedOption('13.168', '13.168.4', '4')"></td>
+				<td name="val13.168">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BD FACSCanto II</td>
+				<td id="td13.169.1" style="background-color: white;"><input type="radio" id="13.169.1" name="13.169" value="1" checked="checked" onchange="updateSelectedOption('13.169', '13.169.1', '1')"></td>
+				<td id="td13.169.2" style="background-color: paleturquoise;"> <input type="radio" id="13.169.2" name="13.169" value="2" onchange="updateSelectedOption('13.169', '13.169.2', '2')"></td> 
+				<td id="td13.169.3" style="background-color: white;"><input type="radio" id="13.169.3" name="13.169" value="3" onchange="updateSelectedOption('13.169', '13.169.3', '3')"></td>	
+                <td id="td13.169.4" style="background-color: white;"><input type="radio" id="13.169.4" name="13.169" value="4" onchange="updateSelectedOption('13.169', '13.169.4', '4')"></td>
+				<td name="val13.169">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>FlowJo</td>
+				<td id="td13.170.1" style="background-color: white;"><input type="radio" id="13.170.1" name="13.170" value="1" checked="checked" onchange="updateSelectedOption('13.170', '13.170.1', '1')"></td>
+				<td id="td13.170.2" style="background-color: white;"> <input type="radio" id="13.170.2" name="13.170" value="2" onchange="updateSelectedOption('13.170', '13.170.2', '2')"></td> 
+				<td id="td13.170.3" style="background-color: white;"><input type="radio" id="13.170.3" name="13.170" value="3" onchange="updateSelectedOption('13.170', '13.170.3', '3')"></td>	
+                <td id="td13.170.4" style="background-color: paleturquoise;"><input type="radio" id="13.170.4" name="13.170" value="4" onchange="updateSelectedOption('13.170', '13.170.4', '4')"></td>
+				<td name="val13.170">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>antibodies</td>
+				<td id="td13.171.1" style="background-color: white;"><input type="radio" id="13.171.1" name="13.171" value="1" checked="checked" onchange="updateSelectedOption('13.171', '13.171.1', '1')"></td>
+				<td id="td13.171.2" style="background-color: paleturquoise;"> <input type="radio" id="13.171.2" name="13.171" value="2" onchange="updateSelectedOption('13.171', '13.171.2', '2')"></td> 
+				<td id="td13.171.3" style="background-color: white;"><input type="radio" id="13.171.3" name="13.171" value="3" onchange="updateSelectedOption('13.171', '13.171.3', '3')"></td>	
+                <td id="td13.171.4" style="background-color: white;"><input type="radio" id="13.171.4" name="13.171" value="4" onchange="updateSelectedOption('13.171', '13.171.4', '4')"></td>
+				<td name="val13.171">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Alexa fluor 488 goat-anti-mouse</td>
+				<td id="td13.172.1" style="background-color: white;"><input type="radio" id="13.172.1" name="13.172" value="1" checked="checked" onchange="updateSelectedOption('13.172', '13.172.1', '1')"></td>
+				<td id="td13.172.2" style="background-color: paleturquoise;"> <input type="radio" id="13.172.2" name="13.172" value="2" onchange="updateSelectedOption('13.172', '13.172.2', '2')"></td> 
+				<td id="td13.172.3" style="background-color: white;"><input type="radio" id="13.172.3" name="13.172" value="3" onchange="updateSelectedOption('13.172', '13.172.3', '3')"></td>	
+                <td id="td13.172.4" style="background-color: white;"><input type="radio" id="13.172.4" name="13.172" value="4" onchange="updateSelectedOption('13.172', '13.172.4', '4')"></td>
+				<td name="val13.172">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Alexa fluor 568 goat-anti-rabbit</td>
+				<td id="td13.173.1" style="background-color: white;"><input type="radio" id="13.173.1" name="13.173" value="1" checked="checked" onchange="updateSelectedOption('13.173', '13.173.1', '1')"></td>
+				<td id="td13.173.2" style="background-color: paleturquoise;"> <input type="radio" id="13.173.2" name="13.173" value="2" onchange="updateSelectedOption('13.173', '13.173.2', '2')"></td> 
+				<td id="td13.173.3" style="background-color: white;"><input type="radio" id="13.173.3" name="13.173" value="3" onchange="updateSelectedOption('13.173', '13.173.3', '3')"></td>	
+                <td id="td13.173.4" style="background-color: white;"><input type="radio" id="13.173.4" name="13.173" value="4" onchange="updateSelectedOption('13.173', '13.173.4', '4')"></td>
+				<td name="val13.173">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>secondary antibodies</td>
+				<td id="td13.174.1" style="background-color: white;"><input type="radio" id="13.174.1" name="13.174" value="1" checked="checked" onchange="updateSelectedOption('13.174', '13.174.1', '1')"></td>
+				<td id="td13.174.2" style="background-color: paleturquoise;"> <input type="radio" id="13.174.2" name="13.174" value="2" onchange="updateSelectedOption('13.174', '13.174.2', '2')"></td> 
+				<td id="td13.174.3" style="background-color: white;"><input type="radio" id="13.174.3" name="13.174" value="3" onchange="updateSelectedOption('13.174', '13.174.3', '3')"></td>	
+                <td id="td13.174.4" style="background-color: white;"><input type="radio" id="13.174.4" name="13.174" value="4" onchange="updateSelectedOption('13.174', '13.174.4', '4')"></td>
+				<td name="val13.174">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Olympus BX51 microscope</td>
+				<td id="td13.175.1" style="background-color: white;"><input type="radio" id="13.175.1" name="13.175" value="1" checked="checked" onchange="updateSelectedOption('13.175', '13.175.1', '1')"></td>
+				<td id="td13.175.2" style="background-color: paleturquoise;"> <input type="radio" id="13.175.2" name="13.175" value="2" onchange="updateSelectedOption('13.175', '13.175.2', '2')"></td> 
+				<td id="td13.175.3" style="background-color: white;"><input type="radio" id="13.175.3" name="13.175" value="3" onchange="updateSelectedOption('13.175', '13.175.3', '3')"></td>	
+                <td id="td13.175.4" style="background-color: white;"><input type="radio" id="13.175.4" name="13.175" value="4" onchange="updateSelectedOption('13.175', '13.175.4', '4')"></td>
+				<td name="val13.175">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>oligoribonucleotides</td>
+				<td id="td13.176.1" style="background-color: white;"><input type="radio" id="13.176.1" name="13.176" value="1" checked="checked" onchange="updateSelectedOption('13.176', '13.176.1', '1')"></td>
+				<td id="td13.176.2" style="background-color: paleturquoise;"> <input type="radio" id="13.176.2" name="13.176" value="2" onchange="updateSelectedOption('13.176', '13.176.2', '2')"></td> 
+				<td id="td13.176.3" style="background-color: white;"><input type="radio" id="13.176.3" name="13.176" value="3" onchange="updateSelectedOption('13.176', '13.176.3', '3')"></td>	
+                <td id="td13.176.4" style="background-color: white;"><input type="radio" id="13.176.4" name="13.176" value="4" onchange="updateSelectedOption('13.176', '13.176.4', '4')"></td>
+				<td name="val13.176">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>reagents</td>
+				<td id="td13.177.1" style="background-color: white;"><input type="radio" id="13.177.1" name="13.177" value="1" checked="checked" onchange="updateSelectedOption('13.177', '13.177.1', '1')"></td>
+				<td id="td13.177.2" style="background-color: white;"> <input type="radio" id="13.177.2" name="13.177" value="2" onchange="updateSelectedOption('13.177', '13.177.2', '2')"></td> 
+				<td id="td13.177.3" style="background-color: paleturquoise;"><input type="radio" id="13.177.3" name="13.177" value="3" onchange="updateSelectedOption('13.177', '13.177.3', '3')"></td>	
+                <td id="td13.177.4" style="background-color: white;"><input type="radio" id="13.177.4" name="13.177" value="4" onchange="updateSelectedOption('13.177', '13.177.4', '4')"></td>
+				<td name="val13.177">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>Imiquimod</td>
+				<td id="td13.178.1" style="background-color: white;"><input type="radio" id="13.178.1" name="13.178" value="1" checked="checked" onchange="updateSelectedOption('13.178', '13.178.1', '1')"></td>
+				<td id="td13.178.2" style="background-color: paleturquoise;"> <input type="radio" id="13.178.2" name="13.178" value="2" onchange="updateSelectedOption('13.178', '13.178.2', '2')"></td> 
+				<td id="td13.178.3" style="background-color: white;"><input type="radio" id="13.178.3" name="13.178" value="3" onchange="updateSelectedOption('13.178', '13.178.3', '3')"></td>	
+                <td id="td13.178.4" style="background-color: white;"><input type="radio" id="13.178.4" name="13.178" value="4" onchange="updateSelectedOption('13.178', '13.178.4', '4')"></td>
+				<td name="val13.178">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>DAPI</td>
+				<td id="td13.179.1" style="background-color: white;"><input type="radio" id="13.179.1" name="13.179" value="1" checked="checked" onchange="updateSelectedOption('13.179', '13.179.1', '1')"></td>
+				<td id="td13.179.2" style="background-color: paleturquoise;"> <input type="radio" id="13.179.2" name="13.179" value="2" onchange="updateSelectedOption('13.179', '13.179.2', '2')"></td> 
+				<td id="td13.179.3" style="background-color: white;"><input type="radio" id="13.179.3" name="13.179" value="3" onchange="updateSelectedOption('13.179', '13.179.3', '3')"></td>	
+                <td id="td13.179.4" style="background-color: white;"><input type="radio" id="13.179.4" name="13.179" value="4" onchange="updateSelectedOption('13.179', '13.179.4', '4')"></td>
+				<td name="val13.179">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>In Situ Cell Death Detection kit</td>
+				<td id="td13.180.1" style="background-color: white;"><input type="radio" id="13.180.1" name="13.180" value="1" checked="checked" onchange="updateSelectedOption('13.180', '13.180.1', '1')"></td>
+				<td id="td13.180.2" style="background-color: paleturquoise;"> <input type="radio" id="13.180.2" name="13.180" value="2" onchange="updateSelectedOption('13.180', '13.180.2', '2')"></td> 
+				<td id="td13.180.3" style="background-color: white;"><input type="radio" id="13.180.3" name="13.180" value="3" onchange="updateSelectedOption('13.180', '13.180.3', '3')"></td>	
+                <td id="td13.180.4" style="background-color: white;"><input type="radio" id="13.180.4" name="13.180" value="4" onchange="updateSelectedOption('13.180', '13.180.4', '4')"></td>
+				<td name="val13.180">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>fetal calf serum</td>
+				<td id="td13.181.1" style="background-color: white;"><input type="radio" id="13.181.1" name="13.181" value="1" checked="checked" onchange="updateSelectedOption('13.181', '13.181.1', '1')"></td>
+				<td id="td13.181.2" style="background-color: paleturquoise;"> <input type="radio" id="13.181.2" name="13.181" value="2" onchange="updateSelectedOption('13.181', '13.181.2', '2')"></td> 
+				<td id="td13.181.3" style="background-color: white;"><input type="radio" id="13.181.3" name="13.181" value="3" onchange="updateSelectedOption('13.181', '13.181.3', '3')"></td>	
+                <td id="td13.181.4" style="background-color: white;"><input type="radio" id="13.181.4" name="13.181" value="4" onchange="updateSelectedOption('13.181', '13.181.4', '4')"></td>
+				<td name="val13.181">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>polypropylene tubes</td>
+				<td id="td13.182.1" style="background-color: white;"><input type="radio" id="13.182.1" name="13.182" value="1" checked="checked" onchange="updateSelectedOption('13.182', '13.182.1', '1')"></td>
+				<td id="td13.182.2" style="background-color: paleturquoise;"> <input type="radio" id="13.182.2" name="13.182" value="2" onchange="updateSelectedOption('13.182', '13.182.2', '2')"></td> 
+				<td id="td13.182.3" style="background-color: white;"><input type="radio" id="13.182.3" name="13.182" value="3" onchange="updateSelectedOption('13.182', '13.182.3', '3')"></td>	
+                <td id="td13.182.4" style="background-color: white;"><input type="radio" id="13.182.4" name="13.182" value="4" onchange="updateSelectedOption('13.182', '13.182.4', '4')"></td>
+				<td name="val13.182">2</td>					
+			</tr>
+            
+
+<tr>
+				<td> Tubes</td>
+				<td id="td13.183.1" style="background-color: white;"><input type="radio" id="13.183.1" name="13.183" value="1" checked="checked" onchange="updateSelectedOption('13.183', '13.183.1', '1')"></td>
+				<td id="td13.183.2" style="background-color: white;"> <input type="radio" id="13.183.2" name="13.183" value="2" onchange="updateSelectedOption('13.183', '13.183.2', '2')"></td> 
+				<td id="td13.183.3" style="background-color: paleturquoise;"><input type="radio" id="13.183.3" name="13.183" value="3" onchange="updateSelectedOption('13.183', '13.183.3', '3')"></td>	
+                <td id="td13.183.4" style="background-color: white;"><input type="radio" id="13.183.4" name="13.183" value="4" onchange="updateSelectedOption('13.183', '13.183.4', '4')"></td>
+				<td name="val13.183">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>enzyme-linked immunosorbent assay (ELISA) kit</td>
+				<td id="td13.184.1" style="background-color: white;"><input type="radio" id="13.184.1" name="13.184" value="1" checked="checked" onchange="updateSelectedOption('13.184', '13.184.1', '1')"></td>
+				<td id="td13.184.2" style="background-color: paleturquoise;"> <input type="radio" id="13.184.2" name="13.184" value="2" onchange="updateSelectedOption('13.184', '13.184.2', '2')"></td> 
+				<td id="td13.184.3" style="background-color: white;"><input type="radio" id="13.184.3" name="13.184" value="3" onchange="updateSelectedOption('13.184', '13.184.3', '3')"></td>	
+                <td id="td13.184.4" style="background-color: white;"><input type="radio" id="13.184.4" name="13.184" value="4" onchange="updateSelectedOption('13.184', '13.184.4', '4')"></td>
+				<td name="val13.184">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Glucometer</td>
+				<td id="td13.185.1" style="background-color: white;"><input type="radio" id="13.185.1" name="13.185" value="1" checked="checked" onchange="updateSelectedOption('13.185', '13.185.1', '1')"></td>
+				<td id="td13.185.2" style="background-color: paleturquoise;"> <input type="radio" id="13.185.2" name="13.185" value="2" onchange="updateSelectedOption('13.185', '13.185.2', '2')"></td> 
+				<td id="td13.185.3" style="background-color: white;"><input type="radio" id="13.185.3" name="13.185" value="3" onchange="updateSelectedOption('13.185', '13.185.3', '3')"></td>	
+                <td id="td13.185.4" style="background-color: white;"><input type="radio" id="13.185.4" name="13.185" value="4" onchange="updateSelectedOption('13.185', '13.185.4', '4')"></td>
+				<td name="val13.185">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>RPMI</td>
+				<td id="td13.186.1" style="background-color: white;"><input type="radio" id="13.186.1" name="13.186" value="1" checked="checked" onchange="updateSelectedOption('13.186', '13.186.1', '1')"></td>
+				<td id="td13.186.2" style="background-color: paleturquoise;"> <input type="radio" id="13.186.2" name="13.186" value="2" onchange="updateSelectedOption('13.186', '13.186.2', '2')"></td> 
+				<td id="td13.186.3" style="background-color: white;"><input type="radio" id="13.186.3" name="13.186" value="3" onchange="updateSelectedOption('13.186', '13.186.3', '3')"></td>	
+                <td id="td13.186.4" style="background-color: white;"><input type="radio" id="13.186.4" name="13.186" value="4" onchange="updateSelectedOption('13.186', '13.186.4', '4')"></td>
+				<td name="val13.186">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CFSE</td>
+				<td id="td13.187.1" style="background-color: white;"><input type="radio" id="13.187.1" name="13.187" value="1" checked="checked" onchange="updateSelectedOption('13.187', '13.187.1', '1')"></td>
+				<td id="td13.187.2" style="background-color: white;"> <input type="radio" id="13.187.2" name="13.187" value="2" onchange="updateSelectedOption('13.187', '13.187.2', '2')"></td> 
+				<td id="td13.187.3" style="background-color: white;"><input type="radio" id="13.187.3" name="13.187" value="3" onchange="updateSelectedOption('13.187', '13.187.3', '3')"></td>	
+                <td id="td13.187.4" style="background-color: paleturquoise;"><input type="radio" id="13.187.4" name="13.187" value="4" onchange="updateSelectedOption('13.187', '13.187.4', '4')"></td>
+				<td name="val13.187">4</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD3</td>
+				<td id="td13.188.1" style="background-color: white;"><input type="radio" id="13.188.1" name="13.188" value="1" checked="checked" onchange="updateSelectedOption('13.188', '13.188.1', '1')"></td>
+				<td id="td13.188.2" style="background-color: paleturquoise;"> <input type="radio" id="13.188.2" name="13.188" value="2" onchange="updateSelectedOption('13.188', '13.188.2', '2')"></td> 
+				<td id="td13.188.3" style="background-color: white;"><input type="radio" id="13.188.3" name="13.188" value="3" onchange="updateSelectedOption('13.188', '13.188.3', '3')"></td>	
+                <td id="td13.188.4" style="background-color: white;"><input type="radio" id="13.188.4" name="13.188" value="4" onchange="updateSelectedOption('13.188', '13.188.4', '4')"></td>
+				<td name="val13.188">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD19</td>
+				<td id="td13.189.1" style="background-color: white;"><input type="radio" id="13.189.1" name="13.189" value="1" checked="checked" onchange="updateSelectedOption('13.189', '13.189.1', '1')"></td>
+				<td id="td13.189.2" style="background-color: paleturquoise;"> <input type="radio" id="13.189.2" name="13.189" value="2" onchange="updateSelectedOption('13.189', '13.189.2', '2')"></td> 
+				<td id="td13.189.3" style="background-color: white;"><input type="radio" id="13.189.3" name="13.189" value="3" onchange="updateSelectedOption('13.189', '13.189.3', '3')"></td>	
+                <td id="td13.189.4" style="background-color: white;"><input type="radio" id="13.189.4" name="13.189" value="4" onchange="updateSelectedOption('13.189', '13.189.4', '4')"></td>
+				<td name="val13.189">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BD Cytofix</td>
+				<td id="td13.190.1" style="background-color: white;"><input type="radio" id="13.190.1" name="13.190" value="1" checked="checked" onchange="updateSelectedOption('13.190', '13.190.1', '1')"></td>
+				<td id="td13.190.2" style="background-color: paleturquoise;"> <input type="radio" id="13.190.2" name="13.190" value="2" onchange="updateSelectedOption('13.190', '13.190.2', '2')"></td> 
+				<td id="td13.190.3" style="background-color: white;"><input type="radio" id="13.190.3" name="13.190" value="3" onchange="updateSelectedOption('13.190', '13.190.3', '3')"></td>	
+                <td id="td13.190.4" style="background-color: white;"><input type="radio" id="13.190.4" name="13.190" value="4" onchange="updateSelectedOption('13.190', '13.190.4', '4')"></td>
+				<td name="val13.190">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Cytoperm plus</td>
+				<td id="td13.191.1" style="background-color: white;"><input type="radio" id="13.191.1" name="13.191" value="1" checked="checked" onchange="updateSelectedOption('13.191', '13.191.1', '1')"></td>
+				<td id="td13.191.2" style="background-color: paleturquoise;"> <input type="radio" id="13.191.2" name="13.191" value="2" onchange="updateSelectedOption('13.191', '13.191.2', '2')"></td> 
+				<td id="td13.191.3" style="background-color: white;"><input type="radio" id="13.191.3" name="13.191" value="3" onchange="updateSelectedOption('13.191', '13.191.3', '3')"></td>	
+                <td id="td13.191.4" style="background-color: white;"><input type="radio" id="13.191.4" name="13.191" value="4" onchange="updateSelectedOption('13.191', '13.191.4', '4')"></td>
+				<td name="val13.191">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Permeabilization solution kit</td>
+				<td id="td13.192.1" style="background-color: white;"><input type="radio" id="13.192.1" name="13.192" value="1" checked="checked" onchange="updateSelectedOption('13.192', '13.192.1', '1')"></td>
+				<td id="td13.192.2" style="background-color: paleturquoise;"> <input type="radio" id="13.192.2" name="13.192" value="2" onchange="updateSelectedOption('13.192', '13.192.2', '2')"></td> 
+				<td id="td13.192.3" style="background-color: white;"><input type="radio" id="13.192.3" name="13.192" value="3" onchange="updateSelectedOption('13.192', '13.192.3', '3')"></td>	
+                <td id="td13.192.4" style="background-color: white;"><input type="radio" id="13.192.4" name="13.192" value="4" onchange="updateSelectedOption('13.192', '13.192.4', '4')"></td>
+				<td name="val13.192">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>BD GolgiPlug</td>
+				<td id="td13.193.1" style="background-color: white;"><input type="radio" id="13.193.1" name="13.193" value="1" checked="checked" onchange="updateSelectedOption('13.193', '13.193.1', '1')"></td>
+				<td id="td13.193.2" style="background-color: paleturquoise;"> <input type="radio" id="13.193.2" name="13.193" value="2" onchange="updateSelectedOption('13.193', '13.193.2', '2')"></td> 
+				<td id="td13.193.3" style="background-color: white;"><input type="radio" id="13.193.3" name="13.193" value="3" onchange="updateSelectedOption('13.193', '13.193.3', '3')"></td>	
+                <td id="td13.193.4" style="background-color: white;"><input type="radio" id="13.193.4" name="13.193" value="4" onchange="updateSelectedOption('13.193', '13.193.4', '4')"></td>
+				<td name="val13.193">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>mouse anti-human antibodies</td>
+				<td id="td13.194.1" style="background-color: white;"><input type="radio" id="13.194.1" name="13.194" value="1" checked="checked" onchange="updateSelectedOption('13.194', '13.194.1', '1')"></td>
+				<td id="td13.194.2" style="background-color: paleturquoise;"> <input type="radio" id="13.194.2" name="13.194" value="2" onchange="updateSelectedOption('13.194', '13.194.2', '2')"></td> 
+				<td id="td13.194.3" style="background-color: white;"><input type="radio" id="13.194.3" name="13.194" value="3" onchange="updateSelectedOption('13.194', '13.194.3', '3')"></td>	
+                <td id="td13.194.4" style="background-color: white;"><input type="radio" id="13.194.4" name="13.194" value="4" onchange="updateSelectedOption('13.194', '13.194.4', '4')"></td>
+				<td name="val13.194">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>Vivid</td>
+				<td id="td13.195.1" style="background-color: white;"><input type="radio" id="13.195.1" name="13.195" value="1" checked="checked" onchange="updateSelectedOption('13.195', '13.195.1', '1')"></td>
+				<td id="td13.195.2" style="background-color: white;"> <input type="radio" id="13.195.2" name="13.195" value="2" onchange="updateSelectedOption('13.195', '13.195.2', '2')"></td> 
+				<td id="td13.195.3" style="background-color: paleturquoise;"><input type="radio" id="13.195.3" name="13.195" value="3" onchange="updateSelectedOption('13.195', '13.195.3', '3')"></td>	
+                <td id="td13.195.4" style="background-color: white;"><input type="radio" id="13.195.4" name="13.195" value="4" onchange="updateSelectedOption('13.195', '13.195.4', '4')"></td>
+				<td name="val13.195">3</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD14 Pacific Blue</td>
+				<td id="td13.196.1" style="background-color: white;"><input type="radio" id="13.196.1" name="13.196" value="1" checked="checked" onchange="updateSelectedOption('13.196', '13.196.1', '1')"></td>
+				<td id="td13.196.2" style="background-color: paleturquoise;"> <input type="radio" id="13.196.2" name="13.196" value="2" onchange="updateSelectedOption('13.196', '13.196.2', '2')"></td> 
+				<td id="td13.196.3" style="background-color: white;"><input type="radio" id="13.196.3" name="13.196" value="3" onchange="updateSelectedOption('13.196', '13.196.3', '3')"></td>	
+                <td id="td13.196.4" style="background-color: white;"><input type="radio" id="13.196.4" name="13.196" value="4" onchange="updateSelectedOption('13.196', '13.196.4', '4')"></td>
+				<td name="val13.196">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD19 APC</td>
+				<td id="td13.197.1" style="background-color: white;"><input type="radio" id="13.197.1" name="13.197" value="1" checked="checked" onchange="updateSelectedOption('13.197', '13.197.1', '1')"></td>
+				<td id="td13.197.2" style="background-color: paleturquoise;"> <input type="radio" id="13.197.2" name="13.197" value="2" onchange="updateSelectedOption('13.197', '13.197.2', '2')"></td> 
+				<td id="td13.197.3" style="background-color: white;"><input type="radio" id="13.197.3" name="13.197" value="3" onchange="updateSelectedOption('13.197', '13.197.3', '3')"></td>	
+                <td id="td13.197.4" style="background-color: white;"><input type="radio" id="13.197.4" name="13.197" value="4" onchange="updateSelectedOption('13.197', '13.197.4', '4')"></td>
+				<td name="val13.197">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD4 V500</td>
+				<td id="td13.198.1" style="background-color: white;"><input type="radio" id="13.198.1" name="13.198" value="1" checked="checked" onchange="updateSelectedOption('13.198', '13.198.1', '1')"></td>
+				<td id="td13.198.2" style="background-color: paleturquoise;"> <input type="radio" id="13.198.2" name="13.198" value="2" onchange="updateSelectedOption('13.198', '13.198.2', '2')"></td> 
+				<td id="td13.198.3" style="background-color: white;"><input type="radio" id="13.198.3" name="13.198" value="3" onchange="updateSelectedOption('13.198', '13.198.3', '3')"></td>	
+                <td id="td13.198.4" style="background-color: white;"><input type="radio" id="13.198.4" name="13.198" value="4" onchange="updateSelectedOption('13.198', '13.198.4', '4')"></td>
+				<td name="val13.198">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>CD8 H7APC</td>
+				<td id="td13.199.1" style="background-color: white;"><input type="radio" id="13.199.1" name="13.199" value="1" checked="checked" onchange="updateSelectedOption('13.199', '13.199.1', '1')"></td>
+				<td id="td13.199.2" style="background-color: paleturquoise;"> <input type="radio" id="13.199.2" name="13.199" value="2" onchange="updateSelectedOption('13.199', '13.199.2', '2')"></td> 
+				<td id="td13.199.3" style="background-color: white;"><input type="radio" id="13.199.3" name="13.199" value="3" onchange="updateSelectedOption('13.199', '13.199.3', '3')"></td>	
+                <td id="td13.199.4" style="background-color: white;"><input type="radio" id="13.199.4" name="13.199" value="4" onchange="updateSelectedOption('13.199', '13.199.4', '4')"></td>
+				<td name="val13.199">2</td>					
+			</tr>
+            
+
+<tr>
+				<td>IFNg PE-Cy7</td>
+				<td id="td13.200.1"><input type="radio" id="13.200.1" name="13.200" value="1" checked="checked" onchange="updateSelectedOption('13.200', '13.200.1', '1')"></td>
+				<td id="td13.200.2"> <input type="radio" id="13.200.2" name="13.200" value="2" onchange="updateSelectedOption('13.200', '13.200.2', '2')"></td> 
+				<td id="td13.200.3"><input type="radio" id="13.200.3" name="13.200" value="3" onchange="updateSelectedOption('13.200', '13.200.3', '3')"></td>	
+                <td id="td13.200.4"><input type="radio" id="13.200.4" name="13.200" value="4" onchange="updateSelectedOption('13.200', '13.200.4', '4')"></td>
+				<td name="val13.200">1</td>					
+			</tr>
+            
+
+		</tbody>		
+	</table> 
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+
+ </body></html>

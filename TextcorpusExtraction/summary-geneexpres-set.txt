@@ -1,0 +1,2487 @@
+1: Dastorani M, Aghadavod E, Mirhosseini N, Foroozanfard F, Zadeh Modarres S,
+Amiri Siavashani M, Asemi Z. The effects of vitamin D supplementation on
+metabolic profiles and gene expression of insulin and lipid metabolism in
+infertile polycystic ovary syndrome candidates for in vitro fertilization.
+Reprod Biol Endocrinol. 2018 Oct 4;16(1):94. doi: 10.1186/s12958-018-0413-3.
+PMID: 30286768; PMCID: PMC6172745.
+
+2: Kurdiova T, Balaz M, Vician M, Maderova D, Vlcek M, Valkovic L, Srbecky M,
+Imrich R, Kyselovicova O, Belan V, Jelok I, Wolfrum C, Klimes I, Krssak M,
+Zemkova E, Gasperikova D, Ukropec J, Ukropcova B. Effects of obesity, diabetes
+and exercise on Fndc5 gene expression and irisin release in human skeletal
+muscle and adipose tissue: in vivo and in vitro studies. J Physiol. 2014 Mar
+1;592(5):1091-107. doi: 10.1113/jphysiol.2013.264655. Epub 2013 Dec 2. PMID:
+24297848; PMCID: PMC3948565.
+
+3: Turner DC, Gorski PP, Seaborne RA, Viggars M, Murphy M, Jarvis JC, Martin
+NRW, Stewart CE, Sharples AP. Mechanical loading of bioengineered skeletal
+muscle in vitro recapitulates gene expression signatures of resistance exercise
+in vivo. J Cell Physiol. 2021 Sep;236(9):6534-6547. doi: 10.1002/jcp.30328. Epub
+2021 Feb 15. PMID: 33586196; PMCID: PMC8653897.
+
+4: Makvandi M, Pantel A, Schwartz L, Schubert E, Xu K, Hsieh CJ, Hou C, Kim H,
+Weng CC, Winters H, Doot R, Farwell MD, Pryma DA, Greenberg RA, Mankoff DA,
+Simpkins F, Mach RH, Lin LL. A PET imaging agent for evaluating PARP-1
+expression in ovarian cancer. J Clin Invest. 2018 May 1;128(5):2116-2126. doi:
+10.1172/JCI97992. Epub 2018 Apr 16. PMID: 29509546; PMCID: PMC5919879.
+
+5: Liu F, Lagares D, Choi KM, Stopfer L, Marinković A, Vrbanac V, Probst CK,
+Hiemer SE, Sisson TH, Horowitz JC, Rosas IO, Fredenburgh LE, Feghali-Bostwick C,
+Varelas X, Tager AM, Tschumperlin DJ. Mechanosignaling through YAP and TAZ
+drives fibroblast activation and fibrosis. Am J Physiol Lung Cell Mol Physiol.
+2015 Feb 15;308(4):L344-57. doi: 10.1152/ajplung.00300.2014. Epub 2014 Dec 12.
+PMID: 25502501; PMCID: PMC4329470.
+
+6: Brasó-Maristany F, Griguolo G, Pascual T, Paré L, Nuciforo P, Llombart-Cussac
+A, Bermejo B, Oliveira M, Morales S, Martínez N, Vidal M, Adamo B, Martínez O,
+Pernas S, López R, Muñoz M, Chic N, Galván P, Garau I, Manso L, Alarcón J,
+Martínez E, Gregorio S, Gomis RR, Villagrasa P, Cortés J, Ciruelos E, Prat A.
+Phenotypic changes of HER2-positive breast cancer during and after dual HER2
+blockade. Nat Commun. 2020 Jan 20;11(1):385. doi: 10.1038/s41467-019-14111-3.
+PMID: 31959756; PMCID: PMC6971277.
+
+7: Zobel EH, Ripa RS, von Scholten BJ, Rotbain Curovic V, Kjaer A, Hansen TW,
+Rossing P, Størling J. Effect of liraglutide on expression of inflammatory genes
+in type 2 diabetes. Sci Rep. 2021 Sep 17;11(1):18522. doi:
+10.1038/s41598-021-97967-0. PMID: 34535716; PMCID: PMC8448739.
+
+8: Magnani CF, Gaipa G, Lussana F, Belotti D, Gritti G, Napolitano S, Matera G,
+Cabiati B, Buracchi C, Borleri G, Fazio G, Zaninelli S, Tettamanti S, Cesana S,
+Colombo V, Quaroni M, Cazzaniga G, Rovelli A, Biagi E, Galimberti S, Calabria A,
+Benedicenti F, Montini E, Ferrari S, Introna M, Balduzzi A, Valsecchi MG,
+Dastoli G, Rambaldi A, Biondi A. Sleeping Beauty-engineered CAR T cells achieve
+antileukemic activity without severe toxicities. J Clin Invest. 2020 Nov
+2;130(11):6021-6033. doi: 10.1172/JCI138473. PMID: 32780725; PMCID: PMC7598053.
+
+9: Dees C, Pötter S, Zhang Y, Bergmann C, Zhou X, Luber M, Wohlfahrt T,
+Karouzakis E, Ramming A, Gelse K, Yoshimura A, Jaenisch R, Distler O, Schett G,
+Distler JH. TGF-β-induced epigenetic deregulation of SOCS3 facilitates STAT3
+signaling to promote fibrosis. J Clin Invest. 2020 May 1;130(5):2347-2363. doi:
+10.1172/JCI122462. PMID: 31990678; PMCID: PMC7190914.
+
+10: Calkoen FG, Vervat C, Eising E, Vijfhuizen LS, 't Hoen PB, van den Heuvel-
+Eibrink MM, Egeler RM, van Tol MJ, Ball LM. Gene-expression and in vitro
+function of mesenchymal stromal cells are affected in juvenile myelomonocytic
+leukemia. Haematologica. 2015 Nov;100(11):1434-41. doi:
+10.3324/haematol.2015.126938. Epub 2015 Aug 20. PMID: 26294732; PMCID:
+PMC4825298.
+
+11: Feng X, Luo Q, Zhang H, Wang H, Chen W, Meng G, Chen F. The role of NLRP3
+inflammasome in 5-fluorouracil resistance of oral squamous cell carcinoma. J Exp
+Clin Cancer Res. 2017 Jun 21;36(1):81. doi: 10.1186/s13046-017-0553-x. PMID:
+28637493; PMCID: PMC5479028.
+
+12: Zhou B, Wang DD, Qiu Y, Airhart S, Liu Y, Stempien-Otero A, O'Brien KD, Tian
+R. Boosting NAD level suppresses inflammatory activation of PBMCs in heart
+failure. J Clin Invest. 2020 Nov 2;130(11):6054-6063. doi: 10.1172/JCI138538.
+PMID: 32790648; PMCID: PMC7598081.
+
+13: Finlin BS, Memetimin H, Zhu B, Confides AL, Vekaria HJ, El Khouli RH,
+Johnson ZR, Westgate PM, Chen J, Morris AJ, Sullivan PG, Dupont-Versteegden EE,
+Kern PA. The β3-adrenergic receptor agonist mirabegron improves glucose
+homeostasis in obese humans. J Clin Invest. 2020 May 1;130(5):2319-2331. doi:
+10.1172/JCI134892. PMID: 31961829; PMCID: PMC7190997.
+
+14: Lopez JP, Fiori LM, Cruceanu C, Lin R, Labonte B, Cates HM, Heller EA,
+Vialou V, Ku SM, Gerald C, Han MH, Foster J, Frey BN, Soares CN, Müller DJ,
+Farzan F, Leri F, MacQueen GM, Feilotter H, Tyryshkin K, Evans KR, Giacobbe P,
+Blier P, Lam RW, Milev R, Parikh SV, Rotzinger S, Strother SC, Lewis CM,
+Aitchison KJ, Wittenberg GM, Mechawar N, Nestler EJ, Uher R, Kennedy SH, Turecki
+G. MicroRNAs 146a/b-5 and 425-3p and 24-3p are markers of antidepressant
+response and regulate MAPK/Wnt-system genes. Nat Commun. 2017 May 22;8:15497.
+doi: 10.1038/ncomms15497. PMID: 28530238; PMCID: PMC5477510.
+
+15: Yuan K, Ye J, Liu Z, Ren Y, He W, Xu J, He Y, Yuan Y. Complement C3
+overexpression activates JAK2/STAT3 pathway and correlates with gastric cancer
+progression. J Exp Clin Cancer Res. 2020 Jan 13;39(1):9. doi:
+10.1186/s13046-019-1514-3. PMID: 31928530; PMCID: PMC6956509.
+
+16: Östling J, van Geest M, Schofield JPR, Jevnikar Z, Wilson S, Ward J, Lutter
+R, Shaw DE, Bakke PS, Caruso M, Dahlen SE, Fowler SJ, Horváth I, Krug N,
+Montuschi P, Sanak M, Sandström T, Sun K, Pandis I, Auffray C, Sousa AR, Guo Y,
+Adcock IM, Howarth P, Chung KF, Bigler J, Sterk PJ, Skipp PJ, Djukanović R,
+Vaarala O; U-BIOPRED Study Group. IL-17-high asthma with features of a psoriasis
+immunophenotype. J Allergy Clin Immunol. 2019 Nov;144(5):1198-1213. doi:
+10.1016/j.jaci.2019.03.027. Epub 2019 Apr 15. PMID: 30998987.
+
+17: Petersen T, Lee YJ, Osinusi A, Amorosa VK, Wang C, Kang M, Matining R, Zhang
+X, Dou D, Umbleja T, Kottilil S, Peters MG. Interferon Stimulated Gene
+Expression in HIV/HCV Coinfected Patients Treated with
+Nitazoxanide/Peginterferon-Alfa-2a and Ribavirin. AIDS Res Hum Retroviruses.
+2016 Jul;32(7):660-7. doi: 10.1089/aid.2015.0236. Epub 2016 Mar 14. PMID:
+26974581; PMCID: PMC4931749.
+
+18: Lloyd KA, Parsons BN, Burkitt MD, Moore AR, Papoutsopoulou S, Boyce M,
+Duckworth CA, Exarchou K, Howes N, Rainbow L, Fang Y, Oxvig C, Dodd S, Varro A,
+Hall N, Pritchard DM. Netazepide Inhibits Expression of Pappalysin 2 in Type 1
+Gastric Neuroendocrine Tumors. Cell Mol Gastroenterol Hepatol.
+2020;10(1):113-132. doi: 10.1016/j.jcmgh.2020.01.010. Epub 2020 Jan 28. PMID:
+32004755; PMCID: PMC7215182.
+
+19: Haselager MV, Kielbassa K, Ter Burg J, Bax DJC, Fernandes SM, Borst J, Tam
+C, Forconi F, Chiodin G, Brown JR, Dubois J, Kater AP, Eldering E. Changes in
+Bcl-2 members after ibrutinib or venetoclax uncover functional hierarchy in
+determining resistance to venetoclax in CLL. Blood. 2020 Dec
+17;136(25):2918-2926. doi: 10.1182/blood.2019004326. PMID: 32603412.
+
+20: Crofts AA, Giovanetti SM, Rubin EJ, Poly FM, Gutiérrez RL, Talaat KR, Porter
+CK, Riddle MS, DeNearing B, Brubaker J, Maciel M Jr, Alcala AN, Chakraborty S,
+Prouty MG, Savarino SJ, Davies BW, Trent MS. Enterotoxigenic <i>E. coli</i>
+virulence gene regulation in human infections. Proc Natl Acad Sci U S A. 2018
+Sep 18;115(38):E8968-E8976. doi: 10.1073/pnas.1808982115. Epub 2018 Aug 20.
+PMID: 30126994; PMCID: PMC6156659.
+
+21: Vaittinen M, Kaminska D, Käkelä P, Eskelinen M, Kolehmainen M, Pihlajamäki
+J, Uusitupa M, Pulkkinen L. Downregulation of CPPED1 expression improves glucose
+metabolism in vitro in adipocytes. Diabetes. 2013 Nov;62(11):3747-50. doi:
+10.2337/db13-0830. Epub 2013 Aug 12. PMID: 23939394; PMCID: PMC3806586.
+
+22: Singer CF, Klinglmüller F, Stratmann R, Staudigl C, Fink-Retter A,
+Gschwantler D, Helmy S, Pfeiler G, Dressler AC, Sartori C, Bilban M. Response
+prediction to neoadjuvant chemotherapy: comparison between pre-therapeutic gene
+expression profiles and in vitro chemosensitivity assay. PLoS One. 2013 Jun
+24;8(6):e66573. doi: 10.1371/journal.pone.0066573. PMID: 23826101; PMCID:
+PMC3691196.
+
+23: Wong CC, Kang W, Xu J, Qian Y, Luk STY, Chen H, Li W, Zhao L, Zhang X, Chiu
+PW, Ng EK, Yu J. Prostaglandin E<sub>2</sub> induces DNA hypermethylation in
+gastric cancer <i>in vitro</i> and <i>in vivo</i>. Theranostics. 2019 Aug
+14;9(21):6256-6268. doi: 10.7150/thno.35766. PMID: 31534549; PMCID: PMC6735505.
+
+24: Collins DM, Madden SF, Gaynor N, AlSultan D, Le Gal M, Eustace AJ, Gately
+KA, Hughes C, Davies AM, Mahgoub T, Ballot J, Toomey S, O'Connor DP, Gallagher
+WM, Holmes FA, Espina V, Liotta L, Hennessy BT, O'Byrne KJ, Hasmann M,
+Bossenmaier B, O'Donovan N, Crown J. Effects of HER Family-targeting Tyrosine
+Kinase Inhibitors on Antibody-dependent Cell-mediated Cytotoxicity in
+HER2-expressing Breast Cancer. Clin Cancer Res. 2021 Feb 1;27(3):807-818. doi:
+10.1158/1078-0432.CCR-20-2007. Epub 2020 Oct 29. PMID: 33122343; PMCID:
+PMC7854527.
+
+25: Vari F, Arpon D, Keane C, Hertzberg MS, Talaulikar D, Jain S, Cui Q, Han E,
+Tobin J, Bird R, Cross D, Hernandez A, Gould C, Birch S, Gandhi MK. Immune
+evasion via PD-1/PD-L1 on NK cells and monocyte/macrophages is more prominent in
+Hodgkin lymphoma than DLBCL. Blood. 2018 Apr 19;131(16):1809-1819. doi:
+10.1182/blood-2017-07-796342. Epub 2018 Feb 15. PMID: 29449276; PMCID:
+PMC5922274.
+
+26: Roberts LD, Boström P, O'Sullivan JF, Schinzel RT, Lewis GD, Dejam A, Lee
+YK, Palma MJ, Calhoun S, Georgiadi A, Chen MH, Ramachandran VS, Larson MG,
+Bouchard C, Rankinen T, Souza AL, Clish CB, Wang TJ, Estall JL, Soukas AA, Cowan
+CA, Spiegelman BM, Gerszten RE. β-Aminoisobutyric acid induces browning of white
+fat and hepatic β-oxidation and is inversely correlated with cardiometabolic
+risk factors. Cell Metab. 2014 Jan 7;19(1):96-108. doi:
+10.1016/j.cmet.2013.12.003. PMID: 24411942; PMCID: PMC4017355.
+
+27: Wang Y, Su H, Yan M, Zhang L, Tang J, Li Q, Gu X, Gong Q. Interleukin-33
+Promotes Cell Survival via p38 MAPK-Mediated Interleukin-6 Gene Expression and
+Release in Pediatric AML. Front Immunol. 2020 Nov 26;11:595053. doi:
+10.3389/fimmu.2020.595053. PMID: 33324412; PMCID: PMC7726021.
+
+28: Duan Z, Gao Y, Shen J, Choy E, Cote G, Harmon D, Bernstein K, Lozano-
+Calderon S, Mankin H, Hornicek FJ. miR-15b modulates multidrug resistance in
+human osteosarcoma in vitro and in vivo. Mol Oncol. 2017 Feb;11(2):151-166. doi:
+10.1002/1878-0261.12015. Epub 2016 Oct 24. PMID: 28145098; PMCID: PMC5300234.
+
+29: Chen G, Wang Y, Zhao X, Xie XZ, Zhao JG, Deng T, Chen ZY, Chen HB, Tong YF,
+Yang Z, Ding XW, Guo PY, Yu HT, Wu LJ, Zhang SN, Zhu QD, Li JJ, Shan YF, Yu FX,
+Yu ZP, Xia JL. A positive feedback loop between Periostin and TGFβ1 induces and
+maintains the stemness of hepatocellular carcinoma cells via AP-2α activation. J
+Exp Clin Cancer Res. 2021 Jun 30;40(1):218. doi: 10.1186/s13046-021-02011-8.
+PMID: 34193219; PMCID: PMC8243733.
+
+30: Tsui KH, Lin LT, Horng HC, Chang R, Huang BS, Cheng JT, Wang PH. Gene
+expression of cumulus cells in women with poor ovarian response after
+dehydroepiandrosterone supplementation. Taiwan J Obstet Gynecol. 2014
+Dec;53(4):559-65. doi: 10.1016/j.tjog.2014.09.003. PMID: 25510701.
+
+31: McDaniel DH, Dover JS, Wortzman M, Nelson DB. In vitro and in vivo
+evaluation of a moisture treatment cream containing three critical elements of
+natural skin moisturization. J Cosmet Dermatol. 2020 May;19(5):1121-1128. doi:
+10.1111/jocd.13359. Epub 2020 Mar 6. PMID: 32141711; PMCID: PMC7217153.
+
+32: Huang Y, Wang M, Hong Y, Bu X, Luan G, Wang Y, Li Y, Lou H, Wang C, Zhang L.
+Reduced Expression of Antimicrobial Protein Secretory Leukoprotease Inhibitor
+and Clusterin in Chronic Rhinosinusitis with Nasal Polyps. J Immunol Res. 2021
+Jan 7;2021:1057186. doi: 10.1155/2021/1057186. PMID: 33506054; PMCID:
+PMC7810533.
+
+33: Fraietta JA, Beckwith KA, Patel PR, Ruella M, Zheng Z, Barrett DM, Lacey SF,
+Melenhorst JJ, McGettigan SE, Cook DR, Zhang C, Xu J, Do P, Hulitt J, Kudchodkar
+SB, Cogdill AP, Gill S, Porter DL, Woyach JA, Long M, Johnson AJ, Maddocks K,
+Muthusamy N, Levine BL, June CH, Byrd JC, Maus MV. Ibrutinib enhances chimeric
+antigen receptor T-cell engraftment and efficacy in leukemia. Blood. 2016 Mar
+3;127(9):1117-27. doi: 10.1182/blood-2015-11-679134. Epub 2016 Jan 26. PMID:
+26813675; PMCID: PMC4778162.
+
+34: Roider T, Wang X, Hüttl K, Müller-Tidow C, Klapper W, Rosenwald A, Stewart
+JP, de Castro DG, Dreger P, Hermine O, Kluin-Nelemans HC, Grabe N, Dreyling M,
+Pott C, Ott G, Hoster E, Dietrich S. The impact of SAMHD1 expression and
+mutation status in mantle cell lymphoma: An analysis of the MCL Younger and
+Elderly trial. Int J Cancer. 2021 Jan 1;148(1):150-160. doi: 10.1002/ijc.33202.
+Epub 2020 Aug 15. PMID: 32638373.
+
+35: Arita A, Muñoz A, Chervona Y, Niu J, Qu Q, Zhao N, Ruan Y, Kiok K, Kluz T,
+Sun H, Clancy HA, Shamy M, Costa M. Gene expression profiles in peripheral blood
+mononuclear cells of Chinese nickel refinery workers with high exposures to
+nickel and control subjects. Cancer Epidemiol Biomarkers Prev. 2013
+Feb;22(2):261-9. doi: 10.1158/1055-9965.EPI-12-1011. Epub 2012 Nov 29. PMID:
+23195993; PMCID: PMC3565097.
+
+36: Stage TB, Graff M, Wong S, Rasmussen LL, Nielsen F, Pottegård A, Brøsen K,
+Kroetz DL, Khojasteh SC, Damkier P. Dicloxacillin induces CYP2C19, CYP2C9 and
+CYP3A4 in vivo and in vitro. Br J Clin Pharmacol. 2018 Mar;84(3):510-519. doi:
+10.1111/bcp.13467. Epub 2018 Jan 10. PMID: 29105855; PMCID: PMC5809358.
+
+37: Khan KN, Fujishita A, Koshiba A, Ogawa K, Mori T, Ogi H, Itoh K, Teramukai
+S, Kitawaki J. Expression profiles of E/P receptors and fibrosis in GnRHa-
+treated and -untreated women with different uterine leiomyomas. PLoS One. 2020
+Nov 13;15(11):e0242246. doi: 10.1371/journal.pone.0242246. PMID: 33186388;
+PMCID: PMC7665806.
+
+38: Schmitt H, Ulmschneider J, Billmeier U, Vieth M, Scarozza P, Sonnewald S,
+Reid S, Atreya I, Rath T, Zundler S, Langheinrich M, Schüttler J, Hartmann A,
+Winkler T, Admyre C, Knittel T, Dieterich Johansson C, Zargari A, Neurath MF,
+Atreya R. The TLR9 Agonist Cobitolimod Induces IL10-Producing Wound Healing
+Macrophages and Regulatory T Cells in Ulcerative Colitis. J Crohns Colitis. 2020
+May 21;14(4):508-524. doi: 10.1093/ecco-jcc/jjz170. PMID: 31630153; PMCID:
+PMC7242005.
+
+39: De Luna N, Díaz-Manera J, Paradas C, Iturriaga C, Rojas-García R, Araque J,
+Genebriera M, Gich I, Illa I, Gallardo E. 1α,25(OH)(2)-Vitamin D3 increases
+dysferlin expression in vitro and in a human clinical trial. Mol Ther. 2012
+Oct;20(10):1988-97. doi: 10.1038/mt.2012.156. Epub 2012 Aug 21. PMID: 22910291;
+PMCID: PMC3464637.
+
+40: Weisser M, Yeh RF, Duchateau-Nguyen G, Palermo G, Nguyen TQ, Shi X, Stinson
+SY, Yu N, Dufour A, Robak T, Salogub GN, Dmoszynska A, Solal-Celigny P, Warzocha
+K, Loscertales J, Catalano J, Larratt L, Rossiev VA, Bence-Bruckler I, Geisler
+CH, Montillo M, Fischer K, Fink AM, Hallek M, Bloehdorn J, Busch R, Benner A,
+Döhner H, Valente N, Wenger MK, Stilgenbauer S, Dornan D. PTK2 expression and
+immunochemotherapy outcome in chronic lymphocytic leukemia. Blood. 2014 Jul
+17;124(3):420-5. doi: 10.1182/blood-2013-12-538975. Epub 2014 Jun 10. PMID:
+24916506.
+
+41: Beatty GL, Haas AR, Maus MV, Torigian DA, Soulen MC, Plesa G, Chew A, Zhao
+Y, Levine BL, Albelda SM, Kalos M, June CH. Mesothelin-specific chimeric antigen
+receptor mRNA-engineered T cells induce anti-tumor activity in solid
+malignancies. Cancer Immunol Res. 2014 Feb;2(2):112-20. doi:
+10.1158/2326-6066.CIR-13-0170. Erratum in: Cancer Immunol Res. 2015
+Feb;3(2):217. PMID: 24579088; PMCID: PMC3932715.
+
+42: de Almeida VH, de Melo AC, Meira DD, Pires AC, Nogueira-Rodrigues A,
+Pimenta-Inada HK, Alves FG, Moralez G, Thiago LS, Ferreira CG, Sternberg C.
+Radiotherapy modulates expression of EGFR, ERCC1 and p53 in cervical cancer.
+Braz J Med Biol Res. 2017 Nov 13;51(1):e6822. doi: 10.1590/1414-431X20176822.
+PMID: 29160417; PMCID: PMC5685065.
+
+43: Loftis JM, Lasarev M, Shi X, Lapidus J, Janowsky A, Hoffman WF, Huckans M.
+Trace amine-associated receptor gene polymorphism increases drug craving in
+individuals with methamphetamine dependence. PLoS One. 2019 Oct
+10;14(10):e0220270. doi: 10.1371/journal.pone.0220270. PMID: 31600226; PMCID:
+PMC6786581.
+
+44: Ferrua F, Cicalese MP, Galimberti S, Giannelli S, Dionisio F, Barzaghi F,
+Migliavacca M, Bernardo ME, Calbi V, Assanelli AA, Facchini M, Fossati C,
+Albertazzi E, Scaramuzza S, Brigida I, Scala S, Basso-Ricci L, Pajno R,
+Casiraghi M, Canarutto D, Salerio FA, Albert MH, Bartoli A, Wolf HM, Fiori R,
+Silvani P, Gattillo S, Villa A, Biasco L, Dott C, Culme-Seymour EJ, van Rossem
+K, Atkinson G, Valsecchi MG, Roncarolo MG, Ciceri F, Naldini L, Aiuti A.
+Lentiviral haemopoietic stem/progenitor cell gene therapy for treatment of
+Wiskott-Aldrich syndrome: interim results of a non-randomised, open-label, phase
+1/2 clinical study. Lancet Haematol. 2019 May;6(5):e239-e253. doi:
+10.1016/S2352-3026(19)30021-3. Epub 2019 Apr 10. PMID: 30981783; PMCID:
+PMC6494976.
+
+45: Salamun V, Bokal EV, Maver A, Papler TB. Transcriptome study of receptive
+endometrium in overweight and obese women shows important expression differences
+in immune response and inflammatory pathways in women who do not conceive. PLoS
+One. 2021 Dec 23;16(12):e0261873. doi: 10.1371/journal.pone.0261873. PMID:
+34941965; PMCID: PMC8699967.
+
+46: Giangreco AA, Dambal S, Wagner D, Van der Kwast T, Vieth R, Prins GS, Nonn
+L. Differential expression and regulation of vitamin D hydroxylases and
+inflammatory genes in prostate stroma and epithelium by 1,25-dihydroxyvitamin D
+in men with prostate cancer and an in vitro model. J Steroid Biochem Mol Biol.
+2015 Apr;148:156-65. doi: 10.1016/j.jsbmb.2014.10.004. Epub 2014 Oct 8. PMID:
+25305352; PMCID: PMC4361379.
+
+47: Chen PK, Hua CH, Hsu HT, Kuo TM, Chung CM, Lee CP, Tsai MH, Yeh KT, Ko YC.
+ALPK1 Expression Is Associated with Lymph Node Metastasis and Tumor Growth in
+Oral Squamous Cell Carcinoma Patients. Am J Pathol. 2019 Jan;189(1):190-199.
+doi: 10.1016/j.ajpath.2018.09.003. Epub 2018 Oct 11. PMID: 30315765.
+
+48: Skrtic S, Tyrberg B, Broberg M, Ericsson H, Schnecke V, Kjaer M, Hompesch M,
+Andersson EM, Ryberg E, Aivazidis A, Wennberg Huldt C, Löfgren L, Morrow L,
+Parkinson J, Rydén-Bergsten T, Watkins E, Sörhede Winzell M. Exploring the
+insulin secretory properties of the PGD2-GPR44/DP2 axis in vitro and in a
+randomized phase-1 trial of type 2 diabetes patients. PLoS One. 2018 Dec
+17;13(12):e0208998. doi: 10.1371/journal.pone.0208998. PMID: 30557325; PMCID:
+PMC6296667.
+
+49: Li CW, Lu HG, Chen DH, Lin ZB, Wang DY, Li TY. In vivo and in vitro studies
+of Th17 response to specific immunotherapy in house dust mite-induced allergic
+rhinitis patients. PLoS One. 2014 Mar 19;9(3):e91950. doi:
+10.1371/journal.pone.0091950. PMID: 24647473; PMCID: PMC3960160.
+
+50: Lang JE, Scott JH, Wolf DM, Novak P, Punj V, Magbanua MJ, Zhu W, Mineyev N,
+Haqq CM, Crothers JR, Esserman LJ, Tripathy D, van 't Veer L, Park JW.
+Expression profiling of circulating tumor cells in metastatic breast cancer.
+Breast Cancer Res Treat. 2015 Jan;149(1):121-31. doi: 10.1007/s10549-014-3215-0.
+Epub 2014 Nov 29. PMID: 25432738; PMCID: PMC4698170.
+
+51: Gurung PM, Veerakumarasivam A, Williamson M, Counsell N, Douglas J, Tan WS,
+Feber A, Crabb SJ, Short SC, Freeman A, Powles T, Hoskin PJ, West CM, Kelly JD.
+Loss of expression of the tumour suppressor gene AIMP3 predicts survival
+following radiotherapy in muscle-invasive bladder cancer. Int J Cancer. 2015 Feb
+1;136(3):709-20. doi: 10.1002/ijc.29022. Epub 2014 Jul 22. PMID: 24917520.
+
+52: Jamin A, Dehoux L, Dossier C, Fila M, Heming N, Monteiro RC, Deschênes G.
+Toll-like receptor 3 expression and function in childhood idiopathic nephrotic
+syndrome. Clin Exp Immunol. 2015 Dec;182(3):332-45. doi: 10.1111/cei.12659. Epub
+2015 Sep 30. PMID: 26123900; PMCID: PMC4636895.
+
+53: Tsaryk R, Peters K, Unger RE, Feldmann M, Hoffmann B, Heidenau F,
+Kirkpatrick CJ. Improving cytocompatibility of Co28Cr6Mo by TiO2 coating: gene
+expression study in human endothelial cells. J R Soc Interface. 2013 Jul
+3;10(86):20130428. doi: 10.1098/rsif.2013.0428. PMID: 23825117; PMCID:
+PMC3730696.
+
+54: Janulaityte I, Januskevicius A, Kalinauskaite-Zukauske V, Palacionyte J,
+Malakauskas K. Asthmatic Eosinophils Promote Contractility and Migration of
+Airway Smooth Muscle Cells and Pulmonary Fibroblasts In Vitro. Cells. 2021 Jun
+4;10(6):1389. doi: 10.3390/cells10061389. PMID: 34199925; PMCID: PMC8229663.
+
+55: Candotto V, Baj A, Beltramini G, Scarano A, Palmieri A. Drug-induced
+gingival overgrowth: an in vitro study on cyclosporine and human gingival
+fibroblasts. J Biol Regul Homeost Agents. 2019 Nov-Dec;33(6 Suppl. 1):21-28.
+DENTAL SUPPLEMENT. PMID: 31828990.
+
+56: Collison AM, Sokulsky LA, Kepreotes E, Pereira de Siqueira A, Morten M,
+Edwards MR, Walton RP, Bartlett NW, Yang M, Nguyen TH, Johnston SL, Foster PS,
+Mattes J. miR-122 promotes virus-induced lung disease by targeting SOCS1. JCI
+Insight. 2021 Apr 8;6(7):e127933. doi: 10.1172/jci.insight.127933. PMID:
+33830082; PMCID: PMC8119205.
+
+57: Colson A, Depoix CL, Dessilly G, Baldin P, Danhaive O, Hubinont C, Sonveaux
+P, Debiève F. Clinical and in Vitro Evidence against Placenta Infection at Term
+by Severe Acute Respiratory Syndrome Coronavirus 2. Am J Pathol. 2021
+Sep;191(9):1610-1623. doi: 10.1016/j.ajpath.2021.05.009. Epub 2021 Jun 8. PMID:
+34111431; PMCID: PMC8184362.
+
+58: Chen YC, Li JY, Li CJ, Tsui KH, Wang PH, Wen ZH, Lin LT. Luteal Phase
+Ovarian Stimulation versus Follicular Phase Ovarian Stimulation results in
+different Human Cumulus cell genes expression: A pilot study. Int J Med Sci.
+2021 Feb 4;18(7):1600-1608. doi: 10.7150/ijms.55955. PMID: 33746576; PMCID:
+PMC7976567.
+
+59: Kim S, Ahn SH, Lee JS, Song JE, Cho SH, Jung S, Kim SK, Kim SH, Lee KP, Kwon
+KS, Lee TH. Differential Matrix Metalloprotease (MMP) Expression Profiles Found
+in Aged Gingiva. PLoS One. 2016 Jul 8;11(7):e0158777. doi:
+10.1371/journal.pone.0158777. PMID: 27391467; PMCID: PMC4938517.
+
+60: Sallem A, Denizot AL, Ziyyat A, L'Hostis A, Favier S, Burlet P, Lapierre JM,
+Dimby SF, Patrat C, Sifer C, Vicaut E, Steffann J, Vaiman D, Romana SP, Wolf JP.
+A fertilin-derived peptide improves in vitro maturation and ploidy of human
+oocytes. F S Sci. 2022 Feb;3(1):21-28. doi: 10.1016/j.xfss.2021.10.004. Epub
+2021 Nov 3. PMID: 35559993.
+
+61: Flack KD, Davy BM, DeBerardinis M, Boutagy NE, McMillan RP, Hulver MW,
+Frisard MI, Anderson AS, Savla J, Davy KP. Resistance exercise training and
+in vitro skeletal muscle oxidative capacity in older adults. Physiol Rep. 2016
+Jul;4(13):e12849. doi: 10.14814/phy2.12849. PMID: 27405968; PMCID: PMC4945835.
+
+62: Lisboa LF, Egli A, O'Shea D, Åsberg A, Hartmann A, Rollag H, Pang XL,
+Tyrrell DL, Kumar D, Humar A. Hcmv-miR-UL22A-5p: A Biomarker in Transplantation
+With Broad Impact on Host Gene Expression and Potential Immunological
+Implications. Am J Transplant. 2015 Jul;15(7):1893-902. doi: 10.1111/ajt.13222.
+Epub 2015 Apr 1. PMID: 25833298.
+
+63: Derkow K, Rössling R, Schipke C, Krüger C, Bauer J, Fähling M, Stroux A,
+Schott E, Ruprecht K, Peters O, Lehnardt S. Distinct expression of the
+neurotoxic microRNA family let-7 in the cerebrospinal fluid of patients with
+Alzheimer's disease. PLoS One. 2018 Jul 16;13(7):e0200602. doi:
+10.1371/journal.pone.0200602. PMID: 30011310; PMCID: PMC6047809.
+
+64: Kc K, Rothenberg ME, Sherrill JD. In vitro model for studying esophageal
+epithelial differentiation and allergic inflammatory responses identifies
+keratin involvement in eosinophilic esophagitis. PLoS One. 2015 Jun
+3;10(6):e0127755. doi: 10.1371/journal.pone.0127755. PMID: 26039063; PMCID:
+PMC4454568.
+
+65: Angelova E, Audette C, Kovtun Y, Daver N, Wang SA, Pierce S, Konoplev SN,
+Khogeer H, Jorgensen JL, Konopleva M, Zweidler-McKay PA, Medeiros LJ, Kantarjian
+HM, Jabbour EJ, Khoury JD. CD123 expression patterns and selective targeting
+with a CD123-targeted antibody-drug conjugate (IMGN632) in acute lymphoblastic
+leukemia. Haematologica. 2019 Apr;104(4):749-755. doi:
+10.3324/haematol.2018.205252. Epub 2018 Oct 25. PMID: 30361418; PMCID:
+PMC6442980.
+
+66: Colamatteo A, Maggioli E, Azevedo Loiola R, Hamid Sheikh M, Calì G, Bruzzese
+D, Maniscalco GT, Centonze D, Buttari F, Lanzillo R, Perna F, Zuccarelli B,
+Mottola M, Cassano S, Galgani M, Solito E, De Rosa V. Reduced Annexin A1
+Expression Associates with Disease Severity and Inflammation in Multiple
+Sclerosis Patients. J Immunol. 2019 Oct 1;203(7):1753-1765. doi:
+10.4049/jimmunol.1801683. Epub 2019 Aug 28. PMID: 31462505.
+
+67: Aleshcheva G, Sahana J, Ma X, Hauslage J, Hemmersbach R, Egli M, Infanger M,
+Bauer J, Grimm D. Changes in morphology, gene expression and protein content in
+chondrocytes cultured on a random positioning machine. PLoS One. 2013 Nov
+11;8(11):e79057. doi: 10.1371/journal.pone.0079057. PMID: 24244418; PMCID:
+PMC3823937.
+
+68: George S, Miao D, Demetri GD, Adeegbe D, Rodig SJ, Shukla S, Lipschitz M,
+Amin-Mansour A, Raut CP, Carter SL, Hammerman P, Freeman GJ, Wu CJ, Ott PA, Wong
+KK, Van Allen EM. Loss of PTEN Is Associated with Resistance to Anti-PD-1
+Checkpoint Blockade Therapy in Metastatic Uterine Leiomyosarcoma. Immunity. 2017
+Feb 21;46(2):197-204. doi: 10.1016/j.immuni.2017.02.001. PMID: 28228279; PMCID:
+PMC5408320.
+
+69: Fischer A, Onur S, Schmelzer C, Döring F. Ubiquinol decreases monocytic
+expression and DNA methylation of the pro-inflammatory chemokine ligand 2 gene
+in humans. BMC Res Notes. 2012 Oct 1;5:540. doi: 10.1186/1756-0500-5-540. PMID:
+23021568; PMCID: PMC3542089.
+
+70: Lv Y, Fu L, Zhang Z, Gu W, Luo X, Zhong Y, Xu S, Wang Y, Yan L, Li M, Du L.
+Increased Expression of MicroRNA-206 Inhibits Potassium Voltage-Gated Channel
+Subfamily A Member 5 in Pulmonary Arterial Smooth Muscle Cells and Is Related to
+Exaggerated Pulmonary Artery Hypertension Following Intrauterine Growth
+Retardation in Rats. J Am Heart Assoc. 2019 Jan 22;8(2):e010456. doi:
+10.1161/JAHA.118.010456. PMID: 30636484; PMCID: PMC6497345.
+
+71: Pyner A, Chan SY, Tumova S, Kerimi A, Williamson G. Indirect Chronic Effects
+of an Oleuropein-Rich Olive Leaf Extract on Sucrase-Isomaltase In Vitro and In
+Vivo. Nutrients. 2019 Jul 1;11(7):1505. doi: 10.3390/nu11071505. PMID: 31266155;
+PMCID: PMC6683085.
+
+72: Turrubiartes-Martínez E, Bodega-Mayor I, Delgado-Wicke P, Molina-Jiménez F,
+Casique-Aguirre D, González-Andrade M, Rapado I, Camós M, Díaz-de-Heredia C,
+Barragán E, Ramírez-Orellana M, Aguado B, Figuera Á, Martínez-López J,
+Fernández-Ruiz E. TYK2 Variants in B-Acute Lymphoblastic Leukaemia. Genes
+(Basel). 2020 Nov 28;11(12):1434. doi: 10.3390/genes11121434. PMID: 33260630;
+PMCID: PMC7761059.
+
+73: Nakada TA, Boyd JH, Russell JA, Aguirre-Hernández R, Wilkinson MD, Thair SA,
+Nakada E, McConechy MK, Fjell CD, Walley KR. VPS13D Gene Variant Is Associated
+with Altered IL-6 Production and Mortality in Septic Shock. J Innate Immun.
+2015;7(5):545-53. doi: 10.1159/000381265. Epub 2015 Apr 17. PMID: 25896417;
+PMCID: PMC6738836.
+
+74: Hoppensack A, Kazanecki CC, Colter D, Gosiewska A, Schanz J, Walles H,
+Schenke-Layland K. A human in vitro model that mimics the renal proximal tubule.
+Tissue Eng Part C Methods. 2014 Jul;20(7):599-609. doi:
+10.1089/ten.TEC.2013.0446. Epub 2014 Jan 3. PMID: 24266327; PMCID: PMC4074761.
+
+75: Leonel C, Gelaleti GB, Jardim BV, Moschetta MG, Regiani VR, Oliveira JG,
+Zuccari DA. Expression of glutathione, glutathione peroxidase and glutathione
+S-transferase pi in canine mammary tumors. BMC Vet Res. 2014 Feb 24;10:49. doi:
+10.1186/1746-6148-10-49. PMID: 24565113; PMCID: PMC3975948.
+
+76: Hoseini FS, Noori Mugahi SM, Akbari-Asbagh F, Eftekhari-Yazdi P, Aflatoonian
+B, Aghaee-Bakhtiari SH, Aflatoonian R, Salsabili N. A randomized controlled
+trial of gonadotropin-releasing hormone agonist versus gonadotropin-releasing
+hormone antagonist in Iranian infertile couples: oocyte gene expression. Daru.
+2014 Oct 7;22(1):67. doi: 10.1186/s40199-014-0067-4. PMID: 25288473; PMCID:
+PMC4197229.
+
+77: Nebbia C, Girolami F, Carletti M, Gasco L, Zoccarato I, Giuliano Albo A. In
+vitro interactions of malachite green and leucomalachite green with hepatic
+drug-metabolizing enzyme systems in the rainbow trout (Onchorhyncus mykiss).
+Toxicol Lett. 2017 Oct 5;280:41-47. doi: 10.1016/j.toxlet.2017.07.900. Epub 2017
+Aug 9. PMID: 28802653.
+
+78: Krejcik J, Frerichs KA, Nijhof IS, van Kessel B, van Velzen JF, Bloem AC,
+Broekmans MEC, Zweegman S, van Meerloo J, Musters RJP, Poddighe PJ, Groen RWJ,
+Chiu C, Plesner T, Lokhorst HM, Sasser AK, Mutis T, van de Donk NWCJ. Monocytes
+and Granulocytes Reduce CD38 Expression Levels on Myeloma Cells in Patients
+Treated with Daratumumab. Clin Cancer Res. 2017 Dec 15;23(24):7498-7511. doi:
+10.1158/1078-0432.CCR-17-2027. Epub 2017 Oct 12. PMID: 29025767; PMCID:
+PMC5732844.
+
+79: Våtsveen TK, Sponaas AM, Tian E, Zhang Q, Misund K, Sundan A, Børset M,
+Waage A, Brede G. Erythropoietin (EPO)-receptor signaling induces cell death of
+primary myeloma cells in vitro. J Hematol Oncol. 2016 Aug 31;9(1):75. doi:
+10.1186/s13045-016-0306-x. PMID: 27581518; PMCID: PMC5007700.
+
+80: Lehn S, Tobin NP, Sims AH, Stål O, Jirström K, Axelson H, Landberg G.
+Decreased expression of Yes-associated protein is associated with outcome in the
+luminal A breast cancer subgroup and with an impaired tamoxifen response. BMC
+Cancer. 2014 Feb 22;14:119. doi: 10.1186/1471-2407-14-119. PMID: 24559095;
+PMCID: PMC3937431.
+
+81: Ueno S, Lu J, He J, Li A, Zhang X, Ritz J, Silberstein LE, Chai L. Aberrant
+expression of SALL4 in acute B cell lymphoblastic leukemia: mechanism, function,
+and implication for a potential novel therapeutic target. Exp Hematol. 2014
+Apr;42(4):307-316.e8. doi: 10.1016/j.exphem.2014.01.005. Epub 2014 Jan 23. PMID:
+24463278; PMCID: PMC4135469.
+
+82: Januskevicius A, Vaitkiene S, Gosens R, Janulaityte I, Hoppenot D,
+Sakalauskas R, Malakauskas K. Eosinophils enhance WNT-5a and TGF-β1 genes
+expression in airway smooth muscle cells and promote their proliferation by
+increased extracellular matrix proteins production in asthma. BMC Pulm Med. 2016
+Jun 13;16(1):94. doi: 10.1186/s12890-016-0254-9. PMID: 27297409; PMCID:
+PMC4906992.
+
+83: Xue X, De Leon-Tabaldo A, Luna-Roman R, Castro G, Albers M, Schoetens F,
+DePrimo S, Devineni D, Wilde T, Goldberg S, Kinzel O, Hoffmann T, Fourie AM,
+Thurmond RL. Preclinical and clinical characterization of the RORγt inhibitor
+JNJ-61803534. Sci Rep. 2021 May 26;11(1):11066. doi: 10.1038/s41598-021-90497-9.
+Erratum in: Sci Rep. 2022 Apr 6;12(1):5740. PMID: 34040108; PMCID: PMC8155022.
+
+84: Wang Y, Sun J, Ma C, Gao W, Song B, Xue H, Chen W, Chen X, Zhang Y, Shao Q,
+Wang Q, Zhao L, Liu J, Wang X, Wang H, Zhang Y, Yang M, Qu X. Reduced Expression
+of Galectin-9 Contributes to a Poor Outcome in Colon Cancer by Inhibiting NK
+Cell Chemotaxis Partially through the Rho/ROCK1 Signaling Pathway. PLoS One.
+2016 Mar 30;11(3):e0152599. doi: 10.1371/journal.pone.0152599. PMID: 27028892;
+PMCID: PMC4814049.
+
+85: Beck GR Jr, Khazai NB, Bouloux GF, Camalier CE, Lin Y, Garneys LM, Siqueira
+J, Peng L, Pasquel F, Umpierrez D, Smiley D, Umpierrez GE. The effects of
+thiazolidinediones on human bone marrow stromal cell differentiation in vitro
+and in thiazolidinedione-treated patients with type 2 diabetes. Transl Res. 2013
+Mar;161(3):145-55. doi: 10.1016/j.trsl.2012.08.006. Epub 2012 Sep 27. PMID:
+23022285; PMCID: PMC3546231.
+
+86: Khurana A, Masih A, Chowdhary A, Sardana K, Borker S, Gupta A, Gautam RK,
+Sharma PK, Jain D. Correlation of <i>In Vitro</i> Susceptibility Based on MICs
+and Squalene Epoxidase Mutations with Clinical Response to Terbinafine in
+Patients with Tinea Corporis/Cruris. Antimicrob Agents Chemother. 2018 Nov
+26;62(12):e01038-18. doi: 10.1128/AAC.01038-18. PMID: 30275090; PMCID:
+PMC6256768.
+
+87: Jepsen SL, Vestergaard ET, Larraufie P, Gribble FM, Reimann F, Jørgensen
+JOL, Holst JJ, Kuhre RE. Ghrelin Does Not Directly Stimulate Secretion of
+Glucagon-like Peptide-1. J Clin Endocrinol Metab. 2020 Jan 1;105(1):266–75. doi:
+10.1210/clinem/dgz046. PMID: 31608930; PMCID: PMC6941855.
+
+88: Shah RD, Xue C, Zhang H, Tuteja S, Li M, Reilly MP, Ferguson JF. Expression
+of Calgranulin Genes S100A8, S100A9 and S100A12 Is Modulated by n-3 PUFA during
+Inflammation in Adipose Tissue and Mononuclear Cells. PLoS One. 2017 Jan
+26;12(1):e0169614. doi: 10.1371/journal.pone.0169614. PMID: 28125622; PMCID:
+PMC5268473.
+
+89: Bertelsen T, Ljungberg C, Litman T, Huppertz C, Hennze R, Rønholt K, Iversen
+L, Johansen C. IκBζ is a key player in the antipsoriatic effects of secukinumab.
+J Allergy Clin Immunol. 2020 Jan;145(1):379-390. doi:
+10.1016/j.jaci.2019.09.029. Epub 2019 Oct 14. PMID: 31622687.
+
+90: Wilson NE, Reaves BJ, Wolstenholme AJ. Lack of detectable short-term effects
+of a single dose of ivermectin on the human immune system. Parasit Vectors. 2021
+Jun 5;14(1):304. doi: 10.1186/s13071-021-04810-6. PMID: 34090504; PMCID:
+PMC8179708.
+
+91: Biswas NK, Chandra V, Sarkar-Roy N, Das T, Bhattacharya RN, Tripathy LN,
+Basu SK, Kumar S, Das S, Chatterjee A, Mukherjee A, Basu P, Maitra A,
+Chattopadhyay A, Basu A, Dhara S. Variant allele frequency enrichment analysis
+in vitro reveals sonic hedgehog pathway to impede sustained temozolomide
+response in GBM. Sci Rep. 2015 Jan 21;5:7915. doi: 10.1038/srep07915. PMID:
+25604826; PMCID: PMC4300501.
+
+92: Ju WT, Ma HL, Zhao TC, Liang SY, Zhu DW, Wang LZ, Li J, Zhang ZY, Zhou G,
+Zhong LP. Stathmin guides personalized therapy in oral squamous cell carcinoma.
+Cancer Sci. 2020 Apr;111(4):1303-1313. doi: 10.1111/cas.14323. Epub 2020 Feb 17.
+PMID: 31994271; PMCID: PMC7156844.
+
+93: Vuong TNL, Ho MT, Ha TQ, Jensen MB, Andersen CY, Humaidan P. Effect of GnRHa
+ovulation trigger dose on follicular fluid characteristics and granulosa cell
+gene expression profiles. J Assist Reprod Genet. 2017 Apr;34(4):471-478. doi:
+10.1007/s10815-017-0891-9. Epub 2017 Feb 14. PMID: 28197932; PMCID: PMC5401703.
+
+94: Arnold CE, Whyte CS, Gordon P, Barker RN, Rees AJ, Wilson HM. A critical
+role for suppressor of cytokine signalling 3 in promoting M1 macrophage
+activation and function in vitro and in vivo. Immunology. 2014
+Jan;141(1):96-110. doi: 10.1111/imm.12173. PMID: 24088176; PMCID: PMC3893853.
+
+95: Capó X, Martorell M, Sureda A, Tur JA, Pons A. Effects of docosahexaenoic
+supplementation and in vitro vitamin C on the oxidative and inflammatory
+neutrophil response to activation. Oxid Med Cell Longev. 2015;2015:187849. doi:
+10.1155/2015/187849. Epub 2015 Apr 19. PMID: 25960826; PMCID: PMC4417594.
+
+96: Cheng J, Jin X, Shen J, Mu Y, Li Q, Xia L, Gao Y, Xia Y. Whole Transcriptome
+Sequencing Reveals How Acupuncture and Moxibustion Increase Pregnancy Rate in
+Patients Undergoing In Vitro Fertilization-Embryo Transplantation. Biomed Res
+Int. 2019 May 28;2019:4179617. doi: 10.1155/2019/4179617. PMID: 31275970; PMCID:
+PMC6558619.
+
+97: Wang X, You Z, Zhao G, Wang T. MicroRNA-194-5p Levels Decrease during Deep
+Hypothermic Circulatory Arrest. Sci Rep. 2018 Sep 19;8(1):14044. doi:
+10.1038/s41598-018-32426-x. PMID: 30232383; PMCID: PMC6145897.
+
+98: Donalisio C, Barbero R, Cuniberti B, Vercelli C, Casalone M, Re G. Effects
+of flunixin meglumine and ketoprofen on mediator production in ex vivo and in
+vitro models of inflammation in healthy dairy cows. J Vet Pharmacol Ther. 2013
+Apr;36(2):130-9. doi: 10.1111/j.1365-2885.2012.01396.x. Epub 2012 Jun 24. PMID:
+22724509.
+
+99: Lenz A, Toren-Haritan G, Efrat S. Redifferentiation of adult human β cells
+expanded in vitro by inhibition of the WNT pathway. PLoS One. 2014 Nov
+13;9(11):e112914. doi: 10.1371/journal.pone.0112914. PMID: 25393025; PMCID:
+PMC4231080.
+
+100: Berdyshev E, Goleva E, Bronova I, Dyjack N, Rios C, Jung J, Taylor P, Jeong
+M, Hall CF, Richers BN, Norquest KA, Zheng T, Seibold MA, Leung DY. Lipid
+abnormalities in atopic skin are driven by type 2 cytokines. JCI Insight. 2018
+Feb 22;3(4):e98006. doi: 10.1172/jci.insight.98006. PMID: 29467325; PMCID:
+PMC5916244.
+
+101: Rattazzi M, Faggin E, Buso R, Di Virgilio R, Puato M, Plebani M, Zaninotto
+M, Palmosi T, Bertacco E, Fadini GP, Pauletto P. Atorvastatin Reduces
+Circulating Osteoprogenitor Cells and T-Cell RANKL Expression in Osteoporotic
+Women: Implications for the Bone-Vascular Axis. Cardiovasc Ther. 2016
+Feb;34(1):13-20. doi: 10.1111/1755-5922.12163. PMID: 26506085.
+
+102: Telinius N, Mohanakumar S, Majgaard J, Kim S, Pilegaard H, Pahle E, Nielsen
+J, de Leval M, Aalkjaer C, Hjortdal V, Boedtkjer DB. Human lymphatic vessel
+contractile activity is inhibited in vitro but not in vivo by the calcium
+channel blocker nifedipine. J Physiol. 2014 Nov 1;592(21):4697-714. doi:
+10.1113/jphysiol.2014.276683. Epub 2014 Aug 28. PMID: 25172950; PMCID:
+PMC4253471.
+
+103: Maneechotesuwan K, Kasetsinsombat K, Wongkajornsilp A, Barnes PJ.
+Simvastatin up-regulates adenosine deaminase and suppresses osteopontin
+expression in COPD patients through an IL-13-dependent mechanism. Respir Res.
+2016 Aug 24;17(1):104. doi: 10.1186/s12931-016-0424-6. PMID: 27557561; PMCID:
+PMC4997725.
+
+104: McGeachie MJ, Clemmer GL, Hayete B, Xing H, Runge K, Wu AC, Jiang X, Lu Q,
+Church B, Khalil I, Tantisira K, Weiss S. Systems biology and in vitro
+validation identifies family with sequence similarity 129 member A (FAM129A) as
+an asthma steroid response modulator. J Allergy Clin Immunol. 2018
+Nov;142(5):1479-1488.e12. doi: 10.1016/j.jaci.2017.11.059. Epub 2018 Mar 2.
+PMID: 29410046; PMCID: PMC6111005.
+
+105: Webster R, Sekuloski S, Odedra A, Woolley S, Jennings H, Amante F,
+Trenholme KR, Healer J, Cowman AF, Eriksson EM, Sathe P, Penington J, Blanch AJ,
+Dixon MWA, Tilley L, Duffy MF, Craig A, Storm J, Chan JA, Evans K, Papenfuss AT,
+Schofield L, Griffin P, Barber BE, Andrew D, Boyle MJ, de Labastida Rivera F,
+Engwerda C, McCarthy JS. Safety, infectivity and immunogenicity of a genetically
+attenuated blood-stage malaria vaccine. BMC Med. 2021 Nov 22;19(1):293. doi:
+10.1186/s12916-021-02150-x. PMID: 34802442; PMCID: PMC8606250.
+
+106: Quigley DA, Fiorito E, Nord S, Van Loo P, Alnæs GG, Fleischer T, Tost J,
+Moen Vollan HK, Tramm T, Overgaard J, Bukholm IR, Hurtado A, Balmain A,
+Børresen-Dale AL, Kristensen V. The 5p12 breast cancer susceptibility locus
+affects MRPS30 expression in estrogen-receptor positive tumors. Mol Oncol. 2014
+Mar;8(2):273-84. doi: 10.1016/j.molonc.2013.11.008. Epub 2013 Dec 3. PMID:
+24388359; PMCID: PMC3964809.
+
+107: Galletti G, Zhang C, Gjyrezi A, Cleveland K, Zhang J, Powell S, Thakkar PV,
+Betel D, Shah MA, Giannakakou P. Microtubule Engagement with Taxane Is Altered
+in Taxane-Resistant Gastric Cancer. Clin Cancer Res. 2020 Jul
+15;26(14):3771-3783. doi: 10.1158/1078-0432.CCR-19-3018. Epub 2020 Apr 22. PMID:
+32321717; PMCID: PMC7816968.
+
+108: Schmitz S, Glanemann B, Garden OA, Brooks H, Chang YM, Werling D,
+Allenspach K. A prospective, randomized, blinded, placebo-controlled pilot study
+on the effect of Enterococcus faecium on clinical activity and intestinal gene
+expression in canine food-responsive chronic enteropathy. J Vet Intern Med. 2015
+Mar-Apr;29(2):533-43. doi: 10.1111/jvim.12563. Epub 2015 Mar 16. PMID: 25776251;
+PMCID: PMC4895498.
+
+109: Wei DG, Chiang V, Fyne E, Balakrishnan M, Barnes T, Graupe M, Hesselgesser
+J, Irrinki A, Murry JP, Stepan G, Stray KM, Tsai A, Yu H, Spindler J, Kearney M,
+Spina CA, McMahon D, Lalezari J, Sloan D, Mellors J, Geleziunas R, Cihlar T.
+Histone deacetylase inhibitor romidepsin induces HIV expression in CD4 T cells
+from patients on suppressive antiretroviral therapy at concentrations achieved
+by clinical dosing. PLoS Pathog. 2014 Apr 10;10(4):e1004071. doi:
+10.1371/journal.ppat.1004071. PMID: 24722454; PMCID: PMC3983056.
+
+110: Kikuchi J, Yamada S, Koyama D, Wada T, Nobuyoshi M, Izumi T, Akutsu M, Kano
+Y, Furukawa Y. The novel orally active proteasome inhibitor K-7174 exerts anti-
+myeloma activity in vitro and in vivo by down-regulating the expression of class
+I histone deacetylases. J Biol Chem. 2013 Aug 30;288(35):25593-25602. doi:
+10.1074/jbc.M113.480574. Epub 2013 Jul 22. PMID: 23878197; PMCID: PMC3757220.
+
+111: Glineur C, Gross B, Neve B, Rommens C, Chew GT, Martin-Nizard F, Rodríguez-
+Pascual F, Lamas S, Watts GF, Staels B. Fenofibrate inhibits endothelin-1
+expression by peroxisome proliferator-activated receptor α-dependent and
+independent mechanisms in human endothelial cells. Arterioscler Thromb Vasc
+Biol. 2013 Mar;33(3):621-8. doi: 10.1161/ATVBAHA.112.300665. Epub 2013 Jan 17.
+PMID: 23329136.
+
+112: Reincke ME, Payne KJ, Harder I, Strohmeier V, Voll RE, Warnatz K, Keller B.
+The Antigen Presenting Potential of CD21<sup>low</sup> B Cells. Front Immunol.
+2020 Oct 21;11:535784. doi: 10.3389/fimmu.2020.535784. PMID: 33193306; PMCID:
+PMC7609862.
+
+113: Lv T, Liu Y, Zhang J, Xu L, Zhu Y, Yin H, An H, Lin Z, Xie Y, Chen L.
+Impact of an altered PROX1 expression on clinicopathology, prognosis and
+progression in renal cell carcinoma. PLoS One. 2014 May 5;9(5):e95996. doi:
+10.1371/journal.pone.0095996. PMID: 24797520; PMCID: PMC4010401.
+
+114: Schütz R, Rawlings AV, Wandeler E, Jackson E, Trevisan S, Monneuse JM,
+Bendik I, Massironi M, Imfeld D. Bio-derived hydroxystearic acid ameliorates
+skin age spots and conspicuous pores. Int J Cosmet Sci. 2019 Jun;41(3):240-256.
+doi: 10.1111/ics.12529. PMID: 30955220; PMCID: PMC6852045.
+
+115: Anyona SB, Kempaiah P, Raballah E, Davenport GC, Were T, Konah SN, Vulule
+JM, Hittner JB, Gichuki CW, Ong'echa JM, Perkins DJ. Reduced systemic bicyclo-
+prostaglandin-E2 and cyclooxygenase-2 gene expression are associated with
+inefficient erythropoiesis and enhanced uptake of monocytic hemozoin in children
+with severe malarial anemia. Am J Hematol. 2012 Aug;87(8):782-9. doi:
+10.1002/ajh.23253. Epub 2012 Jun 23. PMID: 22730036; PMCID: PMC4703400.
+
+116: Soragni E, Miao W, Iudicello M, Jacoby D, De Mercanti S, Clerico M, Longo
+F, Piga A, Ku S, Campau E, Du J, Penalver P, Rai M, Madara JC, Nazor K, O'Connor
+M, Maximov A, Loring JF, Pandolfo M, Durelli L, Gottesfeld JM, Rusche JR.
+Epigenetic therapy for Friedreich ataxia. Ann Neurol. 2014 Oct;76(4):489-508.
+doi: 10.1002/ana.24260. Epub 2014 Sep 16. PMID: 25159818; PMCID: PMC4361037.
+
+117: Yoneno K, Hisamatsu T, Shimamura K, Kamada N, Ichikawa R, Kitazume MT, Mori
+M, Uo M, Namikawa Y, Matsuoka K, Sato T, Koganei K, Sugita A, Kanai T, Hibi T.
+TGR5 signalling inhibits the production of pro-inflammatory cytokines by in
+vitro differentiated inflammatory and intestinal macrophages in Crohn's disease.
+Immunology. 2013 May;139(1):19-29. doi: 10.1111/imm.12045. PMID: 23566200;
+PMCID: PMC3634536.
+
+118: Zhang X, Liu G, Kang Y, Dong Z, Qian Q, Ma X. N-cadherin expression is
+associated with acquisition of EMT phenotype and with enhanced invasion in
+erlotinib-resistant lung cancer cell lines. PLoS One. 2013;8(3):e57692. doi:
+10.1371/journal.pone.0057692. Epub 2013 Mar 8. PMID: 23520479; PMCID:
+PMC3592915.
+
+119: Zhang J, Huang Y, Xi G, Zhang F. HX008: a humanized PD-1 blocking antibody
+with potent antitumor activity and superior pharmacologic properties. MAbs. 2020
+Jan-Dec;12(1):1724751. doi: 10.1080/19420862.2020.1724751. PMID: 32106752;
+PMCID: PMC7153830.
+
+120: Pilz IH, Mehlhorn A, Dovi-Akue D, Langenmair ER, Südkamp NP, Schmal H.
+Development and retranslational validation of an in vitro model to characterize
+acute infections in large human joints. Biomed Res Int. 2014;2014:848604. doi:
+10.1155/2014/848604. Epub 2014 Apr 30. PMID: 24877141; PMCID: PMC4021994.
+
+121: Myhrstad MC, Ulven SM, Günther CC, Ottestad I, Holden M, Ryeng E, Borge GI,
+Kohler A, Brønner KW, Thoresen M, Holven KB. Fish oil supplementation induces
+expression of genes related to cell cycle, endoplasmic reticulum stress and
+apoptosis in peripheral blood mononuclear cells: a transcriptomic approach. J
+Intern Med. 2014 Nov;276(5):498-511. doi: 10.1111/joim.12217. Epub 2014 Mar 20.
+PMID: 24641624; PMCID: PMC4263263.
+
+122: Gordon RR, Wu M, Huang CY, Harris WP, Sim HG, Lucas JM, Coleman I, Higano
+CS, Gulati R, True LD, Vessella R, Lange PH, Garzotto M, Beer TM, Nelson PS.
+Chemotherapy-induced monoamine oxidase expression in prostate carcinoma
+functions as a cytoprotective resistance enzyme and associates with clinical
+outcomes. PLoS One. 2014 Sep 8;9(9):e104271. doi: 10.1371/journal.pone.0104271.
+PMID: 25198178; PMCID: PMC4157741.
+
+123: Hammer F, Buehling SS, Masyout J, Malzahn U, Hauser T, Auer T, Grebe S,
+Feger M, Tuffaha R, Degenhart G, Lang F, Pasch A, Alesutan I, Wanner C, Krane V,
+Voelkl J. Protective effects of spironolactone on vascular calcification in
+chronic kidney disease. Biochem Biophys Res Commun. 2021 Dec 10;582:28-34. doi:
+10.1016/j.bbrc.2021.10.023. Epub 2021 Oct 10. PMID: 34678593.
+
+124: Bialesova L, Kulyté A, Petrus P, Sinha I, Laurencikiene J, Zhao C, Wright
+KD, Arner P, Dahlman I. Epigenetic Regulation of PLIN 1 in Obese Women and its
+Relation to Lipolysis. Sci Rep. 2017 Aug 31;7(1):10152. doi:
+10.1038/s41598-017-09232-y. PMID: 28860604; PMCID: PMC5578955.
+
+125: Paton CM, Rogowski MP, Kozimor AL, Stevenson JL, Chang H, Cooper JA.
+Lipocalin-2 increases fat oxidation in vitro and is correlated with energy
+expenditure in normal weight but not obese women. Obesity (Silver Spring). 2013
+Dec;21(12):E640-8. doi: 10.1002/oby.20507. Epub 2013 Jul 29. PMID: 23640923.
+
+126: Kim K, Theusch E, Kuang YL, Dose A, Mitchel K, Cubitt C, Chen YI, Krauss
+RM, Medina MW. ZNF542P is a pseudogene associated with LDL response to
+simvastatin treatment. Sci Rep. 2018 Aug 20;8(1):12443. doi:
+10.1038/s41598-018-30859-y. PMID: 30127457; PMCID: PMC6102286.
+
+127: Coffey DG, Cowan AJ, DeGraaff B, Martins TJ, Curley N, Green DJ, Libby EN,
+Silbermann R, Chien S, Dai J, Morales A, Gooley TA, Warren EH, Becker PS. High-
+Throughput Drug Screening and Multi-Omic Analysis to Guide Individualized
+Treatment for Multiple Myeloma. JCO Precis Oncol. 2021 Apr 6;5:PO.20.00442. doi:
+10.1200/PO.20.00442. PMID: 34250400; PMCID: PMC8232547.
+
+128: Estrada-Bernal A, Le AT, Doak AE, Tirunagaru VG, Silva S, Bull MR, Smaill
+JB, Patterson AV, Kim C, Liu SV, Doebele RC. Tarloxotinib Is a Hypoxia-Activated
+Pan-HER Kinase Inhibitor Active Against a Broad Range of HER-Family Oncogenes.
+Clin Cancer Res. 2021 Mar 1;27(5):1463-1475. doi: 10.1158/1078-0432.CCR-20-3555.
+Epub 2020 Dec 22. PMID: 33355298; PMCID: PMC7926264.
+
+129: Kurokawa C, Iankov ID, Anderson SK, Aderca I, Leontovich AA, Maurer MJ,
+Oberg AL, Schroeder MA, Giannini C, Greiner SM, Becker MA, Thompson EA, Haluska
+P, Jentoft ME, Parney IF, Weroha SJ, Jen J, Sarkaria JN, Galanis E. Constitutive
+Interferon Pathway Activation in Tumors as an Efficacy Determinant Following
+Oncolytic Virotherapy. J Natl Cancer Inst. 2018 Oct 1;110(10):1123-1132. doi:
+10.1093/jnci/djy033. PMID: 29788332; PMCID: PMC6186520.
+
+130: Kohli K, Yao L, Nowicki TS, Zhang S, Black RG, Schroeder BA, Farrar EA, Cao
+J, Sloan H, Stief D, Cranmer LD, Wagner MJ, Hawkins DS, Pillarisetty VG, Ribas
+A, Campbell J, Pierce RH, Kim EY, Jones RL, Riddell SR, Yee C, Pollack SM. IL-15
+mediated expansion of rare durable memory T cells following adoptive cellular
+therapy. J Immunother Cancer. 2021 May;9(5):e002232. doi:
+10.1136/jitc-2020-002232. PMID: 33963013; PMCID: PMC8108691.
+
+131: Patel VM, Balakrishnan K, Douglas M, Tibbitts T, Xu EY, Kutok JL, Ayers M,
+Sarkar A, Guerrieri R, Wierda WG, O'Brien S, Jain N, Stern HM, Gandhi V.
+Duvelisib treatment is associated with altered expression of apoptotic
+regulators that helps in sensitization of chronic lymphocytic leukemia cells to
+venetoclax (ABT-199). Leukemia. 2017 Sep;31(9):1872-1881. doi:
+10.1038/leu.2016.382. Epub 2016 Dec 26. PMID: 28017967; PMCID: PMC5540815.
+
+132: Bryl-Górecka P, Sathanoori R, Arevström L, Landberg R, Bergh C, Evander M,
+Olde B, Laurell T, Fröbert O, Erlinge D. Bilberry Supplementation after
+Myocardial Infarction Decreases Microvesicles in Blood and Affects Endothelial
+Vesiculation. Mol Nutr Food Res. 2020 Oct;64(20):e2000108. doi:
+10.1002/mnfr.202000108. Epub 2020 Sep 10. PMID: 32846041; PMCID: PMC7685140.
+
+133: García-Beltran C, Cereijo R, Quesada-López T, Malpique R, López-Bermejo A,
+de Zegher F, Ibáñez L, Villarroya F. Reduced circulating levels of chemokine
+CXCL14 in adolescent girls with polycystic ovary syndrome: normalization after
+insulin sensitization. BMJ Open Diabetes Res Care. 2020 Feb;8(1):e001035. doi:
+10.1136/bmjdrc-2019-001035. PMID: 32107266; PMCID: PMC7206903.
+
+134: Zhang W, Bhagwath AS, Ramzan Z, Williams TA, Subramaniyan I, Edpuganti V,
+Kallem RR, Dunbar KB, Ding P, Gong K, Geurkink SA, Beg MS, Kim J, Zhang Q, Habib
+AA, Choi SH, Lapsiwala R, Bhagwath G, Dowell JE, Melton SD, Jie C, Putnam WC,
+Pham TH, Wang DH. Itraconazole Exerts Its Antitumor Effect in Esophageal Cancer
+By Suppressing the HER2/AKT Signaling Pathway. Mol Cancer Ther. 2021
+Oct;20(10):1904-1915. doi: 10.1158/1535-7163.MCT-20-0638. Epub 2021 Aug 10.
+PMID: 34376577; PMCID: PMC8492513.
+
+135: Almeida JA, Ponnuraj NP, Lee JJ, Utterback P, Gaskins HR, Dilger RN,
+Pettigrew JE. Effects of dietary clays on performance and intestinal mucus
+barrier of broiler chicks challenged with Salmonella enterica serovar
+Typhimurium and on goblet cell function in vitro. Poult Sci. 2014
+Apr;93(4):839-47. doi: 10.3382/ps.2013-03587. PMID: 24706960.
+
+136: Lord SR, Collins JM, Cheng WC, Haider S, Wigfield S, Gaude E, Fielding BA,
+Pinnick KE, Harjes U, Segaran A, Jha P, Hoefler G, Pollak MN, Thompson AM, Roy
+PG, English R, Adams RF, Frezza C, Buffa FM, Karpe F, Harris AL. Transcriptomic
+analysis of human primary breast cancer identifies fatty acid oxidation as a
+target for metformin. Br J Cancer. 2020 Jan;122(2):258-265. doi:
+10.1038/s41416-019-0665-5. Epub 2019 Dec 10. PMID: 31819193; PMCID: PMC6986920.
+
+137: Kien CL, Bunn JY, Fukagawa NK, Anathy V, Matthews DE, Crain KI, Ebenstein
+DB, Tarleton EK, Pratley RE, Poynter ME. Lipidomic evidence that lowering the
+typical dietary palmitate to oleate ratio in humans decreases the leukocyte
+production of proinflammatory cytokines and muscle expression of redox-sensitive
+genes. J Nutr Biochem. 2015 Dec;26(12):1599-606. doi:
+10.1016/j.jnutbio.2015.07.014. Epub 2015 Aug 1. PMID: 26324406; PMCID:
+PMC4679618.
+
+138: Liu C, Huang Z, Jiang H, Shi F. The sirtuin 3 expression profile is
+associated with pathological and clinical outcomes in colon cancer patients.
+Biomed Res Int. 2014;2014:871263. doi: 10.1155/2014/871263. Epub 2014 Jul 1.
+PMID: 25105144; PMCID: PMC4101237.
+
+139: Canavan M, Marzaioli V, McGarry T, Bhargava V, Nagpal S, Veale DJ, Fearon
+U. Rheumatoid arthritis synovial microenvironment induces metabolic and
+functional adaptations in dendritic cells. Clin Exp Immunol. 2020
+Nov;202(2):226-238. doi: 10.1111/cei.13479. Epub 2020 Jul 15. PMID: 32557565;
+PMCID: PMC7597596.
+
+140: Rosás-Umbert M, Ruiz-Riol M, Fernández MA, Marszalek M, Coll P, Manzardo C,
+Cedeño S, Miró JM, Clotet B, Hanke T, Moltó J, Mothe B, Brander C; BCN02 study
+group. <i>In vivo</i> Effects of Romidepsin on T-Cell Activation, Apoptosis and
+Function in the BCN02 HIV-1 Kick&Kill Clinical Trial. Front Immunol. 2020 Mar
+20;11:418. doi: 10.3389/fimmu.2020.00418. PMID: 32265913; PMCID: PMC7100631.
+
+141: Dreyfuss JM, Yuchi Y, Dong X, Efthymiou V, Pan H, Simonson DC, Vernon A,
+Halperin F, Aryal P, Konkar A, Sebastian Y, Higgs BW, Grimsby J, Rondinone CM,
+Kasif S, Kahn BB, Foster K, Seeley R, Goldfine A, Djordjilović V, Patti ME.
+High-throughput mediation analysis of human proteome and metabolome identifies
+mediators of post-bariatric surgical diabetes control. Nat Commun. 2021 Nov
+29;12(1):6951. doi: 10.1038/s41467-021-27289-2. PMID: 34845204; PMCID:
+PMC8630169.
+
+142: Boddicker RL, Razidlo GL, Dasari S, Zeng Y, Hu G, Knudson RA, Greipp PT,
+Davila JI, Johnson SH, Porcher JC, Smadbeck JB, Eckloff BW, Billadeau DD, Kurtin
+PJ, McNiven MA, Link BK, Ansell SM, Cerhan JR, Asmann YW, Vasmatzis G, Feldman
+AL. Integrated mate-pair and RNA sequencing identifies novel, targetable gene
+fusions in peripheral T-cell lymphoma. Blood. 2016 Sep 1;128(9):1234-45. doi:
+10.1182/blood-2016-03-707141. Epub 2016 Jun 13. PMID: 27297792; PMCID:
+PMC5009513.
+
+143: Reinhardt S, Stoye N, Luderer M, Kiefer F, Schmitt U, Lieb K, Endres K.
+Identification of disulfiram as a secretase-modulating compound with beneficial
+effects on Alzheimer's disease hallmarks. Sci Rep. 2018 Jan 22;8(1):1329. doi:
+10.1038/s41598-018-19577-7. PMID: 29358714; PMCID: PMC5778060.
+
+144: Pourteymour S, Eckardt K, Holen T, Langleite T, Lee S, Jensen J, Birkeland
+KI, Drevon CA, Hjorth M. Global mRNA sequencing of human skeletal muscle: Search
+for novel exercise-regulated myokines. Mol Metab. 2017 Jan 29;6(4):352-365. doi:
+10.1016/j.molmet.2017.01.007. PMID: 28377874; PMCID: PMC5369209.
+
+145: Rücker FG, Lang KM, Fütterer M, Komarica V, Schmid M, Döhner H, Schlenk RF,
+Döhner K, Knudsen S, Bullinger L. Molecular dissection of valproic acid effects
+in acute myeloid leukemia identifies predictive networks. Epigenetics. 2016 Jul
+2;11(7):517-25. doi: 10.1080/15592294.2016.1187350. Epub 2016 Jun 16. PMID:
+27309669; PMCID: PMC4939918.
+
+146: Khurana S, Buckley S, Schouteden S, Ekker S, Petryk A, Delforge M, Zwijsen
+A, Verfaillie CM. A novel role of BMP4 in adult hematopoietic stem and
+progenitor cell homing via Smad independent regulation of integrin-α4
+expression. Blood. 2013 Jan 31;121(5):781-90. doi: 10.1182/blood-2012-07-446443.
+Epub 2012 Dec 13. PMID: 23243277.
+
+147: Smith C, Lineburg KE, Martins JP, Ambalathingal GR, Neller MA, Morrison B,
+Matthews KK, Rehan S, Crooks P, Panikkar A, Beagley L, Le Texier L, Srihari S,
+Walker D, Khanna R. Autologous CMV-specific T cells are a safe adjuvant
+immunotherapy for primary glioblastoma multiforme. J Clin Invest. 2020 Nov
+2;130(11):6041-6053. doi: 10.1172/JCI138649. PMID: 32750039; PMCID: PMC7598048.
+
+148: Renand A, Milpied P, Rossignol J, Bruneau J, Lemonnier F, Dussiot M, Coulon
+S, Hermine O. Neuropilin-1 expression characterizes T follicular helper (Tfh)
+cells activated during B cell differentiation in human secondary lymphoid
+organs. PLoS One. 2013 Dec 30;8(12):e85589. doi: 10.1371/journal.pone.0085589.
+PMID: 24386482; PMCID: PMC3875584.
+
+149: Morandi E, Tanasescu R, Tarlinton RE, Constantin-Teodosiu D, Gran B. Do
+Antiretroviral Drugs Protect From Multiple Sclerosis by Inhibiting Expression of
+MS-Associated Retrovirus? Front Immunol. 2019 Jan 22;9:3092. doi:
+10.3389/fimmu.2018.03092. PMID: 30740110; PMCID: PMC6357932.
+
+150: Xie C, Drenberg C, Edwards H, Caldwell JT, Chen W, Inaba H, Xu X, Buck SA,
+Taub JW, Baker SD, Ge Y. Panobinostat enhances cytarabine and daunorubicin
+sensitivities in AML cells through suppressing the expression of BRCA1, CHK1,
+and Rad51. PLoS One. 2013 Nov 11;8(11):e79106. doi:
+10.1371/journal.pone.0079106. PMID: 24244429; PMCID: PMC3823972.
+
+151: Finlin BS, Confides AL, Zhu B, Boulanger MC, Memetimin H, Taylor KW,
+Johnson ZR, Westgate PM, Dupont-Versteegden EE, Kern PA. Adipose Tissue Mast
+Cells Promote Human Adipose Beiging in Response to Cold. Sci Rep. 2019 Jun
+17;9(1):8658. doi: 10.1038/s41598-019-45136-9. PMID: 31209239; PMCID:
+PMC6572779.
+
+152: Li T, Xie J, Shen C, Cheng D, Shi Y, Wu Z, Zhan Q, Deng X, Chen H, Shen B,
+Peng C, Li H, Zhu Z. miR-150-5p inhibits hepatoma cell migration and invasion by
+targeting MMP14. PLoS One. 2014 Dec 30;9(12):e115577. doi:
+10.1371/journal.pone.0115577. PMID: 25549355; PMCID: PMC4280173.
+
+153: Simerman AA, Hill DL, Grogan TR, Elashoff D, Clarke NJ, Goldstein EH,
+Manrriquez AN, Chazenbalk GD, Dumesic DA. Intrafollicular cortisol levels
+inversely correlate with cumulus cell lipid content as a possible energy source
+during oocyte meiotic resumption in women undergoing ovarian stimulation for in
+vitro fertilization. Fertil Steril. 2015 Jan;103(1):249-57. doi:
+10.1016/j.fertnstert.2014.09.034. Epub 2014 Oct 24. PMID: 25439840; PMCID:
+PMC4380141.
+
+154: Owens LA, Abbara A, Lerner A, O'floinn S, Christopoulos G, Khanjani S,
+Islam R, Hardy K, Hanyaloglu AC, Lavery SA, Dhillo WS, Franks S. The direct and
+indirect effects of kisspeptin-54 on granulosa lutein cell function. Hum Reprod.
+2018 Feb 1;33(2):292-302. doi: 10.1093/humrep/dex357. PMID: 29206944.
+
+155: Yang L, Roberts D, Takhar M, Erho N, Bibby BAS, Thiruthaneeswaran N,
+Bhandari V, Cheng WC, Haider S, McCorry AMB, McArt D, Jain S, Alshalalfa M, Ross
+A, Schaffer E, Den RB, Jeffrey Karnes R, Klein E, Hoskin PJ, Freedland SJ, Lamb
+AD, Neal DE, Buffa FM, Bristow RG, Boutros PC, Davicioni E, Choudhury A, West
+CML. Development and Validation of a 28-gene Hypoxia-related Prognostic
+Signature for Localized Prostate Cancer. EBioMedicine. 2018 May;31:182-189. doi:
+10.1016/j.ebiom.2018.04.019. Epub 2018 Apr 23. PMID: 29729848; PMCID:
+PMC6014579.
+
+156: Declercq J, Jacobs B, Biesmans B, Roth A, Klingbiel D, Tejpar S, Creemers
+JW. Single Nucleotide Polymorphism (rs4932178) in the P1 Promoter of FURIN Is
+Not Prognostic to Colon Cancer. Biomed Res Int. 2015;2015:321276. doi:
+10.1155/2015/321276. Epub 2015 Jun 7. PMID: 26137475; PMCID: PMC4475562.
+
+157: Glavey SV, Manier S, Natoni A, Sacco A, Moschetta M, Reagan MR, Murillo LS,
+Sahin I, Wu P, Mishima Y, Zhang Y, Zhang W, Zhang Y, Morgan G, Joshi L, Roccaro
+AM, Ghobrial IM, O'Dwyer ME. The sialyltransferase ST3GAL6 influences homing and
+survival in multiple myeloma. Blood. 2014 Sep 11;124(11):1765-76. doi:
+10.1182/blood-2014-03-560862. Epub 2014 Jul 24. PMID: 25061176; PMCID:
+PMC4162107.
+
+158: Sarem Z, Bumke-Vogt C, Mahmoud AM, Assefa B, Weickert MO, Adamidou A, Bähr
+V, Frystyk J, Möhlig M, Spranger J, Lieske S, Birkenfeld AL, Pfeiffer AFH,
+Arafat AM. Glucagon Decreases IGF-1 Bioactivity in Humans, Independently of
+Insulin, by Modulating Its Binding Proteins. J Clin Endocrinol Metab. 2017 Sep
+1;102(9):3480-3490. doi: 10.1210/jc.2017-00558. PMID: 28911141; PMCID:
+PMC6287397.
+
+159: Gambardella J, Fiordelisi A, Spigno L, Boldrini L, Lungonelli G, Di Vaia E,
+Santulli G, Sorriento D, Cerasuolo FA, Trimarco V, Iaccarino G. Effects of
+Chronic Supplementation of L-Arginine on Physical Fitness in Water Polo Players.
+Oxid Med Cell Longev. 2021 Mar 15;2021:6684568. doi: 10.1155/2021/6684568. PMID:
+33815657; PMCID: PMC7994081.
+
+160: Prajapati SK, Ayanful-Torgby R, Pava Z, Barbeau MC, Acquah FK, Cudjoe E,
+Kakaney C, Amponsah JA, Obboh E, Ahmed AE, Abuaku BK, McCarthy JS, Amoah LE,
+Williamson KC. The transcriptome of circulating sexually committed Plasmodium
+falciparum ring stage parasites forecasts malaria transmission potential. Nat
+Commun. 2020 Dec 2;11(1):6159. doi: 10.1038/s41467-020-19988-z. Erratum in: Nat
+Commun. 2022 May 30;13(1):3116. PMID: 33268801; PMCID: PMC7710746.
+
+161: Gobejishvili L, Ghare S, Khan R, Cambon A, Barker DF, Barve S, McClain C,
+Hill D. Misoprostol modulates cytokine expression through a cAMP pathway:
+Potential therapeutic implication for liver disease. Clin Immunol. 2015
+Dec;161(2):291-9. doi: 10.1016/j.clim.2015.09.008. Epub 2015 Sep 25. PMID:
+26408955; PMCID: PMC4658275.
+
+162: Liu B, Che Q, Qiu H, Bao W, Chen X, Lu W, Li B, Wan X. Elevated MiR-222-3p
+promotes proliferation and invasion of endometrial carcinoma via targeting ERα.
+PLoS One. 2014 Jan 31;9(1):e87563. doi: 10.1371/journal.pone.0087563. PMID:
+24498137; PMCID: PMC3909214.
+
+163: Wheelwright M, Kim EW, Inkeles MS, De Leon A, Pellegrini M, Krutzik SR, Liu
+PT. All-trans retinoic acid-triggered antimicrobial activity against
+Mycobacterium tuberculosis is dependent on NPC2. J Immunol. 2014 Mar
+1;192(5):2280-2290. doi: 10.4049/jimmunol.1301686. Epub 2014 Feb 5. PMID:
+24501203; PMCID: PMC3954114.
+
+164: Femminò S, D'Ascenzo F, Ravera F, Comità S, Angelini F, Caccioppo A,
+Franchin L, Grosso A, Thairi C, Venturelli E, Cavallari C, Penna C, De Ferrari
+GM, Camussi G, Pagliaro P, Brizzi MF. Percutaneous Coronary Intervention (PCI)
+Reprograms Circulating Extracellular Vesicles from ACS Patients Impairing Their
+Cardio-Protective Properties. Int J Mol Sci. 2021 Sep 24;22(19):10270. doi:
+10.3390/ijms221910270. PMID: 34638611; PMCID: PMC8508604.
+
+165: Coussement L, Bolca S, Van Criekinge W, Trooskens G, Mensaert K, Poels K,
+Roche N, Blondeel P, Godderis L, Depypere H, De Meyer T. Exploratory analysis of
+the human breast DNA methylation profile upon soymilk exposure. Sci Rep. 2018
+Sep 11;8(1):13617. doi: 10.1038/s41598-018-31767-x. PMID: 30206342; PMCID:
+PMC6133922.
+
+166: Gahete MD, Del Rio-Moreno M, Camargo A, Alcala-Diaz JF, Alors-Perez E,
+Delgado-Lista J, Reyes O, Ventura S, Perez-Martínez P, Castaño JP, Lopez-Miranda
+J, Luque RM. Changes in Splicing Machinery Components Influence, Precede, and
+Early Predict the Development of Type 2 Diabetes: From the CORDIOPREV Study.
+EBioMedicine. 2018 Nov;37:356-365. doi: 10.1016/j.ebiom.2018.10.056. Epub 2018
+Nov 13. PMID: 30446432; PMCID: PMC6286259.
+
+167: Vanoni S, Zeng C, Marella S, Uddin J, Wu D, Arora K, Ptaschinski C, Que J,
+Noah T, Waggoner L, Barski A, Kartashov A, Rochman M, Wen T, Martin L, Spence J,
+Collins M, Mukkada V, Putnam P, Naren A, Chehade M, Rothenberg ME, Hogan SP.
+Identification of anoctamin 1 (ANO1) as a key driver of esophageal epithelial
+proliferation in eosinophilic esophagitis. J Allergy Clin Immunol. 2020
+Jan;145(1):239-254.e2. doi: 10.1016/j.jaci.2019.07.049. Epub 2019 Oct 21. PMID:
+31647967; PMCID: PMC7366251.
+
+168: Lei X, Li YF, Chen GD, Ou DP, Qiu XX, Zuo CH, Yang LY. Ack1 overexpression
+promotes metastasis and indicates poor prognosis of hepatocellular carcinoma.
+Oncotarget. 2015 Dec 1;6(38):40622-41. doi: 10.18632/oncotarget.5872. PMID:
+26536663; PMCID: PMC4747357.
+
+169: van den Born JC, Mencke R, Conroy S, Zeebregts CJ, van Goor H, Hillebrands
+JL. Cystathionine γ-lyase is expressed in human atherosclerotic plaque
+microvessels and is involved in micro-angiogenesis. Sci Rep. 2016 Oct 6;6:34608.
+doi: 10.1038/srep34608. PMID: 27708362; PMCID: PMC5052587.
+
+170: Lillycrop K, Murray R, Cheong C, Teh AL, Clarke-Harris R, Barton S,
+Costello P, Garratt E, Cook E, Titcombe P, Shunmuganathan B, Liew SJ, Chua YC,
+Lin X, Wu Y, Burdge GC, Cooper C, Inskip HM, Karnani N, Hopkins JC, Childs CE,
+Chavez CP, Calder PC, Yap F, Lee YS, Chong YS, Melton PE, Beilin L, Huang RC,
+Gluckman PD, Harvey N, Hanson MA, Holbrook JD; EpiGen Consortium, Godfrey KM.
+ANRIL Promoter DNA Methylation: A Perinatal Marker for Later Adiposity.
+EBioMedicine. 2017 May;19:60-72. doi: 10.1016/j.ebiom.2017.03.037. Epub 2017 Apr
+26. PMID: 28473239; PMCID: PMC5440605.
+
+171: McKinney EF, Cuthbertson I, Harris KM, Smilek DE, Connor C, Manferrari G,
+Carr EJ, Zamvil SS, Smith KGC. A CD8<sup>+</sup> NK cell transcriptomic
+signature associated with clinical outcome in relapsing remitting multiple
+sclerosis. Nat Commun. 2021 Jan 27;12(1):635. doi: 10.1038/s41467-020-20594-2.
+PMID: 33504809; PMCID: PMC7840761.
+
+172: Dong B, Cai M, Fang Z, Wei H, Zhu F, Li G, Dong H, Xiong L. Hemopexin
+induces neuroprotection in the rat subjected to focal cerebral ischemia. BMC
+Neurosci. 2013 Jun 10;14:58. doi: 10.1186/1471-2202-14-58. PMID: 23758755;
+PMCID: PMC3694464.
+
+173: Weiß E, Berger HM, Brandl WT, Strutz J, Hirschmugl B, Simovic V, Tam-
+Ammersdorfer C, Cvitic S, Hiden U. Maternal Overweight Downregulates MME
+(Neprilysin) in Feto-Placental Endothelial Cells and in Cord Blood. Int J Mol
+Sci. 2020 Jan 28;21(3):834. doi: 10.3390/ijms21030834. PMID: 32012940; PMCID:
+PMC7037888.
+
+174: Gupta A, Towers C, Willenbrock F, Brant R, Hodgson DR, Sharpe A, Smith P,
+Cutts A, Schuh A, Asher R, Myers K, Love S, Collins L, Wise A, Middleton MR,
+Macaulay VM. Dual-specificity protein phosphatase DUSP4 regulates response to
+MEK inhibition in BRAF wild-type melanoma. Br J Cancer. 2020 Feb;122(4):506-516.
+doi: 10.1038/s41416-019-0673-5. Epub 2019 Dec 16. PMID: 31839677; PMCID:
+PMC7028919.
+
+175: Rice LM, Padilla CM, McLaughlin SR, Mathes A, Ziemek J, Goummih S,
+Nakerakanti S, York M, Farina G, Whitfield ML, Spiera RF, Christmann RB, Gordon
+JK, Weinberg J, Simms RW, Lafyatis R. Fresolimumab treatment decreases
+biomarkers and improves clinical symptoms in systemic sclerosis patients. J Clin
+Invest. 2015 Jul 1;125(7):2795-807. doi: 10.1172/JCI77958. Epub 2015 Jun 22.
+PMID: 26098215; PMCID: PMC4563675.
+
+176: Behnes M, Brueckmann M, Lang S, Putensen C, Saur J, Borggrefe M, Hoffmann
+U. Alterations of leptin in the course of inflammation and severe sepsis. BMC
+Infect Dis. 2012 Sep 14;12:217. doi: 10.1186/1471-2334-12-217. PMID: 22973876;
+PMCID: PMC3462137.
+
+177: Patani N, Dunbier AK, Anderson H, Ghazoui Z, Ribas R, Anderson E, Gao Q,
+A'hern R, Mackay A, Lindemann J, Wellings R, Walker J, Kuter I, Martin LA,
+Dowsett M. Differences in the transcriptional response to fulvestrant and
+estrogen deprivation in ER-positive breast cancer. Clin Cancer Res. 2014 Aug
+1;20(15):3962-73. doi: 10.1158/1078-0432.CCR-13-1378. Epub 2014 Jun 10. PMID:
+24916694; PMCID: PMC4119788.
+
+178: Tooley JE, Vudattu N, Choi J, Cotsapas C, Devine L, Raddassi K, Ehlers MR,
+McNamara JG, Harris KM, Kanaparthi S, Phippard D, Herold KC. Changes in T-cell
+subsets identify responders to FcR-nonbinding anti-CD3 mAb (teplizumab) in
+patients with type 1 diabetes. Eur J Immunol. 2016 Jan;46(1):230-41. doi:
+10.1002/eji.201545708. Epub 2015 Dec 14. PMID: 26518356; PMCID: PMC4882099.
+
+179: Firmin FF, Oger F, Gheeraert C, Dubois-Chevalier J, Vercoutter-Edouart AS,
+Alzaid F, Mazuy C, Dehondt H, Alexandre J, Derudas B, Dhalluin Q, Ploton M,
+Berthier A, Woitrain E, Lefebvre T, Venteclef N, Pattou F, Staels B, Eeckhoute
+J, Lefebvre P. The RBM14/CoAA-interacting, long intergenic non-coding RNA Paral1
+regulates adipogenesis and coactivates the nuclear receptor PPARγ. Sci Rep. 2017
+Oct 26;7(1):14087. doi: 10.1038/s41598-017-14570-y. PMID: 29075020; PMCID:
+PMC5658386.
+
+180: Hoff FW, van Dijk AD, Qiu Y, Ruvolo PP, Gerbing RB, Leonti AR, Jenkins GN,
+Gamis AS, Aplenc R, Kolb EA, Alonzo TA, Meshinchi S, de Bont ESJM, Bruggeman
+SWM, Kornblau SM, Horton TM. Heat shock factor 1 (HSF1-pSer326) predicts
+response to bortezomib-containing chemotherapy in pediatric AML: a COG report.
+Blood. 2021 Feb 25;137(8):1050-1060. doi: 10.1182/blood.2020005208. PMID:
+32959058; PMCID: PMC7907722.
+
+181: Montenont E, Echagarruga C, Allen N, Araldi E, Suarez Y, Berger JS.
+Platelet WDR1 suppresses platelet activity and is associated with cardiovascular
+disease. Blood. 2016 Oct 20;128(16):2033-2042. doi:
+10.1182/blood-2016-03-703157. Epub 2016 Sep 8. PMID: 27609643; PMCID:
+PMC5073182.
+
+182: Kotsiou E, Okosun J, Besley C, Iqbal S, Matthews J, Fitzgibbon J, Gribben
+JG, Davies JK. TNFRSF14 aberrations in follicular lymphoma increase clinically
+significant allogeneic T-cell responses. Blood. 2016 Jul 7;128(1):72-81. doi:
+10.1182/blood-2015-10-679191. Epub 2016 Apr 21. PMID: 27103745; PMCID:
+PMC4956614.
+
+183: Minakawa Y, Kasamatsu A, Koike H, Higo M, Nakashima D, Kouzu Y, Sakamoto Y,
+Ogawara K, Shiiba M, Tanzawa H, Uzawa K. Kinesin family member 4A: a potential
+predictor for progression of human oral cancer. PLoS One. 2013 Dec
+30;8(12):e85951. doi: 10.1371/journal.pone.0085951. PMID: 24386490; PMCID:
+PMC3875575.
+
+184: Wilk CM, Heinzler N, Boquoi A, Cadeddu RP, Strapatsas T, Dienst A, Majidi
+F, Deenen R, Bruns I, Schroeder T, Köhrer K, Haas R, Kobbe G, Fenk R.
+Lenalidomide consolidation treatment in patients with multiple myeloma
+suppresses myelopoieses but spares erythropoiesis. Int J Cancer. 2016 Nov
+15;139(10):2343-52. doi: 10.1002/ijc.30257. Epub 2016 Aug 13. PMID: 27389073.
+
+185: Johansson S, Rosenbaum DP, Ahlqvist M, Rollison H, Knutsson M, Stefansson
+B, Elebring M. Effects of Tenapanor on Cytochrome P450-Mediated Drug-Drug
+Interactions. Clin Pharmacol Drug Dev. 2017 Sep;6(5):466-475. doi:
+10.1002/cpdd.346. Epub 2017 Mar 16. PMID: 28301096; PMCID: PMC5599994.
+
+186: Jeremiah N, Neven B, Gentili M, Callebaut I, Maschalidi S, Stolzenberg MC,
+Goudin N, Frémond ML, Nitschke P, Molina TJ, Blanche S, Picard C, Rice GI, Crow
+YJ, Manel N, Fischer A, Bader-Meunier B, Rieux-Laucat F. Inherited STING-
+activating mutation underlies a familial inflammatory syndrome with lupus-like
+manifestations. J Clin Invest. 2014 Dec;124(12):5516-20. doi: 10.1172/JCI79100.
+Epub 2014 Nov 17. PMID: 25401470; PMCID: PMC4348945.
+
+187: Braunstein M, Liao L, Lyttle N, Lobo N, Taylor KJ, Krzyzanowski PM,
+Kalatskaya I, Yao CQ, Stein LD, Boutros PC, Twelves CJ, Marcellus R, Bartlett
+JM, Spears M. Downregulation of histone H2A and H2B pathways is associated with
+anthracycline sensitivity in breast cancer. Breast Cancer Res. 2016 Feb
+6;18(1):16. doi: 10.1186/s13058-016-0676-6. PMID: 26852132; PMCID: PMC4744406.
+
+188: Smailhodzic D, van Asten F, Blom AM, Mohlin FC, den Hollander AI, van de
+Ven JP, van Huet RA, Groenewoud JM, Tian Y, Berendschot TT, Lechanteur YT,
+Fauser S, de Bruijn C, Daha MR, van der Wilt GJ, Hoyng CB, Klevering BJ. Zinc
+supplementation inhibits complement activation in age-related macular
+degeneration. PLoS One. 2014 Nov 13;9(11):e112682. doi:
+10.1371/journal.pone.0112682. PMID: 25393287; PMCID: PMC4231060.
+
+189: Dieterich W, Neurath MF, Zopf Y. Intestinal ex vivo organoid culture
+reveals altered programmed crypt stem cells in patients with celiac disease. Sci
+Rep. 2020 Feb 26;10(1):3535. doi: 10.1038/s41598-020-60521-5. PMID: 32103108;
+PMCID: PMC7044285.
+
+190: Ding X, Yang Y, Han B, Du C, Xu N, Huang H, Cai T, Zhang A, Han ZG, Zhou W,
+Chen L. Transcriptomic characterization of hepatocellular carcinoma with CTNNB1
+mutation. PLoS One. 2014 May 5;9(5):e95307. doi: 10.1371/journal.pone.0095307.
+PMID: 24798046; PMCID: PMC4010419.
+
+191: Hoffmann U, Neudörfl C, Daemen K, Keil J, Stevanovic-Meyer M, Lehner F,
+Haller H, Blume C, Falk CS. NK Cells of Kidney Transplant Recipients Display an
+Activated Phenotype that Is Influenced by Immunosuppression and Pathological
+Staging. PLoS One. 2015 Jul 6;10(7):e0132484. doi: 10.1371/journal.pone.0132484.
+PMID: 26147651; PMCID: PMC4492590.
+
+192: Rondelli T, Risitano AM, Peffault de Latour R, Sica M, Peruzzi B, Ricci P,
+Barcellini W, Iori AP, Boschetti C, Valle V, Frémeaux-Bacchi V, De Angioletti M,
+Socie G, Luzzatto L, Notaro R. Polymorphism of the complement receptor 1 gene
+correlates with the hematologic response to eculizumab in patients with
+paroxysmal nocturnal hemoglobinuria. Haematologica. 2014 Feb;99(2):262-6. doi:
+10.3324/haematol.2013.090001. Epub 2013 Sep 13. PMID: 24038027; PMCID:
+PMC3912955.
+
+193: Yang X, Feng Y, Liu Y, Ye X, Ji X, Sun L, Gao F, Zhang Q, Li Y, Zhu B, Wang
+X. Fuzheng Jiedu Xiaoji formulation inhibits hepatocellular carcinoma
+progression in patients by targeting the AKT/CyclinD1/p21/p27 pathway.
+Phytomedicine. 2021 Jul;87:153575. doi: 10.1016/j.phymed.2021.153575. Epub 2021
+Apr 18. PMID: 33984593.
+
+194: Stomper J, Ihorst G, Suciu S, Sander PN, Becker H, Wijermans PW, Plass C,
+Weichenhan D, Bissé E, Claus R, Lübbert M. Fetal hemoglobin induction during
+decitabine treatment of elderly patients with high-risk myelodysplastic syndrome
+or acute myeloid leukemia: a potential dynamic biomarker of outcome.
+Haematologica. 2019 Jan;104(1):59-69. doi: 10.3324/haematol.2017.187278. Epub
+2018 Aug 31. PMID: 30171030; PMCID: PMC6312014.
+
+195: Mendler A, Pierzchalski A, Bauer M, Röder S, Sattler A, Standl M, Borte M,
+von Bergen M, Rolle-Kampczyk U, Herberth G. MAIT cell activation in adolescents
+is impacted by bile acid concentrations and body weight. Clin Exp Immunol. 2020
+May;200(2):199-213. doi: 10.1111/cei.13423. Epub 2020 Feb 17. PMID: 32012235;
+PMCID: PMC7160656.
+
+196: Vitalone MJ, Ganguly B, Hsieh S, Latek R, Kulbokas EJ, Townsend R, Sarwal
+MM. Transcriptional profiling of belatacept and calcineurin inhibitor therapy in
+renal allograft recipients. Am J Transplant. 2014 Aug;14(8):1912-21. doi:
+10.1111/ajt.12746. Epub 2014 Jun 20. PMID: 24954576.
+
+197: Cerda A, Rodrigues AC, Alves C, Genvigir FD, Fajardo CM, Dorea EL, Gusukuma
+MC, Pinto GA, Hirata MH, Hirata RD. Modulation of adhesion molecules by
+cholesterol-lowering therapy in mononuclear cells from hypercholesterolemic
+patients. Cardiovasc Ther. 2015 Aug;33(4):168-76. doi: 10.1111/1755-5922.12126.
+PMID: 25903419.
+
+198: Navarro SL, Levy L, Curtis KR, Elkon I, Kahsai OJ, Ammar HS, Randolph TW,
+Hong NN, Carnevale Neto F, Raftery D, Chapkin RS, Lampe JW, Hullar MAJ. Effect
+of a Flaxseed Lignan Intervention on Circulating Bile Acids in a Placebo-
+Controlled Randomized, Crossover Trial. Nutrients. 2020 Jun 19;12(6):1837. doi:
+10.3390/nu12061837. PMID: 32575611; PMCID: PMC7374341.
+
+199: Hjelholt AJ, Lee KY, Arlien-Søborg MC, Pedersen SB, Kopchick JJ, Puri V,
+Jessen N, Jørgensen JOL. Temporal patterns of lipolytic regulators in adipose
+tissue after acute growth hormone exposure in human subjects: A randomized
+controlled crossover trial. Mol Metab. 2019 Nov;29:65-75. doi:
+10.1016/j.molmet.2019.08.013. Epub 2019 Aug 20. PMID: 31668393; PMCID:
+PMC6731350.
+
+200: Qiu HB, Zhang LY, Ren C, Zeng ZL, Wu WJ, Luo HY, Zhou ZW, Xu RH. Targeting
+CDH17 suppresses tumor progression in gastric cancer by downregulating
+Wnt/β-catenin signaling. PLoS One. 2013;8(3):e56959. doi:
+10.1371/journal.pone.0056959. Epub 2013 Mar 15. Erratum in: PLoS One. 2019 May
+16;14(5):e0217124. PMID: 23554857; PMCID: PMC3598811.
+
+201: Chainani A, Hippensteel KJ, Kishan A, Garrigues NW, Ruch DS, Guilak F,
+Little D. Multilayered electrospun scaffolds for tendon tissue engineering.
+Tissue Eng Part A. 2013 Dec;19(23-24):2594-604. doi: 10.1089/ten.TEA.2013.0165.
+Epub 2013 Aug 29. PMID: 23808760; PMCID: PMC3856877.
+
+202: Yatsuhashi H, Takumi H, Terada Y, Kuriki T. Effects of Oral Supplementation
+with Paprika Xanthophylls on Human Skin Moisture. J Oleo Sci. 2022 Apr
+29;71(5):735-745. doi: 10.5650/jos.ess21427. Epub 2022 Apr 5. PMID: 35387919.
+
+203: Li J, Feng X, Sun C, Zeng X, Xie L, Xu H, Li T, Wang R, Xu X, Zhou X, Zhou
+M, Zhou Y, Dan H, Wang Z, Ji N, Deng P, Liao G, Geng N, Wang Y, Zhang D, Lin Y,
+Ye L, Liang X, Li L, Luo G, Jiang L, Wang Z, Chen Q. Associations between
+proteasomal activator PA28γ and outcome of oral squamous cell carcinoma:
+Evidence from cohort studies and functional analyses. EBioMedicine. 2015 Jul
+10;2(8):851-8. doi: 10.1016/j.ebiom.2015.07.004. PMID: 26425691; PMCID:
+PMC4563126.
+
+204: He M, Chen Z, Martin M, Zhang J, Sangwung P, Woo B, Tremoulet AH, Shimizu
+C, Jain MK, Burns JC, Shyy JY. miR-483 Targeting of CTGF Suppresses Endothelial-
+to-Mesenchymal Transition: Therapeutic Implications in Kawasaki Disease. Circ
+Res. 2017 Jan 20;120(2):354-365. doi: 10.1161/CIRCRESAHA.116.310233. Epub 2016
+Dec 6. PMID: 27923814; PMCID: PMC5391835.
+
+205: Broeren MG, de Vries M, Bennink MB, van Lent PL, van der Kraan PM, Koenders
+MI, Thurlings RM, van de Loo FA. Functional Tissue Analysis Reveals Successful
+Cryopreservation of Human Osteoarthritic Synovium. PLoS One. 2016 Nov
+21;11(11):e0167076. doi: 10.1371/journal.pone.0167076. PMID: 27870898; PMCID:
+PMC5117761.
+
+206: Hladik F, Burgener A, Ballweber L, Gottardo R, Vojtech L, Fourati S, Dai
+JY, Cameron MJ, Strobl J, Hughes SM, Hoesley C, Andrew P, Johnson S, Piper J,
+Friend DR, Ball TB, Cranston RD, Mayer KH, McElrath MJ, McGowan I. Mucosal
+effects of tenofovir 1% gel. Elife. 2015 Feb 3;4:e04525. doi:
+10.7554/eLife.04525. Erratum in: Elife. 2015;4. doi: 10.7554/eLife.07586. PMID:
+25647729; PMCID: PMC4391502.
+
+207: Smits JPH, Ederveen THA, Rikken G, van den Brink NJM, van Vlijmen-Willems
+IMJJ, Boekhorst J, Kamsteeg M, Schalkwijk J, van Hijum SAFT, Zeeuwen PLJM, van
+den Bogaard EH. Targeting the Cutaneous Microbiota in Atopic Dermatitis by Coal
+Tar via AHR-Dependent Induction of Antimicrobial Peptides. J Invest Dermatol.
+2020 Feb;140(2):415-424.e10. doi: 10.1016/j.jid.2019.06.142. Epub 2019 Jul 22.
+PMID: 31344386.
+
+208: Kordasti S, Costantini B, Seidl T, Perez Abellan P, Martinez Llordella M,
+McLornan D, Diggins KE, Kulasekararaj A, Benfatto C, Feng X, Smith A, Mian SA,
+Melchiotti R, de Rinaldis E, Ellis R, Petrov N, Povoleri GA, Chung SS, Thomas
+NS, Farzaneh F, Irish JM, Heck S, Young NS, Marsh JC, Mufti GJ. Deep phenotyping
+of Tregs identifies an immune signature for idiopathic aplastic anemia and
+predicts response to treatment. Blood. 2016 Sep 1;128(9):1193-205. doi:
+10.1182/blood-2016-03-703702. Epub 2016 Jun 8. PMID: 27281795; PMCID:
+PMC5009512.
+
+209: Tang L, Jian XR, Hamasaki N, Guo T, Wang HF, Lu X, Wang QY, Hu Y. Molecular
+basis of protein S deficiency in China. Am J Hematol. 2013 Oct;88(10):899-905.
+doi: 10.1002/ajh.23525. Epub 2013 Aug 30. PMID: 23813890.
+
+210: Lynch SM, Ward M, McNulty H, Angel CZ, Horigan G, Strain JJ, Purvis J,
+Tackett M, McKenna DJ. Serum levels of miR-199a-5p correlates with blood
+pressure in premature cardiovascular disease patients homozygous for the MTHFR
+677C > T polymorphism. Genomics. 2020 Jan;112(1):669-676. doi:
+10.1016/j.ygeno.2019.04.019. Epub 2019 Apr 25. PMID: 31029863.
+
+211: Donlin LT, Jayatilleke A, Giannopoulou EG, Kalliolias GD, Ivashkiv LB.
+Modulation of TNF-induced macrophage polarization by synovial fibroblasts. J
+Immunol. 2014 Sep 1;193(5):2373-83. doi: 10.4049/jimmunol.1400486. Epub 2014 Jul
+23. PMID: 25057003; PMCID: PMC4135020.
+
+212: Schweizer MT, Lin J, Blackford A, Bardia A, King S, Armstrong AJ, Rudek MA,
+Yegnasubramanian S, Carducci MA. Pharmacodynamic study of disulfiram in men with
+non-metastatic recurrent prostate cancer. Prostate Cancer Prostatic Dis. 2013
+Dec;16(4):357-61. doi: 10.1038/pcan.2013.28. Epub 2013 Aug 20. PMID: 23958896;
+PMCID: PMC3830644.
+
+213: Duan B, Bai J, Qiu J, Wang J, Tong C, Wang X, Miao J, Li Z, Li W, Yang J,
+Huang C. Histone-lysine N-methyltransferase SETD7 is a potential serum biomarker
+for colorectal cancer patients. EBioMedicine. 2018 Nov;37:134-143. doi:
+10.1016/j.ebiom.2018.10.036. Epub 2018 Oct 22. PMID: 30361067; PMCID:
+PMC6284455.
+
+214: Gulati P, Rühl J, Kannan A, Pircher M, Schuberth P, Nytko KJ, Pruschy M,
+Sulser S, Haefner M, Jensen S, Soltermann A, Jungraithmayr W, Eisenring M,
+Winder T, Samaras P, Tabor A, Stenger R, Stupp R, Weder W, Renner C, Münz C,
+Petrausch U. Aberrant Lck Signal via CD28 Costimulation Augments Antigen-
+Specific Functionality and Tumor Control by Redirected T Cells with PD-1
+Blockade in Humanized Mice. Clin Cancer Res. 2018 Aug 15;24(16):3981-3993. doi:
+10.1158/1078-0432.CCR-17-1788. Epub 2018 May 10. PMID: 29748183.
+
+215: Wen JL, Wen XF, Li RB, Jin YC, Wang XL, Zhou L, Chen HX. UBE3C promotes
+growth and metastasis of renal cell carcinoma via activating Wnt/β-catenin
+pathway. PLoS One. 2015 Feb 6;10(2):e0115622. doi: 10.1371/journal.pone.0115622.
+PMID: 25658088; PMCID: PMC4319909.
+
+216: Gao H, Volat F, Sandhow L, Galitzky J, Nguyen T, Esteve D, Åström G,
+Mejhert N, Ledoux S, Thalamas C, Arner P, Guillemot JC, Qian H, Rydén M,
+Bouloumié A. CD36 Is a Marker of Human Adipocyte Progenitors with Pronounced
+Adipogenic and Triglyceride Accumulation Potential. Stem Cells. 2017
+Jul;35(7):1799-1814. doi: 10.1002/stem.2635. Epub 2017 May 18. PMID: 28470788.
+
+217: Mao P, Joshi K, Li J, Kim SH, Li P, Santana-Santos L, Luthra S, Chandran
+UR, Benos PV, Smith L, Wang M, Hu B, Cheng SY, Sobol RW, Nakano I. Mesenchymal
+glioma stem cells are maintained by activated glycolytic metabolism involving
+aldehyde dehydrogenase 1A3. Proc Natl Acad Sci U S A. 2013 May
+21;110(21):8644-9. doi: 10.1073/pnas.1221478110. Epub 2013 May 6. PMID:
+23650391; PMCID: PMC3666732.
+
+218: Graser A, Ekici AB, Sopel N, Melichar VO, Zimmermann T, Papadopoulos NG,
+Taka S, Ferrazzi F, Vuorinen T, Finotto S. Rhinovirus inhibits IL-17A and the
+downstream immune responses in allergic asthma. Mucosal Immunol. 2016
+Sep;9(5):1183-92. doi: 10.1038/mi.2015.130. Epub 2016 Jan 6. PMID: 26732679;
+PMCID: PMC7099698.
+
+219: Deuschle U, Birkel M, Hambruch E, Hornberger M, Kinzel O, Perović-Ottstadt
+S, Schulz A, Hahn U, Burnet M, Kremoser C. The nuclear bile acid receptor FXR
+controls the liver derived tumor suppressor histidine-rich glycoprotein. Int J
+Cancer. 2015 Jun 1;136(11):2693-704. doi: 10.1002/ijc.29312. Epub 2014 Nov 13.
+PMID: 25363753.
+
+220: Calderon G, McRae A, Rievaj J, Davis J, Zandvakili I, Linker-Nord S, Burton
+D, Roberts G, Reimann F, Gedulin B, Vella A, LaRusso NF, Camilleri M, Gribble
+FM, Acosta A. Ileo-colonic delivery of conjugated bile acids improves glucose
+homeostasis via colonic GLP-1-producing enteroendocrine cells in human obesity
+and diabetes. EBioMedicine. 2020 May;55:102759. doi:
+10.1016/j.ebiom.2020.102759. Epub 2020 Apr 25. PMID: 32344198; PMCID:
+PMC7186521.
+
+221: Santiago ME, Neto LS, Alexandre EC, Munari DP, Andrade MM, Somenzari MA,
+Ciarlini PC, de Lima VM. Improvement in clinical signs and cellular immunity of
+dogs with visceral leishmaniasis using the immunomodulator P-MAPA. Acta Trop.
+2013 Sep;127(3):174-80. doi: 10.1016/j.actatropica.2013.04.005. Epub 2013 Apr
+29. PMID: 23639468.
+
+222: Yi JH, Do IG, Jang J, Kim ST, Kim KM, Park SH, Park JO, Park YS, Lim HY,
+Kang WK, Lee J. Anti-tumor efficacy of fulvestrant in estrogen receptor positive
+gastric cancer. Sci Rep. 2014 Dec 23;4:7592. doi: 10.1038/srep07592. PMID:
+25534230; PMCID: PMC4274538.
+
+223: Lozano ML, Cook A, Bastida JM, Paul DS, Iruin G, Cid AR, Adan-Pedroso R,
+Ramón González-Porras J, Hernández-Rivas JM, Fletcher SJ, Johnson B, Morgan N,
+Ferrer-Marin F, Vicente V, Sondek J, Watson SP, Bergmeier W, Rivera J. Novel
+mutations in RASGRP2, which encodes CalDAG-GEFI, abrogate Rap1 activation,
+causing platelet dysfunction. Blood. 2016 Sep 1;128(9):1282-9. doi:
+10.1182/blood-2015-11-683102. Epub 2016 May 27. PMID: 27235135; PMCID:
+PMC5009515.
+
+224: Zhong Q, Fang J, Huang Z, Yang Y, Lian M, Liu H, Zhang Y, Ye J, Hui X, Wang
+Y, Ying Y, Zhang Q, Cheng Y. A response prediction model for taxane, cisplatin,
+and 5-fluorouracil chemotherapy in hypopharyngeal carcinoma. Sci Rep. 2018 Aug
+23;8(1):12675. doi: 10.1038/s41598-018-31027-y. PMID: 30139993; PMCID:
+PMC6107664.
+
+225: Huang S, Chen Y, Wu W, Ouyang N, Chen J, Li H, Liu X, Su F, Lin L, Yao Y.
+miR-150 promotes human breast cancer growth and malignant behavior by targeting
+the pro-apoptotic purinergic P2X7 receptor. PLoS One. 2013 Dec 2;8(12):e80707.
+doi: 10.1371/journal.pone.0080707. PMID: 24312495; PMCID: PMC3846619.
+
+226: Harrison A, Pentieva K, Ozaki M, McNulty H, Parle-McDermott A. Assessment
+of candidate folate sensitive-differentially methylated regions in a randomised
+controlled trial of continued folic acid supplementation during the second and
+third trimesters of pregnancy. Ann Hum Genet. 2019 Jan;83(1):23-33. doi:
+10.1111/ahg.12281. Epub 2018 Sep 3. PMID: 30175844.
+
+227: Wang D, Xu S, Lin Y, Fang Z, Che L, Xue B, Wu D. Recombinant porcine
+epidermal growth factor-secreting Lactococcus lactis promotes the growth
+performance of early-weaned piglets. BMC Vet Res. 2014 Aug 21;10:171. doi:
+10.1186/s12917-014-0171-1. PMID: 25142032; PMCID: PMC4236833.
+
+228: Harding JJ, Bauer TM, Tan DSW, Bedard PL, Rodon J, Doi T, Schnell C, Iyer
+V, Baffert F, Radhakrishnan R, Fabre C, Juric D. Characterization and phase I
+study of CLR457, an orally bioavailable pan-class I PI3-kinase inhibitor. Invest
+New Drugs. 2019 Apr;37(2):271-281. doi: 10.1007/s10637-018-0627-4. Epub 2018 Aug
+3. PMID: 30073466; PMCID: PMC6440935.
+
+229: Alsadhan A, Cheung J, Gulrajani M, Gaglione EM, Nierman P, Hamdy A, Izumi
+R, Bibikova E, Patel P, Sun C, Covey T, Herman SEM, Wiestner A. Pharmacodynamic
+Analysis of BTK Inhibition in Patients with Chronic Lymphocytic Leukemia Treated
+with Acalabrutinib. Clin Cancer Res. 2020 Jun 15;26(12):2800-2809. doi:
+10.1158/1078-0432.CCR-19-3505. Epub 2020 Feb 13. PMID: 32054731; PMCID:
+PMC8301526.
+
+230: Roberts LD, Ashmore T, McNally BD, Murfitt SA, Fernandez BO, Feelisch M,
+Lindsay R, Siervo M, Williams EA, Murray AJ, Griffin JL. Inorganic Nitrate
+Mimics Exercise-Stimulated Muscular Fiber-Type Switching and Myokine and
+γ-Aminobutyric Acid Release. Diabetes. 2017 Mar;66(3):674-688. doi:
+10.2337/db16-0843. Epub 2016 Dec 27. PMID: 28028076.
+
+231: Pozuelos GL, Kagda MS, Schick S, Girke T, Volz DC, Talbot P. Experimental
+Acute Exposure to Thirdhand Smoke and Changes in the Human Nasal Epithelial
+Transcriptome: A Randomized Clinical Trial. JAMA Netw Open. 2019 Jun
+5;2(6):e196362. doi: 10.1001/jamanetworkopen.2019.6362. PMID: 31251375; PMCID:
+PMC6604097.
+
+232: Urtishak KA, Edwards AY, Wang LS, Hudome A, Robinson BW, Barrett JS, Cao K,
+Cory L, Moore JS, Bantly AD, Yu QC, Chen IM, Atlas SR, Willman CL, Kundu M,
+Carroll AJ, Heerema NA, Devidas M, Hilden JM, Dreyer ZE, Hunger SP, Reaman GH,
+Felix CA. Potent obatoclax cytotoxicity and activation of triple death mode
+killing across infant acute lymphoblastic leukemia. Blood. 2013 Apr
+4;121(14):2689-703. doi: 10.1182/blood-2012-04-425033. Epub 2013 Feb 7. PMID:
+23393050; PMCID: PMC3617634.
+
+233: Wu J, Zhong D, Wei Y, Wu X, Kang L, Ding Z. Potassium channel ether à go-
+go1 is aberrantly expressed in human liposarcoma and promotes tumorigenesis.
+Biomed Res Int. 2014;2014:345678. doi: 10.1155/2014/345678. Epub 2014 Jul 20.
+Retraction in: Biomed Res Int. 2021 Jan 30;2021:4803896. PMID: 25136578; PMCID:
+PMC4127296.
+
+234: Subbannayya Y, Mir SA, Renuse S, Manda SS, Pinto SM, Puttamallesh VN,
+Solanki HS, Manju HC, Syed N, Sharma R, Christopher R, Vijayakumar M, Veerendra
+Kumar KV, Keshava Prasad TS, Ramaswamy G, Kumar RV, Chatterjee A, Pandey A,
+Gowda H. Identification of differentially expressed serum proteins in gastric
+adenocarcinoma. J Proteomics. 2015 Sep 8;127(Pt A):80-8. doi:
+10.1016/j.jprot.2015.04.021. Epub 2015 May 5. PMID: 25952687; PMCID: PMC4618463.
+
+235: Wright HL, Thomas HB, Moots RJ, Edwards SW. RNA-seq reveals activation of
+both common and cytokine-specific pathways following neutrophil priming. PLoS
+One. 2013;8(3):e58598. doi: 10.1371/journal.pone.0058598. Epub 2013 Mar 6. PMID:
+23554905; PMCID: PMC3590155.
+
+236: Fraietta JA, Mueller YM, Yang G, Boesteanu AC, Gracias DT, Do DH, Hope JL,
+Kathuria N, McGettigan SE, Lewis MG, Giavedoni LD, Jacobson JM, Katsikis PD.
+Type I interferon upregulates Bak and contributes to T cell loss during human
+immunodeficiency virus (HIV) infection. PLoS Pathog. 2013;9(10):e1003658. doi:
+10.1371/journal.ppat.1003658. Epub 2013 Oct 10. PMID: 24130482; PMCID:
+PMC3795023.
+
+237: Legrand F, Tomasevic N, Simakova O, Lee CC, Wang Z, Raffeld M, Makiya MA,
+Palath V, Leung J, Baer M, Yarranton G, Maric I, Bebbington C, Klion AD. The
+eosinophil surface receptor epidermal growth factor-like module containing
+mucin-like hormone receptor 1 (EMR1): a novel therapeutic target for
+eosinophilic disorders. J Allergy Clin Immunol. 2014 May;133(5):1439-47,
+1447.e1-8. doi: 10.1016/j.jaci.2013.11.041. Epub 2014 Feb 13. PMID: 24530099;
+PMCID: PMC4113341.
+
+238: Xiong W, Ma X, Wu Y, Chen Y, Zeng L, Liu J, Sun W, Wang D, Hu Y. Determine
+the structure of phosphorylated modification of icariin and its antiviral
+activity against duck hepatitis virus A. BMC Vet Res. 2015 Aug 14;11:205. doi:
+10.1186/s12917-015-0459-9. PMID: 26272639; PMCID: PMC4536795.
+
+239: Zhang Q, Wei F, Wang HY, Liu X, Roy D, Xiong QB, Jiang S, Medvec A, Danet-
+Desnoyers G, Watt C, Tomczak E, Kalos M, Riley JL, Wasik MA. The potent oncogene
+NPM-ALK mediates malignant transformation of normal human CD4(+) T lymphocytes.
+Am J Pathol. 2013 Dec;183(6):1971-80. doi: 10.1016/j.ajpath.2013.08.030. PMID:
+24404580; PMCID: PMC5745542.
+
+240: Venet F, Foray AP, Villars-Méchin A, Malcus C, Poitevin-Later F, Lepape A,
+Monneret G. IL-7 restores lymphocyte functions in septic patients. J Immunol.
+2012 Nov 15;189(10):5073-81. doi: 10.4049/jimmunol.1202062. Epub 2012 Oct 10.
+PMID: 23053510.
+
+241: Aikio M, Elamaa H, Vicente D, Izzi V, Kaur I, Seppinen L, Speedy HE,
+Kaminska D, Kuusisto S, Sormunen R, Heljasvaara R, Jones EL, Muilu M, Jauhiainen
+M, Pihlajamäki J, Savolainen MJ, Shoulders CC, Pihlajaniemi T. Specific collagen
+XVIII isoforms promote adipose tissue accrual via mechanisms determining
+adipocyte number and affect fat deposition. Proc Natl Acad Sci U S A. 2014 Jul
+29;111(30):E3043-52. doi: 10.1073/pnas.1405879111. Epub 2014 Jul 14. PMID:
+25024173; PMCID: PMC4121773.
+
+242: Aue G, Sun C, Liu D, Park JH, Pittaluga S, Tian X, Lee E, Soto S, Valdez J,
+Maric I, Stetler-Stevenson M, Yuan C, Nakamura Y, Muranski P, Wiestner A.
+Activation of Th1 Immunity within the Tumor Microenvironment Is Associated with
+Clinical Response to Lenalidomide in Chronic Lymphocytic Leukemia. J Immunol.
+2018 Oct 1;201(7):1967-1974. doi: 10.4049/jimmunol.1800570. Epub 2018 Aug 13.
+PMID: 30104242; PMCID: PMC6143435.
+
+243: Cordero MD, Alcocer-Gómez E, Culic O, Carrión AM, de Miguel M, Díaz-Parrado
+E, Pérez-Villegas EM, Bullón P, Battino M, Sánchez-Alcazar JA. NLRP3
+inflammasome is activated in fibromyalgia: the effect of coenzyme Q10. Antioxid
+Redox Signal. 2014 Mar 10;20(8):1169-80. doi: 10.1089/ars.2013.5198. Epub 2013
+Sep 19. PMID: 23886272; PMCID: PMC3934515.
+
+244: Helenius MH, Vattulainen S, Orcholski M, Aho J, Komulainen A, Taimen P,
+Wang L, de Jesus Perez VA, Koskenvuo JW, Alastalo TP. Suppression of endothelial
+CD39/ENTPD1 is associated with pulmonary vascular remodeling in pulmonary
+arterial hypertension. Am J Physiol Lung Cell Mol Physiol. 2015 May
+15;308(10):L1046-57. doi: 10.1152/ajplung.00340.2014. Epub 2015 Mar 27. PMID:
+25820525.
+
+245: Löffler MW, Nussbaum B, Jäger G, Jurmeister PS, Budczies J, Pereira PL,
+Clasen S, Kowalewski DJ, Mühlenbruch L, Königsrainer I, Beckert S, Ladurner R,
+Wagner S, Bullinger F, Gross TH, Schroeder C, Sipos B, Königsrainer A,
+Stevanović S, Denkert C, Rammensee HG, Gouttefangeas C, Haen SP. A Non-
+interventional Clinical Trial Assessing Immune Responses After Radiofrequency
+Ablation of Liver Metastases From Colorectal Cancer. Front Immunol. 2019 Nov
+19;10:2526. doi: 10.3389/fimmu.2019.02526. PMID: 31803175; PMCID: PMC6877671.
+
+246: Lu S, Ge M, Zheng Y, Li J, Feng X, Feng S, Huang J, Feng Y, Yang D, Shi J,
+Chen F, Han Z. CD106 is a novel mediator of bone marrow mesenchymal stem cells
+via NF-κB in the bone marrow failure of acquired aplastic anemia. Stem Cell Res
+Ther. 2017 Aug 1;8(1):178. doi: 10.1186/s13287-017-0620-4. PMID: 28764810;
+PMCID: PMC5540520.
+
+247: Wermuth PJ, Jimenez SA. Induction of a type I interferon signature in
+normal human monocytes by gadolinium-based contrast agents: comparison of linear
+and macrocyclic agents. Clin Exp Immunol. 2014 Jan;175(1):113-25. doi:
+10.1111/cei.12211. PMID: 24111526; PMCID: PMC3898560.
+
+248: Zhang Q, Cunha APD, Li S, Hao Q, Kainz V, Huang Q, Wu HY. IL-27 regulates
+HIF-1α-mediated VEGFA response in macrophages of diabetic retinopathy patients
+and healthy individuals. Cytokine. 2019 Jan;113:238-247. doi:
+10.1016/j.cyto.2018.07.011. Epub 2018 Jul 13. PMID: 30007476.
+
+249: Zheng J-, Hu H, Du J-, Li X-, Zhao Q-. [P28GANK is a novel marker for
+prognosis and therapeutic target in gastric cancer]. Mol Biol (Mosk). 2014 Jan-
+Feb;48(1):99-106. Russian. PMID: 25842830.
+
+250: Shang B, Jia Y, Chen G, Wang Z. Ku80 correlates with neoadjuvant
+chemotherapy resistance in human lung adenocarcinoma, but reduces
+cisplatin/pemetrexed-induced apoptosis in A549 cells. Respir Res. 2017 Apr
+11;18(1):56. doi: 10.1186/s12931-017-0545-6. PMID: 28399858; PMCID: PMC5387337.
+
+251: Paiva B, Corchete LA, Vidriales MB, Puig N, Maiso P, Rodriguez I, Alignani
+D, Burgos L, Sanchez ML, Barcena P, Echeveste MA, Hernandez MT, García-Sanz R,
+Ocio EM, Oriol A, Gironella M, Palomera L, De Arriba F, Gonzalez Y, Johnson SK,
+Epstein J, Barlogie B, Lahuerta JJ, Blade J, Orfao A, Mateos MV, San Miguel JF;
+Spanish Myeloma Group / Program for the Study of Malignant Blood Diseases
+Therapeutics (GEM / PETHEMA) Cooperative Study Groups. Phenotypic and genomic
+analysis of multiple myeloma minimal residual disease tumor cells: a new model
+to understand chemoresistance. Blood. 2016 Apr 14;127(15):1896-906. doi:
+10.1182/blood-2015-08-665679. Epub 2016 Jan 11. PMID: 26755711.
+
+252: Bürgler S, Gimeno A, Parente-Ribes A, Wang D, Os A, Devereux S, Jebsen P,
+Bogen B, Tjønnfjord GE, Munthe LA. Chronic lymphocytic leukemia cells express
+CD38 in response to Th1 cell-derived IFN-γ by a T-bet-dependent mechanism. J
+Immunol. 2015 Jan 15;194(2):827-35. doi: 10.4049/jimmunol.1401350. Epub 2014 Dec
+10. PMID: 25505279.
+
+253: Shimada A, Kimura H, Oida K, Kanehara H, Bando Y, Sakamoto S, Wakasugi T,
+Saga T, Ito Y, Kamiyama K, Mikami D, Iwano M, Hirano T, Yoshida H. Serum CETP
+status is independently associated with reduction rates in LDL-C in
+pitavastatin-treated diabetic patients and possible involvement of LXR in its
+association. Lipids Health Dis. 2016 Mar 17;15:57. doi:
+10.1186/s12944-016-0223-6. PMID: 26984517; PMCID: PMC4794860.
+
+254: Lin HY, Tu RY, Chern SR, Lo YT, Fran S, Wei FJ, Huang SF, Tsai SY, Chang
+YH, Lee CL, Lin SP, Chuang CK. Identification and Functional Characterization of
+<i>IDS</i> Gene Mutations Underlying Taiwanese Hunter Syndrome
+(Mucopolysaccharidosis Type II). Int J Mol Sci. 2019 Dec 23;21(1):114. doi:
+10.3390/ijms21010114. PMID: 31877959; PMCID: PMC6982257.
+
+255: Humbert P, Fanian F, Lihoreau T, Jeudy A, Elkhyat A, Robin S, Courderot-
+Masuyer C, Tauzin H, Lafforgue C, Haftek M. Mécano-Stimulation™ of the skin
+improves sagging score and induces beneficial functional modification of the
+fibroblasts: clinical, biological, and histological evaluations. Clin Interv
+Aging. 2015 Feb 2;10:387-403. doi: 10.2147/CIA.S69752. PMID: 25673979; PMCID:
+PMC4321566.
+
+256: Wada R, Muraoka N, Inagawa K, Yamakawa H, Miyamoto K, Sadahiro T, Umei T,
+Kaneda R, Suzuki T, Kamiya K, Tohyama S, Yuasa S, Kokaji K, Aeba R, Yozu R,
+Yamagishi H, Kitamura T, Fukuda K, Ieda M. Induction of human cardiomyocyte-like
+cells from fibroblasts by defined factors. Proc Natl Acad Sci U S A. 2013 Jul
+30;110(31):12667-72. doi: 10.1073/pnas.1304053110. Epub 2013 Jul 16. PMID:
+23861494; PMCID: PMC3732928.
+
+257: Basak SK, Bera A, Yoon AJ, Morselli M, Jeong C, Tosevska A, Dong TS, Eklund
+M, Russ E, Nasser H, Lagishetty V, Guo R, Sajed D, Mudgal S, Mehta P, Avila L,
+Srivastava M, Faull K, Jacobs J, Pellegrini M, Shin DS, Srivatsan ES, Wang MB. A
+randomized, phase 1, placebo-controlled trial of APG-157 in oral cancer
+demonstrates systemic absorption and an inhibitory effect on cytokines and
+tumor-associated microbes. Cancer. 2020 Apr 15;126(8):1668-1682. doi:
+10.1002/cncr.32644. Epub 2020 Feb 5. PMID: 32022261.
+
+258: Levine JM, Cohen ND, Heller M, Fajt VR, Levine GJ, Kerwin SC, Trivedi AA,
+Fandel TM, Werb Z, Modestino A, Noble-Haeusslein LJ. Efficacy of a
+metalloproteinase inhibitor in spinal cord injured dogs. PLoS One. 2014 May
+1;9(5):e96408. doi: 10.1371/journal.pone.0096408. PMID: 24788791; PMCID:
+PMC4006832.
+
+259: Kowalewski MP, Ihle S, Siemieniuch MJ, Gram A, Boos A, Zduńczyk S,
+Fingerhut J, Hoffmann B, Schuler G, Jurczak A, Domosławska A, Janowski T.
+Formation of the early canine CL and the role of prostaglandin E2 (PGE2) in
+regulation of its function: an in vivo approach. Theriogenology. 2015 Apr
+1;83(6):1038-47. doi: 10.1016/j.theriogenology.2014.12.006. Epub 2014 Dec 11.
+PMID: 25595355.
+
+260: Saben J, Zhong Y, Gomez-Acevedo H, Thakali KM, Borengasser SJ, Andres A,
+Shankar K. Early growth response protein-1 mediates lipotoxicity-associated
+placental inflammation: role in maternal obesity. Am J Physiol Endocrinol Metab.
+2013 Jul 1;305(1):E1-14. doi: 10.1152/ajpendo.00076.2013. Epub 2013 Apr 30.
+PMID: 23632636; PMCID: PMC4116409.
+
+261: Ben-Othman R, Cai B, Liu AC, Varankovich N, He D, Blimkie TM, Lee AH, Gill
+EE, Novotny M, Aevermann B, Drissler S, Shannon CP, McCann S, Marty K, Bjornson
+G, Edgar RD, Lin DTS, Gladish N, Maclsaac J, Amenyogbe N, Chan Q, Llibre A,
+Collin J, Landais E, Le K, Reiss SM, Koff WC, Havenar-Daughton C, Heran M,
+Sangha B, Walt D, Krajden M, Crotty S, Sok D, Briney B, Burton DR, Duffy D,
+Foster LJ, Mohn WW, Kobor MS, Tebbutt SJ, Brinkman RR, Scheuermann RH, Hancock
+REW, Kollmann TR, Sadarangani M. Systems Biology Methods Applied to Blood and
+Tissue for a Comprehensive Analysis of Immune Response to Hepatitis B Vaccine in
+Adults. Front Immunol. 2020 Nov 4;11:580373. doi: 10.3389/fimmu.2020.580373.
+PMID: 33250895; PMCID: PMC7672042.
+
+262: Coussens AK, Wilkinson RJ, Hanifa Y, Nikolayevskyy V, Elkington PT, Islam
+K, Timms PM, Venton TR, Bothamley GH, Packe GE, Darmalingam M, Davidson RN,
+Milburn HJ, Baker LV, Barker RD, Mein CA, Bhaw-Rosun L, Nuamah R, Young DB,
+Drobniewski FA, Griffiths CJ, Martineau AR. Vitamin D accelerates resolution of
+inflammatory responses during tuberculosis treatment. Proc Natl Acad Sci U S A.
+2012 Sep 18;109(38):15449-54. doi: 10.1073/pnas.1200072109. Epub 2012 Sep 4.
+PMID: 22949664; PMCID: PMC3458393.
+
+263: Deng M, Tang HL, Lu XH, Liu MY, Lu XM, Gu YX, Liu JF, He ZM. miR-26a
+suppresses tumor growth and metastasis by targeting FGF9 in gastric cancer. PLoS
+One. 2013 Aug 28;8(8):e72662. doi: 10.1371/journal.pone.0072662. PMID: 24015269;
+PMCID: PMC3756000.
+
+264: Petrini I, Wang Y, Zucali PA, Lee HS, Pham T, Voeller D, Meltzer PS,
+Giaccone G. Copy number aberrations of genes regulating normal thymus
+development in thymic epithelial tumors. Clin Cancer Res. 2013 Apr
+15;19(8):1960-71. doi: 10.1158/1078-0432.CCR-12-3260. Epub 2013 Feb 26. PMID:
+23444221; PMCID: PMC3630263.
+
+265: Wang F, Xu J, Zhu Q, Qin X, Cao Y, Lou J, Xu Y, Ke X, Li Q, Xie E, Zhang L,
+Sun R, Chen L, Fang B, Pan S. Downregulation of IFNG in CD4(+) T cells in lung
+cancer through hypermethylation: a possible mechanism of tumor-induced
+immunosuppression. PLoS One. 2013 Nov 11;8(11):e79064. doi:
+10.1371/journal.pone.0079064. PMID: 24244422; PMCID: PMC3823966.
+
+266: Rosewell KL, Li F, Puttabyatappa M, Akin JW, Brännström M, Curry TE Jr.
+Ovarian expression, localization, and function of tissue inhibitor of
+metalloproteinase 3 (TIMP3) during the periovulatory period of the human
+menstrual cycle. Biol Reprod. 2013 Nov 21;89(5):121. doi:
+10.1095/biolreprod.112.106989. PMID: 24048576; PMCID: PMC4434989.
+
+267: Fløyel T, Brorsson C, Nielsen LB, Miani M, Bang-Berthelsen CH, Friedrichsen
+M, Overgaard AJ, Berchtold LA, Wiberg A, Poulsen P, Hansen L, Rosinger S, Boehm
+BO, Ram R, Nguyen Q, Mehta M, Morahan G, Concannon P, Bergholdt R, Nielsen JH,
+Reinheckel T, von Herrath M, Vaag A, Eizirik DL, Mortensen HB, Størling J,
+Pociot F. CTSH regulates β-cell function and disease progression in newly
+diagnosed type 1 diabetes patients. Proc Natl Acad Sci U S A. 2014 Jul
+15;111(28):10305-10. doi: 10.1073/pnas.1402571111. Epub 2014 Jun 30. PMID:
+24982147; PMCID: PMC4104872.
+
+268: Leijten J, Georgi N, Moreira Teixeira L, van Blitterswijk CA, Post JN,
+Karperien M. Metabolic programming of mesenchymal stromal cells by oxygen
+tension directs chondrogenic cell fate. Proc Natl Acad Sci U S A. 2014 Sep
+23;111(38):13954-9. doi: 10.1073/pnas.1410977111. Epub 2014 Sep 9. PMID:
+25205812; PMCID: PMC4183286.
+
+269: Wang X, Zhang W, Tang J, Huang R, Li J, Xu D, Xie Y, Jiang R, Deng L, Zhang
+X, Chai Y, Qin X, Sun B. LINC01225 promotes occurrence and metastasis of
+hepatocellular carcinoma in an epidermal growth factor receptor-dependent
+pathway. Cell Death Dis. 2016 Mar 3;7(3):e2130. doi: 10.1038/cddis.2016.26.
+PMID: 26938303; PMCID: PMC4823934.
+
+270: Punsmann S, Liebers V, Lotz A, Brüning T, Raulf M. Ex vivo cytokine release
+and pattern recognition receptor expression of subjects exposed to dampness:
+pilot study to assess the outcome of mould exposure to the innate immune system.
+PLoS One. 2013 Dec 10;8(12):e82734. doi: 10.1371/journal.pone.0082734. PMID:
+24340055; PMCID: PMC3858334.
+
+271: Neubauer K, Misa IB, Diakowska D, Kapturkiewicz B, Gamian A, Krzystek-
+Korpacka M. Nampt/PBEF/visfatin upregulation in colorectal tumors, mirrored in
+normal tissue and whole blood of colorectal cancer patients, is associated with
+metastasis, hypoxia, IL1β, and anemia. Biomed Res Int. 2015;2015:523930. doi:
+10.1155/2015/523930. Epub 2015 May 13. PMID: 26075243; PMCID: PMC4444566.
+
+272: Yoon SO, Kim EK, Lee M, Jung WY, Lee H, Kang Y, Jang YJ, Hong SW, Choi SH,
+Yang WI. NOVA1 inhibition by miR-146b-5p in the remnant tissue microenvironment
+defines occult residual disease after gastric cancer removal. Oncotarget. 2016
+Jan 19;7(3):2475-95. doi: 10.18632/oncotarget.6542. PMID: 26673617; PMCID:
+PMC4823049.
+
+273: Tjon AS, van Gent R, Jaadar H, Martin van Hagen P, Mancham S, van der Laan
+LJ, te Boekhorst PA, Metselaar HJ, Kwekkeboom J. Intravenous immunoglobulin
+treatment in humans suppresses dendritic cell function via stimulation of IL-4
+and IL-13 production. J Immunol. 2014 Jun 15;192(12):5625-34. doi:
+10.4049/jimmunol.1301260. Epub 2014 May 7. PMID: 24808368.
+
+274: Kaneko K, Furuyama K, Fujiwara T, Kobayashi R, Ishida H, Harigae H,
+Shibahara S. Identification of a novel erythroid-specific enhancer for the ALAS2
+gene and its loss-of-function mutation which is associated with congenital
+sideroblastic anemia. Haematologica. 2014 Feb;99(2):252-61. doi:
+10.3324/haematol.2013.085449. Epub 2013 Aug 9. PMID: 23935018; PMCID:
+PMC3912954.
+
+275: Viudes-de-Castro MP, Marco-Jiménez F, Cedano-Castro JI, Vicente JS. Effect
+of corifollitropin alfa supplemented with or without LH on ovarian stimulation
+and embryo viability in rabbit. Theriogenology. 2017 Aug;98:68-74. doi:
+10.1016/j.theriogenology.2017.05.005. Epub 2017 May 4. PMID: 28601158.
+
+276: Elliott JH, McMahon JH, Chang CC, Lee SA, Hartogensis W, Bumpus N, Savic R,
+Roney J, Hoh R, Solomon A, Piatak M, Gorelick RJ, Lifson J, Bacchetti P, Deeks
+SG, Lewin SR. Short-term administration of disulfiram for reversal of latent HIV
+infection: a phase 2 dose-escalation study. Lancet HIV. 2015 Dec;2(12):e520-9.
+doi: 10.1016/S2352-3018(15)00226-X. Epub 2015 Nov 17. PMID: 26614966; PMCID:
+PMC5108570.
+
+277: Sparks LM, Redman LM, Conley KE, Harper ME, Hodges A, Eroshkin A, Costford
+SR, Gabriel ME, Yi F, Shook C, Cornnell HH, Ravussin E, Smith SR. Differences in
+Mitochondrial Coupling Reveal a Novel Signature of Mitohormesis in Muscle of
+Healthy Individuals. J Clin Endocrinol Metab. 2016 Dec;101(12):4994-5003. doi:
+10.1210/jc.2016-2742. Epub 2016 Oct 6. PMID: 27710240; PMCID: PMC5155692.
+
+278: Lin W, Cerny D, Chua E, Duan K, Yi JT, Shadan NB, Lum J, Maho-Vaillant M,
+Zolezzi F, Wong SC, Larbi A, Fink K, Musette P, Poidinger M, Calbo S. Human
+regulatory B cells combine phenotypic and genetic hallmarks with a distinct
+differentiation fate. J Immunol. 2014 Sep 1;193(5):2258-66. doi:
+10.4049/jimmunol.1303214. Epub 2014 Jul 30. PMID: 25080484.
+
+279: Lai Y, Altemeier WA, Vandree J, Piliponsky AM, Johnson B, Appel CL, Frevert
+CW, Hyde DM, Ziegler SF, Smith DE, Henderson WR Jr, Gelb MH, Hallstrand TS.
+Increased density of intraepithelial mast cells in patients with exercise-
+induced bronchoconstriction regulated through epithelially derived thymic
+stromal lymphopoietin and IL-33. J Allergy Clin Immunol. 2014
+May;133(5):1448-55. doi: 10.1016/j.jaci.2013.08.052. Epub 2013 Nov 9. PMID:
+24220317; PMCID: PMC4004718.
+
+280: Görögh T, Quabius ES, Georgitsis A, Hoffmann M, Lippross S. Sequential
+activation of the AKT pathway in human osteoblasts treated with Oscarvit: a
+bioactive product with positive effect both on skeletal pain and mineralization
+in osteoblasts. BMC Musculoskelet Disord. 2017 Nov 28;18(1):500. doi:
+10.1186/s12891-017-1860-2. PMID: 29183350; PMCID: PMC5706336.
+
+281: HoWangYin KY, Loinard C, Bakker W, Guérin CL, Vilar J, d'Audigier C, Mauge
+L, Bruneval P, Emmerich J, Lévy BI, Pouysségur J, Smadja DM, Silvestre JS. HIF-
+prolyl hydroxylase 2 inhibition enhances the efficiency of mesenchymal stem
+cell-based therapies for the treatment of critical limb ischemia. Stem Cells.
+2014 Jan;32(1):231-43. doi: 10.1002/stem.1540. Erratum in: Stem Cells. 2014
+Apr;32(4):1055-7. D'Audigier, Clément [corrected to d'Audigier, Clément]. PMID:
+24105925.
+
+282: Subiabre M, Silva L, Villalobos-Labra R, Toledo F, Paublo M, López MA,
+Salsoso R, Pardo F, Leiva A, Sobrevia L. Maternal insulin therapy does not
+restore foetoplacental endothelial dysfunction in gestational diabetes mellitus.
+Biochim Biophys Acta Mol Basis Dis. 2017 Nov;1863(11):2987-2998. doi:
+10.1016/j.bbadis.2017.07.022. Epub 2017 Jul 27. PMID: 28756217.
+
+283: Benjamin AL, Korkmaz FT, Elsasser TH, Kerr DE. Neonatal lipopolysaccharide
+exposure does not diminish the innate immune response to a subsequent
+lipopolysaccharide challenge in Holstein bull calves. J Dairy Sci. 2016
+Jul;99(7):5750-5763. doi: 10.3168/jds.2015-10804. Epub 2016 Apr 20. PMID:
+27108165.
+
+284: Grilli E, Tugnoli B, Passey JL, Stahl CH, Piva A, Moeser AJ. Impact of
+dietary organic acids and botanicals on intestinal integrity and inflammation in
+weaned pigs. BMC Vet Res. 2015 Apr 16;11:96. doi: 10.1186/s12917-015-0410-0.
+PMID: 25889654; PMCID: PMC4483210.
+
+285: Ge M, Chen H, Zhu Q, Cai J, Chen C, Yuan D, Jin Y, Yao W, Hei Z. Propofol
+post-conditioning alleviates hepatic ischaemia reperfusion injury via
+BRG1-mediated Nrf2/HO-1 transcriptional activation in human and mice. J Cell Mol
+Med. 2017 Dec;21(12):3693-3704. doi: 10.1111/jcmm.13279. Epub 2017 Jul 27. PMID:
+28749008; PMCID: PMC5706583.
+
+286: Sadovnik I, Lierman E, Peter B, Herrmann H, Suppan V, Stefanzl G, Haas O,
+Lion T, Pickl W, Cools J, Vandenberghe P, Valent P. Identification of Ponatinib
+as a potent inhibitor of growth, migration, and activation of neoplastic
+eosinophils carrying FIP1L1-PDGFRA. Exp Hematol. 2014 Apr;42(4):282-293.e4. doi:
+10.1016/j.exphem.2013.12.007. Epub 2014 Jan 6. PMID: 24407160; PMCID:
+PMC4338611.
+
+287: Pettirossi V, Santi A, Imperi E, Russo G, Pucciarini A, Bigerna B,
+Schiavoni G, Fortini E, Spanhol-Rosseto A, Sportoletti P, Mannucci R, Martelli
+MP, Klein-Hitpass L, Falini B, Tiacci E. BRAF inhibitors reverse the unique
+molecular signature and phenotype of hairy cell leukemia and exert potent
+antileukemic activity. Blood. 2015 Feb 19;125(8):1207-16. doi:
+10.1182/blood-2014-10-603100. Epub 2014 Dec 5. PMID: 25480661; PMCID:
+PMC4366655.
+
+288: Luo Z, Li Z, Martin L, Hu Z, Wu H, Wan Z, Kilby M, Heath SL, Huang L, Jiang
+W. Increased Natural Killer Cell Activation in HIV-Infected Immunologic Non-
+Responders Correlates with CD4+ T Cell Recovery after Antiretroviral Therapy and
+Viral Suppression. PLoS One. 2017 Jan 11;12(1):e0167640. doi:
+10.1371/journal.pone.0167640. PMID: 28076376; PMCID: PMC5226712.
+
+289: Feher A, Cassuto J, Szabo A, Patel V, Vinayak Kamath M, Bagi Z. Increased
+tissue angiotensin-converting enzyme activity impairs bradykinin-induced
+dilation of coronary arterioles in obesity. Circ J. 2013;77(7):1867-76. doi:
+10.1253/circj.cj-12-1163. Epub 2013 Apr 20. PMID: 23603844; PMCID: PMC3696050.
+
+290: Takahashi H, Nakayama R, Hayashi S, Nemoto T, Murase Y, Nomura K, Takahashi
+T, Kubo K, Marui S, Yasuhara K, Nakamura T, Sueo T, Takahashi A, Tsutsumiuchi K,
+Ohta T, Kawai A, Sugita S, Yamamoto S, Kobayashi T, Honda H, Yoshida T, Hasegawa
+T. Macrophage migration inhibitory factor and stearoyl-CoA desaturase 1:
+potential prognostic markers for soft tissue sarcomas based on bioinformatics
+analyses. PLoS One. 2013 Oct 22;8(10):e78250. doi: 10.1371/journal.pone.0078250.
+PMID: 24167613; PMCID: PMC3805525.
+
+291: De Smet E, Mensink RP, Boekschoten MV, de Ridder R, Germeraad WT, Wolfs TG,
+Plat J. An acute intake of plant stanol esters alters immune-related pathways in
+the jejunum of healthy volunteers. Br J Nutr. 2015 Mar 14;113(5):794-802. doi:
+10.1017/S000711451400350X. Epub 2015 Feb 16. PMID: 25683704.
+
+292: Zhu HJ, Langaee TY, Gong Y, Wang X, Pepine CJ, Cooper-DeHoff RM, Johnson
+JA, Markowitz JS. CES1P1 variant -816A>C is not associated with hepatic
+carboxylesterase 1 expression and activity or antihypertensive effect of
+trandolapril. Eur J Clin Pharmacol. 2016 Jun;72(6):681-7. doi:
+10.1007/s00228-016-2029-x. Epub 2016 Feb 26. PMID: 26915813; PMCID: PMC4865408.
+
+293: Todt JC, Freeman CM, Brown JP, Sonstein J, Ames TM, McCubbrey AL, Martinez
+FJ, Chensue SW, Beck JM, Curtis JL. Smoking decreases the response of human lung
+macrophages to double-stranded RNA by reducing TLR3 expression. Respir Res. 2013
+Mar 9;14(1):33. doi: 10.1186/1465-9921-14-33. PMID: 23497334; PMCID: PMC3599854.
+
+294: Du B, Wang Z, Zhang X, Feng S, Wang G, He J, Zhang B. MicroRNA-545
+suppresses cell proliferation by targeting cyclin D1 and CDK4 in lung cancer
+cells. PLoS One. 2014 Feb 5;9(2):e88022. doi: 10.1371/journal.pone.0088022.
+PMID: 24505359; PMCID: PMC3914893.
+
+295: Jitschin R, Braun M, Büttner M, Dettmer-Wilde K, Bricks J, Berger J, Eckart
+MJ, Krause SW, Oefner PJ, Le Blanc K, Mackensen A, Mougiakakos D. CLL-cells
+induce IDOhi CD14+HLA-DRlo myeloid-derived suppressor cells that inhibit T-cell
+responses and promote TRegs. Blood. 2014 Jul 31;124(5):750-60. doi:
+10.1182/blood-2013-12-546416. Epub 2014 May 21. PMID: 24850760.
+
+296: Lin TH, Lee SO, Niu Y, Xu D, Liang L, Li L, Yeh SD, Fujimoto N, Yeh S,
+Chang C. Differential androgen deprivation therapies with anti-androgens
+casodex/bicalutamide or MDV3100/Enzalutamide versus anti-androgen receptor
+ASC-J9(R) Lead to promotion versus suppression of prostate cancer metastasis. J
+Biol Chem. 2013 Jul 5;288(27):19359-69. doi: 10.1074/jbc.M113.477216. Epub 2013
+May 16. Erratum in: J Biol Chem. 2020 Nov 13;295(46):15796. PMID: 23687298;
+PMCID: PMC3707641.
+
+297: Mims AS, Mishra A, Orwick S, Blachly J, Klisovic RB, Garzon R, Walker AR,
+Devine SM, Walsh KJ, Vasu S, Whitman S, Marcucci G, Jones D, Heerema NA,
+Lozanski G, Caligiuri MA, Bloomfield CD, Byrd JC, Piekarz R, Grever MR, Blum W.
+A novel regimen for relapsed/refractory adult acute myeloid leukemia using a
+<i>KMT2A</i> partial tandem duplication targeted therapy: results of phase 1
+study NCI 8485. Haematologica. 2018 Jun;103(6):982-987. doi:
+10.3324/haematol.2017.186890. Epub 2018 Mar 22. PMID: 29567781; PMCID:
+PMC6058798.
+
+298: Zhang P, Zhang Y, Dou H, Yin J, Chen Y, Pang X, Vajta G, Bolund L, Du Y, Ma
+RZ. Handmade cloned transgenic piglets expressing the nematode fat-1 gene. Cell
+Reprogram. 2012 Jun;14(3):258-66. doi: 10.1089/cell.2011.0073. PMID: 22686479;
+PMCID: PMC3369703.
+
+299: Glennie S, Gritzfeld JF, Pennington SH, Garner-Jones M, Coombes N, Hopkins
+MJ, Vadesilho CF, Miyaji EN, Wang D, Wright AD, Collins AM, Gordon SB, Ferreira
+DM. Modulation of nasopharyngeal innate defenses by viral coinfection
+predisposes individuals to experimental pneumococcal carriage. Mucosal Immunol.
+2016 Jan;9(1):56-67. doi: 10.1038/mi.2015.35. Epub 2015 Apr 29. PMID: 25921341;
+PMCID: PMC4703943.
+
+300: Adeyemo O, Doi H, Rajender Reddy K, Kaplan DE. Impact of oral silymarin on
+virus- and non-virus-specific T-cell responses in chronic hepatitis C infection.
+J Viral Hepat. 2013 Jul;20(7):453-62. doi: 10.1111/jvh.12050. Epub 2013 Apr 12.
+PMID: 23730838; PMCID: PMC3675799.
+
+301: Ghoryani M, Shariati-Sarabi Z, Tavakkol-Afshari J, Mohammadi M. The
+Sufficient Immunoregulatory Effect of Autologous Bone Marrow-Derived Mesenchymal
+Stem Cell Transplantation on Regulatory T Cells in Patients with Refractory
+Rheumatoid Arthritis. J Immunol Res. 2020 Apr 28;2020:3562753. doi:
+10.1155/2020/3562753. PMID: 32411794; PMCID: PMC7204151.
+
+302: Ramage LE, Akyol M, Fletcher AM, Forsythe J, Nixon M, Carter RN, van Beek
+EJ, Morton NM, Walker BR, Stimson RH. Glucocorticoids Acutely Increase Brown
+Adipose Tissue Activity in Humans, Revealing Species-Specific Differences in
+UCP-1 Regulation. Cell Metab. 2016 Jul 12;24(1):130-41. doi:
+10.1016/j.cmet.2016.06.011. PMID: 27411014; PMCID: PMC4949380.
+
+303: König S, Regen T, Dittmann K, Engelke M, Wienands J, Schwendener R, Hanisch
+UK, Pukrop T, Hahn H. Empty liposomes induce antitumoral effects associated with
+macrophage responses distinct from those of the TLR1/2 agonist Pam3CSK 4 (BLP).
+Cancer Immunol Immunother. 2013 Oct;62(10):1587-97. doi:
+10.1007/s00262-013-1444-4. Epub 2013 Aug 6. PMID: 23917775.
+
+304: Rossi A, Orecchioni S, Falvo P, Tabanelli V, Baiardi E, Agostinelli C,
+Melle F, Motta G, Calleri A, Fiori S, Corsini C, Casadei B, Mazzara S, Vitolo U,
+Bertolini F, Zinzani PL, Alcalay M, Pelicci PG, Pileri S, Tarella C, Derenzini
+E. Dual targeting of the DNA damage response pathway and BCL-2 in diffuse large
+B-cell lymphoma. Leukemia. 2022 Jan;36(1):197-209. doi:
+10.1038/s41375-021-01347-6. Epub 2021 Jul 24. PMID: 34304248; PMCID: PMC8727301.
+
+305: Morel J, Hargreaves I, Brealey D, Neergheen V, Backman JT, Lindig S, Bläss
+M, Bauer M, McAuley DF, Singer M. Simvastatin pre-treatment improves survival
+and mitochondrial function in a 3-day fluid-resuscitated rat model of sepsis.
+Clin Sci (Lond). 2017 Apr 25;131(8):747-758. doi: 10.1042/CS20160802. Epub 2017
+Feb 15. PMID: 28202686.
+
+306: Kim H, Meyer K, Di Bisceglie AM, Ray R. Inhibition of c3 convertase
+activity by hepatitis C virus as an additional lesion in the regulation of
+complement components. PLoS One. 2014 Jul 1;9(7):e101422. doi:
+10.1371/journal.pone.0101422. PMID: 24983375; PMCID: PMC4077819.
+
+307: Delgado E, Perez-Basterrechea M, Suarez-Alvarez B, Zhou H, Revuelta EM,
+Garcia-Gala JM, Perez S, Alvarez-Viejo M, Menendez E, Lopez-Larrea C, Tang R,
+Zhu Z, Hu W, Moss T, Guindi E, Otero J, Zhao Y. Modulation of Autoimmune T-Cell
+Memory by Stem Cell Educator Therapy: Phase 1/2 Clinical Trial. EBioMedicine.
+2015 Nov 5;2(12):2024-36. doi: 10.1016/j.ebiom.2015.11.003. PMID: 26844283;
+PMCID: PMC4703710.
+
+308: Redmer T, Welte Y, Behrens D, Fichtner I, Przybilla D, Wruck W, Yaspo ML,
+Lehrach H, Schäfer R, Regenbrecht CR. The nerve growth factor receptor CD271 is
+crucial to maintain tumorigenicity and stem-like properties of melanoma cells.
+PLoS One. 2014 May 5;9(5):e92596. doi: 10.1371/journal.pone.0092596. Erratum in:
+PLoS One. 2014;9(8):e105274. PMID: 24799129; PMCID: PMC4010406.
+
+309: Liao X, Wang X, Li H, Li L, Zhang G, Yang M, Yuan L, Liu H, Yang G, Gao L.
+Sodium-Glucose Cotransporter 2 (SGLT2) Inhibitor Increases Circulating
+Zinc-Α2-Glycoprotein Levels in Patients with Type 2 Diabetes. Sci Rep. 2016 Sep
+9;6:32887. doi: 10.1038/srep32887. PMID: 27611858; PMCID: PMC5017191.
+
+310: Dimeloe S, Frick C, Fischer M, Gubser PM, Razik L, Bantug GR, Ravon M,
+Langenkamp A, Hess C. Human regulatory T cells lack the cyclophosphamide-
+extruding transporter ABCB1 and are more susceptible to cyclophosphamide-induced
+apoptosis. Eur J Immunol. 2014 Dec;44(12):3614-20. doi: 10.1002/eji.201444879.
+Epub 2014 Oct 27. PMID: 25251877.
+
+311: Matarese G, La Rocca C, Moon HS, Huh JY, Brinkoetter MT, Chou S, Perna F,
+Greco D, Kilim HP, Gao C, Arampatzi K, Wang Z, Mantzoros CS. Selective capacity
+of metreleptin administration to reconstitute CD4+ T-cell number in females with
+acquired hypoleptinemia. Proc Natl Acad Sci U S A. 2013 Feb 26;110(9):E818-27.
+doi: 10.1073/pnas.1214554110. Epub 2013 Feb 4. PMID: 23382191; PMCID:
+PMC3587204.
+
+312: Ridgley LA, Anderson AE, Maney NJ, Naamane N, Skelton AJ, Lawson CA, Emery
+P, Isaacs JD, Carmody RJ, Pratt AG. IL-6 Mediated Transcriptional Programming of
+Naïve CD4+ T Cells in Early Rheumatoid Arthritis Drives Dysregulated Effector
+Function. Front Immunol. 2019 Jul 3;10:1535. doi: 10.3389/fimmu.2019.01535.
+PMID: 31333666; PMCID: PMC6618050.
+
+313: Reisman SA, Goldsberry AR, Lee CY, O'Grady ML, Proksch JW, Ward KW, Meyer
+CJ. Topical application of RTA 408 lotion activates Nrf2 in human skin and is
+well-tolerated by healthy human volunteers. BMC Dermatol. 2015 Jul 14;15:10.
+doi: 10.1186/s12895-015-0029-7. PMID: 26170027; PMCID: PMC4501113.
+
+314: Eriksson A, Kalushkova A, Jarvius M, Hilhorst R, Rickardson L, Kultima HG,
+de Wijn R, Hovestad L, Fryknäs M, Öberg F, Larsson R, Parrow V, Höglund M.
+AKN-028 induces cell cycle arrest, downregulation of Myc associated genes and
+dose dependent reduction of tyrosine kinase activity in acute myeloid leukemia.
+Biochem Pharmacol. 2014 Jan 15;87(2):284-91. doi: 10.1016/j.bcp.2013.10.022.
+Epub 2013 Nov 4. PMID: 24200998.
+
+315: Tong J, Buch S, Yao H, Wu C, Tong HI, Wang Y, Lu Y. Monocytes-derived
+macrophages mediated stable expression of human brain-derived neurotrophic
+factor, a novel therapeutic strategy for neuroAIDS. PLoS One. 2014 Feb
+5;9(2):e82030. doi: 10.1371/journal.pone.0082030. PMID: 24505242; PMCID:
+PMC3914783.
+
+316: Revenko A, Carnevalli LS, Sinclair C, Johnson B, Peter A, Taylor M,
+Hettrick L, Chapman M, Klein S, Solanki A, Gattis D, Watt A, Hughes AM, Magiera
+L, Kar G, Ireland L, Mele DA, Sah V, Singh M, Walton J, Mairesse M, King M,
+Edbrooke M, Lyne P, Barry ST, Fawell S, Goldberg FW, MacLeod AR. Direct
+targeting of FOXP3 in Tregs with AZD8701, a novel antisense oligonucleotide to
+relieve immunosuppression in cancer. J Immunother Cancer. 2022
+Apr;10(4):e003892. doi: 10.1136/jitc-2021-003892. PMID: 35387780; PMCID:
+PMC8987763.
+
+317: de Souza RGM, Gomes AC, Navarro AM, Cunha LCD, Silva MAC, Junior FB, Mota
+JF. Baru Almonds Increase the Activity of Glutathione Peroxidase in Overweight
+and Obese Women: A Randomized, Placebo-Controlled Trial. Nutrients. 2019 Jul
+30;11(8):1750. doi: 10.3390/nu11081750. PMID: 31366053; PMCID: PMC6723341.
+
+318: Yeh CC, Hsu CH, Shao YY, Ho WC, Tsai MH, Feng WC, Chow LP. Integrated
+Stable Isotope Labeling by Amino Acids in Cell Culture (SILAC) and Isobaric Tags
+for Relative and Absolute Quantitation (iTRAQ) Quantitative Proteomic Analysis
+Identifies Galectin-1 as a Potential Biomarker for Predicting Sorafenib
+Resistance in Liver Cancer. Mol Cell Proteomics. 2015 Jun;14(6):1527-45. doi:
+10.1074/mcp.M114.046417. Epub 2015 Apr 7. PMID: 25850433; PMCID: PMC4458718.
+
+319: Plaza EM, Lozano ML, Guiu IS, Egea JM, Vicente V, De Terán LC, Rivera J.
+Evaluation of platelet function during extended storage in additive solution,
+prepared in a new container that allows manual buffy-coat platelet pooling and
+leucoreduction in the same system. Blood Transfus. 2012 Oct;10(4):480-9. doi:
+10.2450/2012.0112-11. Epub 2012 Apr 13. PMID: 22682335; PMCID: PMC3496218.
+
+320: Chen KJ, Hou Y, Wang K, Li J, Xia Y, Yang XY, Lv G, Xing XL, Shen F.
+Reexpression of Let-7g microRNA inhibits the proliferation and migration via
+K-Ras/HMGA2/snail axis in hepatocellular carcinoma. Biomed Res Int.
+2014;2014:742417. doi: 10.1155/2014/742417. Epub 2014 Mar 4. PMID: 24724096;
+PMCID: PMC3960551.
+
+321: Kristensen DM, Desdoits-Lethimonier C, Mackey AL, Dalgaard MD, De Masi F,
+Munkbøl CH, Styrishave B, Antignac JP, Le Bizec B, Platel C, Hay-Schmidt A,
+Jensen TK, Lesné L, Mazaud-Guittot S, Kristiansen K, Brunak S, Kjaer M, Juul A,
+Jégou B. Ibuprofen alters human testicular physiology to produce a state of
+compensated hypogonadism. Proc Natl Acad Sci U S A. 2018 Jan
+23;115(4):E715-E724. doi: 10.1073/pnas.1715035115. Epub 2018 Jan 8. Erratum in:
+Proc Natl Acad Sci U S A. 2018 Apr 16;: PMID: 29311296; PMCID: PMC5789927.
+
+322: Ben-Dov IZ, Tan YC, Morozov P, Wilson PD, Rennert H, Blumenfeld JD, Tuschl
+T. Urine microRNA as potential biomarkers of autosomal dominant polycystic
+kidney disease progression: description of miRNA profiles at baseline. PLoS One.
+2014 Jan 29;9(1):e86856. doi: 10.1371/journal.pone.0086856. PMID: 24489795;
+PMCID: PMC3906110.
+
+323: Thai P, Statt S, Chen CH, Liang E, Campbell C, Wu R. Characterization of a
+novel long noncoding RNA, SCAL1, induced by cigarette smoke and elevated in lung
+cancer cell lines. Am J Respir Cell Mol Biol. 2013 Aug;49(2):204-11. doi:
+10.1165/rcmb.2013-0159RC. PMID: 23672216; PMCID: PMC3824039.
+
+324: Yang L, Perez AA, Fujie S, Warden C, Li J, Wang Y, Yung B, Chen YR, Liu X,
+Zhang H, Zheng S, Liu Z, Ann D, Yen Y. Wnt modulates MCL1 to control cell
+survival in triple negative breast cancer. BMC Cancer. 2014 Feb 24;14:124. doi:
+10.1186/1471-2407-14-124. PMID: 24564888; PMCID: PMC3936852.
+
+325: Hemminki O, Parviainen S, Juhila J, Turkki R, Linder N, Lundin J, Kankainen
+M, Ristimäki A, Koski A, Liikanen I, Oksanen M, Nettelbeck DM, Kairemo K,
+Partanen K, Joensuu T, Kanerva A, Hemminki A. Immunological data from cancer
+patients treated with Ad5/3-E2F-Δ24-GMCSF suggests utility for tumor
+immunotherapy. Oncotarget. 2015 Feb 28;6(6):4467-81. doi:
+10.18632/oncotarget.2901. PMID: 25714011; PMCID: PMC4414204.
+
+326: Kami D, Watakabe K, Yamazaki-Inoue M, Minami K, Kitani T, Itakura Y, Toyoda
+M, Sakurai T, Umezawa A, Gojo S. Large-scale cell production of stem cells for
+clinical application using the automated cell processing machine. BMC
+Biotechnol. 2013 Nov 15;13:102. doi: 10.1186/1472-6750-13-102. PMID: 24228851;
+PMCID: PMC4101824.
+
+327: Cheng HM, Wu YC, Wang Q, Song M, Wu J, Chen D, Li K, Wadman E, Kao ST, Li
+TC, Leon F, Hayden K, Brodmerkel C, Chris Huang C. Clinical efficacy and IL-17
+targeting mechanism of Indigo naturalis as a topical agent in moderate
+psoriasis. BMC Complement Altern Med. 2017 Sep 2;17(1):439. doi:
+10.1186/s12906-017-1947-1. PMID: 28865459; PMCID: PMC5581407.
+
+328: Miyazaki Y, Fujiwara H, Asai H, Ochi F, Ochi T, Azuma T, Ishida T, Okamoto
+S, Mineno J, Kuzushima K, Shiku H, Yasukawa M. Development of a novel redirected
+T-cell-based adoptive immunotherapy targeting human telomerase reverse
+transcriptase for adult T-cell leukemia. Blood. 2013 Jun 13;121(24):4894-901.
+doi: 10.1182/blood-2012-11-465971. Epub 2013 May 2. PMID: 23641014.
+
+329: Steffan JJ, Dykes SS, Coleman DT, Adams LK, Rogers D, Carroll JL, Williams
+BJ, Cardelli JA. Supporting a role for the GTPase Rab7 in prostate cancer
+progression. PLoS One. 2014 Feb 5;9(2):e87882. doi:
+10.1371/journal.pone.0087882. PMID: 24505328; PMCID: PMC3914878.
+
+330: Townsley E, Woda M, Thomas SJ, Kalayanarooj S, Gibbons RV, Nisalak A,
+Srikiatkhachorn A, Green S, Stephens HA, Rothman AL, Mathew A. Distinct
+activation phenotype of a highly conserved novel HLA-B57-restricted epitope
+during dengue virus infection. Immunology. 2014 Jan;141(1):27-38. doi:
+10.1111/imm.12161. PMID: 23941420; PMCID: PMC3893847.
+
+331: Bassetti B, Carbucicchio C, Catto V, Gambini E, Rurali E, Bestetti A, Gaipa
+G, Belotti D, Celeste F, Parma M, Righetti S, Biava L, Arosio M, Bonomi A,
+Agostoni P, Scacciatella P, Achilli F, Pompilio G. Linking cell function with
+perfusion: insights from the transcatheter delivery of bone marrow-derived
+CD133<sup>+</sup> cells in ischemic refractory cardiomyopathy trial (RECARDIO).
+Stem Cell Res Ther. 2018 Sep 14;9(1):235. doi: 10.1186/s13287-018-0969-z. PMID:
+30217223; PMCID: PMC6137884.
+
+332: Verway M, Bouttier M, Wang TT, Carrier M, Calderon M, An BS, Devemy E,
+McIntosh F, Divangahi M, Behr MA, White JH. Vitamin D induces interleukin-1β
+expression: paracrine macrophage epithelial signaling controls M. tuberculosis
+infection. PLoS Pathog. 2013;9(6):e1003407. doi: 10.1371/journal.ppat.1003407.
+Epub 2013 Jun 6. PMID: 23762029; PMCID: PMC3675149.
+
+333: Joel M, Sandberg CJ, Boulland JL, Vik-Mo EO, Langmoen IA, Glover JC.
+Inhibition of tumor formation and redirected differentiation of glioblastoma
+cells in a xenotypic embryonic environment. Dev Dyn. 2013 Sep;242(9):1078-93.
+doi: 10.1002/dvdy.24001. Epub 2013 Jul 29. PMID: 23780720.
+
+334: Latil A, Pétrissans MT, Rouquet J, Robert G, de la Taille A. Effects of
+hexanic extract of Serenoa repens (Permixon® 160 mg) on inflammation biomarkers
+in the treatment of lower urinary tract symptoms related to benign prostatic
+hyperplasia. Prostate. 2015 Dec;75(16):1857-67. doi: 10.1002/pros.23059. Epub
+2015 Aug 26. PMID: 26306400; PMCID: PMC5049653.
+
+335: Kared H, Fabre T, Bédard N, Bruneau J, Shoukry NH. Galectin-9 and IL-21
+mediate cross-regulation between Th17 and Treg cells during acute hepatitis C.
+PLoS Pathog. 2013;9(6):e1003422. doi: 10.1371/journal.ppat.1003422. Epub 2013
+Jun 20. PMID: 23818845; PMCID: PMC3688567.
+
+336: Harris VK, Faroqui R, Vyshkina T, Sadiq SA. Characterization of autologous
+mesenchymal stem cell-derived neural progenitors as a feasible source of stem
+cells for central nervous system applications in multiple sclerosis. Stem Cells
+Transl Med. 2012 Jul;1(7):536-47. doi: 10.5966/sctm.2012-0015. Epub 2012 Jun 28.
+PMID: 23197858; PMCID: PMC3659719.
+
+337: Tan X, Wang S, Zhu L, Wu C, Yin B, Zhao J, Yuan J, Qiang B, Peng X. cAMP
+response element-binding protein promotes gliomagenesis by modulating the
+expression of oncogenic microRNA-23a. Proc Natl Acad Sci U S A. 2012 Sep
+25;109(39):15805-10. doi: 10.1073/pnas.1207787109. Epub 2012 Sep 10. PMID:
+23019365; PMCID: PMC3465427.
+
+338: Crescenti A, Solà R, Valls RM, Caimari A, Del Bas JM, Anguera A, Anglés N,
+Arola L. Cocoa Consumption Alters the Global DNA Methylation of Peripheral
+Leukocytes in Humans with Cardiovascular Disease Risk Factors: A Randomized
+Controlled Trial. PLoS One. 2013 Jun 26;8(6):e65744. doi:
+10.1371/journal.pone.0065744. PMID: 23840361; PMCID: PMC3694105.
+
+339: MacGregor TP, Carter R, Gillies RS, Findlay JM, Kartsonaki C, Castro-Giner
+F, Sahgal N, Wang LM, Chetty R, Maynard ND, Cazier JB, Buffa F, McHugh PJ,
+Tomlinson I, Middleton MR, Sharma RA. Translational study identifies XPF and
+MUS81 as predictive biomarkers for oxaliplatin-based peri-operative chemotherapy
+in patients with esophageal adenocarcinoma. Sci Rep. 2018 May 8;8(1):7265. doi:
+10.1038/s41598-018-24232-2. PMID: 29739952; PMCID: PMC5940885.
+
+340: Sang J, Acquaviva J, Friedland JC, Smith DL, Sequeira M, Zhang C, Jiang Q,
+Xue L, Lovly CM, Jimenez JP, Shaw AT, Doebele RC, He S, Bates RC, Camidge DR,
+Morris SW, El-Hariry I, Proia DA. Targeted inhibition of the molecular chaperone
+Hsp90 overcomes ALK inhibitor resistance in non-small cell lung cancer. Cancer
+Discov. 2013 Apr;3(4):430-43. doi: 10.1158/2159-8290.CD-12-0440. Epub 2013 Mar
+26. PMID: 23533265; PMCID: PMC4086149.
+
+341: Zhang S, Zhu YT, Chen SY, He H, Tseng SC. Constitutive expression of
+pentraxin 3 (PTX3) protein by human amniotic membrane cells leads to formation
+of the heavy chain (HC)-hyaluronan (HA)-PTX3 complex. J Biol Chem. 2014 May
+9;289(19):13531-42. doi: 10.1074/jbc.M113.525287. Epub 2014 Mar 20. PMID:
+24652286; PMCID: PMC4036359.
+
+342: Zhou X, Li L, Su J, Zhang G. Decreased miR-204 in H. pylori-associated
+gastric cancer promotes cancer cell proliferation and invasion by targeting
+SOX4. PLoS One. 2014 Jul 1;9(7):e101457. doi: 10.1371/journal.pone.0101457.
+Retraction in: PLoS One. 2020 Oct 22;15(10):e0241451. Erratum in: PLoS One.
+2014;9(9):e109057. PMID: 24984017; PMCID: PMC4077842.
+
+343: Teleshova N, Keller MJ, Fernández Romero JA, Friedland BA, Creasy GW,
+Plagianos MG, Ray L, Barnable P, Kizima L, Rodriguez A, Cornejal N, Melo C, Cruz
+Rodriguez G, Mukhopadhyay S, Calenda G, Sinkar SU, Bonnaire T, Wesenberg A,
+Zhang S, Kleinbeck K, Palmer K, Alami M, O'Keefe BR, Gillevet P, Hur H, Liang Y,
+Santone G, Fichorova RN, Kalir T, Zydowsky TM. Results of a phase 1, randomized,
+placebo-controlled first-in-human trial of griffithsin formulated in a
+carrageenan vaginal gel. PLoS One. 2022 Jan 20;17(1):e0261775. doi:
+10.1371/journal.pone.0261775. PMID: 35051209; PMCID: PMC8775213.
+
+344: Seddiki N, Cook L, Hsu DC, Phetsouphanh C, Brown K, Xu Y, Kerr SJ, Cooper
+DA, Munier CM, Pett S, Ananworanich J, Zaunders J, Kelleher AD. Human antigen-
+specific CD4⁺ CD25⁺ CD134⁺ CD39⁺ T cells are enriched for regulatory T cells and
+comprise a substantial proportion of recall responses. Eur J Immunol. 2014
+Jun;44(6):1644-61. doi: 10.1002/eji.201344102. Epub 2014 Apr 29. PMID: 24752698.
+
+345: Song SN, Iwahashi M, Tomosugi N, Uno K, Yamana J, Yamana S, Isobe T, Ito H,
+Kawabata H, Yoshizaki K. Comparative evaluation of the effects of treatment with
+tocilizumab and TNF-α inhibitors on serum hepcidin, anemia response and disease
+activity in rheumatoid arthritis patients. Arthritis Res Ther. 2013 Oct
+2;15(5):R141. doi: 10.1186/ar4323. PMID: 24286116; PMCID: PMC3978580.
+
+346: Liao F, Hsu YC, Kuo SH, Yang YC, Chen JP, Hsu PN, Lin CW, Chen LT, Cheng
+AL, Fann CS, Lin JT, Wu MS. Genetic polymorphisms and tissue expression of
+interleukin-22 associated with risk and therapeutic response of gastric mucosa-
+associated lymphoid tissue lymphoma. Blood Cancer J. 2014 Oct 10;4(10):eXX. doi:
+10.1038/bcj.2014.70. PMID: 25303370; PMCID: PMC4220648.
+
+347: Jung HM, Phillips BL, Patel RS, Cohen DM, Jakymiw A, Kong WW, Cheng JQ,
+Chan EK. Keratinization-associated miR-7 and miR-21 regulate tumor suppressor
+reversion-inducing cysteine-rich protein with kazal motifs (RECK) in oral
+cancer. J Biol Chem. 2012 Aug 24;287(35):29261-72. doi: 10.1074/jbc.M112.366518.
+Epub 2012 Jul 2. PMID: 22761427; PMCID: PMC3436145.
+
+348: Minden MD, Hogge DE, Weir SJ, Kasper J, Webster DA, Patton L, Jitkova Y,
+Hurren R, Gronda M, Goard CA, Rajewski LG, Haslam JL, Heppert KE, Schorno K,
+Chang H, Brandwein JM, Gupta V, Schuh AC, Trudel S, Yee KW, Reed GA, Schimmer
+AD. Oral ciclopirox olamine displays biological activity in a phase I study in
+patients with advanced hematologic malignancies. Am J Hematol. 2014
+Apr;89(4):363-8. doi: 10.1002/ajh.23640. Epub 2014 Mar 3. PMID: 24273151.
+
+349: Thomas MP, Whangbo J, McCrossan G, Deutsch AJ, Martinod K, Walch M,
+Lieberman J. Leukocyte protease binding to nucleic acids promotes nuclear
+localization and cleavage of nucleic acid binding proteins. J Immunol. 2014 Jun
+1;192(11):5390-7. doi: 10.4049/jimmunol.1303296. Epub 2014 Apr 25. PMID:
+24771851; PMCID: PMC4041364.
+
+350: Fecher-Trost C, Wissenbach U, Beck A, Schalkowsky P, Stoerger C, Doerr J,
+Dembek A, Simon-Thomas M, Weber A, Wollenberg P, Ruppert T, Middendorff R,
+Maurer HH, Flockerzi V. The in vivo TRPV6 protein starts at a non-AUG triplet,
+decoded as methionine, upstream of canonical initiation at AUG. J Biol Chem.
+2013 Jun 7;288(23):16629-16644. doi: 10.1074/jbc.M113.469726. Epub 2013 Apr 23.
+PMID: 23612980; PMCID: PMC3675598.
+
+351: Li H, Zhou Z, Tai W, Feng W, Zhang D, Gu X, Yang R. Decreased Frequency of
+IL-17F rs763780 Site Allele G is Associated With Genetic Susceptibility to
+Immune Thrombocytopenia in a Chinese Population. Clin Appl Thromb Hemost. 2017
+Jul;23(5):466-471. doi: 10.1177/1076029615618022. Epub 2015 Nov 30. PMID:
+26620416.
+
+352: Kudernatsch RF, Letsch A, Guerreiro M, Löbel M, Bauer S, Volk HD,
+Scheibenbogen C. Human bone marrow contains a subset of quiescent early memory
+CD8(+) T cells characterized by high CD127 expression and efflux capacity. Eur J
+Immunol. 2014 Dec;44(12):3532-42. doi: 10.1002/eji.201344180. Epub 2014 Oct 27.
+PMID: 25231631.
+
+353: Jiang LY, Jiang YH, Qi YZ, Shao LL, Yang CH. Integrated analysis of long
+noncoding RNA and mRNA profiling ox-LDL-induced endothelial dysfunction after
+atorvastatin administration. Medicine (Baltimore). 2018 Jun;97(22):e10949. doi:
+10.1097/MD.0000000000010949. PMID: 29851839; PMCID: PMC6392538.
+
+354: Correia C, Schneider PA, Dai H, Dogan A, Maurer MJ, Church AK, Novak AJ,
+Feldman AL, Wu X, Ding H, Meng XW, Cerhan JR, Slager SL, Macon WR, Habermann TM,
+Karp JE, Gore SD, Kay NE, Jelinek DF, Witzig TE, Nowakowski GS, Kaufmann SH.
+BCL2 mutations are associated with increased risk of transformation and
+shortened survival in follicular lymphoma. Blood. 2015 Jan 22;125(4):658-67.
+doi: 10.1182/blood-2014-04-571786. Epub 2014 Dec 1. PMID: 25452615; PMCID:
+PMC4304111.
+
+355: Scangarella-Oman NE, Hossain M, Dixon PB, Ingraham K, Min S, Tiffany CA,
+Perry CR, Raychaudhuri A, Dumont EF, Huang J, Hook EW 3rd, Miller LA.
+Microbiological Analysis from a Phase 2 Randomized Study in Adults Evaluating
+Single Oral Doses of Gepotidacin in the Treatment of Uncomplicated Urogenital
+Gonorrhea Caused by Neisseria gonorrhoeae. Antimicrob Agents Chemother. 2018 Nov
+26;62(12):e01221-18. doi: 10.1128/AAC.01221-18. PMID: 30249694; PMCID:
+PMC6256812.
+
+356: Chan XH, Nama S, Gopal F, Rizk P, Ramasamy S, Sundaram G, Ow GS, Ivshina
+AV, Tanavde V, Haybaeck J, Kuznetsov V, Sampath P. Targeting glioma stem cells
+by functional inhibition of a prosurvival oncomiR-138 in malignant gliomas. Cell
+Rep. 2012 Sep 27;2(3):591-602. doi: 10.1016/j.celrep.2012.07.012. Epub 2012 Aug
+24. PMID: 22921398.
+
+357: Jayaprakasan K, Narkwichean A, Maalouf WE, Campbell BK. Efficacy of
+dehydroepiandrosterone to overcome the effect of ovarian ageing (DITTO): a proof
+of principle randomised controlled trial protocol. BMJ Open. 2014 Oct
+8;4(10):e005767. doi: 10.1136/bmjopen-2014-005767. PMID: 25296654; PMCID:
+PMC4194749.
+
+358: Haghiac M, Yang XH, Presley L, Smith S, Dettelback S, Minium J, Belury MA,
+Catalano PM, Hauguel-de Mouzon S. Dietary Omega-3 Fatty Acid Supplementation
+Reduces Inflammation in Obese Pregnant Women: A Randomized Double-Blind
+Controlled Clinical Trial. PLoS One. 2015 Sep 4;10(9):e0137309. doi:
+10.1371/journal.pone.0137309. PMID: 26340264; PMCID: PMC4560373.
+
+359: Huang SS, He SL, Zhang YM. The effects of telmisartan on the nuclear factor
+of activated T lymphocytes signalling pathway in hypertensive patients. J Renin
+Angiotensin Aldosterone Syst. 2016 Jun 17;17(2):1470320316655005. doi:
+10.1177/1470320316655005. PMID: 27317303; PMCID: PMC5843869.
+
+360: Yan D, Kc R, Chen D, Xiao G, Im HJ. Bovine lactoferricin-induced anti-
+inflammation is, in part, via up-regulation of interleukin-11 by secondary
+activation of STAT3 in human articular cartilage. J Biol Chem. 2013 Nov
+1;288(44):31655-69. doi: 10.1074/jbc.M112.440420. Epub 2013 Sep 13. PMID:
+24036113; PMCID: PMC3814761.
+
+361: Osher E, Fattal-Valevski A, Sagie L, Urshanski N, Sagiv N, Peleg L, Lerman-
+Sagie T, Zimran A, Elstein D, Navon R, Valevski A, Stern N. Effect of cyclic,
+low dose pyrimethamine treatment in patients with Late Onset Tay Sachs: an open
+label, extended pilot study. Orphanet J Rare Dis. 2015 Apr 17;10:45. doi:
+10.1186/s13023-015-0260-7. PMID: 25896637; PMCID: PMC4404274.
+
+362: Cabrerizo R, Castaño GO, Burgueño AL, Fernández Gianotti T, Gonzalez Lopez
+Ledesma MM, Flichman D, Pirola CJ, Sookoian S. Promoter DNA methylation of
+farnesoid X receptor and pregnane X receptor modulates the intrahepatic
+cholestasis of pregnancy phenotype. PLoS One. 2014 Jan 31;9(1):e87697. doi:
+10.1371/journal.pone.0087697. PMID: 24498169; PMCID: PMC3909199.
+
+363: Tsiotra PC, Boutati E, Dimitriadis G, Raptis SA. High insulin and leptin
+increase resistin and inflammatory cytokine production from human mononuclear
+cells. Biomed Res Int. 2013;2013:487081. doi: 10.1155/2013/487081. Epub 2012 Dec
+24. PMID: 23484124; PMCID: PMC3591160.
+
+364: Shiseki M, Yoshida C, Takezako N, Ohwada A, Kumagai T, Nishiwaki K,
+Horikoshi A, Fukuda T, Takano H, Kouzai Y, Tanaka J, Morita S, Sakamoto J,
+Sakamaki H, Inokuchi K. Dasatinib rapidly induces deep molecular response in
+chronic-phase chronic myeloid leukemia patients who achieved major molecular
+response with detectable levels of BCR-ABL1 transcripts by imatinib therapy. Int
+J Clin Oncol. 2017 Oct;22(5):972-979. doi: 10.1007/s10147-017-1141-y. Epub 2017
+May 26. PMID: 28550414; PMCID: PMC5608785.
+
+365: Zanin-Zhorov A, Weiss JM, Trzeciak A, Chen W, Zhang J, Nyuydzefe MS,
+Arencibia C, Polimera S, Schueller O, Fuentes-Duculan J, Bonifacio KM, Kunjravia
+N, Cueto I, Soung J, Fleischmann RM, Kivitz A, Lebwohl M, Nunez M, Woodson J,
+Smith SL, West RF, Berger M, Krueger JG, Ryan JL, Waksal SD. Cutting Edge:
+Selective Oral ROCK2 Inhibitor Reduces Clinical Scores in Patients with
+Psoriasis Vulgaris and Normalizes Skin Pathology via Concurrent Regulation of
+IL-17 and IL-10. J Immunol. 2017 May 15;198(10):3809-3814. doi:
+10.4049/jimmunol.1602142. Epub 2017 Apr 7. PMID: 28389592; PMCID: PMC5421306.
+
+366: Hagner PR, Man HW, Fontanillo C, Wang M, Couto S, Breider M, Bjorklund C,
+Havens CG, Lu G, Rychak E, Raymon H, Narla RK, Barnes L, Khambatta G, Chiu H,
+Kosek J, Kang J, Amantangelo MD, Waldman M, Lopez-Girona A, Cai T, Pourdehnad M,
+Trotter M, Daniel TO, Schafer PH, Klippel A, Thakurta A, Chopra R, Gandhi AK.
+CC-122, a pleiotropic pathway modifier, mimics an interferon response and has
+antitumor activity in DLBCL. Blood. 2015 Aug 6;126(6):779-89. doi:
+10.1182/blood-2015-02-628669. Epub 2015 May 22. PMID: 26002965; PMCID:
+PMC4528065.
+
+367: Richardus RA, Alam K, Pahan D, Feenstra SG, Geluk A, Richardus JH. The
+combined effect of chemoprophylaxis with single dose rifampicin and
+immunoprophylaxis with BCG to prevent leprosy in contacts of newly diagnosed
+leprosy cases: a cluster randomized controlled trial (MALTALEP study). BMC
+Infect Dis. 2013 Oct 3;13:456. doi: 10.1186/1471-2334-13-456. PMID: 24088534;
+PMCID: PMC3850918.
+
+368: Li H, Peng W, Jian W, Li Y, Li Q, Li W, Xu Y. ROCK inhibitor fasudil
+attenuated high glucose-induced MCP-1 and VCAM-1 expression and monocyte-
+endothelial cell adhesion. Cardiovasc Diabetol. 2012 Jun 13;11:65. doi:
+10.1186/1475-2840-11-65. PMID: 22694757; PMCID: PMC3461463.
+
+369: Poulsen MM, Vestergaard PF, Clasen BF, Radko Y, Christensen LP, Stødkilde-
+Jørgensen H, Møller N, Jessen N, Pedersen SB, Jørgensen JO. High-dose
+resveratrol supplementation in obese men: an investigator-initiated, randomized,
+placebo-controlled clinical trial of substrate metabolism, insulin sensitivity,
+and body composition. Diabetes. 2013 Apr;62(4):1186-95. doi: 10.2337/db12-0975.
+Epub 2012 Nov 28. PMID: 23193181; PMCID: PMC3609591.
+
+370: Li J, Wu J, Bao X, Honea N, Xie Y, Kim S, Sparreboom A, Sanai N.
+Quantitative and Mechanistic Understanding of AZD1775 Penetration across Human
+Blood-Brain Barrier in Glioblastoma Patients Using an IVIVE-PBPK Modeling
+Approach. Clin Cancer Res. 2017 Dec 15;23(24):7454-7466. doi:
+10.1158/1078-0432.CCR-17-0983. Epub 2017 Sep 19. PMID: 28928160; PMCID:
+PMC6097184.
+
+371: Miller TW, Traphagen NA, Li J, Lewis LD, Lopes B, Asthagiri A, Loomba J, De
+Jong J, Schiff D, Patel SH, Purow BW, Fadul CE. Tumor pharmacokinetics and
+pharmacodynamics of the CDK4/6 inhibitor ribociclib in patients with recurrent
+glioblastoma. J Neurooncol. 2019 Sep;144(3):563-572. doi:
+10.1007/s11060-019-03258-0. Epub 2019 Aug 9. PMID: 31399936; PMCID: PMC6863163.
+
+372: Van Braeckel E, Desombere I, Clement F, Vandekerckhove L, Verhofstede C,
+Vogelaers D, Leroux-Roels G. Polyfunctional CD4(+) T cell responses in
+HIV-1-infected viral controllers compared with those in healthy recipients of an
+adjuvanted polyprotein HIV-1 vaccine. Vaccine. 2013 Aug 12;31(36):3739-46. doi:
+10.1016/j.vaccine.2013.05.021. Epub 2013 May 21. PMID: 23707169.
+
+373: Romera SA, Puntel M, Quattrocchi V, Del Médico Zajac P, Zamorano P, Blanco
+Viera J, Carrillo C, Chowdhury S, Borca MV, Sadir AM. Protection induced by a
+glycoprotein E-deleted bovine herpesvirus type 1 marker strain used either as an
+inactivated or live attenuated vaccine in cattle. BMC Vet Res. 2014 Jan 8;10:8.
+doi: 10.1186/1746-6148-10-8. PMID: 24401205; PMCID: PMC3896737.
+
+374: Uribarri J, Cai W, Pyzik R, Goodman S, Chen X, Zhu L, Ramdas M, Striker GE,
+Vlassara H. Suppression of native defense mechanisms, SIRT1 and PPARγ, by
+dietary glycoxidants precedes disease in adult humans; relevance to lifestyle-
+engendered chronic diseases. Amino Acids. 2014 Feb;46(2):301-9. doi:
+10.1007/s00726-013-1502-4. Epub 2013 May 1. PMID: 23636469; PMCID: PMC3795943.
+
+375: Sugiharto S, Poulsen AS, Canibe N, Lauridsen C. Effect of bovine colostrum
+feeding in comparison with milk replacer and natural feeding on the immune
+responses and colonisation of enterotoxigenic Escherichia coli in the intestinal
+tissue of piglets. Br J Nutr. 2015 Mar 28;113(6):923-34. doi:
+10.1017/S0007114514003201. Epub 2015 Mar 6. PMID: 25743486; PMCID: PMC4392705.
+
+376: Pirgozliev V, Rose SP, Pellny T, Amerah AM, Wickramasinghe M, Ulker M,
+Rakszegi M, Bedo Z, Shewry PR, Lovegrove A. Energy utilization and growth
+performance of chickens fed novel wheat inbred lines selected for different
+pentosan levels with and without xylanase supplementation. Poult Sci. 2015
+Feb;94(2):232-9. doi: 10.3382/ps/peu059. Epub 2015 Jan 16. PMID: 25595480;
+PMCID: PMC4988544.
+
+377: Muccio L, Bertaina A, Falco M, Pende D, Meazza R, Lopez-Botet M, Moretta L,
+Locatelli F, Moretta A, Della Chiesa M. Analysis of memory-like natural killer
+cells in human cytomegalovirus-infected children undergoing αβ+T and B cell-
+depleted hematopoietic stem cell transplantation for hematological malignancies.
+Haematologica. 2016 Mar;101(3):371-81. doi: 10.3324/haematol.2015.134155. Epub
+2015 Dec 11. PMID: 26659918; PMCID: PMC4815729.
+
+378: Gaida MM, Steffen TG, Günther F, Tschaharganeh DF, Felix K, Bergmann F,
+Schirmacher P, Hänsch GM. Polymorphonuclear neutrophils promote dyshesion of
+tumor cells and elastase-mediated degradation of E-cadherin in pancreatic
+tumors. Eur J Immunol. 2012 Dec;42(12):3369-80. doi: 10.1002/eji.201242628. Epub
+2012 Nov 2. PMID: 23001948.
+
+379: Brown KC, Perry HE, Lau JK, Jones DV, Pulliam JF, Thornhill BA, Crabtree
+CM, Luo H, Chen YC, Dasgupta P. Nicotine induces the up-regulation of the
+α7-nicotinic receptor (α7-nAChR) in human squamous cell lung cancer cells via
+the Sp1/GATA protein pathway. J Biol Chem. 2013 Nov 15;288(46):33049-59. doi:
+10.1074/jbc.M113.501601. Epub 2013 Oct 2. PMID: 24089524; PMCID: PMC3829154.
+
+380: Vallabhajosula S, Nikolopoulou A, Babich JW, Osborne JR, Tagawa ST, Lipai
+I, Solnes L, Maresca KP, Armor T, Joyal JL, Crummet R, Stubbs JB, Goldsmith SJ.
+99mTc-labeled small-molecule inhibitors of prostate-specific membrane antigen:
+pharmacokinetics and biodistribution studies in healthy subjects and patients
+with metastatic prostate cancer. J Nucl Med. 2014 Nov;55(11):1791-8. doi:
+10.2967/jnumed.114.140426. Epub 2014 Oct 23. PMID: 25342385.
+
+381: Govindaraj C, Madondo M, Kong YY, Tan P, Wei A, Plebanski M. Lenalidomide-
+based maintenance therapy reduces TNF receptor 2 on CD4 T cells and enhances
+immune effector function in acute myeloid leukemia patients. Am J Hematol. 2014
+Aug;89(8):795-802. doi: 10.1002/ajh.23746. Epub 2014 May 16. PMID: 24757092.
+
+382: Besedovsky L, Linz B, Born J, Lange T. Mineralocorticoid receptor signaling
+reduces numbers of circulating human naïve T cells and increases their CD62L,
+CCR7, and CXCR4 expression. Eur J Immunol. 2014 Jun;44(6):1759-69. doi:
+10.1002/eji.201344265. Epub 2014 Apr 10. PMID: 24595810; PMCID: PMC4298762.
+
+383: Yan SB, Peek VL, Ajamie R, Buchanan SG, Graff JR, Heidler SA, Hui YH, Huss
+KL, Konicek BW, Manro JR, Shih C, Stewart JA, Stewart TR, Stout SL, Uhlik MT, Um
+SL, Wang Y, Wu W, Yan L, Yang WJ, Zhong B, Walgren RA. LY2801653 is an orally
+bioavailable multi-kinase inhibitor with potent activity against MET, MST1R, and
+other oncoproteins, and displays anti-tumor activities in mouse xenograft
+models. Invest New Drugs. 2013 Aug;31(4):833-44. doi: 10.1007/s10637-012-9912-9.
+Epub 2012 Dec 29. PMID: 23275061; PMCID: PMC3717159.
+
+384: Raziorrouh B, Heeg M, Kurktschiev P, Schraut W, Zachoval R, Wendtner C,
+Wächtler M, Spannagl M, Denk G, Ulsenheimer A, Bengsch B, Pircher H, Diepolder
+HM, Grüner NH, Jung MC. Inhibitory phenotype of HBV-specific CD4+ T-cells is
+characterized by high PD-1 expression but absent coregulation of multiple
+inhibitory molecules. PLoS One. 2014 Aug 21;9(8):e105703. doi:
+10.1371/journal.pone.0105703. PMID: 25144233; PMCID: PMC4140833.
+
+385: Endo J, Sano M, Isobe Y, Fukuda K, Kang JX, Arai H, Arita M. 18-HEPE, an
+n-3 fatty acid metabolite released by macrophages, prevents pressure overload-
+induced maladaptive cardiac remodeling. J Exp Med. 2014 Jul 28;211(8):1673-87.
+doi: 10.1084/jem.20132011. Epub 2014 Jul 21. PMID: 25049337; PMCID: PMC4113943.
+
+386: Frischmeyer-Guerrerio PA, Keet CA, Guerrerio AL, Chichester KL, Bieneman
+AP, Hamilton RG, Wood RA, Schroeder JT. Modulation of dendritic cell innate and
+adaptive immune functions by oral and sublingual immunotherapy. Clin Immunol.
+2014 Nov;155(1):47-59. doi: 10.1016/j.clim.2014.08.006. Epub 2014 Aug 27. PMID:
+25173802; PMCID: PMC4252363.
+
+387: Tanigawa N, Yamaue H, Ohyama S, Sakuramoto S, Inada T, Kodera Y, Kitagawa
+Y, Omura K, Terashima M, Sakata Y, Nashimoto A, Yamaguchi T, Chin K, Nomura E,
+Lee SW, Takeuchi M, Fujii M, Nakajima T. Exploratory phase II trial in a
+multicenter setting to evaluate the clinical value of a chemosensitivity test in
+patients with gastric cancer (JACCRO-GC 04, Kubota memorial trial). Gastric
+Cancer. 2016 Apr;19(2):350-360. doi: 10.1007/s10120-015-0506-z. Epub 2015 Sep
+18. PMID: 26385385; PMCID: PMC4824809.
+
+388: Guo Y, Hai Y, Yao C, Chen Z, Hou J, Li Z, He Z. Long-term culture and
+significant expansion of human Sertoli cells whilst maintaining stable global
+phenotype and AKT and SMAD1/5 activation. Cell Commun Signal. 2015 Mar 25;13:20.
+doi: 10.1186/s12964-015-0101-2. PMID: 25880873; PMCID: PMC4380114.
+
+389: Berger KL, Scherer J, Ranga M, Sha N, Stern JO, Quinson AM, Kukolj G.
+Baseline Polymorphisms and Emergence of Drug Resistance in the NS3/4A Protease
+of Hepatitis C Virus Genotype 1 following Treatment with Faldaprevir and
+Pegylated Interferon Alpha 2a/Ribavirin in Phase 2 and Phase 3 Studies.
+Antimicrob Agents Chemother. 2015 Oct;59(10):6017-25. doi: 10.1128/AAC.00932-15.
+Epub 2015 Jul 20. PMID: 26195509; PMCID: PMC4576130.
+
+390: Liu Z, Xu J, Li H, Zheng Y, He J, Liu H, Zhong Y, Lu Y, Hong B, Zhang M,
+Lin P, Du J, Hou J, Qian J, Kwak LW, Yi Q, Yang J. Bone marrow stromal cells
+derived MCP-1 reverses the inhibitory effects of multiple myeloma cells on
+osteoclastogenesis by upregulating the RANK expression. PLoS One. 2013 Dec
+10;8(12):e82453. doi: 10.1371/journal.pone.0082453. PMID: 24340030; PMCID:
+PMC3858321.
+
+391: Tangen JM, Tierens A, Caers J, Binsfeld M, Olstad OK, Trøseid AM, Wang J,
+Tjønnfjord GE, Hetland G. Immunomodulatory effects of the Agaricus blazei
+Murrill-based mushroom extract AndoSan in patients with multiple myeloma
+undergoing high dose chemotherapy and autologous stem cell transplantation: a
+randomized, double blinded clinical study. Biomed Res Int. 2015;2015:718539.
+doi: 10.1155/2015/718539. Epub 2015 Jan 18. PMID: 25664323; PMCID: PMC4312620.
+
+392: Williams DW, Anastos K, Morgello S, Berman JW. JAM-A and ALCAM are
+therapeutic targets to inhibit diapedesis across the BBB of CD14+CD16+ monocytes
+in HIV-infected individuals. J Leukoc Biol. 2015 Feb;97(2):401-12. doi:
+10.1189/jlb.5A0714-347R. Epub 2014 Nov 24. PMID: 25420915; PMCID: PMC4304417.
+
+393: Chu QS, Nielsen TO, Alcindor T, Gupta A, Endo M, Goytain A, Xu H, Verma S,
+Tozer R, Knowling M, Bramwell VB, Powers J, Seymour LK, Eisenhauer EA. A phase
+II study of SB939, a novel pan-histone deacetylase inhibitor, in patients with
+translocation-associated recurrent/metastatic sarcomas-NCIC-CTG IND 200†. Ann
+Oncol. 2015 May;26(5):973-981. doi: 10.1093/annonc/mdv033. Epub 2015 Jan 28.
+PMID: 25632070.
+
+394: Liao WH, Yang LF, Liu XY, Zhou GF, Jiang WZ, Hou BL, Sun LQ, Cao Y, Wang
+XY. DCE-MRI assessment of the effect of Epstein-Barr virus-encoded latent
+membrane protein-1 targeted DNAzyme on tumor vasculature in patients with
+nasopharyngeal carcinomas. BMC Cancer. 2014 Nov 18;14:835. doi:
+10.1186/1471-2407-14-835. PMID: 25407966; PMCID: PMC4246516.
+
+395: Guo Y, Liu L, Sun M, Hai Y, Li Z, He Z. Expansion and long-term culture of
+human spermatogonial stem cells via the activation of SMAD3 and AKT pathways.
+Exp Biol Med (Maywood). 2015 Aug;240(8):1112-22. doi: 10.1177/1535370215590822.
+Epub 2015 Jun 18. PMID: 26088866; PMCID: PMC4935290.
